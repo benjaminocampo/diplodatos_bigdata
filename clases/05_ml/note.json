@@ -37,9 +37,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Antes de comenzar\n#### En máquina virtual\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd curso_vates\ngit pull\n```\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/):\n```sh\ncd\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080)\n1. Seleccionar `Import note`\n1. Elegir json en `/home/guest/curso_vates/clases/05_ml/note.json`\n2. Seleccionar `Clase 05 - Machine Learning`\n\n#### Instalar Python Matplotlib y Pandas\n\n* En la terminal ejecutar\n```sh\nsudo apt-get install python-matplotlib python-pandas\n```\nEl password es: \n",
+      "text": "%md\n### Antes de comenzar\n#### En máquina virtual\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd curso_vates\ngit pull\n```\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/):\n```sh\ncd\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080)\n1. Seleccionar `Import note`\n1. Elegir json en `/home/guest/curso_vates/clases/05_ml/note.json`\n2. Seleccionar `Clase 05 - Machine Learning`\n\n#### Instalar Python Matplotlib y Pandas\n\n* En la terminal ejecutar\n```sh\nsudo apt-get install python-matplotlib python-pandas python-plotly\n```\nEl password es: \n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 11:49:37 AM",
+      "dateUpdated": "Nov 7, 2017 10:20:29 AM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
@@ -61,7 +61,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eAntes de comenzar\u003c/h3\u003e\n\u003ch4\u003eEn máquina virtual\u003c/h4\u003e\n\u003col\u003e\n  \u003cli\u003eLanzar terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repo:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd curso_vates\ngit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003eEn navegador abrir \u003ca href\u003d\"http://localhost:8080\"\u003ehttp://localhost:8080\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eImport note\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eElegir json en \u003ccode\u003e/home/guest/curso_vates/clases/05_ml/note.json\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eClase 05 - Machine Learning\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch4\u003eInstalar Python Matplotlib y Pandas\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEn la terminal ejecutar\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003esudo apt-get install python-matplotlib python-pandas\n\u003c/code\u003e\u003c/pre\u003eEl password es:\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eAntes de comenzar\u003c/h3\u003e\n\u003ch4\u003eEn máquina virtual\u003c/h4\u003e\n\u003col\u003e\n  \u003cli\u003eLanzar terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repo:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd curso_vates\ngit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003eEn navegador abrir \u003ca href\u003d\"http://localhost:8080\"\u003ehttp://localhost:8080\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eImport note\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eElegir json en \u003ccode\u003e/home/guest/curso_vates/clases/05_ml/note.json\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eClase 05 - Machine Learning\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch4\u003eInstalar Python Matplotlib y Pandas\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEn la terminal ejecutar\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003esudo apt-get install python-matplotlib python-pandas python-plotly\n\u003c/code\u003e\u003c/pre\u003eEl password es:\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
@@ -69,8 +69,8 @@
       "jobName": "paragraph_1509373001529_-1024132426",
       "id": "20171030-111641_2139999376",
       "dateCreated": "Oct 30, 2017 11:16:41 AM",
-      "dateStarted": "Oct 31, 2017 11:49:37 AM",
-      "dateFinished": "Oct 31, 2017 11:49:37 AM",
+      "dateStarted": "Nov 7, 2017 10:20:29 AM",
+      "dateFinished": "Nov 7, 2017 10:20:32 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -115,7 +115,7 @@
     {
       "text": "%md\n### Programación tradicional\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:Datos Entrada{bg:cornsilk}]-\u003e[Algoritmo{bg:red}]\n  [Algoritmo{bg:red}]-\u003e[note:Datos Salida{bg:cornsilk}]\n%%%\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 11:30:15 AM",
+      "dateUpdated": "Nov 7, 2017 4:07:13 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": false,
@@ -137,7 +137,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eProgramación tradicional\u003c/h3\u003e\u003cimg src\u003d\"http://yuml.me/diagram/plain;dir:lr/class/%5Bnote%3ADatos%E2%80%82Entrada%7Bbg%3Acornsilk%7D%5D-%3E%5BAlgoritmo%7Bbg%3Ared%7D%5D%2C+%5BAlgoritmo%7Bbg%3Ared%7D%5D-%3E%5Bnote%3ADatos%E2%80%82Salida%7Bbg%3Acornsilk%7D%5D.svg\" title\u003d\"title\" /\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eProgramación tradicional\u003c/h3\u003e\u003cimg src\u003d\"http://yuml.me/diagram/plain/class/%5Bnote%3ADatos%E2%80%82Entrada%7Bbg%3Acornsilk%7D%5D-%3E%5BAlgoritmo%7Bbg%3Ared%7D%5D%2C+%5BAlgoritmo%7Bbg%3Ared%7D%5D-%3E%5Bnote%3ADatos%E2%80%82Salida%7Bbg%3Acornsilk%7D%5D.svg\" title\u003d\"title\" /\u003e\n\u003c/div\u003e"
           }
         ]
       },
@@ -145,8 +145,8 @@
       "jobName": "paragraph_1509380179170_1757390504",
       "id": "20171030-131619_420103761",
       "dateCreated": "Oct 30, 2017 1:16:19 PM",
-      "dateStarted": "Oct 30, 2017 6:52:17 PM",
-      "dateFinished": "Oct 30, 2017 6:52:17 PM",
+      "dateStarted": "Nov 7, 2017 3:47:25 PM",
+      "dateFinished": "Nov 7, 2017 3:47:25 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -598,7 +598,7 @@
     {
       "text": "%md\n#### VectorAssembler es un **Transformer**\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:trainDF{bg:cornsilk}]-\u003e[vAssembler;(modelo)|transform(){bg:orange}]\n  [vAssembler;(modelo)|transform(){bg:orange}]-\u003e[note:trainAssembled{bg:cornsilk}]\n%%%\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 11:34:59 AM",
+      "dateUpdated": "Nov 6, 2017 6:43:14 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": false,
@@ -780,9 +780,9 @@
     },
     {
       "title": "Image plotter en Python",
-      "text": "%pyspark\n\ndef plot_classification(nomTable\u003d\"test\",surfaceTable\u003d\"grid\", prob\u003dFalse):\n    import matplotlib.pyplot as plt\n    import numpy as np\n    import matplotlib.cm as cm\n    import pandas as pd\n\n    from matplotlib.colors import ListedColormap, LinearSegmentedColormap\n\n    cmap_light \u003d LinearSegmentedColormap.from_list(\"rafa1\", [\u0027#FF5555\u0027, \u0027#5555FF\u0027])\n    cmap_pastel \u003d LinearSegmentedColormap.from_list(\"rafa2\", [\u0027#FF8888\u0027, \u0027#8888FF\u0027])\n    cmap_bold \u003d ListedColormap([\u0027#FF0000\u0027, \u0027#00FF00\u0027, \u0027#0000FF\u0027])\n\n    \n    # helper function to display in Zeppelin\n\n    def show(p):\n        import StringIO\n        img \u003d StringIO.StringIO()\n        p.savefig(img, format\u003d\u0027png\u0027)#,dpi\u003d600)\n        img.seek(0)\n        print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\u003cimg src\u003d\\\"data:image/png;base64,\" + img.buf.encode(\u0027base64\u0027).replace(\u0027\\n\u0027, \u0027\u0027) + \"\\\"/\u003e\u003c/div\u003e\"\n\n    plt.close(\u0027all\u0027)\n\n    plt.autoscale(enable\u003dTrue, axis\u003d\u0027x\u0027, tight\u003dTrue)\n\n    if surfaceTable:\n        sTable \u003d sqlContext.table(surfaceTable)\n\n        if prob:\n            pSTable \u003d sTable.select(\u0027kgs\u0027,\u0027mts\u0027,\u0027prob\u0027).toPandas()\n            Z \u003d pSTable[\u0027prob\u0027]\n        else:\n            pSTable \u003d sTable.select(\u0027kgs\u0027,\u0027mts\u0027,\u0027prediction\u0027).toPandas()\n            Z \u003d pSTable[\u0027prediction\u0027]\n\n        xs \u003d pSTable[\u0027kgs\u0027]\n        ys \u003d pSTable[\u0027mts\u0027]\n\n        xUs \u003d xs.unique()\n        yUs \u003d ys.unique()\n\n        xx, yy \u003d np.meshgrid(xUs,yUs)\n\n        Z \u003d Z.values.reshape(xx.shape).transpose()\n\n        if prob:\n            plt.pcolormesh(xx, yy, Z, cmap\u003dcmap_light)\n        else:\n            plt.pcolormesh(xx, yy, Z, cmap\u003dcmap_pastel)\n\n        plt.axis([xs.min(), xs.max(), ys.min(), ys.max()])\n\n    table \u003d sqlContext.table(nomTable)\n    \n    pTable \u003d table.select(\u0027kgs\u0027,\u0027mts\u0027,\u0027label\u0027).toPandas().sample(frac\u003d1)\n\n    xs \u003d pTable[\u0027kgs\u0027]\n    ys \u003d pTable[\u0027mts\u0027]\n    cs \u003d pTable[\u0027label\u0027]\n    plt.scatter(xs, ys, c\u003dcs, cmap\u003dcmap_bold, alpha\u003d0.5, s\u003d16)\n    plt.xlabel(\u0027kgs\u0027)\n    plt.ylabel(\u0027mts\u0027)\n\n    show(plt)\n    plt.close()",
+      "text": "%pyspark\n\ndef plot_classification(nomTable\u003d\"test\",surfaceTable\u003d\"grid\", prob\u003dFalse):\n    import matplotlib.pyplot as plt\n    import numpy as np\n    import matplotlib.cm as cm\n\n    from matplotlib.colors import ListedColormap, LinearSegmentedColormap\n\n    cmap_light \u003d LinearSegmentedColormap.from_list(\"light\", [\u0027#FF5555\u0027, \u0027#5555FF\u0027])\n    cmap_pastel \u003d LinearSegmentedColormap.from_list(\"pastel\", [\u0027#FF8888\u0027, \u0027#8888FF\u0027])\n    cmap_bold \u003d ListedColormap([\u0027#FF0000\u0027, \u0027#00FF00\u0027, \u0027#0000FF\u0027])\n\n    # helper function to display in Zeppelin\n    def show(p):\n        import StringIO\n        img \u003d StringIO.StringIO()\n        p.savefig(img, format\u003d\u0027png\u0027)#,dpi\u003d600)\n        img.seek(0)\n        print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\u003cimg src\u003d\\\"data:image/png;base64,\" + img.buf.encode(\u0027base64\u0027).replace(\u0027\\n\u0027, \u0027\u0027) + \"\\\"/\u003e\u003c/div\u003e\"\n\n    plt.close(\u0027all\u0027)\n\n    plt.autoscale(enable\u003dTrue, axis\u003d\u0027x\u0027, tight\u003dTrue)\n\n    if surfaceTable:\n        sTable \u003d sqlContext.table(surfaceTable)\n\n        if prob:\n            pSTable \u003d sTable.select(\u0027kgs\u0027,\u0027mts\u0027,\u0027prob\u0027).toPandas()\n            Z \u003d pSTable[\u0027prob\u0027]\n        else:\n            pSTable \u003d sTable.select(\u0027kgs\u0027,\u0027mts\u0027,\u0027prediction\u0027).toPandas()\n            Z \u003d pSTable[\u0027prediction\u0027]\n\n        xs \u003d pSTable[\u0027kgs\u0027]\n        ys \u003d pSTable[\u0027mts\u0027]\n\n        xUs \u003d xs.unique()\n        yUs \u003d ys.unique()\n\n        xx, yy \u003d np.meshgrid(xUs,yUs)\n\n        Z \u003d Z.values.reshape(xx.shape).transpose()\n\n        if prob:\n            plt.pcolormesh(xx, yy, Z, cmap\u003dcmap_light)\n        else:\n            plt.pcolormesh(xx, yy, Z, cmap\u003dcmap_pastel)\n\n        plt.axis([xs.min(), xs.max(), ys.min(), ys.max()])\n\n    table \u003d sqlContext.table(nomTable)\n    \n    pTable \u003d table.select(\u0027kgs\u0027,\u0027mts\u0027,\u0027label\u0027).toPandas().sample(frac\u003d1)\n\n    xs \u003d pTable[\u0027kgs\u0027]\n    ys \u003d pTable[\u0027mts\u0027]\n    cs \u003d pTable[\u0027label\u0027]\n    plt.scatter(xs, ys, c\u003dcs, cmap\u003dcmap_bold, alpha\u003d0.5, s\u003d16)\n    plt.xlabel(\u0027kgs\u0027)\n    plt.ylabel(\u0027mts\u0027)\n\n    show(plt)\n    plt.close()",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 11:36:58 AM",
+      "dateUpdated": "Nov 7, 2017 5:30:52 PM",
       "config": {
         "lineNumbers": false,
         "editorSetting": {
@@ -1569,15 +1569,16 @@
       "title": "Background Grid Prediction",
       "text": "import org.apache.spark.ml.linalg.Vector\n\nval gridPredictionLR \u003d lrModel.transform(grid)\n\nval vec2ColUDF \u003d udf((x:Vector, index: Int) \u003d\u003e x(index))\n\ngridPredictionLR\n    .select($\"*\",vec2ColUDF($\"probability\",lit(1)).as(\"prob\"))\n    .createOrReplaceTempView(\"gridPredictionLR\")\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 12:39:59 PM",
+      "dateUpdated": "Nov 6, 2017 6:50:26 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
         "results": {},
         "editorSetting": {
-          "language": "scala"
+          "language": "text",
+          "editOnDblClick": false
         },
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/text",
         "title": true,
         "editorHide": false
       },
@@ -1589,9 +1590,9 @@
       "jobName": "paragraph_1509405650195_-1435007320",
       "id": "20171030-202050_1263604133",
       "dateCreated": "Oct 30, 2017 8:20:50 PM",
-      "dateStarted": "Oct 31, 2017 12:39:59 PM",
-      "dateFinished": "Oct 31, 2017 12:40:00 PM",
-      "status": "FINISHED",
+      "dateStarted": "Nov 6, 2017 6:50:26 PM",
+      "dateFinished": "Nov 6, 2017 6:50:27 PM",
+      "status": "ERROR",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -1800,9 +1801,9 @@
     },
     {
       "title": "Create sample data",
-      "text": "import org.apache.spark.ml.clustering.KMeans\nimport org.apache.spark.ml.linalg.{Vector,Vectors}\nimport org.apache.spark.sql.{DataFrame, Row}\nimport org.apache.spark.mllib.random.RandomRDDs.normalVectorRDD\n\nval dimension \u003d 3\nval cantVect \u003d 10\nval disper \u003d 5.0\n\nval dataset1 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0), v(1), v(2)))).toDF(\"features\")\n\nval dataset2 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0)+disper, v(1), v(2)))).toDF(\"features\")\n\nval dataset3 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0), v(1)+disper, v(2)))).toDF(\"features\")\n\nval dataset4 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0), v(1), v(2)+disper))).toDF(\"features\")\n\nval dataset5 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0)+disper, v(1)+disper, v(2)+disper))).toDF(\"features\")\n\nval dataset \u003d dataset1.union(dataset2).union(dataset3).union(dataset4).union(dataset5)\n",
+      "text": "import org.apache.spark.ml.clustering.KMeans\nimport org.apache.spark.ml.linalg.{Vector,Vectors}\nimport org.apache.spark.sql.{DataFrame, Row}\nimport org.apache.spark.mllib.random.RandomRDDs.normalVectorRDD\n\nval dimension \u003d 3\nval cantVect \u003d 50\nval disper \u003d 5.0\n\nval dataset1 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0), v(1), v(2)))).toDF(\"features\")\n\nval dataset2 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0)+disper, v(1), v(2)))).toDF(\"features\")\n\nval dataset3 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0), v(1)+disper, v(2)))).toDF(\"features\")\n\nval dataset4 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0), v(1), v(2)+disper))).toDF(\"features\")\n\nval dataset5 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0)+disper, v(1)+disper, v(2)+disper))).toDF(\"features\")\n\nval dataset \u003d dataset1.union(dataset2).union(dataset3).union(dataset4).union(dataset5)\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 12:46:25 PM",
+      "dateUpdated": "Nov 7, 2017 5:25:10 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
@@ -1822,17 +1823,17 @@
       "jobName": "paragraph_1509409337809_-651415614",
       "id": "20171030-212217_1468036515",
       "dateCreated": "Oct 30, 2017 9:22:17 PM",
-      "dateStarted": "Oct 31, 2017 12:46:25 PM",
-      "dateFinished": "Oct 31, 2017 12:46:28 PM",
+      "dateStarted": "Nov 7, 2017 5:25:10 PM",
+      "dateFinished": "Nov 7, 2017 5:25:26 PM",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "Image plotter en Python",
-      "text": "%pyspark\n\ndef plot_clustering(nomTable\u003d\"evalData\",nomTableCenters\u003d\"\"):\n\n    from mpl_toolkits.mplot3d import axes3d\n    import matplotlib.pyplot as plt\n    import numpy as np\n    import matplotlib.cm as cm\n\n    plt.close(\u0027all\u0027)\n    \n    fig \u003d plt.figure()\n\n    ax \u003d fig.add_subplot(111, projection\u003d\u00273d\u0027)\n\n    evalData \u003d sqlContext.table(nomTable)\n\n    pEvalData \u003d evalData.toPandas()\n\n    if nomTableCenters:\n        evalCenters \u003d sqlContext.table(nomTableCenters)\n\n        nCenters \u003d evalCenters.count()\n\n        pEvalCenters \u003d evalCenters.toPandas()\n\n        colors \u003d cm.rainbow(np.linspace(0, 1, nCenters))\n\n        for index, row in pEvalData.iterrows():\n            ax.plot([row[\u0027x\u0027]],[row[\u0027y\u0027]],[row[\u0027z\u0027]], ls\u003d\"None\", marker\u003d\"o\",color\u003dcolors[row.prediction.astype(np.int64)])\n\n        for index, row in pEvalCenters.iterrows():\n            ax.plot([row[\u0027x\u0027]],[row[\u0027y\u0027]],[row[\u0027z\u0027]], ls\u003d\"None\", marker\u003d\"v\",markersize\u003d10,markeredgecolor\u003d\u0027black\u0027,markeredgewidth\u003d1.0,color\u003dcolors[row.prediction.astype(np.int64)])\n    else:\n        for index, row in pEvalData.iterrows():\n            ax.plot([row[\u0027x\u0027]],[row[\u0027y\u0027]],[row[\u0027z\u0027]], ls\u003d\"None\", marker\u003d\"o\",color\u003d\u0027blue\u0027)\n\n    plt.xlabel(\u0027X\u0027)\n    plt.ylabel(\u0027Y\u0027)\n    ax.set_zlabel(\u0027Z\u0027)\n\n    plt.show()",
+      "title": "Python plotter",
+      "text": "%pyspark\n\ndef plot_clustering(nomTable\u003d\"evalData\", nomTableCenters\u003d\"\"):\n\n    import plotly as py\n    import plotly.graph_objs as go\n\n    pltWidth \u003d 800\n    pltHeight \u003d 600\n    \n    def plot(plot_dic, width\u003dpltWidth, **kwargs):\n        kwargs[\u0027output_type\u0027] \u003d \u0027div\u0027\n        plot_str \u003d py.offline.plot(plot_dic, **kwargs)\n        print(\u0027%%html \u003cdiv style\u003d\"width: %spx\"\u003e %s \u003c/div\u003e\u0027  % (width, plot_str))\n\n    pEvalData \u003d sqlContext.table(nomTable).toPandas()\n\n    if nomTableCenters:\n\n        pEvalCenters \u003d sqlContext.table(nomTableCenters).toPandas()\n\n        eData \u003d go.Scatter3d(\n            x\u003dpEvalData.x,\n            y\u003dpEvalData.y,\n            z\u003dpEvalData.z,\n            showlegend\u003dFalse,\n            mode\u003d\u0027markers\u0027,\n            marker\u003ddict(\n                size\u003d1.5,\n                color\u003dpEvalData.prediction, # set color to an array/list of desired values\n                colorscale\u003d\u0027Rainbow\u0027   # choose a colorscale\n            ),\n            opacity\u003d0.6\n        )\n\n        eCenters \u003d go.Scatter3d(\n            x\u003dpEvalCenters.x,\n            y\u003dpEvalCenters.y,\n            z\u003dpEvalCenters.z,\n            showlegend\u003dFalse,\n            mode\u003d\u0027markers\u0027,\n            marker\u003ddict(\n                size\u003d3,\n                line \u003d dict(\n                    width \u003d 1,\n                    color \u003d \u0027black\u0027\n                ),\n                symbol\u003d\u0027x\u0027,\n                color\u003dpEvalCenters.prediction, # set color to an array/list of desired values\n                colorscale\u003d\u0027Rainbow\u0027   # choose a colorscale\n            ),\n            opacity\u003d1.0\n        )\n        \n        data \u003d [eData,eCenters]\n\n        layout \u003d go.Layout(\n            title\u003d\"Clusters\",\n            width\u003dpltWidth,\n            height\u003dpltHeight\n        )\n\n    else:\n\n        eData \u003d go.Scatter3d(\n            x\u003dpEvalData.x,\n            y\u003dpEvalData.y,\n            z\u003dpEvalData.z,\n            showlegend\u003dFalse,\n            mode\u003d\u0027markers\u0027,\n            marker\u003ddict(\n                size\u003d1.5,\n                line \u003d dict(\n                    width \u003d 1,\n                    color \u003d \u0027black\u0027\n                ),\n                color\u003d\u0027cyan\u0027\n            ),\n            opacity\u003d0.8\n        )\n\n        data \u003d [eData]\n\n        layout \u003d go.Layout(\n            title\u003d\"Data\",\n            width\u003dpltWidth,\n            height\u003dpltHeight\n        )\n        \n\n    plot({\n        \"data\": data,\n        \"layout\": layout\n    })\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 12:38:23 PM",
+      "dateUpdated": "Nov 7, 2017 5:25:44 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
@@ -1841,30 +1842,28 @@
           "language": "python"
         },
         "editorMode": "ace/mode/python",
+        "lineNumbers": false,
         "title": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
-      "results": {
-        "code": "SUCCESS",
-        "msg": []
-      },
       "apps": [],
-      "jobName": "paragraph_1509415817169_1395778196",
-      "id": "20171030-231017_390246980",
-      "dateCreated": "Oct 30, 2017 11:10:17 PM",
-      "dateStarted": "Oct 31, 2017 12:38:23 PM",
-      "dateFinished": "Oct 31, 2017 12:38:23 PM",
+      "jobName": "paragraph_1510005458580_1783866731",
+      "id": "20171106-185738_491325525",
+      "dateCreated": "Nov 6, 2017 6:57:38 PM",
+      "dateStarted": "Nov 7, 2017 5:25:44 PM",
+      "dateFinished": "Nov 7, 2017 5:25:44 PM",
       "status": "FINISHED",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Send table to Python",
-      "text": "val dsFeatures \u003d dataset \n                .select(vec2ColUDF($\"features\",lit(0)).as(\"x\"), vec2ColUDF($\"features\",lit(1)).as(\"y\"), \n                        vec2ColUDF($\"features\",lit(2)).as(\"z\"))\n\ndsFeatures.createOrReplaceTempView(\"dsFeatures\")\n",
+      "text": "val vec2ColUDF \u003d udf((x:Vector, index: Int) \u003d\u003e x(index))\n\nval dsFeatures \u003d dataset \n                .select(vec2ColUDF($\"features\",lit(0)).as(\"x\"), vec2ColUDF($\"features\",lit(1)).as(\"y\"), \n                        vec2ColUDF($\"features\",lit(2)).as(\"z\"))\n\ndsFeatures.createOrReplaceTempView(\"dsFeatures\")\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 12:40:30 PM",
+      "dateUpdated": "Nov 7, 2017 5:25:49 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
@@ -1883,8 +1882,8 @@
       "jobName": "paragraph_1509425799088_-1993326",
       "id": "20171031-015639_1846072216",
       "dateCreated": "Oct 31, 2017 1:56:39 AM",
-      "dateStarted": "Oct 31, 2017 12:40:30 PM",
-      "dateFinished": "Oct 31, 2017 12:40:30 PM",
+      "dateStarted": "Nov 7, 2017 5:25:49 PM",
+      "dateFinished": "Nov 7, 2017 5:25:50 PM",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1893,7 +1892,7 @@
       "title": "Plot data",
       "text": "%pyspark\nplot_clustering(nomTable\u003d\"dsFeatures\",nomTableCenters\u003d\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 12:41:58 PM",
+      "dateUpdated": "Nov 7, 2017 5:25:52 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
@@ -1912,8 +1911,8 @@
       "jobName": "paragraph_1509425723654_-43084838",
       "id": "20171031-015523_507876710",
       "dateCreated": "Oct 31, 2017 1:55:23 AM",
-      "dateStarted": "Oct 31, 2017 12:40:45 PM",
-      "dateFinished": "Oct 31, 2017 12:41:04 PM",
+      "dateStarted": "Nov 7, 2017 5:25:52 PM",
+      "dateFinished": "Nov 7, 2017 5:25:54 PM",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1922,13 +1921,14 @@
       "title": "Create k-means model",
       "text": "val kmeans \u003d new KMeans()\n  .setK(5)                              // set number of clusters\n  .setFeaturesCol(\"features\")\n  .setPredictionCol(\"prediction\")\n\nval model \u003d kmeans.fit(dataset)\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 12:46:37 PM",
+      "dateUpdated": "Nov 7, 2017 5:26:00 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
         "results": {},
         "editorSetting": {
-          "language": "scala"
+          "language": "scala",
+          "editOnDblClick": false
         },
         "editorMode": "ace/mode/scala",
         "title": true
@@ -1941,23 +1941,24 @@
       "jobName": "paragraph_1509409434507_854809576",
       "id": "20171030-212354_434864230",
       "dateCreated": "Oct 30, 2017 9:23:54 PM",
-      "dateStarted": "Oct 31, 2017 12:46:37 PM",
-      "dateFinished": "Oct 31, 2017 12:46:38 PM",
+      "dateStarted": "Nov 7, 2017 5:26:00 PM",
+      "dateFinished": "Nov 7, 2017 5:26:02 PM",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Eval data with model",
-      "text": "val evalData \u003d model.transform(dataset).\n    select(vec2ColUDF($\"features\",lit(0)).as(\"x\"), vec2ColUDF($\"features\",lit(1)).as(\"y\"), \n            vec2ColUDF($\"features\",lit(2)).as(\"z\"), \u0027prediction)\n\nevalData.createOrReplaceTempView(\"evalData\")\n\nval centers \u003d model.\n    transform(spark.createDataFrame(model.clusterCenters.map(Tuple1.apply)).toDF(\"features\"))\n\nval evalCenters \u003d centers.\n    select(vec2ColUDF(\u0027features,lit(0)).as(\"x\"), vec2ColUDF(\u0027features,lit(1)).as(\"y\"), \n            vec2ColUDF(\u0027features,lit(2)).as(\"z\"), \u0027prediction)\n\nevalCenters.createOrReplaceTempView(\"evalCenters\")\n",
+      "text": "val vec2ColUDF \u003d udf((x:Vector, index: Int) \u003d\u003e x(index))\n\nval evalData \u003d model.transform(dataset).\n    select(vec2ColUDF($\"features\",lit(0)).as(\"x\"), vec2ColUDF($\"features\",lit(1)).as(\"y\"), \n            vec2ColUDF($\"features\",lit(2)).as(\"z\"), \u0027prediction)\n\nevalData.createOrReplaceTempView(\"evalData\")\n\nval centers \u003d model.\n    transform(spark.createDataFrame(model.clusterCenters.map(Tuple1.apply)).toDF(\"features\"))\n\nval evalCenters \u003d centers.\n    select(vec2ColUDF(\u0027features,lit(0)).as(\"x\"), vec2ColUDF(\u0027features,lit(1)).as(\"y\"), \n            vec2ColUDF(\u0027features,lit(2)).as(\"z\"), \u0027prediction)\n\nevalCenters.createOrReplaceTempView(\"evalCenters\")\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 12:46:42 PM",
+      "dateUpdated": "Nov 7, 2017 5:26:09 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
         "results": {},
         "editorSetting": {
-          "language": "scala"
+          "language": "scala",
+          "editOnDblClick": false
         },
         "editorMode": "ace/mode/scala",
         "title": true
@@ -1970,8 +1971,8 @@
       "jobName": "paragraph_1509409614796_-2012846570",
       "id": "20171030-212654_1670049849",
       "dateCreated": "Oct 30, 2017 9:26:54 PM",
-      "dateStarted": "Oct 31, 2017 12:46:42 PM",
-      "dateFinished": "Oct 31, 2017 12:46:43 PM",
+      "dateStarted": "Nov 7, 2017 5:26:09 PM",
+      "dateFinished": "Nov 7, 2017 5:26:10 PM",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1980,7 +1981,7 @@
       "title": "Show clusters",
       "text": "%pyspark\nplot_clustering(nomTable\u003d\"evalData\",nomTableCenters\u003d\"evalCenters\")\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 12:46:56 PM",
+      "dateUpdated": "Nov 7, 2017 5:26:15 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
@@ -2000,8 +2001,8 @@
       "jobName": "paragraph_1509426443254_1187998916",
       "id": "20171031-020723_554273089",
       "dateCreated": "Oct 31, 2017 2:07:23 AM",
-      "dateStarted": "Oct 31, 2017 12:46:56 PM",
-      "dateFinished": "Oct 31, 2017 12:47:17 PM",
+      "dateStarted": "Nov 7, 2017 5:26:16 PM",
+      "dateFinished": "Nov 7, 2017 5:26:16 PM",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -2010,7 +2011,7 @@
       "title": "FIN",
       "text": "val baseDir\u003d\"https://bytebucket.org/bigdata_famaf/curso_vates/raw/HEAD/clases\"\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 31, 2017 3:07:55 PM",
+      "dateUpdated": "Nov 7, 2017 5:27:31 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": true,
@@ -2045,8 +2046,8 @@
       "jobName": "paragraph_1509372817692_-1698256827",
       "id": "20171030-041758_1069452526",
       "dateCreated": "Oct 30, 2017 11:13:37 AM",
-      "dateStarted": "Oct 31, 2017 3:07:55 PM",
-      "dateFinished": "Oct 31, 2017 3:08:15 PM",
+      "dateStarted": "Nov 7, 2017 5:27:31 PM",
+      "dateFinished": "Nov 7, 2017 5:27:32 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -2068,25 +2069,25 @@
   "name": "Clase 05 - Machine Learning",
   "id": "2CZ8JV6J5",
   "angularObjects": {
-    "2CU68GG2T:shared_process": [],
-    "2CVS7262B:shared_process": [],
-    "2CVRPE6UU:shared_process": [],
-    "2CTT1QYY4:shared_process": [],
-    "2CU5AU361:shared_process": [],
-    "2CTT6BV2A:shared_process": [],
-    "2CTEY6NNX:shared_process": [],
-    "2CTQZEXVV:shared_process": [],
-    "2CWGC7XHC:shared_process": [],
-    "2CU7MZATZ:shared_process": [],
-    "2CV2DAAF4:shared_process": [],
-    "2CUZ7QHXW:shared_process": [],
-    "2CWKV4BU5:shared_process": [],
-    "2CTEAQKGK:shared_process": [],
-    "2CW7DKJPA:shared_process": [],
-    "2CVA1M5RT:shared_process": [],
-    "2CT3EKZSX:shared_process": [],
-    "2CTVFSDYS:shared_process": [],
-    "2CW7VCDNZ:shared_process": []
+    "2CVGDCPRC:shared_process": [],
+    "2CWU5CDHZ:shared_process": [],
+    "2CT8824T5:shared_process": [],
+    "2CU175KYA:shared_process": [],
+    "2CVW8KG5T:shared_process": [],
+    "2CVUG7AYZ:shared_process": [],
+    "2CU2PGWJK:shared_process": [],
+    "2CTY6NNQE:shared_process": [],
+    "2CWN7MJ7T:shared_process": [],
+    "2CU7V5RQS:shared_process": [],
+    "2CTE4TQQ3:shared_process": [],
+    "2CWGK27UU:shared_process": [],
+    "2CT7JSWR8:shared_process": [],
+    "2CWKBNSF7:shared_process": [],
+    "2CWTDEFZ3:shared_process": [],
+    "2CUBD912K:shared_process": [],
+    "2CW4YQTDJ:shared_process": [],
+    "2CTW8ZN43:shared_process": [],
+    "2CVTSPTRQ:shared_process": []
   },
   "config": {},
   "info": {}
