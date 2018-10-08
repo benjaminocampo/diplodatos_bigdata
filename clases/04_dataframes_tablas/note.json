@@ -1,0 +1,1668 @@
+{
+  "paragraphs": [
+    {
+      "text": "print(s\"\"\"%html\n\u003ccenter\u003e\n    \u003ch1\u003eCurso Big Data Vates 2017\u003c/h1\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch2 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h2\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"$baseDir/comun/logo%20UNC%20FAMAF%202016.svg\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:54 AM",
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003ccenter\u003e\n    \u003ch1\u003eCurso Big Data Vates 2017\u003c/h1\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch2 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h2\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"https://bytebucket.org/bigdata_famaf/curso_vates/raw/HEAD/clases/comun/logo%20UNC%20FAMAF%202016.svg\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1508853233010_-1640190980",
+      "id": "20171010-191319_1407757246",
+      "dateCreated": "Oct 24, 2017 10:53:53 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Antes de comenzar\n#### En máquina virtual\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd curso_vates\ngit pull\n```\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/):\n```sh\ncd\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080)\n1. Seleccionar `Import note`\n1. Elegir json en `/home/guest/curso_vates/clases/04_dataframes_tablas/note.json`\n2. Seleccionar `Clase 04 - Dataframes y Tablas`",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:52:08 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eAntes de comenzar\u003c/h3\u003e\n\u003ch4\u003eEn máquina virtual\u003c/h4\u003e\n\u003col\u003e\n  \u003cli\u003eLanzar terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repo:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd curso_vates\ngit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003eEn navegador abrir \u003ca href\u003d\"http://localhost:8080\"\u003ehttp://localhost:8080\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eImport note\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eElegir json en \u003ccode\u003e/home/guest/curso_vates/clases/04_dataframes_tablas/note.json\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eClase 04 - Dataframes y Tablas\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1509025756695_-1992594112",
+      "id": "20171026-104916_1471485600",
+      "dateCreated": "Oct 26, 2017 10:49:16 AM",
+      "dateStarted": "Oct 26, 2017 10:50:05 AM",
+      "dateFinished": "Oct 26, 2017 10:50:07 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n# Dataframes y Tablas\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 11:20:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eDataframes y Tablas\u003c/h1\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1509024812588_1536794561",
+      "id": "20171026-103332_714148651",
+      "dateCreated": "Oct 26, 2017 10:33:32 AM",
+      "dateStarted": "Oct 26, 2017 11:20:48 AM",
+      "dateFinished": "Oct 26, 2017 11:20:50 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Lectura",
+      "text": "val flightsInDF \u003d spark.read.format(\"csv\")\n                .option(\"header\", \"true\")\n                .option(\"inferSchema\", \"true\")\n                .load(\"/home/guest/curso_vates/ds/flights.csv\")",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 11:19:23 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508854408830_-619522191",
+      "id": "20171024-111328_986579954",
+      "dateCreated": "Oct 24, 2017 11:13:28 AM",
+      "dateStarted": "Oct 26, 2017 11:19:23 AM",
+      "dateFinished": "Oct 26, 2017 11:19:47 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Dataframe vuelos:",
+      "text": "z.show(flightsInDF,10)",
+      "user": "anonymous",
+      "dateUpdated": "Oct 30, 2017 11:22:35 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508938399047_-1418144810",
+      "id": "20171025-103319_281956173",
+      "dateCreated": "Oct 25, 2017 10:33:19 AM",
+      "dateStarted": "Oct 25, 2017 10:48:02 AM",
+      "dateFinished": "Oct 25, 2017 10:48:03 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Descripción de columnas",
+      "text": "println(s\"\"\"%table\nCol    \\t Nombre \\t Descripción\n1  \\t  Year              \\t 1987-2008\n2  \\t  Month             \\t 1-12\n3  \\t  DayofMonth        \\t 1-31\n4  \\t  DayOfWeek         \\t 1 (Monday) - 7 (Sunday)\n5  \\t  DepTime           \\t actual departure time (local, hhmm)\n6  \\t  CRSDepTime        \\t scheduled departure time (local, hhmm)\n7  \\t  ArrTime           \\t actual arrival time (local, hhmm)\n8  \\t  CRSArrTime        \\t scheduled arrival time (local, hhmm)\n9  \\t  UniqueCarrier     \\t unique carrier code\n10 \\t  FlightNum         \\t flight number\n11 \\t  TailNum           \\t plane tail number\n12 \\t  ActualElapsedTime \\t in minutes\n13 \\t  CRSElapsedTime    \\t in minutes\n14 \\t  AirTime           \\t in minutes\n15 \\t  ArrDelay          \\t arrival delay, in minutes\n16 \\t  DepDelay          \\t departure delay, in minutes\n17 \\t  Origin            \\t origin IATA airport code\n18 \\t  Dest              \\t destination IATA airport code\n19 \\t  Distance          \\t in miles\n20 \\t  TaxiIn            \\t taxi in time, in minutes\n21 \\t  TaxiOut           \\t taxi out time in minutes\n22 \\t  Cancelled           \\t was the flight cancelled?\n23 \\t  CancellationCode  \\t reason for cancellation (A \u003d carrier, B \u003d weather, C \u003d NAS, D \u003d security)\n24 \\t  Diverted          \\t 1 \u003d yes, 0 \u003d no\n25 \\t  CarrierDelay      \\t in minutes\n26 \\t  WeatherDelay      \\t in minutes\n27 \\t  NASDelay          \\t in minutes\n28 \\t  SecurityDelay     \\t in minutes\n29 \\t  LateAircraftDelay \\t in minutes\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 394.5,
+              "optionOpen": false
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Col    \t Nombre \t Descripción\n1  \t  Year              \t 1987-2008\n2  \t  Month             \t 1-12\n3  \t  DayofMonth        \t 1-31\n4  \t  DayOfWeek         \t 1 (Monday) - 7 (Sunday)\n5  \t  DepTime           \t actual departure time (local, hhmm)\n6  \t  CRSDepTime        \t scheduled departure time (local, hhmm)\n7  \t  ArrTime           \t actual arrival time (local, hhmm)\n8  \t  CRSArrTime        \t scheduled arrival time (local, hhmm)\n9  \t  UniqueCarrier     \t unique carrier code\n10 \t  FlightNum         \t flight number\n11 \t  TailNum           \t plane tail number\n12 \t  ActualElapsedTime \t in minutes\n13 \t  CRSElapsedTime    \t in minutes\n14 \t  AirTime           \t in minutes\n15 \t  ArrDelay          \t arrival delay, in minutes\n16 \t  DepDelay          \t departure delay, in minutes\n17 \t  Origin            \t origin IATA airport code\n18 \t  Dest              \t destination IATA airport code\n19 \t  Distance          \t in miles\n20 \t  TaxiIn            \t taxi in time, in minutes\n21 \t  TaxiOut           \t taxi out time in minutes\n22 \t  Cancelled           \t was the flight cancelled?\n23 \t  CancellationCode  \t reason for cancellation (A \u003d carrier, B \u003d weather, C \u003d NAS, D \u003d security)\n24 \t  Diverted          \t 1 \u003d yes, 0 \u003d no\n25 \t  CarrierDelay      \t in minutes\n26 \t  WeatherDelay      \t in minutes\n27 \t  NASDelay          \t in minutes\n28 \t  SecurityDelay     \t in minutes\n29 \t  LateAircraftDelay \t in minutes\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1508855171411_1495701903",
+      "id": "20171024-112611_313715286",
+      "dateCreated": "Oct 24, 2017 11:26:11 AM",
+      "dateStarted": "Oct 25, 2017 10:48:25 AM",
+      "dateFinished": "Oct 25, 2017 10:48:26 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Algunas columnas importantes",
+      "text": "flightsInDF.select(\"UniqueCarrier\", \"FlightNum\", \"DepDelay\", \"ArrDelay\", \"Distance\").show",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508939024499_2068773699",
+      "id": "20171025-104344_1016086824",
+      "dateCreated": "Oct 25, 2017 10:43:44 AM",
+      "dateStarted": "Oct 26, 2017 9:19:56 AM",
+      "dateFinished": "Oct 26, 2017 9:20:22 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Esquema",
+      "text": "flightsInDF.printSchema",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:56 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508938909612_-47915535",
+      "id": "20171025-104149_1269548688",
+      "dateCreated": "Oct 25, 2017 10:41:49 AM",
+      "dateStarted": "Oct 26, 2017 9:20:21 AM",
+      "dateFinished": "Oct 26, 2017 9:20:23 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Vuelos retrasados (\u003e 15\u0027)",
+      "text": "val delayedDF \u003d flightsInDF.select($\"UniqueCarrier\", $\"DepDelay\").filter($\"DepDelay\" \u003e 15).cache\n// Notar cache\n\ndelayedDF.show",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:56 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508939469709_1245807836",
+      "id": "20171025-105109_2146020304",
+      "dateCreated": "Oct 25, 2017 10:51:09 AM",
+      "dateStarted": "Oct 26, 2017 9:20:23 AM",
+      "dateFinished": "Oct 26, 2017 9:20:25 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Cantidad",
+      "text": "println(\"Cantidad de vuelos retrasados por más de 15\u0027: \" + delayedDF.count)",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:56 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508939546825_1476595880",
+      "id": "20171025-105226_241530836",
+      "dateCreated": "Oct 25, 2017 10:52:26 AM",
+      "dateStarted": "Oct 26, 2017 9:20:23 AM",
+      "dateFinished": "Oct 26, 2017 9:20:27 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "User Defined Functions",
+      "text": "/* Función Scala que define si un vuelo está retrasado\n * Si el retraso es \u003e que 15\u0027 devuelve 1\n * si no 0\n * Si no está definida devuelve 0\n ********************************************************/\n val isDelayed \u003d (time: String) \u003d\u003e if (time \u003d\u003d \"NA\") 0 else if (time.toInt \u003e 15) 1 else 0\n\n// UDF que define si un vuelo está retrasado\n\nval isDelayedUDF \u003d udf(isDelayed)\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:56 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508939430540_1624908096",
+      "id": "20171025-105030_1473041300",
+      "dateCreated": "Oct 25, 2017 10:50:30 AM",
+      "dateStarted": "Oct 26, 2017 9:20:26 AM",
+      "dateFinished": "Oct 26, 2017 9:20:29 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Nuevo Dataframe",
+      "text": "// Nuevo Dataframe con algunas columnas y con una nueva indicando si el vuelo está retrasado\n\nval flightsDF \u003d flightsInDF.select($\"Year\", $\"Month\", $\"DayofMonth\", $\"DayOfWeek\", $\"CRSDepTime\", $\"UniqueCarrier\", $\"FlightNum\", \n                    $\"DepDelay\", $\"ArrDelay\", $\"Origin\", $\"Dest\", $\"TaxiIn\", $\"TaxiOut\", $\"Distance\",\n                    isDelayedUDF($\"DepDelay\").as(\"IsDepDelayed\")).cache\n\nflightsDF.show",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:56 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508940854046_5169946",
+      "id": "20171025-111414_314606954",
+      "dateCreated": "Oct 25, 2017 11:14:14 AM",
+      "dateStarted": "Oct 26, 2017 9:20:27 AM",
+      "dateFinished": "Oct 26, 2017 9:20:32 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Porcentaje de vuelos demorados",
+      "text": "val percDelayedDF \u003d flightsDF.agg((sum($\"IsDepDelayed\") * 100 / count($\"*\")).alias(\"Porcentaje de vuelos retrasados\")).cache\n\npercDelayedDF.show\n\nval firstRow \u003d percDelayedDF.first\n\nprintln(\"Porcentaje de vuelos demorados: \" + firstRow.getDouble(0) + \"%\")\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:57 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508941626021_1914765748",
+      "id": "20171025-112706_588393035",
+      "dateCreated": "Oct 25, 2017 11:27:06 AM",
+      "dateStarted": "Oct 26, 2017 9:20:30 AM",
+      "dateFinished": "Oct 26, 2017 9:20:35 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Promedio de Taxi-out",
+      "text": "flightsDF.select(\"Origin\", \"Dest\", \"TaxiOut\")\n         .groupBy(\"Origin\", \"Dest\").agg(avg(\"TaxiOut\").alias(\"AvgTaxiOut\"))\n         .orderBy(desc(\"AvgTaxiOut\")).show(10)",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:57 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508942218103_-1371872083",
+      "id": "20171025-113658_633059161",
+      "dateCreated": "Oct 25, 2017 11:36:58 AM",
+      "dateStarted": "Oct 26, 2017 9:20:33 AM",
+      "dateFinished": "Oct 26, 2017 9:20:38 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\nAveriguar el promedio de Taxi-in por origen y destino.\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:57 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eAveriguar el promedio de Taxi-in por origen y destino.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1508948561846_-263276241",
+      "id": "20171025-132241_1506361808",
+      "dateCreated": "Oct 25, 2017 1:22:41 PM",
+      "dateStarted": "Oct 25, 2017 1:25:22 PM",
+      "dateFinished": "Oct 25, 2017 1:25:22 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:57 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508948720185_-1384820929",
+      "id": "20171025-132520_2062439237",
+      "dateCreated": "Oct 25, 2017 1:25:20 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## SQL Plano",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:37:10 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eSQL Plano\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1508948710438_778622136",
+      "id": "20171025-132510_842210078",
+      "dateCreated": "Oct 25, 2017 1:25:10 PM",
+      "dateStarted": "Oct 26, 2017 9:19:58 AM",
+      "dateFinished": "Oct 26, 2017 9:19:58 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Creación de tabla temporal",
+      "text": "flightsDF.createOrReplaceTempView(\"flightsTbl\")\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:58 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1508948940820_735251135",
+      "id": "20171025-132900_1727141453",
+      "dateCreated": "Oct 25, 2017 1:29:00 PM",
+      "dateStarted": "Oct 26, 2017 9:20:35 AM",
+      "dateFinished": "Oct 26, 2017 9:20:38 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Tabla vuelos",
+      "text": "val resDF \u003d spark.sql(\"SELECT * FROM flightsTbl LIMIT 10\")\n\nresDF.show",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:58 AM",
+      "config": {
+        "colWidth": 6.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508948937201_-728718430",
+      "id": "20171025-132857_774246264",
+      "dateCreated": "Oct 25, 2017 1:28:57 PM",
+      "dateStarted": "Oct 26, 2017 9:20:38 AM",
+      "dateFinished": "Oct 26, 2017 9:20:39 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Tabla en interprete SQL de Zeppelin",
+      "text": "%sql\nSELECT * FROM flightsTbl LIMIT 10\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:38:05 AM",
+      "config": {
+        "colWidth": 6.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508960213626_1390089574",
+      "id": "20171025-163653_453163089",
+      "dateCreated": "Oct 25, 2017 4:36:53 PM",
+      "dateStarted": "Oct 26, 2017 9:20:39 AM",
+      "dateFinished": "Oct 26, 2017 9:20:39 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "UDF en tablas",
+      "text": "isDelayed // ya la definimos\n\n// Registración de UDF para usar con tablas\nspark.udf.register(\"isDelayedTabUDF\", isDelayed)\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:59 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508960285848_1078751093",
+      "id": "20171025-163805_1615588877",
+      "dateCreated": "Oct 25, 2017 4:38:05 PM",
+      "dateStarted": "Oct 26, 2017 9:20:39 AM",
+      "dateFinished": "Oct 26, 2017 9:20:40 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Cantidad de retrasos en llegadas por empresa",
+      "text": "%sql\n\nSELECT UniqueCarrier, SUM(isDelayedTabUDF(ArrDelay)) AS NumArrDelays FROM flightsTbl GROUP BY UniqueCarrier\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:59 AM",
+      "config": {
+        "colWidth": 6.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508961137473_-1766058728",
+      "id": "20171025-165217_871410176",
+      "dateCreated": "Oct 25, 2017 4:52:17 PM",
+      "dateStarted": "Oct 26, 2017 9:20:40 AM",
+      "dateFinished": "Oct 26, 2017 9:20:43 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Promedio de retrasos en llegadas por empresa",
+      "text": "%sql\n\nSELECT UniqueCarrier, AVG(ArrDelay) AS TotalTimeDelay FROM flightsTbl WHERE isDelayedTabUDF(ArrDelay) \u003d\u003d 1 GROUP BY UniqueCarrier ",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:59 AM",
+      "config": {
+        "colWidth": 6.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql",
+        "editorHide": false,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508961882034_-1358934216",
+      "id": "20171025-170442_132724882",
+      "dateCreated": "Oct 25, 2017 5:04:42 PM",
+      "dateStarted": "Oct 26, 2017 9:20:41 AM",
+      "dateFinished": "Oct 26, 2017 9:20:44 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Version con SQL programático",
+      "text": "// Promedio de retrasos por empresa\nflightsDF.filter(isDelayedUDF($\"ArrDelay\") \u003d\u003d\u003d 1)\n    .groupBy($\"UniqueCarrier\")\n    .agg(avg($\"ArrDelay\"))\n    .show\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:59 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508962831416_-214747350",
+      "id": "20171025-172031_151485458",
+      "dateCreated": "Oct 25, 2017 5:20:31 PM",
+      "dateStarted": "Oct 26, 2017 9:20:43 AM",
+      "dateFinished": "Oct 26, 2017 9:20:46 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\nEncontrar la distancia de vuelo promedio por empresa.",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:19:59 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eEncontrar la distancia de vuelo promedio por empresa.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1508963311103_173522298",
+      "id": "20171025-172831_878679516",
+      "dateCreated": "Oct 25, 2017 5:28:31 PM",
+      "dateStarted": "Oct 26, 2017 9:20:00 AM",
+      "dateFinished": "Oct 26, 2017 9:20:00 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:20:00 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508963878548_-271216258",
+      "id": "20171025-173758_910006406",
+      "dateCreated": "Oct 25, 2017 5:37:58 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Retrasados y en horario por día de la semana",
+      "text": "%sql\nSELECT DayOfWeek, CASE WHEN isDelayedTabUDF(ArrDelay) \u003d 1 THEN \u0027delayed\u0027 ELSE \u0027ok\u0027 END AS Delay, COUNT(1) AS Count\nFROM flightsTbl\nGROUP BY DayOfWeek, CASE WHEN isDelayedTabUDF(ArrDelay) \u003d 1 THEN \u0027delayed\u0027 ELSE \u0027ok\u0027 END\nORDER BY DayOfWeek\n/* Graficar con barras: key\u003dDayOfWeek, Groups\u003dDelay, Values\u003dCount */",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:18:26 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "multiBarChart": {}
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "DayOfWeek",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "Delay",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "Count",
+                  "index": 2.0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508963966186_-317847496",
+      "id": "20171025-173926_612373365",
+      "dateCreated": "Oct 25, 2017 5:39:26 PM",
+      "dateStarted": "Oct 26, 2017 10:18:26 AM",
+      "dateFinished": "Oct 26, 2017 10:18:27 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Retrasados y en horario por hora",
+      "text": "%sql\nSELECT CAST(CRSDepTime / 100 AS INT) AS Hour, CASE WHEN isDelayedTabUDF(DepDelay) \u003d 1 THEN \u0027delayed\u0027 ELSE \u0027ok\u0027 END AS Delay, COUNT(1) AS Count\nFROM flightsTbl\nGROUP BY CAST(CRSDepTime / 100 AS INT), CASE WHEN isDelayedTabUDF(DepDelay) \u003d 1 THEN \u0027delayed\u0027 ELSE \u0027ok\u0027 END\nORDER BY Hour",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:18:45 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "multiBarChart": {}
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "Hour",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "Delay",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ],
+              "values": [
+                {
+                  "name": "Count",
+                  "index": 2.0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "editorSetting": {
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508964493883_-428304368",
+      "id": "20171025-174813_155080026",
+      "dateCreated": "Oct 25, 2017 5:48:13 PM",
+      "dateStarted": "Oct 26, 2017 10:18:45 AM",
+      "dateFinished": "Oct 26, 2017 10:18:46 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n## Lectura/Escritura\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:39:17 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eLectura/Escritura\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1508964636528_-890020017",
+      "id": "20171025-175036_627807411",
+      "dateCreated": "Oct 25, 2017 5:50:36 PM",
+      "dateStarted": "Oct 26, 2017 9:20:01 AM",
+      "dateFinished": "Oct 26, 2017 9:20:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Guardar como archivo Orc",
+      "text": "import org.apache.spark.sql.SaveMode\n\nflightsDF.write.format(\"orc\").mode(SaveMode.Overwrite).save(\"flights.orc\")\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:20:01 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508969056479_-1794271353",
+      "id": "20171025-190416_1081669159",
+      "dateCreated": "Oct 25, 2017 7:04:16 PM",
+      "dateStarted": "Oct 26, 2017 9:20:46 AM",
+      "dateFinished": "Oct 26, 2017 9:20:48 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Save modes",
+      "text": "println(s\"\"\"%table\nModo \\t Significado\n%html \u003ccode\u003eSaveMode.ErrorIfExists\u003c/code\u003e (default) \\t Si existe se genera una excepción.\n%html \u003ccode\u003eSaveMode.Append\u003c/code\u003e \\t Si existe se agrega al final.\n%html \u003ccode\u003eSaveMode.Overwrite\u003c/code\u003e \\t Si existe se borra y se crea una nueva.\n%html \u003ccode\u003eSaveMode.Ignore\u003c/code\u003e \\t Si existe no se guarda. Similar a CREATE TABLE IF NOT.\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:39:34 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 224.5,
+              "optionOpen": false
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Modo \t Significado\n%html \u003ccode\u003eSaveMode.ErrorIfExists\u003c/code\u003e (default) \t Si existe se genera una excepción.\n%html \u003ccode\u003eSaveMode.Append\u003c/code\u003e \t Si existe se agrega al final.\n%html \u003ccode\u003eSaveMode.Overwrite\u003c/code\u003e \t Si existe se borra y se crea una nueva.\n%html \u003ccode\u003eSaveMode.Ignore\u003c/code\u003e \t Si existe no se guarda. Similar a CREATE TABLE IF NOT.\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1508964731604_-1599927710",
+      "id": "20171025-175211_54977094",
+      "dateCreated": "Oct 25, 2017 5:52:11 PM",
+      "dateStarted": "Oct 26, 2017 9:20:46 AM",
+      "dateFinished": "Oct 26, 2017 9:20:49 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Cargar desde archivo Orc",
+      "text": "val testDF \u003d spark.read.format(\"orc\").load(\"flights.orc\")\ntestDF.show",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:20:01 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508969670244_-219589339",
+      "id": "20171025-191430_1617048029",
+      "dateCreated": "Oct 25, 2017 7:14:30 PM",
+      "dateStarted": "Oct 26, 2017 9:20:48 AM",
+      "dateFinished": "Oct 26, 2017 9:20:50 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Comparacion entre original y guardado",
+      "text": "println(\"Cantidad de filas en original: \" + flightsDF.count)\nprintln(\"Cantidad de filas en guardado: \" + testDF.count)\n\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:20:01 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508969748453_982105714",
+      "id": "20171025-191548_1431708806",
+      "dateCreated": "Oct 25, 2017 7:15:48 PM",
+      "dateStarted": "Oct 26, 2017 9:20:49 AM",
+      "dateFinished": "Oct 26, 2017 9:20:51 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Tablas persistentes",
+      "text": "%md\n\n### Tablas permanentes\n\n* `createOrReplaceTempView` crea **tablas** temporales (desaparecen cuando se destruye  `SparkSession`).\n* `saveAsTable` \n    - guarda dataframes en *HiveMetastore* de forma permanente y\n    - permita utilizar SQL plano sobre ella.\n\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:40:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "title": false,
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eTablas permanentes\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ccode\u003ecreateOrReplaceTempView\u003c/code\u003e crea \u003cstrong\u003etablas\u003c/strong\u003e temporales (desaparecen cuando se destruye \u003ccode\u003eSparkSession\u003c/code\u003e).\u003c/li\u003e\n  \u003cli\u003e\u003ccode\u003esaveAsTable\u003c/code\u003e\n    \u003cul\u003e\n      \u003cli\u003eguarda dataframes en \u003cem\u003eHiveMetastore\u003c/em\u003e de forma permanente y\u003c/li\u003e\n      \u003cli\u003epermita utilizar SQL plano sobre ella.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1509019797993_-1010217370",
+      "id": "20171026-090957_1006984146",
+      "dateCreated": "Oct 26, 2017 9:09:57 AM",
+      "dateStarted": "Oct 26, 2017 9:24:31 AM",
+      "dateFinished": "Oct 26, 2017 9:24:31 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Guardado como tabla",
+      "text": "flightsDF.write.format(\"orc\").mode(SaveMode.Overwrite).saveAsTable(\"flightsPermTbl\")\n\n//antes usamos\n//flightsDF.createOrReplaceTempView(\"flightsTbl\")",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:41:18 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1509020327230_297110131",
+      "id": "20171026-091847_1137183197",
+      "dateCreated": "Oct 26, 2017 9:18:47 AM",
+      "dateStarted": "Oct 26, 2017 9:20:50 AM",
+      "dateFinished": "Oct 26, 2017 9:20:53 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Tablas actuales",
+      "text": "%sql\nSHOW Tables\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:36:06 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1509021089774_-369968961",
+      "id": "20171026-093129_238597383",
+      "dateCreated": "Oct 26, 2017 9:31:29 AM",
+      "dateStarted": "Oct 26, 2017 9:33:08 AM",
+      "dateFinished": "Oct 26, 2017 9:33:08 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nSELECT * from flightsPermTbl LIMIT 5\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:23:26 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1509020568015_-344126199",
+      "id": "20171026-092248_827292703",
+      "dateCreated": "Oct 26, 2017 9:22:48 AM",
+      "dateStarted": "Oct 26, 2017 9:23:26 AM",
+      "dateFinished": "Oct 26, 2017 9:23:26 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Leer tabla hacia dataframe",
+      "text": "val dfFromTbl \u003d sqlContext.table(\"flightsPermTbl\")\n\ndfFromTbl.filter($\"IsDepDelayed\" \u003d\u003d\u003d 1).show(5)\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:34:27 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1509020722679_934591965",
+      "id": "20171026-092522_846201378",
+      "dateCreated": "Oct 26, 2017 9:25:22 AM",
+      "dateStarted": "Oct 26, 2017 9:31:05 AM",
+      "dateFinished": "Oct 26, 2017 9:31:06 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Borrar tabla",
+      "text": "%sql\nDROP TABLE flightsPermTbl\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:34:10 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1509021144322_1628324881",
+      "id": "20171026-093224_52675256",
+      "dateCreated": "Oct 26, 2017 9:32:24 AM",
+      "dateStarted": "Oct 26, 2017 9:32:29 AM",
+      "dateFinished": "Oct 26, 2017 9:32:30 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Tablas actuales",
+      "text": "%sql\nSHOW Tables\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:35:45 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql",
+        "editorHide": false,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1509021275777_415363196",
+      "id": "20171026-093435_733648216",
+      "dateCreated": "Oct 26, 2017 9:34:35 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\nCalcular la cantidad de vuelos que parten de cada aeropuerto y guardar el resultado en una tabla permanente.\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:42:09 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eCalcular la cantidad de vuelos que parten de cada aeropuerto y guardar el resultado en una tabla permanente.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1509023943658_1679106802",
+      "id": "20171026-101903_204159956",
+      "dateCreated": "Oct 26, 2017 10:19:03 AM",
+      "dateStarted": "Oct 26, 2017 10:20:16 AM",
+      "dateFinished": "Oct 26, 2017 10:20:16 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:22:54 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1509024167955_963948897",
+      "id": "20171026-102247_696158694",
+      "dateCreated": "Oct 26, 2017 10:22:47 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Agregando nombres de empresas",
+      "text": "// en carriers.csv están los nombres\nval carriersDF \u003d spark.read.format(\"csv\")\n                .option(\"header\", \"true\")\n                .option(\"inferSchema\", \"true\")\n                .load(\"/home/guest/curso_vates/ds/carriers.csv\")\n\nz.show(carriersDF,5)",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:26:16 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1509024145299_1386372541",
+      "id": "20171026-102225_1262220351",
+      "dateCreated": "Oct 26, 2017 10:22:25 AM",
+      "dateStarted": "Oct 26, 2017 10:26:16 AM",
+      "dateFinished": "Oct 26, 2017 10:26:16 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Join con broadcast",
+      "text": "val flCarrDF \u003d flightsDF.join(broadcast(carriersDF),$\"Code\" \u003d\u003d\u003d $\"UniqueCarrier\")\n                .withColumnRenamed(\"Description\",\"CarrierName\")\n\nflCarrDF.count\nz.show(flCarrDF,5)",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:27:28 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1509024324180_-1235044309",
+      "id": "20171026-102524_704218337",
+      "dateCreated": "Oct 26, 2017 10:25:24 AM",
+      "dateStarted": "Oct 26, 2017 10:27:28 AM",
+      "dateFinished": "Oct 26, 2017 10:27:29 AM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\nUtilizando la información en el archivo `airports.csv` cambiar los códigos de los aeropuertos por sus nombres y agregar sus coordenadas. Hacerlo con SQL programático (usando dataframes).\n\n##### Ayuda:\n\nPuede ser útil el método `drop` que aparece en [Doc API Datasets](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.Dataset).\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 11:19:02 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eUtilizando la información en el archivo \u003ccode\u003eairports.csv\u003c/code\u003e cambiar los códigos de los aeropuertos por sus nombres y agregar sus coordenadas. Hacerlo con SQL programático (usando dataframes).\u003c/p\u003e\n\u003ch5\u003eAyuda:\u003c/h5\u003e\n\u003cp\u003ePuede ser útil el método \u003ccode\u003edrop\u003c/code\u003e que aparece en \u003ca href\u003d\"http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.Dataset\"\u003eDoc API Datasets\u003c/a\u003e.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1509024041642_1327785084",
+      "id": "20171026-102041_286502839",
+      "dateCreated": "Oct 26, 2017 10:20:41 AM",
+      "dateStarted": "Oct 26, 2017 10:32:55 AM",
+      "dateFinished": "Oct 26, 2017 10:32:55 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 10:33:15 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1509024782765_388441687",
+      "id": "20171026-103302_370944071",
+      "dateCreated": "Oct 26, 2017 10:33:02 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Material Adicional\n\n2. [Spark SQL, DataFrames and DataSets Guide](http://spark.apache.org/docs/latest/sql-programming-guide.html)\n3. [Databricks - DataFrames and Datasets](https://docs.databricks.com/spark/latest/dataframes-datasets/index.html)\n\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 11:19:09 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eMaterial Adicional\u003c/h2\u003e\n\u003col\u003e\n  \u003cli\u003e\u003ca href\u003d\"http://spark.apache.org/docs/latest/sql-programming-guide.html\"\u003eSpark SQL, DataFrames and DataSets Guide\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ca href\u003d\"https://docs.databricks.com/spark/latest/dataframes-datasets/index.html\"\u003eDatabricks - DataFrames and Datasets\u003c/a\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1509021454886_658765875",
+      "id": "20171026-093734_1344273786",
+      "dateCreated": "Oct 26, 2017 9:37:34 AM",
+      "dateStarted": "Oct 26, 2017 11:03:27 AM",
+      "dateFinished": "Oct 26, 2017 11:03:29 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "FIN",
+      "text": "val baseDir\u003d\"https://bytebucket.org/bigdata_famaf/curso_vates/raw/HEAD/clases\"\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "Oct 30, 2017 11:23:17 AM",
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "baseDir: String \u003d https://bytebucket.org/bigdata_famaf/curso_vates/raw/HEAD/clases\n"
+          },
+          {
+            "type": "HTML",
+            "data": "\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1508853233012_-1642499473",
+      "id": "20171010-191336_1667301043",
+      "dateCreated": "Oct 24, 2017 10:53:53 AM",
+      "dateStarted": "Oct 30, 2017 11:23:17 AM",
+      "dateFinished": "Oct 30, 2017 11:23:18 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2017 9:20:02 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1508853233015_-1642114724",
+      "id": "20171010-192055_1187380897",
+      "dateCreated": "Oct 24, 2017 10:53:53 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Clase 04 - Dataframes y Tablas",
+  "id": "2CVGDVXEH",
+  "angularObjects": {
+    "2CU68GG2T:shared_process": [],
+    "2CVS7262B:shared_process": [],
+    "2CVRPE6UU:shared_process": [],
+    "2CTT1QYY4:shared_process": [],
+    "2CU5AU361:shared_process": [],
+    "2CTT6BV2A:shared_process": [],
+    "2CTEY6NNX:shared_process": [],
+    "2CTQZEXVV:shared_process": [],
+    "2CWGC7XHC:shared_process": [],
+    "2CU7MZATZ:shared_process": [],
+    "2CV2DAAF4:shared_process": [],
+    "2CUZ7QHXW:shared_process": [],
+    "2CWKV4BU5:shared_process": [],
+    "2CTEAQKGK:shared_process": [],
+    "2CW7DKJPA:shared_process": [],
+    "2CVA1M5RT:shared_process": [],
+    "2CT3EKZSX:shared_process": [],
+    "2CTVFSDYS:shared_process": [],
+    "2CW7VCDNZ:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
