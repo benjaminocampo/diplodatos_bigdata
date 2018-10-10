@@ -1174,15 +1174,15 @@ ls
             <header><h1>Usar <a class="reference external" href="http://zeppelin.apache.org/">Zeppelin</a> en mi notebook</h1></header>
             
             
-            <section><ul class="simple">
-<li>Bajarlo y descomprimir:</li>
-</ul>
-<pre><span></span>wget http://cs.famaf.unc.edu.ar/~damian/tmp/zeppelin-0.8.0-bin-all.tgz
-tar -xzvf zeppelin-0.8.0-bin-all.tgz
+            <section><ul>
+<li><p class="first">Bajarlo y descomprimir:</p>
+<pre><span></span><span class="nb">cd</span>
+wget http://cs.famaf.unc.edu.ar/~damian/tmp/bigdatasoft.tgz
+tar -xzvf bigdatasoft.tgz
 </pre>
-<ul>
+</li>
 <li><p class="first">Ejecutar</p>
-<pre><span></span><span class="nb">cd</span> zeppelin-0.8.0-bin-all
+<pre><span></span><span class="nb">cd</span> spark/zeppelin-0.7.3-bin-all
 bin/zeppelin.sh
 </pre>
 </li>
@@ -1190,8 +1190,8 @@ bin/zeppelin.sh
 </li>
 <li><p class="first">Seleccionar &quot;Import note&quot;</p>
 </li>
-<li><p class="first">Elegir json en</p>
-<pre><span></span>~/diplodatos_bigdata/clases/01_intro_spark/note.json
+<li><p class="first">Elegir json en repo git:</p>
+<pre><span></span>diplodatos_bigdata/clases/01_intro_spark/note.json
 </pre>
 </li>
 <li><p class="first">Seleccionar &quot;Clase 01 - Introducción a Spark&quot;</p>
@@ -1235,7 +1235,7 @@ bin/zeppelin.sh
 <li>Cambiar puerto</li>
 </ul>
 <pre><span></span><span class="nb">echo</span> $<span class="o">[</span><span class="nv">$UID</span>+8080<span class="o">]</span> <span class="c1"># recordar nuevo puerto (anotarlo)</span>
-<span class="nb">cd</span> zeppelin-0.8.0-bin-all/conf
+<span class="nb">cd</span> spark/zeppelin-0.7.3-bin-all/conf
 sed <span class="s2">&quot;s/&lt;value&gt;8080/&lt;value&gt;</span>$<span class="s2">[</span><span class="nv">$UID</span><span class="s2">+8080]/&quot;</span> zeppelin-site.xml.template &gt; zeppelin-site.xml
 </pre>
 <ul>
