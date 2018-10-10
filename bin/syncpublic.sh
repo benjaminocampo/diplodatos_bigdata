@@ -2,6 +2,17 @@
 
 set -x
 
+DIR="$(dirname "$0")"
+
+$DIR/goprivate.sh
+
+if [ $(git diff --name-only| wc -l) != 0 ]
+then
+  echo Hay archivos modificado en master
+  git diff --name-only
+  exit 1
+fi
+
 cd "$(git rev-parse --show-toplevel)"
 
 if [ -d .git ]
