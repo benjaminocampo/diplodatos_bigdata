@@ -559,9 +559,13 @@ http://www.fastcompany.com/3033549/internet-of-things/
 <li>Scale-Out NAS<sup>(1)</sup> = 50 PB</li>
 </ul>
 </li>
+<li>Se transporta datos a programas (clásico).<ul>
+<li>Modelo de programación Network Programming (MPI).</li>
+</ul>
+</li>
 <li>Problema: <strong>red es lenta</strong>.</li>
 </ul>
-<img alt="product-shot-isilon-hd-series-600x350.jpg" src="product-shot-isilon-hd-series-600x350.jpg" style="width: 50%;" />
+<img alt="product-shot-isilon-hd-series-600x350.jpg" src="product-shot-isilon-hd-series-600x350.jpg" style="width: 30%;" />
 <pre class="literal-block">
 (1) NAS: Network-attached storage.
 </pre></section>
@@ -574,6 +578,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
               <ul class="simple">
 <li>Hace 10 años que infiniband está en 50GB/s (con muy baja latencia).</li>
 <li>Veremos este fenómeno unas filminas mas adelante</li>
+<li>Otros problemas: MPI dificil de programar (tiempo de desarrollo), <strong>tolerancia a fallas</strong> o resilencia</li>
 </ul>
             
             </section>
@@ -727,22 +732,17 @@ http://www.fastcompany.com/3033549/internet-of-things/
             
             
             <section><h1>Modelo Data Flow</h1>
-<ul>
-<li><p class="first">Restringir interfaces de programación (patrones)</p>
 <ul class="simple">
+<li>Restringir interfaces de programación (patrones)<ul>
 <li>el sistema puede hacer más cosas automáticas</li>
 </ul>
 </li>
-<li><p class="first">Lleva programas a datos</p>
-</li>
-<li><p class="first">Menos red!</p>
-</li>
-<li><p class="first">Facilita programación paralela</p>
-</li>
-<li><p class="first">Mayor ejemplo: <strong>MapReduce</strong> (MR)</p>
-<blockquote>
-<p>(Pig, Cascading, Storm, Flink, ...)</p>
-</blockquote>
+<li>Transportar programas a datos</li>
+<li>Menos red!</li>
+<li>Facilita programación paralela</li>
+<li>Mayor ejemplo: <strong>MapReduce</strong> (MR)<ul>
+<li>Otros: Pig, Cascading, Storm, Flink, <strong>Spark</strong></li>
+</ul>
 </li>
 </ul></section>
             
@@ -750,6 +750,12 @@ http://www.fastcompany.com/3033549/internet-of-things/
           <div class="presenter_notes">
             <header><h1>Presenter Notes</h1></header>
             <section>
+            
+              <ul class="simple">
+<li>Pig, Cascading, Storm, Flink son ejemplos de data flow programming</li>
+<li>Pig, Cascading: Patrones de programación de + alto nivel implementados en MR</li>
+<li>Storm, Flink: Similar a MR pero para procesar streams en real time</li>
+</ul>
             
             </section>
           </div>
@@ -780,11 +786,11 @@ http://www.fastcompany.com/3033549/internet-of-things/
             <section><ul>
 <li><p class="first">Patrones como grafo de operaciones de alto nivel</p>
 <ul class="simple">
-<li>relación temporal entre operaciones</li>
+<li>relación temporal entre <strong>operaciones</strong> (map, reduce, filter, join, etc.)</li>
 </ul>
 <img alt="data_flow.png" src="data_flow.png" style="width: 20%;" />
 </li>
-<li><p class="first">El sistema elige como dividir las operaciones en tareas y <strong>donde correrlas</strong></p>
+<li><p class="first">El sistema elige como dividir las operaciones en <strong>tareas</strong> y <strong>donde correrlas</strong></p>
 <ul class="simple">
 <li>Gestor de clusters: Hadoop Yarn, Apache Mesos, Amazon EC2.</li>
 </ul>
@@ -797,6 +803,8 @@ http://www.fastcompany.com/3033549/internet-of-things/
           <div class="presenter_notes">
             <header><h1>Presenter Notes</h1></header>
             <section>
+            
+              <p>Donde correrlas --&gt; se transporta programas a datos</p>
             
             </section>
           </div>
