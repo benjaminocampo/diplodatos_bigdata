@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "print(s\"\"\"%html\n\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\"\"\")\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -39,16 +39,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202006_94865077",
+      "jobName": "paragraph_1539305523095_1526249177",
       "id": "20160720-131940_474698556",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n# Introducción a Spark\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -87,16 +87,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202006_94865077",
+      "jobName": "paragraph_1539305523097_1523940684",
       "id": "20160628-160644_98292392",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Características\n\n### 100x más rápido que Hadoop MapReduce en memoria.\n### 10x más rápido en disco.\n  ![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/spark_speed.png)\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -123,16 +123,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202007_94480328",
+      "jobName": "paragraph_1539305523098_1525094930",
       "id": "20171013-102503_1459120534",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Multiplataforma\n\n* Corre en Hadoop Yarn, Mesos, standalone o en la nube (AWS, Azure, ...)\n* Acceso a datos en HDFS, Cassandra, HBase, Hive, Tachyon, JDBC, etc.\n![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/spark_multi_plataforma.png)\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -159,16 +159,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202007_94480328",
+      "jobName": "paragraph_1539305523098_1525094930",
       "id": "20171013-105605_1380652694",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### +50 empresas.\n\n### +200 desarrolladores.\n![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/spar_contribs.png)\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -195,16 +195,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202007_94480328",
+      "jobName": "paragraph_1539305523099_1524710181",
       "id": "20171013-112527_2104876012",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Múltiples funcionalidades en una plataforma (Stack unificado)\n\n![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/unified_stack.png)\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -231,16 +231,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202007_94480328",
+      "jobName": "paragraph_1539305523100_1522786437",
       "id": "20171013-110124_1830702370",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Fácil de usar\n\n* Interface de programación en Scala, Java, Python y R.\n    - Presentaciones en Scala básico (parecido a Python).\n    - Más sobre el lenguaje en [Scala Basics](http://www.dhgarrette.com/nlpclass/scala/basics.html).\n* Notebooks: Zeppelin, Jupiter, ...",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -267,9 +267,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202007_94480328",
+      "jobName": "paragraph_1539305523100_1522786437",
       "id": "20171013-111851_1940139005",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -277,7 +277,7 @@
     {
       "title": "Word Count (MapReduce)",
       "text": "%md\n```java\npublic class WordCount {\n\n\tpublic static class Map extends MapReduceBase implements Mapper\u003cLongWritable, Text, Text, IntWritable\u003e {\n\n\t\tprivate final static IntWritable one \u003d new IntWritable(1);\n\n\t\tprivate Text word \u003d new Text();\n\n\t\tpublic void map(LongWritable key, Text value, OutputCollector\u003cText, IntWritable\u003e output, Reporter reporter) throws IOException {\n\n\t\t\tString line \u003d value.toString();\n\n\t\t\tStringTokenizer tokenizer \u003d new StringTokenizer(line);\n\n\t\t\twhile (tokenizer.hasMoreTokens()) {\n\n\t\t\t\tword.set(tokenizer.nextToken());\n\n\t\t\t\toutput.collect(word, one);\n\n\t\t\t}\n\n\t\t}\n\n\t}\n\n\tpublic static class Reduce extends MapReduceBase implements Reducer\u003cText, IntWritable, Text, IntWritable\u003e {\n\n\t\tpublic void reduce(Text key, Iterator values, OutputCollector\u003cText, IntWritable\u003e output, Reporter reporter) throws IOException {\n\n\t\t\tint sum \u003d 0;\n\n\t\t\twhile (values.hasNext()) {\n\n\t\t\t\tsum +\u003d values.next().get();\n\n\t\t\t}\n\n\t\t\toutput.collect(key, new IntWritable(sum));\n\n\t\t}\n\n\t}\n\n\tpublic static void main(String[] args) throws Exception {\n\n\t\tJobConf conf \u003d new JobConf(WordCount.class);\n\n\t\tconf.setJobName(\"wordcount\");\n\n\t\tconf.setOutputKeyClass(Text.class);\n\n\t\tconf.setOutputValueClass(IntWritable.class);\n\n\t\tconf.setMapperClass(Map.class);\n\n\t\tconf.setCombinerClass(Reduce.class);\n\n\t\tconf.setReducerClass(Reduce.class);\n\n\t\tconf.setInputFormat(TextInputFormat.class);\n\n\t\tconf.setOutputFormat(TextOutputFormat.class);\n\n\t\tFileInputFormat.setInputPaths(conf, new Path(args[0]));\n\n\t\tFileOutputFormat.setOutputPath(conf, new Path(args[1]));\n\n\t\tJobClient.runJob(conf);\n\n\t}\n\n}\n```\n\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -305,9 +305,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202007_94480328",
+      "jobName": "paragraph_1539305523101_1522401688",
       "id": "20171011-151944_1744659917",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -315,7 +315,7 @@
     {
       "title": "Word Count (Spark)",
       "text": "val lines \u003d sc.textFile(\"README.md\")\n\nval words \u003d lines\n            .flatMap(l \u003d\u003e l.split(\" \"))\n            .filter(w \u003d\u003e ! w.isEmpty)\n\n//MapReduce\nval wordCount \u003d words.map(w \u003d\u003e (w,1))\n                .reduceByKey((nx,ny) \u003d\u003e nx+ny)\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "lineNumbers": true,
         "editorSetting": {
@@ -334,9 +334,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539211202007_94480328",
+      "jobName": "paragraph_1539305523101_1522401688",
       "id": "20171010-190559_1468582504",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -344,7 +344,7 @@
     {
       "title": "Un poco de Scala",
       "text": "%md\n\n* `val` declara una variable inmutable (constante).\n\n* `lines` es un **array distribuido** de lineas de texto (`RDD[String]`).\n    - un conjunto de lineas en cada **nodo del cluster**.\n\n* `lines` tiene el método `flatMap` (línea 4):\n    - `flatMap(l \u003d\u003e l.split(\" \"))` toma cada cada elemento del `RDD` (linea), lo convierte en sequencia de palabras y concatena estas secuencias:\n        - `l \u003d\u003e l.split(\" \")` es la **función** que toma una linea y devuelve la secuencia de palabras.\n        \n    - Su resultado es un array **distribuido** de palabras (`RDD[String]`).\n    \n* Al resultado de `flatMap` se aplica el método `filter` (línea 5):\n    - `filter(w \u003d\u003e ! w.isEmpty)` saca las palabras que son vacías (pueden aparecer?).\n    - `w \u003d\u003e ! w.isEmpty` es la **función** que pregunta si la palabra es vacía.\n    - `filter` devuelve un `RDD` que se almacena en `words`.\n\n* `words` tiene el método `map` (línea 8):\n    - `map(w \u003d\u003e (w,1))` agrega a cada palabra de `words` un `1`.\n    - El resultado es un **arreglo distribuido** de tuplas `RDD[(String, Int)]`.\n    \n* A este `RDD` se le aplica el método `reduceByKey` (línea 9):\n    - `reduceByKey((nx,ny) \u003d\u003e nx+ny)` suma los `1`\u0027s de las palabras iguales (la key es la palabra).\n\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -372,9 +372,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202008_92556583",
+      "jobName": "paragraph_1539305523102_1523555935",
       "id": "20181010-120216_1622145406",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -382,7 +382,7 @@
     {
       "title": "Resultado Word Count Spark",
       "text": "val result \u003d wordCount.sortBy((p \u003d\u003e p._2), ascending \u003d false) // ordena por cantidad\n\nresult.collect() // traigo resultados desde nodos\n      .take(10) // tomo 10\n      .foreach(p \u003d\u003e println(p)) // los imprimo\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "lineNumbers": true,
         "editorSetting": {
@@ -400,9 +400,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539211202008_92556583",
+      "jobName": "paragraph_1539305523103_1523171186",
       "id": "20171011-153126_91229243",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -410,7 +410,7 @@
     {
       "title": "Run this",
       "text": "{\nval uiHost \u003d sc.getConf.getOption(\"spark.driver.host\").getOrElse(\"localhost\")\nval uiPort \u003d sc.getConf.getOption(\"spark.ui.port\").getOrElse(\"4040\")\nprint(s\"\"\"\n%html\nEjecutar esta celda y ver Spark UI en \n\u003ca href\u003d\"http://$uiHost:$uiPort\"\u003ehttp://$uiHost(host):$uiPort(port)\u003c/a\u003e\n\"\"\")\n}",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -440,9 +440,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202008_92556583",
+      "jobName": "paragraph_1539305523104_1508935477",
       "id": "20171010-193244_2031028749",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -450,7 +450,7 @@
     {
       "title": "Ejercicio (word count)",
       "text": "%md\n* Crear una celda abajo de esta.\n* Copiar el programa `wordcount` anterior en la misma.\n    - [`shift`]-[`flechas`] para seleccionar.\n    - [`ctrl`]-[`c`] para copiar.\n    - [`ctrl`]-[`v`] para pegar.\n* Modificarlo para leer todas la lineas de los archivos en `./licenses/`\n    - Ayuda: si al método `textFile` se le indica el nombre de un directorio carga todos los archivo del mismo.\n* Ejecute la celda ([`shift`]-[`enter`])\n* Ver la cantidad de tareas en SparkUI\n\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -478,16 +478,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202008_92556583",
+      "jobName": "paragraph_1539305523104_1508935477",
       "id": "20171010-205347_2087717007",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n\n## Ejecución de programas en Spark\n\n* En [Zeppelin](http://zeppelin.apache.org/) (como lo hacemos ahora)\n* En `spark-shell`\n* Como programa autónomo\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -514,9 +514,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202008_92556583",
+      "jobName": "paragraph_1539305523105_1508550728",
       "id": "20171010-202757_196880209",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -524,7 +524,7 @@
     {
       "title": "spark-shell",
       "text": "%md\n\n* Abrir una terminal\n* Ir a la instalación Spark\n```sh\ncd ~/spark/spark-2.1.1-bin-hadoop2.7\n```\n* Arrancar el shell\n```sh\n./bin/spark-shell\n```\n* Escribir en shell (después apretar `Enter`)\n```\nscala\u003e val lines \u003d sc.textFile(\"README.md\")\n```\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -552,9 +552,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202008_92556583",
+      "jobName": "paragraph_1539305523105_1508550728",
       "id": "20171011-173126_528319238",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -562,7 +562,7 @@
     {
       "title": "Programa autónomo",
       "text": "%md\n\n* Ir a programa\n```sh\ncd diplodatos_bigdata/prog/word_count\n```\n* Actualizar repositorio\n```sh\ngit pull\n```\n* Ver programa\n```sh\nless ./src/main/scala/WordCount.scala\n```\n  (salir con [`q`])\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -590,9 +590,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202008_92556583",
+      "jobName": "paragraph_1539305523106_1509704974",
       "id": "20171011-175259_1199949339",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -600,7 +600,7 @@
     {
       "title": "En casa (tarda mucho)",
       "text": "%md\n* Compilar\n```sh\n~/spark/sbt/bin/sbt package\n```\n* Ejecutar\n```sh\n./run.sh\n```\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -628,9 +628,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202009_92171835",
+      "jobName": "paragraph_1539305523106_1509704974",
       "id": "20171012-165049_905215351",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -638,7 +638,7 @@
     {
       "title": "Versión Spark y Scala en Zeppelin",
       "text": "sc.version\nutil.Properties.versionNumberString",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -656,16 +656,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539211202009_92171835",
+      "jobName": "paragraph_1539305523107_1509320225",
       "id": "20170830-114757_1684133948",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Ejercicios MapReduce con Spark",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -692,9 +692,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202009_92171835",
+      "jobName": "paragraph_1539305523107_1509320225",
       "id": "20171016-172908_1510165702",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -702,7 +702,7 @@
     {
       "title": "Ejercicio 1",
       "text": "%md\n\nModifique el programa *word count* siguiente para que cuente la **cantidad de apariciones de cada letra** en el archivo.\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -730,16 +730,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202009_92171835",
+      "jobName": "paragraph_1539305523108_1507396481",
       "id": "20171010-202446_178633207",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "val lines \u003d sc.textFile(\"README.md\")\n\nval words \u003d lines\n            .flatMap(l \u003d\u003e l.split(\" \"))\n            .filter(l \u003d\u003e ! l.isEmpty)\n\n// MapReduce\nval wordCount \u003d words.map(x \u003d\u003e (x,1))\n                .reduceByKey((nx,ny) \u003d\u003e nx+ny)\n\nval result \u003d wordCount.sortBy((p \u003d\u003e p._2), ascending \u003d false)\n\nresult.collect() // traigo resultados\n      .take(10)\n      .foreach(p \u003d\u003e println(p))\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "colWidth": 12.0,
         "editorMode": "ace/mode/scala",
@@ -754,9 +754,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539211202009_92171835",
+      "jobName": "paragraph_1539305523108_1507396481",
       "id": "20171011-154135_2131718224",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -764,7 +764,7 @@
     {
       "title": "Ejercicio 2",
       "text": "%md\nCada línea del archivo `~/diplodatos_bigdata/ds/links_raw.txt` contiene un url de una página web seguido de los links que posee a otras páginas web:\n```\n\u003curl\u003e \u003curl link 1\u003e \u003curl link 2\u003e ... \u003curl link n\u003e\n```\n\nBasándose en la utilización de la técnica de *MapReduce* que se mostró en el programa `word count` haga un programa en Spark que cuente la cantidad de links que apuntan a cada página.\n\n#### Ayuda\n\nA continuación está el comienzo del programa. Falta hacer el *MapReduce* y mostrar el resultado.\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -792,16 +792,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202009_92171835",
+      "jobName": "paragraph_1539305523109_1507011732",
       "id": "20171011-175322_1451259292",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "val baseDir \u003d \" .... /diplodatos_bigdata\" // llenar con el directorio git\n\nval lines \u003d sc.textFile(baseDir + \"/ds/links_raw.txt\")\n\nval linksTo \u003d lines\n                .flatMap(l \u003d\u003e l.split(\" \").tail) // separo los urls y tomo solo los apuntados\n// Ahora linksTo tiene las paginas apuntadas\n\n// Completar los ...\n\nval invLinkCount \u003d linksTo.map(...)\n                    .reduceByKey(...)\n\nval result \u003d invLinkCount.sortBy(p \u003d\u003e ..., ascending \u003d false)\n\nresult.collect() // traigo resultados\n      .take(10)\n      .foreach(p \u003d\u003e ...)\n",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {
         "colWidth": 12.0,
         "editorMode": "ace/mode/scala",
@@ -817,17 +817,17 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539211202009_92171835",
+      "jobName": "paragraph_1539305523109_1507011732",
       "id": "20171012-200915_1451462516",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "FIN",
-      "text": "val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n//val baseDir\u003d\"https://bytebucket.org/bigdata_famaf/curso_vates/raw/HEAD/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "text": "val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
+      "dateUpdated": "Oct 11, 2018 9:52:23 PM",
       "config": {
         "tableHide": true,
         "editorSetting": {
@@ -870,51 +870,51 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539211202010_93326081",
+      "jobName": "paragraph_1539305523110_1508165979",
       "id": "20160712-175904_2058049512",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Oct 10, 2018 7:40:02 PM",
+      "dateUpdated": "Oct 11, 2018 9:52:03 PM",
       "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539211202010_93326081",
+      "jobName": "paragraph_1539305523110_1508165979",
       "id": "20160829-174645_1462733036",
-      "dateCreated": "Oct 10, 2018 7:40:02 PM",
+      "dateCreated": "Oct 11, 2018 9:52:03 PM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "Clase 01 - Introducción a Spark",
-  "id": "2DS2NTR2P",
+  "id": "2DTPN6TF6",
   "angularObjects": {
-    "2CVGDCPRC:shared_process": [],
-    "2CWU5CDHZ:shared_process": [],
-    "2CT8824T5:shared_process": [],
-    "2CU175KYA:shared_process": [],
-    "2CVW8KG5T:shared_process": [],
-    "2CVUG7AYZ:shared_process": [],
-    "2CU2PGWJK:shared_process": [],
-    "2CTY6NNQE:shared_process": [],
-    "2CWN7MJ7T:shared_process": [],
-    "2CU7V5RQS:shared_process": [],
-    "2CTE4TQQ3:shared_process": [],
-    "2CWGK27UU:shared_process": [],
-    "2CT7JSWR8:shared_process": [],
-    "2CWKBNSF7:shared_process": [],
-    "2CWTDEFZ3:shared_process": [],
-    "2CUBD912K:shared_process": [],
-    "2CW4YQTDJ:shared_process": [],
-    "2CTW8ZN43:shared_process": [],
-    "2CVTSPTRQ:shared_process": []
+    "2DVCPKERU:shared_process": [],
+    "2DRH5MGD2:shared_process": [],
+    "2DT8RGM5K:shared_process": [],
+    "2DTBNGED4:shared_process": [],
+    "2DUJTWGBK:shared_process": [],
+    "2DVDPKT5E:shared_process": [],
+    "2DTHT6XEM:shared_process": [],
+    "2DSR5ZQRN:shared_process": [],
+    "2DUUQHMED:shared_process": [],
+    "2DUYR3928:shared_process": [],
+    "2DU693TAM:shared_process": [],
+    "2DTUS9FCK:shared_process": [],
+    "2DSAF8SZS:shared_process": [],
+    "2DSYWZ69A:shared_process": [],
+    "2DTR3QF32:shared_process": [],
+    "2DU2RAXU9:shared_process": [],
+    "2DSG68MMD:shared_process": [],
+    "2DTTN7EC4:shared_process": [],
+    "2DV1379NW:shared_process": []
   },
   "config": {},
   "info": {}
