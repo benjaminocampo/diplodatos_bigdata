@@ -380,9 +380,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Por que Scala\n\n* Spark esta escrito en Scala.\n    - Librerias en Scala más mantenidas que en Python o R.\n\n* Más eficiente\n\n![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/Simply+UDF+Perf.png)\n\n* En Big Data es conveniente tener tipos \n\n* Parecido a Python.\n    - Si saben Spark en Scala también lo saben en Python.\n\n\n",
+      "text": "%md\n### Por que Scala\n\n* Spark esta escrito en Scala.\n    - Librerias en Scala más mantenidas que en Python o R.\n\n* Más eficiente\n\n  ![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/Simply+UDF+Perf.png)\n\n  ([Apache Spark: Scala vs. Java v. Python vs. R vs. SQL](https://mindfulmachines.io/blog/2018/6/apache-spark-scala-vs-java-v-python-vs-r-vs-sql26))\n\n* En Big Data es conveniente tener tipos \n\n* Parecido a Python.\n    - Si saben Spark en Scala también lo saben en Python.\n\n\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 12, 2018 11:35:56 AM",
+      "dateUpdated": "Oct 12, 2018 5:08:53 PM",
       "config": {
         "colWidth": 12.0,
         "enabled": false,
@@ -404,7 +404,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003ePor que Scala\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003e\n    \u003cp\u003eSpark esta escrito en Scala.\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003eLibrerias en Scala más mantenidas que en Python o R.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eMás eficiente\u003c/p\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/Simply+UDF+Perf.png\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEn Big Data es conveniente tener tipos\u003c/p\u003e\u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eParecido a Python.\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003eSi saben Spark en Scala también lo saben en Python.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003ePor que Scala\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003e\n    \u003cp\u003eSpark esta escrito en Scala.\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003eLibrerias en Scala más mantenidas que en Python o R.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eMás eficiente\u003c/p\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/Simply+UDF+Perf.png\" /\u003e\u003c/p\u003e\n\u003cp\u003e(\u003ca href\u003d\"https://mindfulmachines.io/blog/2018/6/apache-spark-scala-vs-java-v-python-vs-r-vs-sql26\"\u003eApache Spark: Scala vs. Java v. Python vs. R vs. SQL\u003c/a\u003e)\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEn Big Data es conveniente tener tipos\u003c/p\u003e\u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eParecido a Python.\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003eSi saben Spark en Scala también lo saben en Python.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
@@ -412,8 +412,8 @@
       "jobName": "paragraph_1539354452290_-631340789",
       "id": "20181012-112732_1032620101",
       "dateCreated": "Oct 12, 2018 11:27:32 AM",
-      "dateStarted": "Oct 12, 2018 11:34:48 AM",
-      "dateFinished": "Oct 12, 2018 11:34:48 AM",
+      "dateStarted": "Oct 12, 2018 5:08:35 PM",
+      "dateFinished": "Oct 12, 2018 5:08:35 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -525,7 +525,7 @@
     },
     {
       "text": "%md\n\n## Ejecución de programas en Spark\n\n* En [Zeppelin](http://zeppelin.apache.org/) (como lo hacemos ahora)\n* En `spark-shell`\n* Como programa autónomo\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "dateUpdated": "Oct 12, 2018 5:06:46 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
