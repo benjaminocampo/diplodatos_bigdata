@@ -151,7 +151,7 @@
       "title": "Load Tweets",
       "text": "\nval tweets \u003d spark.read.parquet(\"../../diplodatos_bigdata/ds/tweets.pqt\")\ntweets.count\n\ntweets.show\n// RT_times es la cantidad de veces que el usuario retweeteo el tweet\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 24, 2018 11:23:21 AM",
+      "dateUpdated": "Oct 24, 2018 4:43:59 PM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -172,7 +172,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "tweets: org.apache.spark.sql.DataFrame \u003d [timestamp: bigint, user: string ... 3 more fields]\nres23: Long \u003d 172040\n+----------+---------------+---------------+--------+--------------------+\n| timestamp|           user|          RT_by|RT_times|                text|\n+----------+---------------+---------------+--------+--------------------+\n|1487970896|       ierrejon| teresapititesa|       2|RT @ierrejon: Aul...|\n|1487971010|    RobiBaradel|     itoferrero|       1|RT @RobiBaradel: ...|\n|1487971052|   vilma_ripoll|  PabloIannuzzi|       3|RT @vilma_ripoll:...|\n|1487971121|        fargosi|        PiaAsao|       3|RT @fargosi: Hay ...|\n|1487971177|      GFrondizi|tepergmailcomP1|       3|RT @GFrondizi: Pi...|\n|1487971184|    RobiBaradel|      Analiavc1|      41|RT @RobiBaradel: ...|\n|1487971345|SuperSecretario|        ari2271|      12|RT @SuperSecretar...|\n|1487971368|  MarinaVolpe12|  BocaLocura312|       1|RT @MarinaVolpe12...|\n|1487971408|    lanacionmas|susanamartimari|       2|RT @lanacionmas: ...|\n|1487971469|aeronauticosCFK|     andrea7533|      17|RT @aeronauticosC...|\n|1487971612|  sarachaga5218|  GiordanoMalvy|      34|RT @sarachaga5218...|\n|1487971617|        jaz_f45|    juampicasas|       1|RT @jaz_f45: Si p...|\n|1487971703|    martintetaz|     NICVILLADA|       5|RT @martintetaz: ...|\n|1487971846|      FlorLucas|   Valeriatulip|      18|RT @FlorLucas: #Y...|\n|1487971897|       clifpsdm|  LesbiaMatilde|       2|RT @clifpsdm: TAL...|\n|1487972061|      Silcristu|    mespondabur|      33|RT @Silcristu: @e...|\n|1487972158|  CieloArgento3|  CieloArgento3|      36|RT @CieloArgento3...|\n|1487972167|       emiantiK|      Silcristu|      50|RT @emiantiK: Saq...|\n|1487972176|Carlos_AD_Viola|  lauritalcalde|       3|RT @Carlos_AD_Vio...|\n|1487972236|     adrooyadru|       lilidepe|      24|RT @adrooyadru: #...|\n+----------+---------------+---------------+--------+--------------------+\nonly showing top 20 rows\n\n"
+            "data": "tweets: org.apache.spark.sql.DataFrame \u003d [timestamp: bigint, user: string ... 3 more fields]\nres1: Long \u003d 172040\n+----------+---------------+---------------+--------+--------------------+\n| timestamp|           user|          RT_by|RT_times|                text|\n+----------+---------------+---------------+--------+--------------------+\n|1487970896|       ierrejon| teresapititesa|       2|RT @ierrejon: Aul...|\n|1487971010|    RobiBaradel|     itoferrero|       1|RT @RobiBaradel: ...|\n|1487971052|   vilma_ripoll|  PabloIannuzzi|       3|RT @vilma_ripoll:...|\n|1487971121|        fargosi|        PiaAsao|       3|RT @fargosi: Hay ...|\n|1487971177|      GFrondizi|tepergmailcomP1|       3|RT @GFrondizi: Pi...|\n|1487971184|    RobiBaradel|      Analiavc1|      41|RT @RobiBaradel: ...|\n|1487971345|SuperSecretario|        ari2271|      12|RT @SuperSecretar...|\n|1487971368|  MarinaVolpe12|  BocaLocura312|       1|RT @MarinaVolpe12...|\n|1487971408|    lanacionmas|susanamartimari|       2|RT @lanacionmas: ...|\n|1487971469|aeronauticosCFK|     andrea7533|      17|RT @aeronauticosC...|\n|1487971612|  sarachaga5218|  GiordanoMalvy|      34|RT @sarachaga5218...|\n|1487971617|        jaz_f45|    juampicasas|       1|RT @jaz_f45: Si p...|\n|1487971703|    martintetaz|     NICVILLADA|       5|RT @martintetaz: ...|\n|1487971846|      FlorLucas|   Valeriatulip|      18|RT @FlorLucas: #Y...|\n|1487971897|       clifpsdm|  LesbiaMatilde|       2|RT @clifpsdm: TAL...|\n|1487972061|      Silcristu|    mespondabur|      33|RT @Silcristu: @e...|\n|1487972158|  CieloArgento3|  CieloArgento3|      36|RT @CieloArgento3...|\n|1487972167|       emiantiK|      Silcristu|      50|RT @emiantiK: Saq...|\n|1487972176|Carlos_AD_Viola|  lauritalcalde|       3|RT @Carlos_AD_Vio...|\n|1487972236|     adrooyadru|       lilidepe|      24|RT @adrooyadru: #...|\n+----------+---------------+---------------+--------+--------------------+\nonly showing top 20 rows\n\n"
           }
         ]
       },
@@ -180,23 +180,9 @@
       "jobName": "paragraph_1540387497626_1477843561",
       "id": "20171101-124010_495006264",
       "dateCreated": "Oct 24, 2018 10:24:57 AM",
-      "dateStarted": "Oct 24, 2018 11:21:57 AM",
-      "dateFinished": "Oct 24, 2018 11:21:58 AM",
+      "dateStarted": "Oct 24, 2018 4:44:00 PM",
+      "dateFinished": "Oct 24, 2018 4:44:33 PM",
       "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "user": "anonymous",
-      "config": {},
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "apps": [],
-      "jobName": "paragraph_1540390831652_-387285599",
-      "id": "20181024-112031_941730738",
-      "dateCreated": "Oct 24, 2018 11:20:31 AM",
-      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -241,7 +227,7 @@
       "title": "Generamos las conecciones por usuarios",
       "text": "val twitterConnections \u003d tweets\n                        .groupBy($\"user\", $\"RT_by\")\n                        .agg(sum($\"RT_times\").as(\"count_RT\"), count($\"*\").as(\"count_distinct_RT\"))\n\ntwitterConnections.count\n\nz.show(twitterConnections,5)\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 24, 2018 11:19:03 AM",
+      "dateUpdated": "Oct 24, 2018 4:45:09 PM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -262,7 +248,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "twitterConnections: org.apache.spark.sql.DataFrame \u003d [user: string, RT_by: string ... 2 more fields]\nres5: Long \u003d 152613\n"
+            "data": "twitterConnections: org.apache.spark.sql.DataFrame \u003d [user: string, RT_by: string ... 2 more fields]\nres7: Long \u003d 152613\n"
           },
           {
             "type": "TABLE",
@@ -274,8 +260,8 @@
       "jobName": "paragraph_1540387497626_1477843561",
       "id": "20171101-121958_1394663112",
       "dateCreated": "Oct 24, 2018 10:24:57 AM",
-      "dateStarted": "Oct 24, 2018 11:12:44 AM",
-      "dateFinished": "Oct 24, 2018 11:12:50 AM",
+      "dateStarted": "Oct 24, 2018 4:45:10 PM",
+      "dateFinished": "Oct 24, 2018 4:45:16 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -321,7 +307,7 @@
       "title": "Rename edges columns",
       "text": "val edgesDF \u003d twitterConnections.select($\"user\".as(\"src\"), $\"RT_by\".as(\"dst\"),\n                                       $\"count_RT\", $\"count_distinct_RT\")\n                                       \nedgesDF.printSchema\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 24, 2018 11:14:18 AM",
+      "dateUpdated": "Oct 24, 2018 4:45:30 PM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -350,8 +336,8 @@
       "jobName": "paragraph_1540387497627_1477458812",
       "id": "20171101-124136_101875926",
       "dateCreated": "Oct 24, 2018 10:24:57 AM",
-      "dateStarted": "Oct 24, 2018 11:14:18 AM",
-      "dateFinished": "Oct 24, 2018 11:14:19 AM",
+      "dateStarted": "Oct 24, 2018 4:45:30 PM",
+      "dateFinished": "Oct 24, 2018 4:45:31 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -359,7 +345,7 @@
       "title": "Create graph from edges",
       "text": "import org.graphframes._\n\nval graph \u003d GraphFrame.fromEdges(edgesDF)\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 24, 2018 11:15:33 AM",
+      "dateUpdated": "Oct 24, 2018 4:45:37 PM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -376,11 +362,11 @@
         "forms": {}
       },
       "results": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "msg": [
           {
             "type": "TEXT",
-            "data": "import org.graphframes._\ngraph: org.graphframes.GraphFrame \u003d GraphFrame(v:[id: string], e:[src: string, dst: string ... 2 more fields])\n\u003cconsole\u003e:41: error: value printSchema is not a member of org.graphframes.GraphFrame\n       graph.printSchema\n             ^\n"
+            "data": "import org.graphframes._\ngraph: org.graphframes.GraphFrame \u003d GraphFrame(v:[id: string], e:[src: string, dst: string ... 2 more fields])\n"
           }
         ]
       },
@@ -388,9 +374,9 @@
       "jobName": "paragraph_1540387497628_1475535067",
       "id": "20171101-124739_82230555",
       "dateCreated": "Oct 24, 2018 10:24:57 AM",
-      "dateStarted": "Oct 24, 2018 11:15:16 AM",
-      "dateFinished": "Oct 24, 2018 11:15:17 AM",
-      "status": "ERROR",
+      "dateStarted": "Oct 24, 2018 4:45:37 PM",
+      "dateFinished": "Oct 24, 2018 4:45:38 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -433,7 +419,7 @@
       "title": "Tamaño del grafo",
       "text": "val verticesCount \u003d graph.vertices.count\nprintln(\"Cantidad de nodos: \" + verticesCount)\n\nval edgesCount \u003d graph.edges.count\nprintln(\"Cantidad de conecciones: \" + edgesCount)\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 24, 2018 11:17:31 AM",
+      "dateUpdated": "Oct 24, 2018 4:45:42 PM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -462,15 +448,16 @@
       "jobName": "paragraph_1540387497628_1475535067",
       "id": "20171101-124845_773490911",
       "dateCreated": "Oct 24, 2018 10:24:57 AM",
-      "dateStarted": "Oct 24, 2018 11:17:31 AM",
-      "dateFinished": "Oct 24, 2018 11:17:46 AM",
+      "dateStarted": "Oct 24, 2018 4:45:42 PM",
+      "dateFinished": "Oct 24, 2018 4:46:03 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Cantidad de conecciones por usuario",
       "text": "val nodesDegree \u003d graph.degrees\n\nval sortedByDegree \u003d graph.degrees.orderBy($\"degree\".desc)\n\nz.show(sortedByDegree,10)\n",
-      "dateUpdated": "Oct 24, 2018 11:18:22 AM",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 4:46:16 PM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -485,12 +472,26 @@
         "params": {},
         "forms": {}
       },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "nodesDegree: org.apache.spark.sql.DataFrame \u003d [id: string, degree: int]\nsortedByDegree: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] \u003d [id: string, degree: int]\n"
+          },
+          {
+            "type": "TABLE",
+            "data": "id\tdegree\nWinston_Dunhill\t2325\nfernandocarnota\t1745\nsantosjorgeh\t1657\nlanatoparatodos\t1529\nJorgeFavaloro\t1483\nRobiBaradel\t1483\nelcoya1977\t1471\neldestapeweb\t1441\nlucaslauriente\t1422\nbetovaldez\t1407\n\u003c!--TABLE_COMMENT--\u003e\n\u003cfont color\u003dred\u003eResults are limited by 10.\u003c/font\u003e"
+          }
+        ]
+      },
       "apps": [],
       "jobName": "paragraph_1540387497629_1475150319",
       "id": "20171102-131720_1147432214",
       "dateCreated": "Oct 24, 2018 10:24:57 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateStarted": "Oct 24, 2018 4:46:17 PM",
+      "dateFinished": "Oct 24, 2018 4:46:27 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -627,8 +628,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "import org.apache.spark.sql.SaveMode\nval minCI : Long \u003d 29000000\nval minDegree : Long \u003d 600\n\n// tomo los usarios con mayor influencia o con más conecciones\nval ciTops \u003d collectiveInfluence.filter($\"ci\" \u003e\u003d minCI || $\"degree\" \u003e\u003d minDegree)\n\nval gInfluencers \u003d GraphFrame(ciTops, graph.edges)\n\nval veTops \u003d gInfluencers.find(\"(a)-[e]-\u003e(b)\")//.printSchema\n                .cache\n\nveTops.count\n\nval eTops \u003d veTops.select($\"e.*\")\n\neTops.printSchema\n\nval gTops \u003d GraphFrame(ciTops, eTops)\n\n\ngTops.vertices.select($\"*\", $\"id\".as(\"Label\")).coalesce(1)\n    .write.mode(SaveMode.Overwrite).option(\"header\",true)\n     .csv(\"/home/guest/curso_vates/ds/top_influencers.csv\")\n\ngTops.edges.select($\"src\".as(\"Source\"), $\"dst\".as(\"Target\"), $\"count_RT\",$\"count_distinct_RT\")\n     .coalesce(1)\n     .write.mode(SaveMode.Overwrite).option(\"header\",true)\n     .csv(\"/home/guest/curso_vates/ds/top_edges.csv\")\n\n",
-      "dateUpdated": "Oct 24, 2018 10:24:57 AM",
+      "text": "import org.apache.spark.sql.SaveMode\nval minCI : Long \u003d 29000000\nval minDegree : Long \u003d 600\n\n// tomo los usarios con mayor influencia o con más conecciones\nval ciTops \u003d collectiveInfluence.filter($\"ci\" \u003e\u003d minCI || $\"degree\" \u003e\u003d minDegree)\n\nval gInfluencers \u003d GraphFrame(ciTops, graph.edges)\n\nval veTops \u003d gInfluencers.find(\"(a)-[e]-\u003e(b)\")//.printSchema\n                .cache\n\nveTops.count\n\nval eTops \u003d veTops.select($\"e.*\")\n\neTops.printSchema\n\nval gTops \u003d GraphFrame(ciTops, eTops)\n\n\ngTops.vertices.select($\"*\", $\"id\".as(\"Label\")).coalesce(1)\n    .write.mode(SaveMode.Overwrite).option(\"header\",true)\n     .csv(\"top_influencers.csv\")\n\ngTops.edges.select($\"src\".as(\"Source\"), $\"dst\".as(\"Target\"), $\"count_RT\",$\"count_distinct_RT\")\n     .coalesce(1)\n     .write.mode(SaveMode.Overwrite).option(\"header\",true)\n     .csv(\"top_edges.csv\")\n\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 4:58:27 PM",
       "config": {
         "colWidth": 12.0,
         "editorMode": "ace/mode/scala",
@@ -642,12 +644,22 @@
         "params": {},
         "forms": {}
       },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.sql.SaveMode\nminCI: Long \u003d 29000000\nminDegree: Long \u003d 600\nciTops: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] \u003d [id: string, ci: bigint ... 1 more field]\ngInfluencers: org.graphframes.GraphFrame \u003d GraphFrame(v:[id: string, ci: bigint ... 1 more field], e:[src: string, dst: string ... 2 more fields])\nveTops: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] \u003d [a: struct\u003cid: string, ci: bigint ... 1 more field\u003e, e: struct\u003csrc: string, dst: string ... 2 more fields\u003e ... 1 more field]\nres50: Long \u003d 35\neTops: org.apache.spark.sql.DataFrame \u003d [src: string, dst: string ... 2 more fields]\nroot\n |-- src: string (nullable \u003d true)\n |-- dst: string (nullable \u003d true)\n |-- count_RT: long (nullable \u003d true)\n |-- count_distinct_RT: long (nullable \u003d false)\n\ngTops: org.graphframes.GraphFrame \u003d GraphFrame(v:[id: string, ci: bigint ... 1 more field], e:[src: string, dst: string ... 2 more fields])\n"
+          }
+        ]
+      },
       "apps": [],
       "jobName": "paragraph_1540387497635_1462068856",
       "id": "20171102-000354_1806019706",
       "dateCreated": "Oct 24, 2018 10:24:57 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateStarted": "Oct 24, 2018 4:58:27 PM",
+      "dateFinished": "Oct 24, 2018 4:59:22 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -687,8 +699,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n\n\u003eAntes de terminar llene el formulario en [https://goo.gl/forms/zRadmfVCsxXFkohY2](https://goo.gl/forms/zRadmfVCsxXFkohY2).\n",
-      "dateUpdated": "Oct 24, 2018 10:24:57 AM",
+      "text": "%md\n\n\u003eAntes de terminar llene el formulario en [https://goo.gl/forms/CPtPHPFZA35JI8QM2](https://goo.gl/forms/CPtPHPFZA35JI8QM2).\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 5:03:48 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -710,7 +723,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cblockquote\u003e\n  \u003cp\u003eAntes de terminar llene el formulario en \u003ca href\u003d\"https://goo.gl/forms/zRadmfVCsxXFkohY2\"\u003ehttps://goo.gl/forms/zRadmfVCsxXFkohY2\u003c/a\u003e.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cblockquote\u003e\n  \u003cp\u003eAntes de terminar llene el formulario en \u003ca href\u003d\"https://goo.gl/forms/CPtPHPFZA35JI8QM2\"\u003ehttps://goo.gl/forms/CPtPHPFZA35JI8QM2\u003c/a\u003e.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/div\u003e"
           }
         ]
       },
@@ -718,8 +731,9 @@
       "jobName": "paragraph_1540387497636_1460145111",
       "id": "20171102-130138_490210310",
       "dateCreated": "Oct 24, 2018 10:24:57 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateStarted": "Oct 24, 2018 5:03:41 PM",
+      "dateFinished": "Oct 24, 2018 5:03:43 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -759,8 +773,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "// take top n\nval topInfluencers \u003d collectiveInfluence... // solo los 5 primeros\n\nimport org.apache.spark.sql.SaveMode\n\n// Guardo Vértices\ntopInfluencers.select($\"*\", $\"id\".as(\"Label\")).coalesce(1)\n    .write.mode(SaveMode.Overwrite).option(\"header\",true).csv(\"/home/guest/curso_vates/ds/top_influencers2.csv\")\n\n\nval gTops2 \u003d GraphFrame(topInfluencers, graph.edges)\n\nval eTops2 \u003d gTops2.find(\"...\") // Encuentre las aristas que tienen nodos\n    .select($\"e.src\".as(\"Source\"),$\"e.dst\".as(\"Target\"),$\"e.count_RT\",$\"e.count_distinct_RT\")\n\neTops2.coalesce(1)\n        .write.mode(SaveMode.Overwrite).option(\"header\",true).csv(\"/home/guest/curso_vates/ds/top_edges2.csv\")\n",
-      "dateUpdated": "Oct 24, 2018 10:24:57 AM",
+      "text": "// take top n\nval topInfluencers \u003d collectiveInfluence... // solo los 5 primeros\n\nimport org.apache.spark.sql.SaveMode\n\n// Guardo Vértices\ntopInfluencers.select($\"*\", $\"id\".as(\"Label\")).coalesce(1)\n    .write.mode(SaveMode.Overwrite).option(\"header\",true).csv(\"top_influencers2.csv\")\n\n\nval gTops2 \u003d GraphFrame(topInfluencers, graph.edges)\n\nval eTops2 \u003d gTops2.find(\"...\") // Encuentre las aristas que tienen nodos\n    .select($\"e.src\".as(\"Source\"),$\"e.dst\".as(\"Target\"),$\"e.count_RT\",$\"e.count_distinct_RT\")\n\neTops2.coalesce(1)\n        .write.mode(SaveMode.Overwrite).option(\"header\",true).csv(\"top_edges2.csv\")\n",
+      "dateUpdated": "Oct 24, 2018 5:04:59 PM",
       "config": {
         "editorSetting": {
           "language": "scala"
