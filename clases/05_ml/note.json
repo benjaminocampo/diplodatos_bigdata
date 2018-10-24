@@ -37,9 +37,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Antes de comenzar\n#### En máquina virtual o nabuco\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd diplodatos_bigdata\ngit pull\n```\n1. Lanzar virtualenv python\n```sh\ncd\n. spark/python/zeppelin/bin/activate\n```\n\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/):\n```sh\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080)\n1. Seleccionar `Import note`\n1. Elegir json en `diplodatos_bigdata/clases/05_ml/note.json`\n2. Seleccionar `Clase 05 - Machine Learning`\n\n----\n\n#### En notebook \n\n##### instalar Python Matplotlib y Pandas\n\n* En la terminal ejecutar\n```sh\nsudo apt-get install python-matplotlib python-pandas python-plotly\n```\n\n",
+      "text": "%md\n### Antes de comenzar\n#### En máquina virtual o nabuco\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd diplodatos_bigdata\ngit pull\n```\n1. Lanzar virtualenv python\n```sh\ncd\n. spark/python/zeppelin/bin/activate\n```\n\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/):\n```sh\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080) o `http://nabucodonosor.ccad.unc.edu.ar:\u003cmi puerto\u003e`\n1. Seleccionar `Import note`\n1. Elegir json en `diplodatos_bigdata/clases/05_ml/note.json`\n2. Seleccionar `Clase 05 - Machine Learning`\n\n----\n\n#### En notebook \n\n##### instalar Python Matplotlib y Pandas\n\n* En la terminal ejecutar\n```sh\nsudo apt-get install python-matplotlib python-pandas python-plotly\n```\n\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 23, 2018 5:48:37 PM",
+      "dateUpdated": "Oct 24, 2018 10:46:37 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -61,7 +61,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eAntes de comenzar\u003c/h3\u003e\n\u003ch4\u003eEn máquina virtual o nabuco\u003c/h4\u003e\n\u003col\u003e\n  \u003cli\u003eLanzar terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repo:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd diplodatos_bigdata\ngit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar virtualenv python\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd\n. spark/python/zeppelin/bin/activate\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003eEn navegador abrir \u003ca href\u003d\"http://localhost:8080\"\u003ehttp://localhost:8080\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eImport note\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eElegir json en \u003ccode\u003ediplodatos_bigdata/clases/05_ml/note.json\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eClase 05 - Machine Learning\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003chr/\u003e\n\u003ch4\u003eEn notebook\u003c/h4\u003e\n\u003ch5\u003einstalar Python Matplotlib y Pandas\u003c/h5\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEn la terminal ejecutar\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003esudo apt-get install python-matplotlib python-pandas python-plotly\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eAntes de comenzar\u003c/h3\u003e\n\u003ch4\u003eEn máquina virtual o nabuco\u003c/h4\u003e\n\u003col\u003e\n  \u003cli\u003eLanzar terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repo:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd diplodatos_bigdata\ngit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar virtualenv python\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd\n. spark/python/zeppelin/bin/activate\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003eEn navegador abrir \u003ca href\u003d\"http://localhost:8080\"\u003ehttp://localhost:8080\u003c/a\u003e o \u003ccode\u003ehttp://nabucodonosor.ccad.unc.edu.ar:\u0026lt;mi puerto\u0026gt;\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eImport note\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eElegir json en \u003ccode\u003ediplodatos_bigdata/clases/05_ml/note.json\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eClase 05 - Machine Learning\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003chr/\u003e\n\u003ch4\u003eEn notebook\u003c/h4\u003e\n\u003ch5\u003einstalar Python Matplotlib y Pandas\u003c/h5\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEn la terminal ejecutar\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003esudo apt-get install python-matplotlib python-pandas python-plotly\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
@@ -69,8 +69,8 @@
       "jobName": "paragraph_1540325897963_1095473786",
       "id": "20171030-111641_2139999376",
       "dateCreated": "Oct 23, 2018 5:18:17 PM",
-      "dateStarted": "Oct 23, 2018 5:48:11 PM",
-      "dateFinished": "Oct 23, 2018 5:48:11 PM",
+      "dateStarted": "Oct 24, 2018 10:46:26 AM",
+      "dateFinished": "Oct 24, 2018 10:46:26 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
