@@ -1,0 +1,773 @@
+{
+  "paragraphs": [
+    {
+      "text": "print(s\"\"\"%html\n\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 23, 2018 8:10:25 PM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false,
+        "editorSetting": {
+          "language": "scala"
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284414_-595832070",
+      "id": "20161027-185750_417030348",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 23, 2018 8:10:12 PM",
+      "dateFinished": "Oct 23, 2018 8:10:12 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Abstracciones Básicas\n\n### Transformer\n\n* Toma un `DataFrame` y devuelven un `DataFrame` transformado.\n    - método `transform(\u003cDataFrame\u003e)`\n* Ejemplos:\n    - Transformador de features\n\n        %%% yuml type\u003dclass style\u003dplain format\u003dsvg\n          [note:Dataframe;Entrada{bg:cornsilk}]-\u003e[Transformer;(featurizer)|transform(){bg:orange}]\n          [Transformer;(featurizer)|transform(){bg:orange}]-\u003e[note:Dataframe; features{bg:cornsilk}]\n        %%%\n\n    - Modelo\n\n        %%% yuml type\u003dclass style\u003dplain format\u003dsvg\n          [note:Dataframe; features{bg:cornsilk}]-\u003e[Transformer;(modelo)|transform(){bg:orange}]\n          [Transformer;(modelo)|transform(){bg:orange}]-\u003e[note:Dataframe; predicción{bg:cornsilk}]\n        %%%\n\n\n### Estimator\n\n* Encapsula un algoritmo ML.\n* Toma un `DataFrame` de entrenamiento y devuelve un `Transformer`\n    - método `fit(\u003cDataFrame\u003e)`\n\n      %%% yuml type\u003dclass style\u003dplain format\u003dsvg\n         [note:Dataframe; features;(entrenamiento){bg:cornsilk}]-\u003e[Estimator;(algoritmo ML)|fit()]\n         [Estimator;(algoritmo ML)|fit(){bg:red}]-\u003e[note:Transformer;(modelo){bg:orange}]\n      %%%\n\n* Ejemplos:\n    - Logistic Regression\n\nVeamos el siguiente ejemplo.\n",
+      "dateUpdated": "Oct 23, 2018 8:10:42 PM",
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eAbstracciones Básicas\u003c/h2\u003e\n\u003ch3\u003eTransformer\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003eToma un \u003ccode\u003eDataFrame\u003c/code\u003e y devuelven un \u003ccode\u003eDataFrame\u003c/code\u003e transformado.\n    \u003cul\u003e\n      \u003cli\u003emétodo \u003ccode\u003etransform(\u0026lt;DataFrame\u0026gt;)\u003c/code\u003e\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eEjemplos:\n    \u003cul\u003e\n      \u003cli\u003e\n        \u003cp\u003eTransformador de features\u003c/p\u003e\u003cimg src\u003d\"http://yuml.me/diagram/plain/class/%5Bnote%3ADataframe%3BEntrada%7Bbg%3Acornsilk%7D%5D-%3E%5BTransformer%3B%28featurizer%29%7Ctransform%28%29%7Bbg%3Aorange%7D%5D%2C+%5BTransformer%3B%28featurizer%29%7Ctransform%28%29%7Bbg%3Aorange%7D%5D-%3E%5Bnote%3ADataframe%3B+features%7Bbg%3Acornsilk%7D%5D.svg\" title\u003d\"title\" /\u003e\n      \u003c/li\u003e\n      \u003cli\u003e\n        \u003cp\u003eModelo\u003c/p\u003e\u003cimg src\u003d\"http://yuml.me/diagram/plain/class/%5Bnote%3ADataframe%3B+features%7Bbg%3Acornsilk%7D%5D-%3E%5BTransformer%3B%28modelo%29%7Ctransform%28%29%7Bbg%3Aorange%7D%5D%2C+%5BTransformer%3B%28modelo%29%7Ctransform%28%29%7Bbg%3Aorange%7D%5D-%3E%5Bnote%3ADataframe%3B+predicci%C3%B3n%7Bbg%3Acornsilk%7D%5D.svg\" title\u003d\"title\" /\u003e\n      \u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eEstimator\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003eEncapsula un algoritmo ML.\u003c/li\u003e\n  \u003cli\u003eToma un \u003ccode\u003eDataFrame\u003c/code\u003e de entrenamiento y devuelve un \u003ccode\u003eTransformer\u003c/code\u003e\n    \u003cul\u003e\n      \u003cli\u003emétodo \u003ccode\u003efit(\u0026lt;DataFrame\u0026gt;)\u003c/code\u003e\u003c/li\u003e\n    \u003c/ul\u003e\u003cimg src\u003d\"http://yuml.me/diagram/plain/class/%5Bnote%3ADataframe%3B+features%3B%28entrenamiento%29%7Bbg%3Acornsilk%7D%5D-%3E%5BEstimator%3B%28algoritmo%E2%80%82ML%29%7Cfit%28%29%5D%2C+%5BEstimator%3B%28algoritmo%E2%80%82ML%29%7Cfit%28%29%7Bbg%3Ared%7D%5D-%3E%5Bnote%3ATransformer%3B%28modelo%29%7Bbg%3Aorange%7D%5D.svg\" title\u003d\"title\" /\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eEjemplos:\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003eLogistic Regression\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eVeamos el siguiente ejemplo.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284416_-511956810",
+      "id": "20161027-185927_1249905112",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Datos de entrenamiento",
+      "text": "import org.apache.spark.sql.DataFrame\n\nval training : DataFrame \u003d \n    spark.createDataFrame(Seq(\n        (0L, \"a b c d e spark a\", 1.0),\n        (1L, \"b d\", 0.0),\n        (2L, \"spark f g h\", 1.0),\n        (3L, \"hadoop a mapreduce\", 0.0)\n    )).toDF(\"id\", \"text\", \"label\")\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 10:06:50 AM",
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.sql.DataFrame\ntraining: org.apache.spark.sql.DataFrame \u003d [id: bigint, text: string ... 1 more field]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284416_-511956810",
+      "id": "20161027-192753_1880015042",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 24, 2018 10:06:50 AM",
+      "dateFinished": "Oct 24, 2018 10:06:51 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Featurization",
+      "text": "import org.apache.spark.ml.feature.{HashingTF, Tokenizer}\n\n// Creo Tokenizer Transformer\nval tokenizer \u003d new Tokenizer()\n  .setInputCol(\"text\")\n  .setOutputCol(\"words\")\n\n// Aplico la transformación devolviendo un nuevo dataframe\nval tokenizerOut : DataFrame \u003d tokenizer.transform(training)\n\nz.show(tokenizerOut)\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 10:07:21 AM",
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.ml.feature.{HashingTF, Tokenizer}\ntokenizer: org.apache.spark.ml.feature.Tokenizer \u003d tok_9b68b93f1b6b\ntokenizerOut: org.apache.spark.sql.DataFrame \u003d [id: bigint, text: string ... 2 more fields]\n"
+          },
+          {
+            "type": "TABLE",
+            "data": "id\ttext\tlabel\twords\n0\ta b c d e spark a\t1.0\tWrappedArray(a, b, c, d, e, spark, a)\n1\tb d\t0.0\tWrappedArray(b, d)\n2\tspark f g h\t1.0\tWrappedArray(spark, f, g, h)\n3\thadoop a mapreduce\t0.0\tWrappedArray(hadoop, a, mapreduce)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284417_-512341559",
+      "id": "20161027-193120_515869320",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 24, 2018 10:07:21 AM",
+      "dateFinished": "Oct 24, 2018 10:07:21 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// Creo un Term Frecuency Transformer con hash\nval hashingTF \u003d new HashingTF()\n  .setNumFeatures(1000)\n  .setInputCol(tokenizer.getOutputCol)\n  .setOutputCol(\"features\")\n\n// Aplico la transformación al resultado de la transformación previa\nval hashingTFOut : DataFrame \u003d hashingTF.transform(tokenizerOut)\nhashingTFOut.printSchema \n// Notar tipo de la columna \"features\"\n// El primer elemento de la tupla es el tamaño\n\nz.show(hashingTFOut)\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 10:07:35 AM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "results": {},
+        "enabled": true,
+        "editorSetting": {
+          "language": "scala"
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "hashingTF: org.apache.spark.ml.feature.HashingTF \u003d hashingTF_122fd5d8d414\nhashingTFOut: org.apache.spark.sql.DataFrame \u003d [id: bigint, text: string ... 3 more fields]\nroot\n |-- id: long (nullable \u003d false)\n |-- text: string (nullable \u003d true)\n |-- label: double (nullable \u003d false)\n |-- words: array (nullable \u003d true)\n |    |-- element: string (containsNull \u003d true)\n |-- features: vector (nullable \u003d true)\n\n"
+          },
+          {
+            "type": "TABLE",
+            "data": "id\ttext\tlabel\twords\tfeatures\n0\ta b c d e spark a\t1.0\tWrappedArray(a, b, c, d, e, spark, a)\t(1000,[94,105,170,361,722,878],[1.0,1.0,2.0,1.0,1.0,1.0])\n1\tb d\t0.0\tWrappedArray(b, d)\t(1000,[94,361],[1.0,1.0])\n2\tspark f g h\t1.0\tWrappedArray(spark, f, g, h)\t(1000,[105,248,282,417],[1.0,1.0,1.0,1.0])\n3\thadoop a mapreduce\t0.0\tWrappedArray(hadoop, a, mapreduce)\t(1000,[170,181,953],[1.0,1.0,1.0])\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284418_-511187312",
+      "id": "20171115-095457_1156237442",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 24, 2018 10:07:35 AM",
+      "dateFinished": "Oct 24, 2018 10:07:35 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Creación del modelo",
+      "text": "import org.apache.spark.ml.classification.LogisticRegression\n\n// Creo el Estimator\nval lr \u003d new LogisticRegression()\n  .setMaxIter(10)\n  .setRegParam(0.01)\n  \n// Entreno el Estimador obteniendo un modelo\nval model \u003d lr.fit(hashingTFOut)\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 10:08:27 AM",
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.ml.classification.LogisticRegression\nlr: org.apache.spark.ml.classification.LogisticRegression \u003d logreg_9e396f99de37\nmodel: org.apache.spark.ml.classification.LogisticRegressionModel \u003d logreg_9e396f99de37\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284418_-511187312",
+      "id": "20161027-194846_129661804",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 24, 2018 10:08:27 AM",
+      "dateFinished": "Oct 24, 2018 10:08:30 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Predicción con modelo",
+      "text": "// Creo un DF para testearel modelo\nval test \u003d spark.createDataFrame(Seq(\n  (4L, \"spark i j k\"),\n  (5L, \"l m n\"),\n  (6L, \"mapreduce spark\"),\n  (7L, \"apache hadoop\"),\n  (8L, \"spark f j k\")\n)).toDF(\"id\", \"text\")\n\n\n// Featurizo el test\nval testFeatures \u003d hashingTF.transform(tokenizer.transform(test))\n\nval predictions \u003d model.transform(testFeatures)\n\nz.show(predictions.select(\"id\", \"text\", \"probability\", \"prediction\"))\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 10:08:42 AM",
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "test: org.apache.spark.sql.DataFrame \u003d [id: bigint, text: string]\ntestFeatures: org.apache.spark.sql.DataFrame \u003d [id: bigint, text: string ... 2 more fields]\npredictions: org.apache.spark.sql.DataFrame \u003d [id: bigint, text: string ... 5 more fields]\n"
+          },
+          {
+            "type": "TABLE",
+            "data": "id\ttext\tprobability\tprediction\n4\tspark i j k\t[0.6055476466192419,0.3944523533807581]\t0.0\n5\tl m n\t[0.954126238851537,0.045873761148463005]\t0.0\n6\tmapreduce spark\t[0.8365768944495406,0.16342310555045933]\t0.0\n7\tapache hadoop\t[0.9857864449916622,0.014213555008337634]\t0.0\n8\tspark f j k\t[0.25910961733038906,0.7408903826696108]\t1.0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284419_-511572061",
+      "id": "20161027-195542_1318506384",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 24, 2018 10:08:42 AM",
+      "dateFinished": "Oct 24, 2018 10:08:43 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n## Pipelines\n\n* Abstracción del flujo de trabajo en ML:\n\n      %%% yuml style\u003dplain scale\u003d80 dir\u003dLR format\u003dsvg\n        [Featurization]-\u003e[Entrenamiento]\n        [Entrenamiento]-\u003e[Modelo]\n        [Modelo]-\u003e[Predicción]\n        [Modelo]-\u003e[Evaluación]\n      %%%\n\n* Para su construcción toma **Transformers** y **Estimators** (llamados Stages)\n    - los concatena\n\n* Es un **Estimator**\n    - método `fit(\u003cDataFramee\u003e)` devuelve un `PipelineModel` (Transformer)\n",
+      "dateUpdated": "Oct 23, 2018 6:31:24 PM",
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003ePipelines\u003c/h2\u003e\n\u003cul\u003e\n  \u003cli\u003e\n    \u003cp\u003eAbstracción del flujo de trabajo en ML:\u003c/p\u003e\u003cimg src\u003d\"http://yuml.me/diagram/plain;dir:LR;scale:80/class/%5BFeaturization%5D-%3E%5BEntrenamiento%5D%2C+%5BEntrenamiento%5D-%3E%5BModelo%5D%2C+%5BModelo%5D-%3E%5BPredicci%C3%B3n%5D%2C+%5BModelo%5D-%3E%5BEvaluaci%C3%B3n%5D.svg\" title\u003d\"title\" /\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003ePara su construcción toma \u003cstrong\u003eTransformers\u003c/strong\u003e y \u003cstrong\u003eEstimators\u003c/strong\u003e (llamados Stages)\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003elos concatena\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eEs un \u003cstrong\u003eEstimator\u003c/strong\u003e\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003emétodo \u003ccode\u003efit(\u0026lt;DataFramee\u0026gt;)\u003c/code\u003e devuelve un \u003ccode\u003ePipelineModel\u003c/code\u003e (Transformer)\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284419_-511572061",
+      "id": "20161028-141905_1713895534",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "import org.apache.spark.ml.{Pipeline, PipelineModel}\n\n// Creo el pipeline con los Transformers y el Estimator\nval pipeline \u003d new Pipeline()\n  .setStages(Array(tokenizer, hashingTF, lr))\n\n// Entreno el pipeline\nval pipModel \u003d pipeline.fit(training)\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 10:10:39 AM",
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.ml.{Pipeline, PipelineModel}\npipeline: org.apache.spark.ml.Pipeline \u003d pipeline_5f5d4e051d40\npipModel: org.apache.spark.ml.PipelineModel \u003d pipeline_5f5d4e051d40\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284420_-513495805",
+      "id": "20161028-160715_1700211199",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 24, 2018 10:10:39 AM",
+      "dateFinished": "Oct 24, 2018 10:10:40 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Pipeline de entrenamiento",
+      "text": "print(s\"\"\"%html\n\u003cimg src\u003d\"$baseDir/06_ml_pipelines/ml-Pipeline.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "Oct 23, 2018 8:17:28 PM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "title": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false,
+        "editorSetting": {
+          "language": "scala"
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cimg src\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/06_ml_pipelines/ml-Pipeline.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284420_-513495805",
+      "id": "20161028-155205_837419355",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 23, 2018 8:17:22 PM",
+      "dateFinished": "Oct 23, 2018 8:17:22 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### PipelineModel\n\n* El resultado anterior es un modelo (Transformer) que se puede usar para predecir\n    - método `transform(\u003cDataFrame\u003e)`\n* Usa los mismos Transformers de *featurizacion* que para el entrenamiento\n",
+      "dateUpdated": "Oct 23, 2018 6:31:24 PM",
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003ePipelineModel\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003eEl resultado anterior es un modelo (Transformer) que se puede usar para predecir\n    \u003cul\u003e\n      \u003cli\u003emétodo \u003ccode\u003etransform(\u0026lt;DataFrame\u0026gt;)\u003c/code\u003e\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eUsa los mismos Transformers de \u003cem\u003efeaturizacion\u003c/em\u003e que para el entrenamiento\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284421_-513880554",
+      "id": "20161028-160002_1792875570",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// El modelo en el pipeline solo necesita el Raw Test:\n// automaticamente aplica los transformadores de features\n// y hace predicciones.\n\nval predictions \u003d pipModel.transform(test)\n\nz.show(predictions.select(\"id\", \"text\", \"probability\", \"prediction\"))\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 10:12:06 AM",
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "predictions: org.apache.spark.sql.DataFrame \u003d [id: bigint, text: string ... 5 more fields]\n"
+          },
+          {
+            "type": "TABLE",
+            "data": "id\ttext\tprobability\tprediction\n4\tspark i j k\t[0.605547646619242,0.39445235338075796]\t0.0\n5\tl m n\t[0.954126238851537,0.045873761148462984]\t0.0\n6\tmapreduce spark\t[0.8365768944495406,0.16342310555045925]\t0.0\n7\tapache hadoop\t[0.9857864449916622,0.014213555008337634]\t0.0\n8\tspark f j k\t[0.2591096173303891,0.7408903826696108]\t1.0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284422_-512726308",
+      "id": "20171115-101137_579818646",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 24, 2018 10:12:06 AM",
+      "dateFinished": "Oct 24, 2018 10:12:07 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "print(s\"\"\"%html\n\u003cimg src\u003d\"$baseDir/06_ml_pipelines/ml-PipelineModel.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 23, 2018 8:18:08 PM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false,
+        "editorSetting": {
+          "language": "scala"
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cimg src\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/06_ml_pipelines/ml-PipelineModel.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284422_-512726308",
+      "id": "20161028-160514_1612337572",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 23, 2018 8:17:56 PM",
+      "dateFinished": "Oct 23, 2018 8:17:56 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Persistencia",
+      "text": "// El pipeline entrenado se puede guardar\npipModel.write.overwrite().save(\"/tmp/spark-logistic-regression-model\")\n\n// Y cargarlo para la etapa de uso\nval samePipModel \u003d PipelineModel.load(\"/tmp/spark-logistic-regression-model\")\n\n// Tambien el pipeline sin entrenar\npipeline.write.overwrite().save(\"/tmp/unfit-lr-model\")\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 24, 2018 10:12:13 AM",
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "samePipModel: org.apache.spark.ml.PipelineModel \u003d pipeline_5f5d4e051d40\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284423_-513111057",
+      "id": "20171115-101044_1013070913",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 24, 2018 10:12:13 AM",
+      "dateFinished": "Oct 24, 2018 10:12:16 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Fin",
+      "text": "val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "Oct 23, 2018 8:09:36 PM",
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "title": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "baseDir: String \u003d https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\n"
+          },
+          {
+            "type": "HTML",
+            "data": "\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284423_-513111057",
+      "id": "20161027-191821_1441900429",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "dateStarted": "Oct 23, 2018 8:09:36 PM",
+      "dateFinished": "Oct 23, 2018 8:09:37 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "dateUpdated": "Oct 23, 2018 6:31:24 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1540330284424_-515034801",
+      "id": "20161027-191945_2141015936",
+      "dateCreated": "Oct 23, 2018 6:31:24 PM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Clase 06 - ML Pipelines",
+  "id": "2DVUWJFQX",
+  "angularObjects": {
+    "2CVPMZQDC:shared_process": [],
+    "2CVZRWYXD:shared_process": [],
+    "2CXC3J873:shared_process": [],
+    "2CW9KVZFB:shared_process": [],
+    "2CWBZB5J2:shared_process": [],
+    "2CWQPZNH6:shared_process": [],
+    "2CWB7GZBS:shared_process": [],
+    "2CUMUUMCY:shared_process": [],
+    "2CX36SA9F:shared_process": [],
+    "2CVWTU38R:shared_process": [],
+    "2CVGJFNZ4:shared_process": [],
+    "2CUKDKYCE:shared_process": [],
+    "2CWDFCUCZ:shared_process": [],
+    "2CUNFHEUZ:shared_process": [],
+    "2CW49AZMR:shared_process": [],
+    "2CWE35VRJ:shared_process": [],
+    "2CWV6WPV3:shared_process": [],
+    "2CXGQWA1W:shared_process": [],
+    "2CUU3PNNG:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
