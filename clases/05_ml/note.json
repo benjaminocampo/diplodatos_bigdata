@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "print(s\"\"\"%html\n\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\"\"\")\n\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -27,16 +27,17 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684783_1994136618",
+      "jobName": "paragraph_1540564821627_-354869264",
       "id": "20171030-111535_1286884722",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Antes de comenzar\n#### En máquina virtual o nabuco\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd diplodatos_bigdata\ngit pull\n```\n1. Lanzar virtualenv python\n```sh\ncd\n. spark/python/zeppelin/bin/activate\n```\n\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/):\n```sh\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080) o `http://nabucodonosor.ccad.unc.edu.ar:\u003cmi puerto\u003e`\n1. Seleccionar `Import note`\n1. Elegir json en `diplodatos_bigdata/clases/05_ml/note.json`\n2. Seleccionar `Clase 05 - Machine Learning`\n\n----\n\n#### En notebook \n\n##### instalar Python Matplotlib y Pandas\n\n* En la terminal ejecutar\n```sh\nsudo apt-get install python-matplotlib python-pandas python-plotly\n```\n\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "text": "%md\n### Antes de comenzar\n#### En máquina virtual o nabuco\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd diplodatos_bigdata\ngit pull\n```\n1. Instalar una virtualenv\n```sh\ncd\ncd spark\nvirtualenv -p /usr/bin/python2 python_zeppelin\n. python_zeppelin/bin/activate\npip install matplotlib pandas plotly\n```\n\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/):\n```sh\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080) o `http://nabucodonosor.ccad.unc.edu.ar:\u003cmi puerto\u003e`\n1. Seleccionar `Import note`\n1. Elegir json en `diplodatos_bigdata/clases/05_ml/note.json`\n2. Seleccionar `Clase 05 - Machine Learning`\n\n----\n\n#### En notebook \n\n##### instalar Python Matplotlib y Pandas\n\n* En la terminal ejecutar\n```sh\nsudo apt-get install python-matplotlib python-pandas python-plotly\n```\n\n",
+      "user": "anonymous",
+      "dateUpdated": "Oct 26, 2018 12:21:05 PM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -58,21 +59,22 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eAntes de comenzar\u003c/h3\u003e\n\u003ch4\u003eEn máquina virtual o nabuco\u003c/h4\u003e\n\u003col\u003e\n  \u003cli\u003eLanzar terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repo:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd diplodatos_bigdata\ngit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar virtualenv python\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd\n. spark/python/zeppelin/bin/activate\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003eEn navegador abrir \u003ca href\u003d\"http://localhost:8080\"\u003ehttp://localhost:8080\u003c/a\u003e o \u003ccode\u003ehttp://nabucodonosor.ccad.unc.edu.ar:\u0026lt;mi puerto\u0026gt;\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eImport note\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eElegir json en \u003ccode\u003ediplodatos_bigdata/clases/05_ml/note.json\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eClase 05 - Machine Learning\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003chr/\u003e\n\u003ch4\u003eEn notebook\u003c/h4\u003e\n\u003ch5\u003einstalar Python Matplotlib y Pandas\u003c/h5\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEn la terminal ejecutar\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003esudo apt-get install python-matplotlib python-pandas python-plotly\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eAntes de comenzar\u003c/h3\u003e\n\u003ch4\u003eEn máquina virtual o nabuco\u003c/h4\u003e\n\u003col\u003e\n  \u003cli\u003eLanzar terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repo:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd diplodatos_bigdata\ngit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eInstalar una virtualenv\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd\ncd spark\nvirtualenv -p /usr/bin/python2 python_zeppelin\n. python_zeppelin/bin/activate\npip install matplotlib pandas plotly\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003eEn navegador abrir \u003ca href\u003d\"http://localhost:8080\"\u003ehttp://localhost:8080\u003c/a\u003e o \u003ccode\u003ehttp://nabucodonosor.ccad.unc.edu.ar:\u0026lt;mi puerto\u0026gt;\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eImport note\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eElegir json en \u003ccode\u003ediplodatos_bigdata/clases/05_ml/note.json\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eClase 05 - Machine Learning\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003chr/\u003e\n\u003ch4\u003eEn notebook\u003c/h4\u003e\n\u003ch5\u003einstalar Python Matplotlib y Pandas\u003c/h5\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEn la terminal ejecutar\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003esudo apt-get install python-matplotlib python-pandas python-plotly\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684790_2003755340",
+      "jobName": "paragraph_1540564821628_-356793009",
       "id": "20171030-111641_2139999376",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
+      "dateStarted": "Oct 26, 2018 12:19:21 PM",
+      "dateFinished": "Oct 26, 2018 12:19:21 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n# Machine Learning\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -99,16 +101,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684791_2003370592",
+      "jobName": "paragraph_1540564821628_-356793009",
       "id": "20171030-131603_726204322",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Programación tradicional\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:Datos Entrada{bg:cornsilk}]-\u003e[Algoritmo{bg:red}]\n  [Algoritmo{bg:red}]-\u003e[note:Datos Salida{bg:cornsilk}]\n%%%\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -135,17 +137,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684792_2001446847",
+      "jobName": "paragraph_1540564821628_-356793009",
       "id": "20171030-131619_420103761",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Machine Learning \u003d algoritmos que generan algoritmos.",
-      "user": "anonymous",
-      "dateUpdated": "Oct 26, 2018 10:49:18 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -172,17 +173,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684795_2001831596",
+      "jobName": "paragraph_1540564821629_-357177758",
       "id": "20171030-131659_166449551",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
-      "dateStarted": "Oct 26, 2018 10:49:08 AM",
-      "dateFinished": "Oct 26, 2018 10:49:10 AM",
-      "status": "FINISHED",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
+      "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n#### Entrenamiento:\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:Datos;Entrenamiento{bg:cornsilk}]-\u003e[Algoritmo;ML{bg:red}]\n  [Algoritmo;ML{bg:red}]-\u003e[note:Algoritmo;(modelo){bg:orange}]\n%%%\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -209,16 +209,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684796_1999907851",
+      "jobName": "paragraph_1540564821629_-357177758",
       "id": "20171030-131720_1434322443",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n#### Uso:\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:Datos Entrada{bg:cornsilk}]-\u003e[Algoritmo;(modelo){bg:orange}]\n  [Algoritmo;(Modelo)]-\u003e[note:Datos Salida{bg:cornsilk}]\n%%%\n\n\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -245,9 +245,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684796_1999907851",
+      "jobName": "paragraph_1540564821630_-356023511",
       "id": "20171030-113042_604094829",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -255,7 +255,7 @@
     {
       "title": "Todo junto:",
       "text": "%md\n%%% yuml type\u003dclass style\u003dplain dir\u003dlr format\u003dsvg\n  [note:Datos;Entrenamiento{bg:cornsilk}]-\u003e[Algoritmo;ML]\n  [Algoritmo;ML{bg:red}]-\u003e[Algoritmo;(modelo){bg:orange}]\n  [note:Datos Entrada{bg:cornsilk}]-\u003e[Algoritmo;(modelo){bg:orange}]\n  [Algoritmo;(Modelo)]-\u003e[note:Datos Salida{bg:cornsilk}]\n%%%\n\n\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -283,16 +283,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684797_1999523103",
+      "jobName": "paragraph_1540564821630_-356023511",
       "id": "20171030-115900_1686761842",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n# Spark Machine Learning Library (MLlib)\n\n* Algoritmos ML: clasificación, regresión, clustering, filtrado colaborativo (recomendación), etc.\n* Manejo de features (featurization): extracción de features, transformación, reducción de dimensionalidad, selección, etc.\n* Pipelines: abstracción que representa flujo de trabajo en ML.\n* Persistencia: carga y guardado de modelos, algoritmos y pipelines.\n* Utilidades: álgebra lineal, estadística, manejo de datos, etc.\n* 2 APIs: sobre RDD (spark.mllib) o DataFrame (spark.ml)\n\n### Novedades!\n\nEn 2.0.0+ La API basada en **Dataframe** (spark.ml) es *primary API*:\n* No se agregan nuevas características a la API RDD (spark.mllib).\n* Solo se le corregirán errores.\n* Se irán agregando features de RDD a la API DataFrame.\n* En Spark 2.2 la API *deprecated*.\n* En Spark 3.0 se eliminará.\n\n#### Por lo tanto veremos la API basada en DataFrame\n\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -319,16 +319,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684799_2000292600",
+      "jobName": "paragraph_1540564821630_-356023511",
       "id": "20181023-183558_542765570",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Tipos Básicos\n\n#### Todo es\n* Estimator \u003d Algoritmo ML (algoritmo que genera algoritmo)\n* Transformer \u003d Modelo (algoritmo)",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -355,16 +355,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684801_1985672142",
+      "jobName": "paragraph_1540564821631_-356408260",
       "id": "20171030-131935_1623447756",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n#### Entrenamiento:\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:Dataframe;Entrenamiento{bg:cornsilk}]-\u003e[Estimator;(algoritmo ML)|fit()]\n  [Estimator;(algoritmo ML)|fit(){bg:red}]-\u003e[note:Transformer;(modelo){bg:orange}]\n%%%\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -391,16 +391,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684802_1986826389",
+      "jobName": "paragraph_1540564821631_-356408260",
       "id": "20171030-132019_183881887",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n#### Uso:\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:Dataframe;Entrada{bg:cornsilk}]-\u003e[Transformer;(modelo)|transform(){bg:orange}]\n  [Transformer;(modelo)|transform(){bg:orange}]-\u003e[note:Dataframe;Salida{bg:cornsilk}]\n%%%\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -427,16 +427,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684803_1986441640",
+      "jobName": "paragraph_1540564821632_-272148251",
       "id": "20171030-124531_1138034350",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Ejemplo\n\n### Predicción de género a partir del peso y la altura.\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -463,9 +463,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684804_1984517895",
+      "jobName": "paragraph_1540564821632_-272148251",
       "id": "20171030-161240_1927838355",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -473,7 +473,7 @@
     {
       "title": "Lectura datos de entrada",
       "text": "val inputFile \u003d \"../../diplodatos_bigdata/ds/people_sex_height_age_weight.json\"\n\nval people \u003d spark.read.json(inputFile)\n    .select($\"kgs\", $\"mts\", $\"sex\")\n    .repartition(sc.defaultParallelism)\n    .cache\n    \npeople.count\n\nz.show(people.sample(false,0.001),5)",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -502,9 +502,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684806_1985287393",
+      "jobName": "paragraph_1540564821632_-272148251",
       "id": "20161101-163522_1877878760",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -512,7 +512,7 @@
     {
       "title": "División datos para entrenamiento y test",
       "text": "val Array(trainDF, testDF) \u003d people.randomSplit(Array(0.95, 0.05)) \n\ntestDF.count\ntrainDF.count",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -528,9 +528,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684807_1984902644",
+      "jobName": "paragraph_1540564821632_-272148251",
       "id": "20171030-162612_256050184",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -538,7 +538,7 @@
     {
       "title": "Features",
       "text": "%md\n### Features\n\nLos algoritmos ML utilizan datos numeŕicos:\n\n* Como **entrada** toman un vector numérico - **vector de features**\n* Como predicción de **salida** producen números - **labels**\n\nPor lo tanto hay que trasnsformar los datos de entrada.",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -566,16 +566,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684808_1982978900",
+      "jobName": "paragraph_1540564821633_-272533000",
       "id": "20171030-162516_498978901",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Transformador de features\n\n\n        %%% yuml type\u003dclass style\u003dplain format\u003dsvg\n          [note:Dataframe;Entrada{bg:cornsilk}]-\u003e[Transformer;(featurizer)|transform(){bg:orange}]\n          [Transformer;(featurizer)|transform(){bg:orange}]-\u003e[note:Dataframe; vector features{bg:cornsilk}]\n        %%%\n\n#### (todo es Transformer o Estimator)\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -602,9 +602,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684809_1982594151",
+      "jobName": "paragraph_1540564821634_-271378753",
       "id": "20181023-184758_264849729",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -612,7 +612,7 @@
     {
       "title": "Creación de vector de features (entrada)",
       "text": "import org.apache.spark.ml.feature.VectorAssembler\n\nval vAssembler \u003d new VectorAssembler()\n  .setInputCols(Array(\"kgs\", \"mts\"))\n  .setOutputCol(\"features\")\n\nval trainAssembled \u003d vAssembler.transform(trainDF)\n\nz.show(trainAssembled,5)",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -629,16 +629,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684810_1983748398",
+      "jobName": "paragraph_1540564821634_-271378753",
       "id": "20171030-163816_785316912",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n#### VectorAssembler es un **Transformer**\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:trainDF{bg:cornsilk}]-\u003e[vAssembler;(modelo)|transform(){bg:orange}]\n  [vAssembler;(modelo)|transform(){bg:orange}]-\u003e[note:trainAssembled{bg:cornsilk}]\n%%%\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -665,9 +665,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684811_1983363649",
+      "jobName": "paragraph_1540564821634_-271378753",
       "id": "20171030-170208_678915767",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -675,7 +675,7 @@
     {
       "title": "Creación de Labels (predicción)",
       "text": "%md Es necesario leer toda la entrada.",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -703,9 +703,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684814_1982209402",
+      "jobName": "paragraph_1540564821635_-271763502",
       "id": "20171030-165531_1386883868",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -713,7 +713,7 @@
     {
       "title": "Creación de Labels",
       "text": "import org.apache.spark.ml.feature.StringIndexer\n\nval strIndexer \u003d new StringIndexer()\n  .setInputCol(\"sex\")\n  .setOutputCol(\"label\")\n\n// indexer tiene que leer la entrada\nval sexIndexer \u003d strIndexer.fit(trainAssembled)\n\nval trainFeaturized \u003d sexIndexer.transform(trainAssembled)\n\nz.show(trainFeaturized,5)\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -729,16 +729,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684815_1981824653",
+      "jobName": "paragraph_1540564821635_-271763502",
       "id": "20171030-164611_870874723",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n#### StringIndexer es un Estimator\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:trainAssembled{bg:cornsilk}]-\u003e[strIdexer;(algoritmo)|fit(){bg:red}]\n  [strIdexer;(algoritmo)|fit(){bg:red}]-\u003e[note:sexIndexer;(model){bg:orange}]\n%%%\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:trainAssembled{bg:cornsilk}]-\u003e[sexIndexer;(model)|transform(){bg:orange}]\n  [sexIndexer;(model)|transform(){bg:orange}]-\u003e[note:trainFeaturized{bg:cornsilk}]\n%%%\n\n#### Más información\n* [Spark Docs - Extracting, transforming and selecting features](http://spark.apache.org/docs/latest/ml-features.html).\n\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -765,16 +765,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684816_1992212873",
+      "jobName": "paragraph_1540564821636_-273687247",
       "id": "20171030-170028_1904063913",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Visualización",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -801,9 +801,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684817_1991828125",
+      "jobName": "paragraph_1540564821636_-273687247",
       "id": "20171030-182836_1299248311",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -811,7 +811,7 @@
     {
       "title": "Image plotter en Python",
       "text": "%pyspark\n\ndef plot_classification(nomTable\u003d\"test\",surfaceTable\u003d\"grid\", prob\u003dFalse):\n    import matplotlib.pyplot as plt\n    import numpy as np\n    import matplotlib.cm as cm\n\n    from matplotlib.colors import ListedColormap, LinearSegmentedColormap\n\n    cmap_light \u003d LinearSegmentedColormap.from_list(\"light\", [\u0027#FF5555\u0027, \u0027#5555FF\u0027])\n    cmap_pastel \u003d LinearSegmentedColormap.from_list(\"pastel\", [\u0027#FF8888\u0027, \u0027#8888FF\u0027])\n    cmap_bold \u003d ListedColormap([\u0027#FF0000\u0027, \u0027#00FF00\u0027, \u0027#0000FF\u0027])\n\n    # helper function to display in Zeppelin\n    def show(p):\n        import StringIO\n        img \u003d StringIO.StringIO()\n        p.savefig(img, format\u003d\u0027png\u0027)#,dpi\u003d600)\n        img.seek(0)\n        print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\u003cimg src\u003d\\\"data:image/png;base64,\" + img.buf.encode(\u0027base64\u0027).replace(\u0027\\n\u0027, \u0027\u0027) + \"\\\"/\u003e\u003c/div\u003e\"\n\n    plt.close(\u0027all\u0027)\n\n    plt.autoscale(enable\u003dTrue, axis\u003d\u0027x\u0027, tight\u003dTrue)\n\n    if surfaceTable:\n        sTable \u003d sqlContext.table(surfaceTable)\n\n        if prob:\n            pSTable \u003d sTable.select(\u0027kgs\u0027,\u0027mts\u0027,\u0027prob\u0027).toPandas()\n            Z \u003d pSTable[\u0027prob\u0027]\n        else:\n            pSTable \u003d sTable.select(\u0027kgs\u0027,\u0027mts\u0027,\u0027prediction\u0027).toPandas()\n            Z \u003d pSTable[\u0027prediction\u0027]\n\n        xs \u003d pSTable[\u0027kgs\u0027]\n        ys \u003d pSTable[\u0027mts\u0027]\n\n        xUs \u003d xs.unique()\n        yUs \u003d ys.unique()\n\n        xx, yy \u003d np.meshgrid(xUs,yUs)\n\n        Z \u003d Z.values.reshape(xx.shape).transpose()\n\n        if prob:\n            plt.pcolormesh(xx, yy, Z, cmap\u003dcmap_light)\n        else:\n            plt.pcolormesh(xx, yy, Z, cmap\u003dcmap_pastel)\n\n        plt.axis([xs.min(), xs.max(), ys.min(), ys.max()])\n\n    table \u003d sqlContext.table(nomTable)\n    \n    pTable \u003d table.select(\u0027kgs\u0027,\u0027mts\u0027,\u0027label\u0027).toPandas().sample(frac\u003d1)\n\n    xs \u003d pTable[\u0027kgs\u0027]\n    ys \u003d pTable[\u0027mts\u0027]\n    cs \u003d pTable[\u0027label\u0027]\n    plt.scatter(xs, ys, c\u003dcs, cmap\u003dcmap_bold, alpha\u003d0.5, s\u003d16)\n    plt.xlabel(\u0027kgs\u0027)\n    plt.ylabel(\u0027mts\u0027)\n\n    show(plt)\n    plt.close()",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "lineNumbers": false,
         "editorSetting": {
@@ -834,9 +834,9 @@
         "msg": []
       },
       "apps": [],
-      "jobName": "paragraph_1540561684818_1992982371",
+      "jobName": "paragraph_1540564821637_-274071995",
       "id": "20161102-154506_492289084",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -844,7 +844,7 @@
     {
       "title": "Compartir tabla con Python",
       "text": "trainFeaturized.createOrReplaceTempView(\"trainFeaturized\")\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -864,9 +864,9 @@
         "msg": []
       },
       "apps": [],
-      "jobName": "paragraph_1540561684820_1990673878",
+      "jobName": "paragraph_1540564821638_-272917749",
       "id": "20171030-173945_821268472",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -874,7 +874,7 @@
     {
       "title": "Plot train data",
       "text": "%pyspark\nplot_classification(nomTable\u003d\"trainFeaturized\", surfaceTable\u003d\"\")",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "python"
@@ -890,16 +890,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684821_1990289129",
+      "jobName": "paragraph_1540564821639_-273302498",
       "id": "20171030-173939_397652020",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Clasificación\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -926,16 +926,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684822_1991443376",
+      "jobName": "paragraph_1540564821639_-273302498",
       "id": "20171030-182312_417188960",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Decision Tree",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -962,9 +962,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684823_1991058627",
+      "jobName": "paragraph_1540564821639_-273302498",
       "id": "20171030-182448_326574792",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -972,7 +972,7 @@
     {
       "title": "Entrenamiento",
       "text": "import org.apache.spark.ml.classification.DecisionTreeClassifier\n\n// Se crea el Estimator\nval dtEstimator \u003d new DecisionTreeClassifier()\n                .setFeaturesCol(\"features\")\n                .setLabelCol(\"label\")\n\n//dtEstimator.explainParams\n\nval dtModel \u003d dtEstimator.fit(trainFeaturized)\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1000,16 +1000,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684824_1989134882",
+      "jobName": "paragraph_1540564821640_-275226242",
       "id": "20161107-153258_1183600330",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:trainFeaturized{bg:cornsilk}]-\u003e[dtEstimator;(algoritmo ML)|fit(){bg:red}]\n  [dtEstimator;(algoritmo ML)|fit(){bg:red}]-\u003e[note:dtModel;(model){bg:orange}]\n%%%\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1036,9 +1036,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684826_1989904380",
+      "jobName": "paragraph_1540564821641_-275610991",
       "id": "20171030-183244_477068133",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1046,7 +1046,7 @@
     {
       "title": "Probando el modelo",
       "text": "{\nval kgs \u003d z.input(\"Peso en kilos:\",\"80.0\").toString.toDouble\nval mts \u003d z.input(\"Altura en metros:\",\"1.8\").toString.toDouble\n\nval dfOneInput \u003d Seq((kgs,mts)).toDF(\"kgs\",\"mts\")\n\nval dfOneFeaturized \u003d vAssembler.transform(dfOneInput)\n\nval dfOnePrediction \u003d dtModel.transform(dfOneFeaturized)\n\nval labels \u003d sexIndexer.labels\n\nval num2Gen \u003d (n:Double) \u003d\u003e if (labels(n.toInt) \u003d\u003d \"F\") \"femenino\" else \"masculino\"\n\nval genre \u003d num2Gen(dfOnePrediction.first.getDouble(5))\n\nprintln(s\"\"\"%html\n\u003ch3\u003eGénero: $genre\u003c/h3\u003e\"\"\")\n}",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -1083,9 +1083,9 @@
         }
       },
       "apps": [],
-      "jobName": "paragraph_1540561684827_1989519631",
+      "jobName": "paragraph_1540564821644_-276765238",
       "id": "20171031-115708_799482",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1093,7 +1093,7 @@
     {
       "title": "Featurize dataset de test",
       "text": "val testAssembled \u003d vAssembler.transform(testDF)\nval testFeaturized \u003d sexIndexer.transform(testAssembled)\n\nz.show(testFeaturized,5)\n\ntestFeaturized.createOrReplaceTempView(\"testFeaturized\")",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1109,9 +1109,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684828_1987595887",
+      "jobName": "paragraph_1540564821644_-276765238",
       "id": "20171030-191336_34491578",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1119,7 +1119,7 @@
     {
       "title": "Calcular grilla de kgs*mts para visualizar fondo",
       "text": "/* Crea grid peso*altura del fondo\n * para el gráfico anterior\n**********************************/\nimport org.apache.spark.sql.DataFrame\n\ndef createGrid() : DataFrame \u003d {\n\n    val maxTics \u003d 255\n\n    def fgrid (x:Int, min:Double, max:Double, tics: Int) : Double \u003d {\n        val tics2 \u003d tics - 2\n        return ((x-1)*(max-min)+tics2*min)/tics2.toDouble\n    }\n\n    val (minKgs, maxKgs, minMts, maxMts) \u003d\n        people.agg(min(\u0027kgs), max(\u0027kgs), min(\u0027mts), max(\u0027mts))\n            .as[(Double,Double,Double,Double)].first\n\n    return sc.parallelize(0 to maxTics)\n            .flatMap(x \u003d\u003e (0 to maxTics).map((x,_)))\n            .map{case (x,y) \u003d\u003e (fgrid(x,minKgs,maxKgs,maxTics), fgrid(y,minMts,maxMts,maxTics))}\n            .toDF(\"kgs\",\"mts\")\n}\n\nval grid \u003d vAssembler.transform(createGrid()).cache\n\nz.show(grid,5)",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1147,9 +1147,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684829_1987211138",
+      "jobName": "paragraph_1540564821644_-276765238",
       "id": "20161107-030549_2115288931",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1157,7 +1157,7 @@
     {
       "title": "Predecimos grilla del fondo",
       "text": "// Creo predicciones de la grilla\nval gridPredictionDT \u003d dtModel.transform(grid)\n\nz.show(gridPredictionDT,5)\n\ngridPredictionDT.createOrReplaceTempView(\"gridPredictionDT\")",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1173,9 +1173,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684829_1987211138",
+      "jobName": "paragraph_1540564821645_-277149987",
       "id": "20171030-185922_914672286",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1183,7 +1183,7 @@
     {
       "title": "Plot Decision Tree Predictions",
       "text": "%pyspark\nplot_classification(nomTable\u003d\"testFeaturized\", surfaceTable\u003d\"gridPredictionDT\")",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "python"
@@ -1199,9 +1199,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684831_1987980636",
+      "jobName": "paragraph_1540564821645_-277149987",
       "id": "20171030-191207_1802786448",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1209,7 +1209,7 @@
     {
       "title": "Ejercicio",
       "text": "%md\nModifique el siguiente programa para aumentar la **profundidad** del árbol de decisión a 10.\n\n#### Ayuda\n\n* Busque en documentación [API Spark - Decision Trees](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.ml.classification.DecisionTreeClassifier) el *parameter setter*.\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1237,16 +1237,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684831_1987980636",
+      "jobName": "paragraph_1540564821645_-277149987",
       "id": "20171030-192632_1207126648",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "// Se crea el Evaluator\nval dtEstimator2 \u003d new DecisionTreeClassifier()\n                .setFeaturesCol(\"features\")\n                .setLabelCol(\"label\")\n                .set... // llenar aqui pla profundidad\n\n// Se crea el modelo con los datos de test featurizados\nval dtModel2 \u003d dtEstimator2...\n\n// Se predice la grilla\nval gridPredictionDT2 \u003d dtModel2.transform(grid)\n\n// Se envía a python para plotear\ngridPredictionDT2.createOrReplaceTempView(\"gridPredictionDT2\")\n\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "colWidth": 12.0,
         "editorMode": "ace/mode/scala",
@@ -1262,9 +1262,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684832_1973744926",
+      "jobName": "paragraph_1540564821646_-275995740",
       "id": "20171030-192143_1165730818",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1272,7 +1272,7 @@
     {
       "title": "Plot Decision Tree Predictions",
       "text": "%pyspark\nplot_classification(nomTable\u003d\"testFeaturized\", surfaceTable\u003d\"gridPredictionDT2\")",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "python"
@@ -1288,16 +1288,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684833_1973360177",
+      "jobName": "paragraph_1540564821646_-275995740",
       "id": "20161107-153542_1780323791",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n\n### Random Forest\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1324,9 +1324,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684834_1974514424",
+      "jobName": "paragraph_1540564821646_-275995740",
       "id": "20171030-195005_486215707",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1334,7 +1334,7 @@
     {
       "title": "Creación del modelo",
       "text": "import org.apache.spark.ml.classification.RandomForestClassifier\n\n\nval rfEstimator \u003d new RandomForestClassifier()\n                .setFeaturesCol(\"features\")\n                .setLabelCol(\"label\")\n                .setNumTrees(100)\n\nval rfModel \u003d rfEstimator.fit(trainFeaturized)",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1363,9 +1363,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684835_1974129675",
+      "jobName": "paragraph_1540564821652_-267531264",
       "id": "20171030-034039_1210912394",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1373,7 +1373,7 @@
     {
       "title": "Predecimos grilla del fondo",
       "text": "val gridPredictionRF \u003d rfModel.transform(grid)\n\ngridPredictionRF.createOrReplaceTempView(\"gridPredictionRF\")",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1390,9 +1390,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684836_1972205931",
+      "jobName": "paragraph_1540564821652_-267531264",
       "id": "20171030-195356_14273686",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1400,7 +1400,7 @@
     {
       "title": "Plot Random Forest",
       "text": "%pyspark\n\nplot_classification(nomTable\u003d\"testFeaturized\", surfaceTable\u003d\"gridPredictionRF\")\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "python"
@@ -1417,16 +1417,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684837_1971821182",
+      "jobName": "paragraph_1540564821653_-267916013",
       "id": "20171030-034111_1613140514",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n\n### Logistic Regression\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1453,9 +1453,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684837_1971821182",
+      "jobName": "paragraph_1540564821653_-267916013",
       "id": "20171030-200155_1231865651",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1463,7 +1463,7 @@
     {
       "title": "Creación del modelo",
       "text": "import org.apache.spark.ml.classification.LogisticRegression\n\nval lrEstimator \u003d new LogisticRegression()\n  .setMaxIter(100)\n  .setRegParam(0.01)\n\nval lrModel \u003d lrEstimator.fit(trainFeaturized)\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1491,9 +1491,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684838_1972975428",
+      "jobName": "paragraph_1540564821653_-267916013",
       "id": "20161107-130547_297924932",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1501,7 +1501,7 @@
     {
       "title": "Probando el modelo",
       "text": "{\nval kgs \u003d z.input(\"Peso en kilos:\",\"80.0\").toString.toDouble\nval mts \u003d z.input(\"Altura en metros:\",\"1.8\").toString.toDouble\n\nval dfOneInput \u003d Seq((kgs,mts)).toDF(\"kgs\",\"mts\")\n\nval dfOneFeaturized \u003d vAssembler.transform(dfOneInput)\n\nval dfOnePrediction \u003d lrModel.transform(dfOneFeaturized)\n\nval labels \u003d sexIndexer.labels\n\nval posF \u003d if (labels(0) \u003d\u003d \"F\") 0 else 1\n\nval femProb : Double \u003d dfOnePrediction.first\n                            .getAs[org.apache.spark.ml.linalg.DenseVector](4)(posF)\n\nval femProbPerc : Int \u003d (100.0 * femProb).ceil.toInt\n\nprintln(s\"\"\"%html\n\u003ch3\u003eProbabilidad que sea mujer: $femProbPerc %\u003c/h3\u003e\"\"\")\n}\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1536,9 +1536,9 @@
         }
       },
       "apps": [],
-      "jobName": "paragraph_1540561684839_1972590680",
+      "jobName": "paragraph_1540564821654_-266761766",
       "id": "20171031-121619_277408470",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1546,7 +1546,7 @@
     {
       "title": "Predecimos grilla del fondo",
       "text": "import org.apache.spark.ml.linalg.Vector\n\nval gridPredictionLR \u003d lrModel.transform(grid)\n\nval vec2ColUDF \u003d udf((x:Vector, index: Int) \u003d\u003e x(index))\n\ngridPredictionLR\n    .select($\"*\",vec2ColUDF($\"probability\",lit(1)).as(\"prob\"))\n    .createOrReplaceTempView(\"gridPredictionLR\")\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -1564,9 +1564,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684840_1970666935",
+      "jobName": "paragraph_1540564821654_-266761766",
       "id": "20171030-202050_1263604133",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1574,7 +1574,7 @@
     {
       "title": "Plot Logistic Regression",
       "text": "%pyspark\n\nplot_classification(nomTable\u003d\"testFeaturized\", surfaceTable\u003d\"gridPredictionLR\", prob\u003dTrue)\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "python"
@@ -1590,9 +1590,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684841_1970282186",
+      "jobName": "paragraph_1540564821654_-266761766",
       "id": "20161107-131714_601581381",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1600,7 +1600,7 @@
     {
       "title": "Logistic Regression with Poly expansion",
       "text": "%md\n\n* El algoritmo ML *Logistic Regression* es un algoritmo de clasificación logísitica **lineal**. \n* Esta limitación puede salvarse aumentando la dimensión del espacio:\n\n    ![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/05_ml/dimension_expansion.png)\n\n### Para lograrlo puede utilizarse [Spark Polinomial Expansion](http://spark.apache.org/docs/latest/ml-features.html#polynomialexpansion).\n\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1628,9 +1628,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684841_1970282186",
+      "jobName": "paragraph_1540564821658_-268300762",
       "id": "20171030-204410_530582793",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1638,7 +1638,7 @@
     {
       "title": "Ejercicio",
       "text": "%md\n\nModificar el siguiente programa para utilizar [Spark Polinomial Expansion](http://spark.apache.org/docs/latest/ml-features.html#polynomialexpansion).\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1666,9 +1666,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684842_1971436433",
+      "jobName": "paragraph_1540564821658_-268300762",
       "id": "20171030-205821_996337765",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1676,7 +1676,7 @@
     {
       "title": "Logistic Regression con Poly expansion",
       "text": "import org.apache.spark.ml.feature.PolynomialExpansion\n\nval polyExpansion \u003d new PolynomialExpansion()\n  .setInputCol(\"features\")\n  .setOutputCol(\"features_expansion\")\n  .setDegree(...) // llenar (ver documentacion)\n\nval lrEstimatorPoly \u003d new LogisticRegression()\n  .setFeaturesCol(...) // llenar\n  .setMaxIter(100)\n  .setRegParam(0.01)\n\nval trainFeaturizedPoly \u003d polyExpansion.transform(trainFeaturized)\n\nval lrModelPoly \u003d lrEstimatorPoly.fit(...) // llenar\n\n\nval gridPoly \u003d polyExpansion.transform(grid)\n\nval gridPredictionLRPoly \u003d lrModelPoly.transform(gridPoly)\n\ngridPredictionLRPoly\n    .select($\"*\",vec2ColUDF($\"probability\",lit(1)).as(\"prob\"))\n    .createOrReplaceTempView(\"gridPredictionLRPoly\")\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1692,16 +1692,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684843_1971051684",
+      "jobName": "paragraph_1540564821659_-268685511",
       "id": "20171030-030818_388929533",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%pyspark\n\nplot_classification(nomTable\u003d\"testFeaturized\", surfaceTable\u003d\"gridPredictionLRPoly\", prob\u003dTrue)\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "colWidth": 12.0,
         "editorMode": "ace/mode/python",
@@ -1716,16 +1716,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684844_1969127939",
+      "jobName": "paragraph_1540564821659_-268685511",
       "id": "20171030-040455_976462143",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Clustering\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1752,9 +1752,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684845_1968743191",
+      "jobName": "paragraph_1540564821659_-268685511",
       "id": "20171030-212118_1749792392",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1762,7 +1762,7 @@
     {
       "title": "Creación de datos 3D al azar",
       "text": "import org.apache.spark.ml.clustering.KMeans\nimport org.apache.spark.ml.linalg.{Vector,Vectors}\nimport org.apache.spark.sql.{DataFrame, Row}\nimport org.apache.spark.mllib.random.RandomRDDs.normalVectorRDD\n\nval dimension \u003d 3\nval cantVect \u003d 50\nval disper \u003d 5.0\n\n// Creo cantVect puntos con distribucion normal centrado en 5 ptos\nval dataset1 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0), v(1), v(2)))).toDF(\"features\")\n\nval dataset2 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0)+disper, v(1), v(2)))).toDF(\"features\")\n\nval dataset3 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0), v(1)+disper, v(2)))).toDF(\"features\")\n\nval dataset4 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0), v(1), v(2)+disper))).toDF(\"features\")\n\nval dataset5 \u003d normalVectorRDD(sc, cantVect, dimension).\n    map(v \u003d\u003e Tuple1.apply(Vectors.dense(v(0)+disper, v(1)+disper, v(2)+disper))).toDF(\"features\")\n\nval dataset \u003d dataset1.union(dataset2).union(dataset3).union(dataset4).union(dataset5)\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -1779,9 +1779,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684846_1969897437",
+      "jobName": "paragraph_1540564821660_-270609255",
       "id": "20171030-212217_1468036515",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1789,7 +1789,7 @@
     {
       "title": "Dataset con puntos 3D",
       "text": "z.show(dataset,5)",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1805,9 +1805,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684846_1969897437",
+      "jobName": "paragraph_1540564821660_-270609255",
       "id": "20181023-192830_1881710964",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1815,7 +1815,7 @@
     {
       "title": "Python plotter",
       "text": "%pyspark\n\ndef plot_clustering(nomTable\u003d\"evalData\", nomTableCenters\u003d\"\"):\n\n    import plotly as py\n    import plotly.graph_objs as go\n\n    pltWidth \u003d 800\n    pltHeight \u003d 600\n    \n    def plot(plot_dic, width\u003dpltWidth, **kwargs):\n        kwargs[\u0027output_type\u0027] \u003d \u0027div\u0027\n        plot_str \u003d py.offline.plot(plot_dic, **kwargs)\n        print(\u0027%%html \u003cdiv style\u003d\"width: %spx\"\u003e %s \u003c/div\u003e\u0027  % (width, plot_str))\n\n    pEvalData \u003d sqlContext.table(nomTable).toPandas()\n\n    if nomTableCenters:\n\n        pEvalCenters \u003d sqlContext.table(nomTableCenters).toPandas()\n\n        eData \u003d go.Scatter3d(\n            x\u003dpEvalData.x,\n            y\u003dpEvalData.y,\n            z\u003dpEvalData.z,\n            showlegend\u003dFalse,\n            mode\u003d\u0027markers\u0027,\n            marker\u003ddict(\n                size\u003d1.5,\n                color\u003dpEvalData.prediction, # set color to an array/list of desired values\n                colorscale\u003d\u0027Rainbow\u0027   # choose a colorscale\n            ),\n            opacity\u003d0.6\n        )\n\n        eCenters \u003d go.Scatter3d(\n            x\u003dpEvalCenters.x,\n            y\u003dpEvalCenters.y,\n            z\u003dpEvalCenters.z,\n            showlegend\u003dFalse,\n            mode\u003d\u0027markers\u0027,\n            marker\u003ddict(\n                size\u003d3,\n                line \u003d dict(\n                    width \u003d 1,\n                    color \u003d \u0027black\u0027\n                ),\n                symbol\u003d\u0027x\u0027,\n                color\u003dpEvalCenters.prediction, # set color to an array/list of desired values\n                colorscale\u003d\u0027Rainbow\u0027   # choose a colorscale\n            ),\n            opacity\u003d1.0\n        )\n        \n        data \u003d [eData,eCenters]\n\n        layout \u003d go.Layout(\n            title\u003d\"Clusters\",\n            width\u003dpltWidth,\n            height\u003dpltHeight\n        )\n\n    else:\n\n        eData \u003d go.Scatter3d(\n            x\u003dpEvalData.x,\n            y\u003dpEvalData.y,\n            z\u003dpEvalData.z,\n            showlegend\u003dFalse,\n            mode\u003d\u0027markers\u0027,\n            marker\u003ddict(\n                size\u003d1.5,\n                line \u003d dict(\n                    width \u003d 1,\n                    color \u003d \u0027black\u0027\n                ),\n                color\u003d\u0027cyan\u0027\n            ),\n            opacity\u003d0.8\n        )\n\n        data \u003d [eData]\n\n        layout \u003d go.Layout(\n            title\u003d\"Data\",\n            width\u003dpltWidth,\n            height\u003dpltHeight\n        )\n        \n\n    plot({\n        \"data\": data,\n        \"layout\": layout\n    })\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "lineNumbers": false,
         "editorSetting": {
@@ -1836,9 +1836,9 @@
         "msg": []
       },
       "apps": [],
-      "jobName": "paragraph_1540561684847_1969512688",
+      "jobName": "paragraph_1540564821660_-270609255",
       "id": "20171106-185738_491325525",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1846,7 +1846,7 @@
     {
       "title": "Enviar tabla a Python",
       "text": "val vec2ColUDF \u003d udf((x:Vector, index: Int) \u003d\u003e x(index))\n\nval dsFeatures \u003d dataset \n                .select(vec2ColUDF($\"features\",lit(0)).as(\"x\"), vec2ColUDF($\"features\",lit(1)).as(\"y\"), \n                        vec2ColUDF($\"features\",lit(2)).as(\"z\"))\n\ndsFeatures.createOrReplaceTempView(\"dsFeatures\")\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1862,9 +1862,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684848_1979900909",
+      "jobName": "paragraph_1540564821662_-269839758",
       "id": "20171031-015639_1846072216",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1872,7 +1872,7 @@
     {
       "title": "Plot data",
       "text": "%pyspark\nplot_clustering(nomTable\u003d\"dsFeatures\",nomTableCenters\u003d\"\")\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "python"
@@ -1888,9 +1888,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684850_1980670406",
+      "jobName": "paragraph_1540564821662_-269839758",
       "id": "20171031-015523_507876710",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1898,7 +1898,7 @@
     {
       "title": "Creación de modelo k-means",
       "text": "val kmeans \u003d new KMeans()\n  .setK(5)                              // set number of clusters\n  .setFeaturesCol(\"features\")\n  .setPredictionCol(\"prediction\")\n\nval model \u003d kmeans.fit(dataset)\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -1915,9 +1915,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684851_1980285658",
+      "jobName": "paragraph_1540564821662_-269839758",
       "id": "20171030-212354_434864230",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1925,7 +1925,7 @@
     {
       "title": "Evaluación de datos de entrada con el modelo",
       "text": "val evalData \u003d model.transform(dataset)\n\nz.show(evalData,5)\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -1942,9 +1942,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684854_1979131411",
+      "jobName": "paragraph_1540564821663_-270224506",
       "id": "20171030-212654_1670049849",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1952,7 +1952,7 @@
     {
       "title": "Enviar tabla a Python",
       "text": "val vec2ColUDF \u003d udf((x:Vector, index: Int) \u003d\u003e x(index))\n\nevalData.select(vec2ColUDF($\"features\",lit(0)).as(\"x\"), vec2ColUDF($\"features\",lit(1)).as(\"y\"), \n                vec2ColUDF($\"features\",lit(2)).as(\"z\"), $\"prediction\")\n        .createOrReplaceTempView(\"evalData\")\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1968,9 +1968,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684860_1975283922",
+      "jobName": "paragraph_1540564821663_-270224506",
       "id": "20181023-193437_1148787820",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1978,7 +1978,7 @@
     {
       "title": "Centros",
       "text": "val centers \u003d spark.createDataFrame(model.clusterCenters.map(Tuple1.apply)).toDF(\"features\")\n\nval evalCenters \u003d model.transform(centers)\n\n// Send to python\nevalCenters.select(vec2ColUDF(\u0027features,lit(0)).as(\"x\"), vec2ColUDF(\u0027features,lit(1)).as(\"y\"), \n                vec2ColUDF(\u0027features,lit(2)).as(\"z\"), \u0027prediction)\n            .createOrReplaceTempView(\"evalCenters\")\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -1994,9 +1994,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684861_1974899173",
+      "jobName": "paragraph_1540564821664_-284460216",
       "id": "20181023-193143_1035949127",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -2004,7 +2004,7 @@
     {
       "title": "Clusters resultados",
       "text": "%pyspark\nplot_clustering(nomTable\u003d\"evalData\",nomTableCenters\u003d\"evalCenters\")\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -2021,16 +2021,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684862_1976053420",
+      "jobName": "paragraph_1540564821664_-284460216",
       "id": "20171031-020723_554273089",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n\n### Documentación \n\n* [Spark MLib Guide](http://spark.apache.org/docs/latest/ml-guide.html)\n* [Databricks ML Documentation](https://docs.databricks.com/spark/latest/mllib/index.html)\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -2057,9 +2057,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684862_1976053420",
+      "jobName": "paragraph_1540564821664_-284460216",
       "id": "20181023-195851_1433599159",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -2067,7 +2067,7 @@
     {
       "title": "FIN",
       "text": "val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")\n",
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {
         "tableHide": true,
         "editorSetting": {
@@ -2099,31 +2099,31 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540561684863_1975668671",
+      "jobName": "paragraph_1540564821665_-284844965",
       "id": "20171030-041758_1069452526",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Oct 26, 2018 10:48:04 AM",
+      "dateUpdated": "Oct 26, 2018 11:40:21 AM",
       "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540561684864_2059928680",
+      "jobName": "paragraph_1540564821665_-284844965",
       "id": "20171030-111733_655673413",
-      "dateCreated": "Oct 26, 2018 10:48:04 AM",
+      "dateCreated": "Oct 26, 2018 11:40:21 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "Clase 05 - Machine Learning",
-  "id": "2DTVH6PRY",
+  "id": "2DV74AWGD",
   "angularObjects": {
     "2CVPMZQDC:shared_process": [],
     "2CVZRWYXD:shared_process": [],
