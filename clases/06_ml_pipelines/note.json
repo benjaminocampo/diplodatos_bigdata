@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "print(s\"\"\"%html\n\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\"\"\")\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -39,16 +39,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438276_-398305678",
+      "jobName": "paragraph_1540609528225_747756948",
       "id": "20161027-185750_417030348",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Abstracciones Básicas\n\n### Transformer\n\n* Toma un `DataFrame` y devuelven un `DataFrame` transformado.\n    - método `transform(\u003cDataFrame\u003e)`\n* Ejemplos:\n    - Transformador de features\n\n        %%% yuml type\u003dclass style\u003dplain format\u003dsvg\n          [note:Dataframe;Entrada{bg:cornsilk}]-\u003e[Transformer;(featurizer)|transform(){bg:orange}]\n          [Transformer;(featurizer)|transform(){bg:orange}]-\u003e[note:Dataframe; features{bg:cornsilk}]\n        %%%\n\n    - Modelo\n\n        %%% yuml type\u003dclass style\u003dplain format\u003dsvg\n          [note:Dataframe; features{bg:cornsilk}]-\u003e[Transformer;(modelo)|transform(){bg:orange}]\n          [Transformer;(modelo)|transform(){bg:orange}]-\u003e[note:Dataframe; predicción{bg:cornsilk}]\n        %%%\n\n\n### Estimator\n\n* Encapsula un algoritmo ML.\n* Toma un `DataFrame` de entrenamiento y devuelve un `Transformer`\n    - método `fit(\u003cDataFrame\u003e)`\n\n      %%% yuml type\u003dclass style\u003dplain format\u003dsvg\n         [note:Dataframe; features;(entrenamiento){bg:cornsilk}]-\u003e[Estimator;(algoritmo ML)|fit()]\n         [Estimator;(algoritmo ML)|fit(){bg:red}]-\u003e[note:Transformer;(modelo){bg:orange}]\n      %%%\n\n* Ejemplos:\n    - Logistic Regression\n\nVeamos el siguiente ejemplo.\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -87,9 +87,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438277_-398690426",
+      "jobName": "paragraph_1540609528228_746602701",
       "id": "20161027-185927_1249905112",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -97,7 +97,7 @@
     {
       "title": "Datos de entrenamiento",
       "text": "import org.apache.spark.sql.DataFrame\n\nval training : DataFrame \u003d \n    spark.createDataFrame(Seq(\n        (0L, \"a b c d e spark a\", 1.0),\n        (1L, \"b d\", 0.0),\n        (2L, \"spark f g h\", 1.0),\n        (3L, \"hadoop a mapreduce\", 0.0)\n    )).toDF(\"id\", \"text\", \"label\")\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -131,9 +131,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438277_-398690426",
+      "jobName": "paragraph_1540609528228_746602701",
       "id": "20161027-192753_1880015042",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -141,7 +141,7 @@
     {
       "title": "Featurization",
       "text": "import org.apache.spark.ml.feature.{HashingTF, Tokenizer}\n\n// Creo Tokenizer Transformer\nval tokenizer \u003d new Tokenizer()\n  .setInputCol(\"text\")\n  .setOutputCol(\"words\")\n\n// Aplico la transformación devolviendo un nuevo dataframe\nval tokenizerOut : DataFrame \u003d tokenizer.transform(training)\n\nz.show(tokenizerOut)\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -179,16 +179,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438277_-398690426",
+      "jobName": "paragraph_1540609528229_746217952",
       "id": "20161027-193120_515869320",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "// Creo un Term Frecuency Transformer con hash\nval hashingTF \u003d new HashingTF()\n  .setNumFeatures(1000)\n  .setInputCol(tokenizer.getOutputCol)\n  .setOutputCol(\"features\")\n\n// Aplico la transformación al resultado de la transformación previa\nval hashingTFOut : DataFrame \u003d hashingTF.transform(tokenizerOut)\nhashingTFOut.printSchema \n// Notar tipo de la columna \"features\"\n// El primer elemento de la tupla es el tamaño\n\nz.show(hashingTFOut)\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "colWidth": 12.0,
         "editorMode": "ace/mode/scala",
@@ -216,9 +216,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438278_-397536180",
+      "jobName": "paragraph_1540609528229_746217952",
       "id": "20171115-095457_1156237442",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -226,7 +226,7 @@
     {
       "title": "Creación del modelo",
       "text": "import org.apache.spark.ml.classification.LogisticRegression\n\n// Creo el Estimator\nval lr \u003d new LogisticRegression()\n  .setMaxIter(10)\n  .setRegParam(0.01)\n  \n// Entreno el Estimador obteniendo un modelo\nval model \u003d lr.fit(hashingTFOut)\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -260,9 +260,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438278_-397536180",
+      "jobName": "paragraph_1540609528230_747372199",
       "id": "20161027-194846_129661804",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -270,7 +270,7 @@
     {
       "title": "Predicción con modelo",
       "text": "// Creo un DF para testearel modelo\nval test \u003d spark.createDataFrame(Seq(\n  (4L, \"spark i j k\"),\n  (5L, \"l m n\"),\n  (6L, \"mapreduce spark\"),\n  (7L, \"apache hadoop\"),\n  (8L, \"spark f j k\")\n)).toDF(\"id\", \"text\")\n\n\n// Featurizo el test\nval testFeatures \u003d hashingTF.transform(tokenizer.transform(test))\n\nval predictions \u003d model.transform(testFeatures)\n\nz.show(predictions.select(\"id\", \"text\", \"probability\", \"prediction\"))\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -308,16 +308,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438278_-397536180",
+      "jobName": "paragraph_1540609528230_746987450",
       "id": "20161027-195542_1318506384",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n\n## Pipelines\n\n* Abstracción del flujo de trabajo en ML:\n\n      %%% yuml style\u003dplain scale\u003d80 dir\u003dLR format\u003dsvg\n        [Featurization]-\u003e[Entrenamiento]\n        [Entrenamiento]-\u003e[Modelo]\n        [Modelo]-\u003e[Predicción]\n        [Modelo]-\u003e[Evaluación]\n      %%%\n\n* Para su construcción toma **Transformers** y **Estimators** (llamados Stages)\n    - los concatena\n\n* Es un **Estimator**\n    - método `fit(\u003cDataFramee\u003e)` devuelve un `PipelineModel` (Transformer)\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -356,16 +356,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438279_-397920929",
+      "jobName": "paragraph_1540609528231_746987450",
       "id": "20161028-141905_1713895534",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "import org.apache.spark.ml.{Pipeline, PipelineModel}\n\n// Creo el pipeline con los Transformers y el Estimator\nval pipeline \u003d new Pipeline()\n  .setStages(Array(tokenizer, hashingTF, lr))\n\n// Entreno el pipeline\nval pipModel \u003d pipeline.fit(training)\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -398,9 +398,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438279_-397920929",
+      "jobName": "paragraph_1540609528232_745063705",
       "id": "20161028-160715_1700211199",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -408,7 +408,7 @@
     {
       "title": "Pipeline de entrenamiento",
       "text": "print(s\"\"\"%html\n\u003cimg src\u003d\"$baseDir/06_ml_pipelines/ml-Pipeline.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n\"\"\")",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -446,16 +446,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438280_-399844673",
+      "jobName": "paragraph_1540609528232_745063705",
       "id": "20161028-155205_837419355",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### PipelineModel\n\n* El resultado anterior es un modelo (Transformer) que se puede usar para predecir\n    - método `transform(\u003cDataFrame\u003e)`\n* Usa los mismos Transformers de *featurizacion* que para el entrenamiento\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -494,16 +494,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438280_-399844673",
+      "jobName": "paragraph_1540609528233_744678956",
       "id": "20161028-160002_1792875570",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "// El modelo en el pipeline solo necesita el Raw Test:\n// automaticamente aplica los transformadores de features\n// y hace predicciones.\n\nval predictions \u003d pipModel.transform(test)\n\nz.show(predictions.select(\"id\", \"text\", \"probability\", \"prediction\"))\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -541,16 +541,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438281_-400229422",
+      "jobName": "paragraph_1540609528233_744678956",
       "id": "20171115-101137_579818646",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "print(s\"\"\"%html\n\u003cimg src\u003d\"$baseDir/06_ml_pipelines/ml-PipelineModel.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n\"\"\")\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -587,9 +587,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438281_-400229422",
+      "jobName": "paragraph_1540609528234_745833203",
       "id": "20161028-160514_1612337572",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -597,7 +597,7 @@
     {
       "title": "Persistencia",
       "text": "// El pipeline entrenado se puede guardar\npipModel.write.overwrite().save(\"/tmp/spark-logistic-regression-model\")\n\n// Y cargarlo para la etapa de uso\nval samePipModel \u003d PipelineModel.load(\"/tmp/spark-logistic-regression-model\")\n\n// Tambien el pipeline sin entrenar\npipeline.write.overwrite().save(\"/tmp/unfit-lr-model\")\n",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -632,9 +632,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438282_-399075175",
+      "jobName": "paragraph_1540609528234_745833203",
       "id": "20171115-101044_1013070913",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -642,7 +642,7 @@
     {
       "title": "Fin",
       "text": "val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "tableHide": true,
         "editorSetting": {
@@ -685,16 +685,16 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1540568438283_-399459924",
+      "jobName": "paragraph_1540609528235_745448454",
       "id": "20161027-191821_1441900429",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "",
-      "dateUpdated": "Oct 26, 2018 12:40:38 PM",
+      "dateUpdated": "Oct 27, 2018 12:05:28 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -713,16 +713,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540568438284_-401383669",
+      "jobName": "paragraph_1540609528235_745448454",
       "id": "20161027-191945_2141015936",
-      "dateCreated": "Oct 26, 2018 12:40:38 PM",
+      "dateCreated": "Oct 27, 2018 12:05:28 AM",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "Clase 06 - ML Pipelines",
-  "id": "2DVAWX8QC",
+  "id": "2DU6RJHTN",
   "angularObjects": {
     "2CVPMZQDC:shared_process": [],
     "2CVZRWYXD:shared_process": [],
