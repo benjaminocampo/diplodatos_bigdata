@@ -2,7 +2,8 @@
   "paragraphs": [
     {
       "text": "print(s\"\"\"%html\n\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\"\"\")\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-19 17:33:37.666",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -39,16 +40,17 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413341_-1238920599",
+      "jobName": "paragraph_1574195617662_1988100961",
       "id": "20160720-131940_474698556",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "dateCreated": "2019-11-19 17:33:37.662",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n# Introducción a Spark\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-19 17:33:37.669",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -87,16 +89,17 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413342_-1237766352",
+      "jobName": "paragraph_1574195617667_-127494086",
       "id": "20160628-160644_98292392",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "dateCreated": "2019-11-19 17:33:37.667",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Características\n\n### 100x más rápido que Hadoop MapReduce en memoria.\n### 10x más rápido en disco.\n  ![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/spark_speed.png)\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-19 17:33:37.671",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -123,16 +126,17 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413342_-1237766352",
+      "jobName": "paragraph_1574195617669_-305830332",
       "id": "20171013-102503_1459120534",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "dateCreated": "2019-11-19 17:33:37.669",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Multiplataforma\n\n* Corre en Hadoop Yarn, Mesos, standalone o en la nube (AWS, Azure, ...)\n* Acceso a datos en HDFS, Cassandra, HBase, Hive, Tachyon, JDBC, etc.\n![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/spark_multi_plataforma.png)\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-19 17:33:37.673",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -159,16 +163,17 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413342_-1237766352",
+      "jobName": "paragraph_1574195617671_-80037207",
       "id": "20171013-105605_1380652694",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "dateCreated": "2019-11-19 17:33:37.671",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### +50 empresas.\n\n### +200 desarrolladores.\n![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/spar_contribs.png)\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-19 17:33:37.675",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -195,16 +200,17 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413343_-1238151101",
+      "jobName": "paragraph_1574195617673_2033579718",
       "id": "20171013-112527_2104876012",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "dateCreated": "2019-11-19 17:33:37.673",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Múltiples funcionalidades en una plataforma (Stack unificado)\n\n![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/unified_stack.png)\n",
-      "dateUpdated": "Oct 12, 2018 11:29:50 AM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-19 17:33:37.676",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -231,27 +237,30 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413343_-1238151101",
+      "jobName": "paragraph_1574195617675_-1905726010",
       "id": "20171013-110124_1830702370",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "dateCreated": "2019-11-19 17:33:37.675",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n## Fácil de usar\n\n* Interface de programación en Scala, Java, Python y R.\n    - Presentaciones en Scala básico (parecido a Python).\n    - Más sobre el lenguaje en [Scala Basics](http://www.dhgarrette.com/nlpclass/scala/basics.html).\n* Notebooks: Zeppelin, Jupiter, ...",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "text": "%md\n## Fácil de usar\n\n* Interface de programación en Scala, Java, Python y R.\n* Notebooks: Zeppelin, Jupiter, ...",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-19 20:11:04.428",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -262,22 +271,24 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eFácil de usar\u003c/h2\u003e\n\u003cul\u003e\n  \u003cli\u003eInterface de programación en Scala, Java, Python y R.\n    \u003cul\u003e\n      \u003cli\u003ePresentaciones en Scala básico (parecido a Python).\u003c/li\u003e\n      \u003cli\u003eMás sobre el lenguaje en \u003ca href\u003d\"http://www.dhgarrette.com/nlpclass/scala/basics.html\"\u003eScala Basics\u003c/a\u003e.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eNotebooks: Zeppelin, Jupiter, \u0026hellip;\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eFácil de usar\u003c/h2\u003e\n\u003cul\u003e\n  \u003cli\u003eInterface de programación en Scala, Java, Python y R.\u003c/li\u003e\n  \u003cli\u003eNotebooks: Zeppelin, Jupiter, \u0026hellip;\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413343_-1238151101",
+      "jobName": "paragraph_1574195617677_-944686179",
       "id": "20171013-111851_1940139005",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "2019-11-19 17:33:37.677",
+      "dateStarted": "2019-11-19 20:10:47.477",
+      "dateFinished": "2019-11-19 20:10:47.483",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Word Count (MapReduce)",
       "text": "%md\n```java\npublic class WordCount {\n\n\tpublic static class Map extends MapReduceBase implements Mapper\u003cLongWritable, Text, Text, IntWritable\u003e {\n\n\t\tprivate final static IntWritable one \u003d new IntWritable(1);\n\n\t\tprivate Text word \u003d new Text();\n\n\t\tpublic void map(LongWritable key, Text value, OutputCollector\u003cText, IntWritable\u003e output, Reporter reporter) throws IOException {\n\n\t\t\tString line \u003d value.toString();\n\n\t\t\tStringTokenizer tokenizer \u003d new StringTokenizer(line);\n\n\t\t\twhile (tokenizer.hasMoreTokens()) {\n\n\t\t\t\tword.set(tokenizer.nextToken());\n\n\t\t\t\toutput.collect(word, one);\n\n\t\t\t}\n\n\t\t}\n\n\t}\n\n\tpublic static class Reduce extends MapReduceBase implements Reducer\u003cText, IntWritable, Text, IntWritable\u003e {\n\n\t\tpublic void reduce(Text key, Iterator values, OutputCollector\u003cText, IntWritable\u003e output, Reporter reporter) throws IOException {\n\n\t\t\tint sum \u003d 0;\n\n\t\t\twhile (values.hasNext()) {\n\n\t\t\t\tsum +\u003d values.next().get();\n\n\t\t\t}\n\n\t\t\toutput.collect(key, new IntWritable(sum));\n\n\t\t}\n\n\t}\n\n\tpublic static void main(String[] args) throws Exception {\n\n\t\tJobConf conf \u003d new JobConf(WordCount.class);\n\n\t\tconf.setJobName(\"wordcount\");\n\n\t\tconf.setOutputKeyClass(Text.class);\n\n\t\tconf.setOutputValueClass(IntWritable.class);\n\n\t\tconf.setMapperClass(Map.class);\n\n\t\tconf.setCombinerClass(Reduce.class);\n\n\t\tconf.setReducerClass(Reduce.class);\n\n\t\tconf.setInputFormat(TextInputFormat.class);\n\n\t\tconf.setOutputFormat(TextOutputFormat.class);\n\n\t\tFileInputFormat.setInputPaths(conf, new Path(args[0]));\n\n\t\tFileOutputFormat.setOutputPath(conf, new Path(args[1]));\n\n\t\tJobClient.runJob(conf);\n\n\t}\n\n}\n```\n\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-19 17:33:37.681",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -305,58 +316,70 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413343_-1238151101",
+      "jobName": "paragraph_1574195617679_1408592940",
       "id": "20171011-151944_1744659917",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "dateCreated": "2019-11-19 17:33:37.679",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Word Count (Spark)",
-      "text": "val lines \u003d sc.textFile(\"README.md\")\n\nval words \u003d lines\n            .flatMap(l \u003d\u003e l.split(\" \"))\n            .filter(w \u003d\u003e ! w.isEmpty)\n\n//MapReduce\nval wordCount \u003d words.map(w \u003d\u003e (w,1))\n                .reduceByKey((nx,ny) \u003d\u003e nx+ny)\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "text": "%pyspark\n\nlines \u003d sc.textFile(\"README.md\")\n\nwords \u003d lines \\\n    .flatMap(lambda line: line.split(\" \")) \\\n    .filter(lambda word: word)\n\n#MapReduce\nwordCount \u003d words \\\n    .map(lambda word: (word,1)) \\\n    .reduceByKey(lambda n,m: n+m)\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 16:30:12.272",
       "config": {
         "lineNumbers": true,
         "editorSetting": {
-          "language": "scala",
-          "editOnDblClick": false
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "editorHide": false,
         "title": true,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
       "apps": [],
-      "jobName": "paragraph_1539354413344_-1252386811",
+      "jobName": "paragraph_1574195617681_-1621572061",
       "id": "20171010-190559_1468582504",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "2019-11-19 17:33:37.681",
+      "dateStarted": "2019-11-21 16:30:12.564",
+      "dateFinished": "2019-11-21 16:30:22.975",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Un poco de Scala",
-      "text": "%md\n\n* `val` declara una variable inmutable (constante).\n\n* `lines` es un **array distribuido** de lineas de texto (`RDD[String]`).\n    - un conjunto de lineas en cada **nodo del cluster**.\n\n* `lines` tiene el método `flatMap` (línea 4):\n    - `flatMap(l \u003d\u003e l.split(\" \"))` toma cada cada elemento del `RDD` (linea), lo convierte en sequencia de palabras y concatena estas secuencias:\n        - `l \u003d\u003e l.split(\" \")` es la **función** que toma una linea y devuelve la secuencia de palabras.\n        \n    - Su resultado es un array **distribuido** de palabras (`RDD[String]`).\n    \n* Al resultado de `flatMap` se aplica el método `filter` (línea 5):\n    - `filter(w \u003d\u003e ! w.isEmpty)` saca las palabras que son vacías (pueden aparecer?).\n    - `w \u003d\u003e ! w.isEmpty` es la **función** que pregunta si la palabra es vacía.\n    - `filter` devuelve un `RDD` que se almacena en `words`.\n\n* `words` tiene el método `map` (línea 8):\n    - `map(w \u003d\u003e (w,1))` agrega a cada palabra de `words` un `1`.\n    - El resultado es un **arreglo distribuido** de tuplas `RDD[(String, Int)]`.\n    \n* A este `RDD` se le aplica el método `reduceByKey` (línea 9):\n    - `reduceByKey((nx,ny) \u003d\u003e nx+ny)` suma los `1`\u0027s de las palabras iguales (la key es la palabra).\n\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "text": "%md\n\n* `lines` es un **array distribuido** de lineas de texto (`RDD[str]`).\n    - una parte del arreglo en cada **nodo del cluster**.\n\n* `lines` tiene el método `flatMap` (línea 6):\n    - `flatMap(lambda line: line.split(\" \"))` toma cada cada elemento del `RDD` (linea), lo convierte en sequencia de palabras y concatena estas secuencias:\n        - `lambda line: line.split(\" \")` es la **función** que toma una linea y la divide en una secuencia de palabras.\n        \n    - Su resultado es un array **distribuido** de palabras (`RDD[str]`).\n    \n* Al resultado de `flatMap` se aplica el método `filter` (línea 7):\n    - `filter(lambda word: word)` saca las palabras que son vacías (pueden aparecer?).\n    - `lambda word: word` es la **función** que pregunta si la palabra es vacía.\n    - `filter` devuelve un `RDD` que se almacena en `words`.\n\n* `words` tiene el método `map` (línea 11):\n    - `map(lambda word: (word,1))` agrega a cada palabra de `words` un `1`.\n    - El resultado es un **arreglo distribuido** de tuplas `RDD[(str, Int)]`.\n    \n* A este `RDD` se le aplica el método `reduceByKey` (línea 12):\n    - `reduceByKey(lambda n,m: n+m)` suma los `1`\u0027s de las palabras iguales (la key es la palabra).\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 11:50:45.056",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 6.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
-        "title": true,
+        "title": false,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -367,98 +390,72 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003e\u003ccode\u003eval\u003c/code\u003e declara una variable inmutable (constante).\u003c/p\u003e\u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003e\u003ccode\u003elines\u003c/code\u003e es un \u003cstrong\u003earray distribuido\u003c/strong\u003e de lineas de texto (\u003ccode\u003eRDD[String]\u003c/code\u003e).\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003eun conjunto de lineas en cada \u003cstrong\u003enodo del cluster\u003c/strong\u003e.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003e\u003ccode\u003elines\u003c/code\u003e tiene el método \u003ccode\u003eflatMap\u003c/code\u003e (línea 4):\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003e\n        \u003cp\u003e\u003ccode\u003eflatMap(l \u003d\u0026gt; l.split(\u0026quot; \u0026quot;))\u003c/code\u003e toma cada cada elemento del \u003ccode\u003eRDD\u003c/code\u003e (linea), lo convierte en sequencia de palabras y concatena estas secuencias:\u003c/p\u003e\n        \u003cul\u003e\n          \u003cli\u003e\u003ccode\u003el \u003d\u0026gt; l.split(\u0026quot; \u0026quot;)\u003c/code\u003e es la \u003cstrong\u003efunción\u003c/strong\u003e que toma una linea y devuelve la secuencia de palabras.\u003c/li\u003e\n        \u003c/ul\u003e\n      \u003c/li\u003e\n      \u003cli\u003e\n      \u003cp\u003eSu resultado es un array \u003cstrong\u003edistribuido\u003c/strong\u003e de palabras (\u003ccode\u003eRDD[String]\u003c/code\u003e).\u003c/p\u003e\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eAl resultado de \u003ccode\u003eflatMap\u003c/code\u003e se aplica el método \u003ccode\u003efilter\u003c/code\u003e (línea 5):\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003e\u003ccode\u003efilter(w \u003d\u0026gt; ! w.isEmpty)\u003c/code\u003e saca las palabras que son vacías (pueden aparecer?).\u003c/li\u003e\n      \u003cli\u003e\u003ccode\u003ew \u003d\u0026gt; ! w.isEmpty\u003c/code\u003e es la \u003cstrong\u003efunción\u003c/strong\u003e que pregunta si la palabra es vacía.\u003c/li\u003e\n      \u003cli\u003e\u003ccode\u003efilter\u003c/code\u003e devuelve un \u003ccode\u003eRDD\u003c/code\u003e que se almacena en \u003ccode\u003ewords\u003c/code\u003e.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003e\u003ccode\u003ewords\u003c/code\u003e tiene el método \u003ccode\u003emap\u003c/code\u003e (línea 8):\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003e\u003ccode\u003emap(w \u003d\u0026gt; (w,1))\u003c/code\u003e agrega a cada palabra de \u003ccode\u003ewords\u003c/code\u003e un \u003ccode\u003e1\u003c/code\u003e.\u003c/li\u003e\n      \u003cli\u003eEl resultado es un \u003cstrong\u003earreglo distribuido\u003c/strong\u003e de tuplas \u003ccode\u003eRDD[(String, Int)]\u003c/code\u003e.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eA este \u003ccode\u003eRDD\u003c/code\u003e se le aplica el método \u003ccode\u003ereduceByKey\u003c/code\u003e (línea 9):\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003e\u003ccode\u003ereduceByKey((nx,ny) \u003d\u0026gt; nx+ny)\u003c/code\u003e suma los \u003ccode\u003e1\u003c/code\u003e\u0026rsquo;s de las palabras iguales (la key es la palabra).\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003e\n    \u003cp\u003e\u003ccode\u003elines\u003c/code\u003e es un \u003cstrong\u003earray distribuido\u003c/strong\u003e de lineas de texto (\u003ccode\u003eRDD[str]\u003c/code\u003e).\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003euna parte del arreglo en cada \u003cstrong\u003enodo del cluster\u003c/strong\u003e.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003e\u003ccode\u003elines\u003c/code\u003e tiene el método \u003ccode\u003eflatMap\u003c/code\u003e (línea 6):\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003e\n        \u003cp\u003e\u003ccode\u003eflatMap(lambda line: line.split(\u0026quot; \u0026quot;))\u003c/code\u003e toma cada cada elemento del \u003ccode\u003eRDD\u003c/code\u003e (linea), lo convierte en sequencia de palabras y concatena estas secuencias:\u003c/p\u003e\n        \u003cul\u003e\n          \u003cli\u003e\u003ccode\u003elambda line: line.split(\u0026quot; \u0026quot;)\u003c/code\u003e es la \u003cstrong\u003efunción\u003c/strong\u003e que toma una linea y la divide en una secuencia de palabras.\u003c/li\u003e\n        \u003c/ul\u003e\n      \u003c/li\u003e\n      \u003cli\u003e\n      \u003cp\u003eSu resultado es un array \u003cstrong\u003edistribuido\u003c/strong\u003e de palabras (\u003ccode\u003eRDD[str]\u003c/code\u003e).\u003c/p\u003e\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eAl resultado de \u003ccode\u003eflatMap\u003c/code\u003e se aplica el método \u003ccode\u003efilter\u003c/code\u003e (línea 7):\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003e\u003ccode\u003efilter(lambda word: word)\u003c/code\u003e saca las palabras que son vacías (pueden aparecer?).\u003c/li\u003e\n      \u003cli\u003e\u003ccode\u003elambda word: word\u003c/code\u003e es la \u003cstrong\u003efunción\u003c/strong\u003e que pregunta si la palabra es vacía.\u003c/li\u003e\n      \u003cli\u003e\u003ccode\u003efilter\u003c/code\u003e devuelve un \u003ccode\u003eRDD\u003c/code\u003e que se almacena en \u003ccode\u003ewords\u003c/code\u003e.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003e\u003ccode\u003ewords\u003c/code\u003e tiene el método \u003ccode\u003emap\u003c/code\u003e (línea 11):\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003e\u003ccode\u003emap(lambda word: (word,1))\u003c/code\u003e agrega a cada palabra de \u003ccode\u003ewords\u003c/code\u003e un \u003ccode\u003e1\u003c/code\u003e.\u003c/li\u003e\n      \u003cli\u003eEl resultado es un \u003cstrong\u003earreglo distribuido\u003c/strong\u003e de tuplas \u003ccode\u003eRDD[(str, Int)]\u003c/code\u003e.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eA este \u003ccode\u003eRDD\u003c/code\u003e se le aplica el método \u003ccode\u003ereduceByKey\u003c/code\u003e (línea 12):\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003e\u003ccode\u003ereduceByKey(lambda n,m: n+m)\u003c/code\u003e suma los \u003ccode\u003e1\u003c/code\u003e\u0026rsquo;s de las palabras iguales (la key es la palabra).\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413344_-1252386811",
+      "jobName": "paragraph_1574195617683_1416160612",
       "id": "20181010-120216_1622145406",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md\n### Por que Scala\n\n* Spark esta escrito en Scala.\n    - Librerias en Scala más mantenidas que en Python o R.\n\n* Más eficiente\n\n  ![](https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/Simply+UDF+Perf.png)\n\n  ([Apache Spark: Scala vs. Java v. Python vs. R vs. SQL](https://mindfulmachines.io/blog/2018/6/apache-spark-scala-vs-java-v-python-vs-r-vs-sql26))\n\n* En Big Data es conveniente tener tipos \n\n* Parecido a Python.\n    - Si saben Spark en Scala también lo saben en Python.\n    - Es muy probable que usen los dos.\n\n* Tutorial para hacer en repo git:\n\n  - 2 notebooks Zeppelin en `diplodatos_bigdata/clases/tutorial_scala`.\n\n\n",
-      "user": "anonymous",
-      "dateUpdated": "Oct 12, 2018 5:33:38 PM",
-      "config": {
-        "colWidth": 12.0,
-        "enabled": true,
-        "results": {},
-        "editorSetting": {
-          "language": "markdown",
-          "editOnDblClick": true
-        },
-        "editorMode": "ace/mode/markdown",
-        "editorHide": true,
-        "tableHide": false
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003ePor que Scala\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003e\n    \u003cp\u003eSpark esta escrito en Scala.\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003eLibrerias en Scala más mantenidas que en Python o R.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eMás eficiente\u003c/p\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/01_intro_spark/Simply+UDF+Perf.png\" /\u003e\u003c/p\u003e\n\u003cp\u003e(\u003ca href\u003d\"https://mindfulmachines.io/blog/2018/6/apache-spark-scala-vs-java-v-python-vs-r-vs-sql26\"\u003eApache Spark: Scala vs. Java v. Python vs. R vs. SQL\u003c/a\u003e)\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEn Big Data es conveniente tener tipos\u003c/p\u003e\u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eParecido a Python.\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003eSi saben Spark en Scala también lo saben en Python.\u003c/li\u003e\n      \u003cli\u003eEs muy probable que usen los dos.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eTutorial para hacer en repo git:\u003c/p\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003e2 notebooks Zeppelin en \u003ccode\u003ediplodatos_bigdata/clases/tutorial_scala\u003c/code\u003e.\u003c/p\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
-          }
-        ]
-      },
-      "apps": [],
-      "jobName": "paragraph_1539354452290_-631340789",
-      "id": "20181012-112732_1032620101",
-      "dateCreated": "Oct 12, 2018 11:27:32 AM",
-      "dateStarted": "Oct 12, 2018 5:33:38 PM",
-      "dateFinished": "Oct 12, 2018 5:33:38 PM",
+      "dateCreated": "2019-11-19 17:33:37.683",
+      "dateStarted": "2019-11-21 11:50:37.745",
+      "dateFinished": "2019-11-21 11:50:40.183",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Resultado Word Count Spark",
-      "text": "val result \u003d wordCount.sortBy((p \u003d\u003e p._2), ascending \u003d false) // ordena por cantidad\n\nresult.collect() // traigo resultados desde nodos\n      .take(10) // tomo 10\n      .foreach(p \u003d\u003e println(p)) // los imprimo\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "text": "%pyspark\n\nresult \u003d wordCount \\\n    .sortBy((lambda p: p[1]), ascending \u003d False) # ordena por cantidad\n\nlocal_result \u003d result.collect() # Traigo desde cluster\n\nfor word, count in local_result[:10]: # tomo 10\n    print word, count # los imprimo\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 16:30:28.070",
       "config": {
         "lineNumbers": true,
         "editorSetting": {
-          "language": "scala",
-          "editOnDblClick": false
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "title": true,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539354413344_-1252386811",
+      "jobName": "paragraph_1574195617687_697334763",
       "id": "20171011-153126_91229243",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
+      "dateCreated": "2019-11-19 17:33:37.687",
+      "dateStarted": "2019-11-21 16:30:28.198",
+      "dateFinished": "2019-11-21 16:30:28.841",
+      "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Run this",
-      "text": "{\nval uiHost \u003d sc.getConf.getOption(\"spark.driver.host\").getOrElse(\"localhost\")\nval uiPort \u003d sc.getConf.getOption(\"spark.ui.port\").getOrElse(\"4040\")\nprint(s\"\"\"\n%html\nEjecutar esta celda y ver Spark UI en \n\u003ca href\u003d\"http://$uiHost:$uiPort\"\u003ehttp://$uiHost(host):$uiPort(port)\u003c/a\u003e\n\"\"\")\n}",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "text": "%pyspark\n\nuiHost \u003d sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort \u003d sc.uiWebUrl.split(\":\")[-1]\nprint \"\"\"%html\nEjecutar esta celda y ver Spark UI en \n\u003ca href\u003d\"http://{}:{}\"\u003ehttp://{}(host):{}(port)\u003c/a\u003e\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 16:30:37.887",
       "config": {
         "editorSetting": {
-          "language": "scala"
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "editorHide": true,
         "title": false,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -468,39 +465,39 @@
         "code": "SUCCESS",
         "msg": [
           {
-            "type": "TEXT",
-            "data": "\n"
-          },
-          {
             "type": "HTML",
-            "data": "Ejecutar esta celda y ver Spark UI en \n\u003ca href\u003d\"http://192.168.1.201:4040\"\u003ehttp://192.168.1.201(host):4040(port)\u003c/a\u003e\n"
+            "data": "Ejecutar esta celda y ver Spark UI en \n\u003ca href\u003d\"http://192.168.128.167:4040\"\u003ehttp://192.168.128.167(host):4040(port)\u003c/a\u003e\n\n"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413344_-1252386811",
+      "jobName": "paragraph_1574195617689_741066734",
       "id": "20171010-193244_2031028749",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "2019-11-19 17:33:37.689",
+      "dateStarted": "2019-11-21 16:30:37.990",
+      "dateFinished": "2019-11-21 16:30:38.099",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "Ejercicio (word count)",
-      "text": "%md\n* Crear una celda abajo de esta.\n* Copiar el programa `wordcount` anterior en la misma.\n    - [`shift`]-[`flechas`] para seleccionar.\n    - [`ctrl`]-[`c`] para copiar.\n    - [`ctrl`]-[`v`] para pegar.\n* Modificarlo para leer todas la lineas de los archivos en `./licenses/`\n    - Ayuda: si al método `textFile` se le indica el nombre de un directorio carga todos los archivo del mismo.\n* Ejecute la celda ([`shift`]-[`enter`])\n* Ver la cantidad de tareas en SparkUI\n\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "title": "Ejercicio 0 (word count)",
+      "text": "%md\n* Crear una celda abajo de esta (poner mouse debajo de esta celda y seleccionar \"Add Paragraph\").\n* Copiar el programa `wordcount` anterior en la misma (esta en 2 celdas).\n    - [`shift`]-[`flechas`] para seleccionar.\n    - [`ctrl`]-[`c`] para copiar.\n    - [`ctrl`]-[`v`] para pegar.\n* Modificarlo para leer todas la lineas de los archivos en `./licenses/`\n    - Ayuda: si al método `textFile` se le indica el nombre de un directorio carga todos los archivo del mismo.\n* Ejecute la celda ([`shift`]-[`enter`])\n* Ver la cantidad de tareas en SparkUI\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 18:55:59.240",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "title": true,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -511,32 +508,36 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003eCrear una celda abajo de esta.\u003c/li\u003e\n  \u003cli\u003eCopiar el programa \u003ccode\u003ewordcount\u003c/code\u003e anterior en la misma.\n    \u003cul\u003e\n      \u003cli\u003e[\u003ccode\u003eshift\u003c/code\u003e]-[\u003ccode\u003eflechas\u003c/code\u003e] para seleccionar.\u003c/li\u003e\n      \u003cli\u003e[\u003ccode\u003ectrl\u003c/code\u003e]-[\u003ccode\u003ec\u003c/code\u003e] para copiar.\u003c/li\u003e\n      \u003cli\u003e[\u003ccode\u003ectrl\u003c/code\u003e]-[\u003ccode\u003ev\u003c/code\u003e] para pegar.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eModificarlo para leer todas la lineas de los archivos en \u003ccode\u003e./licenses/\u003c/code\u003e\n    \u003cul\u003e\n      \u003cli\u003eAyuda: si al método \u003ccode\u003etextFile\u003c/code\u003e se le indica el nombre de un directorio carga todos los archivo del mismo.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eEjecute la celda ([\u003ccode\u003eshift\u003c/code\u003e]-[\u003ccode\u003eenter\u003c/code\u003e])\u003c/li\u003e\n  \u003cli\u003eVer la cantidad de tareas en SparkUI\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003eCrear una celda abajo de esta (poner mouse debajo de esta celda y seleccionar \u0026ldquo;Add Paragraph\u0026rdquo;).\u003c/li\u003e\n  \u003cli\u003eCopiar el programa \u003ccode\u003ewordcount\u003c/code\u003e anterior en la misma (esta en 2 celdas).\n    \u003cul\u003e\n      \u003cli\u003e[\u003ccode\u003eshift\u003c/code\u003e]-[\u003ccode\u003eflechas\u003c/code\u003e] para seleccionar.\u003c/li\u003e\n      \u003cli\u003e[\u003ccode\u003ectrl\u003c/code\u003e]-[\u003ccode\u003ec\u003c/code\u003e] para copiar.\u003c/li\u003e\n      \u003cli\u003e[\u003ccode\u003ectrl\u003c/code\u003e]-[\u003ccode\u003ev\u003c/code\u003e] para pegar.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eModificarlo para leer todas la lineas de los archivos en \u003ccode\u003e./licenses/\u003c/code\u003e\n    \u003cul\u003e\n      \u003cli\u003eAyuda: si al método \u003ccode\u003etextFile\u003c/code\u003e se le indica el nombre de un directorio carga todos los archivo del mismo.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eEjecute la celda ([\u003ccode\u003eshift\u003c/code\u003e]-[\u003ccode\u003eenter\u003c/code\u003e])\u003c/li\u003e\n  \u003cli\u003eVer la cantidad de tareas en SparkUI\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413345_-1252771560",
+      "jobName": "paragraph_1574195617690_-631324921",
       "id": "20171010-205347_2087717007",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "2019-11-19 17:33:37.690",
+      "dateStarted": "2019-11-21 18:22:45.662",
+      "dateFinished": "2019-11-21 18:22:45.697",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n\n## Ejecución de programas en Spark\n\n* En [Zeppelin](http://zeppelin.apache.org/) (como lo hacemos ahora)\n* En `spark-shell`\n* Como programa autónomo\n",
-      "dateUpdated": "Oct 12, 2018 5:06:46 PM",
+      "text": "%md\n\n## Ejecución de programas en Spark\n\n* En [Zeppelin](http://zeppelin.apache.org/) (como lo hacemos ahora)\n* En `pyspark` shell (tambien interactivo)\n* Como programa autónomo\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 18:00:07.284",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -547,34 +548,38 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eEjecución de programas en Spark\u003c/h2\u003e\n\u003cul\u003e\n  \u003cli\u003eEn \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e (como lo hacemos ahora)\u003c/li\u003e\n  \u003cli\u003eEn \u003ccode\u003espark-shell\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eComo programa autónomo\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eEjecución de programas en Spark\u003c/h2\u003e\n\u003cul\u003e\n  \u003cli\u003eEn \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e (como lo hacemos ahora)\u003c/li\u003e\n  \u003cli\u003eEn \u003ccode\u003epyspark\u003c/code\u003e shell\u003c/li\u003e\n  \u003cli\u003eComo programa autónomo\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413345_-1252771560",
+      "jobName": "paragraph_1574195617692_-1173411369",
       "id": "20171010-202757_196880209",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "2019-11-19 17:33:37.692",
+      "dateStarted": "2019-11-21 17:09:37.962",
+      "dateFinished": "2019-11-21 17:09:40.578",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "spark-shell",
-      "text": "%md\n\n* Abrir una terminal\n* Ir a la instalación Spark\n```sh\ncd ~/spark/spark-2.1.1-bin-hadoop2.7\n```\n* Arrancar el shell\n```sh\n./bin/spark-shell\n```\n* Escribir en shell (después apretar `Enter`)\n```\nscala\u003e val lines \u003d sc.textFile(\"README.md\")\n```\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "title": "pyspark shell",
+      "text": "%md\n\n* Abrir una terminal\n* Ir a la instalación Spark\n```sh\ncd ~/spark/spark-2.2.1-bin-hadoop2.7\n```\n* Arrancar el shell\n```sh\n./bin/pyspark\n```\n* Escribir en shell (después apretar `Enter`)\n```python\n\u003e\u003e\u003e lines \u003d sc.textFile(\"README.md\")\n\u003e\u003e\u003e textFile.first()\n```\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 17:15:29.176",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "title": true,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -585,34 +590,38 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003eAbrir una terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eIr a la instalación Spark\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd ~/spark/spark-2.1.1-bin-hadoop2.7\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eArrancar el shell\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003e./bin/spark-shell\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eEscribir en shell (después apretar \u003ccode\u003eEnter\u003c/code\u003e)\u003c/p\u003e\n  \u003cpre\u003e\u003ccode\u003escala\u0026gt; val lines \u003d sc.textFile(\u0026quot;README.md\u0026quot;)\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003eAbrir una terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eIr a la instalación Spark\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd ~/spark/spark-2.2.1-bin-hadoop2.7\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eArrancar el shell\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003e./bin/pyspark\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eEscribir en shell (después apretar \u003ccode\u003eEnter\u003c/code\u003e)\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"python\"\u003e\u0026gt;\u0026gt;\u0026gt; lines \u003d sc.textFile(\u0026quot;README.md\u0026quot;)\n\u0026gt;\u0026gt;\u0026gt; textFile.first()\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413345_-1252771560",
+      "jobName": "paragraph_1574195617693_1158336369",
       "id": "20171011-173126_528319238",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "2019-11-19 17:33:37.693",
+      "dateStarted": "2019-11-21 17:15:18.180",
+      "dateFinished": "2019-11-21 17:15:18.250",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Programa autónomo",
-      "text": "%md\n\n* Ir a programa\n```sh\ncd diplodatos_bigdata/prog/word_count\n```\n* Actualizar repositorio\n```sh\ngit pull\n```\n* Ver programa\n```sh\nless ./src/main/scala/WordCount.scala\n```\n  (salir con [`q`])\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "text": "%md\n\n* Ir a programa\n```sh\ncd diplodatos_bigdata/prog/word_count\n```\n* Actualizar repositorio\n```sh\ngit pull\n```\n* Ver programa\n```sh\nless src/main/python/WordCount.py\n```\n  (salir con [`q`])\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 18:02:22.523",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 6.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "title": true,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -623,34 +632,38 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eIr a programa\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd diplodatos_bigdata/prog/word_count\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repositorio\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003egit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eVer programa\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003eless ./src/main/scala/WordCount.scala\n\u003c/code\u003e\u003c/pre\u003e (salir con [\u003ccode\u003eq\u003c/code\u003e])\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eIr a programa\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd diplodatos_bigdata/prog/word_count\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repositorio\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003egit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eVer programa\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003eless src/main/python/WordCount.py\n\u003c/code\u003e\u003c/pre\u003e (salir con [\u003ccode\u003eq\u003c/code\u003e])\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413345_-1252771560",
+      "jobName": "paragraph_1574195617695_135036617",
       "id": "20171011-175259_1199949339",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "2019-11-19 17:33:37.695",
+      "dateStarted": "2019-11-21 18:02:16.066",
+      "dateFinished": "2019-11-21 18:02:16.106",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "En casa (tarda mucho)",
-      "text": "%md\n* Compilar\n```sh\n~/spark/sbt/bin/sbt package\n```\n* Ejecutar\n```sh\n./run.sh\n```\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "title": "Ejecucion de programa",
+      "text": "%md\n* Ejecutar\n```sh\n~/spark/spark-2.2.1-bin-hadoop2.7/bin/spark-submit --master local[4] src/main/python/WordCount.py \\\n        ~/spark/spark-2.2.1-bin-hadoop2.7/licenses/\n```\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 18:52:35.093",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 6.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "title": true,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -661,61 +674,70 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eCompilar\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003e~/spark/sbt/bin/sbt package\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eEjecutar\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003e./run.sh\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEjecutar\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003e~/spark/spark-2.2.1-bin-hadoop2.7/bin/spark-submit --master local[4] src/main/python/WordCount.py \\\n    ~/spark/spark-2.2.1-bin-hadoop2.7/licenses/\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413346_-1251617313",
+      "jobName": "paragraph_1574195617696_1350360013",
       "id": "20171012-165049_905215351",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "2019-11-19 17:33:37.696",
+      "dateStarted": "2019-11-21 18:18:18.086",
+      "dateFinished": "2019-11-21 18:18:18.112",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "Versión Spark y Scala en Zeppelin",
-      "text": "sc.version\nutil.Properties.versionNumberString",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "title": "Versión Spark en Zeppelin",
+      "text": "%pyspark\n\nprint sc.version",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 16:33:21.766",
       "config": {
         "editorSetting": {
-          "language": "scala",
-          "editOnDblClick": false
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "editorHide": false,
         "title": true,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539354413346_-1251617313",
+      "jobName": "paragraph_1574195617698_-868734435",
       "id": "20170830-114757_1684133948",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
+      "dateCreated": "2019-11-19 17:33:37.698",
+      "dateStarted": "2019-11-21 16:33:21.864",
+      "dateFinished": "2019-11-21 16:33:21.889",
+      "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n\n### Principales referencias online:\n\n* [Documentación Spark](http://spark.apache.org/docs/2.1.1/)\n* [API Spark Scala](http://spark.apache.org/docs/2.1.1/api/scala/index.html)\n",
+      "text": "%md\n\n### Principales referencias online:\n\n* [Documentación Spark](http://spark.apache.org/docs/2.2.1/)\n* [API Spark Python](http://spark.apache.org/docs/2.2.1/api/python/index.html)\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 12, 2018 5:15:13 PM",
+      "dateUpdated": "2019-11-19 20:07:50.152",
       "config": {
-        "colWidth": 12.0,
-        "enabled": false,
-        "results": {},
+        "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
+        "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
-        "tableHide": false
+        "results": {},
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -726,22 +748,23 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003ePrincipales referencias online:\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ca href\u003d\"http://spark.apache.org/docs/2.1.1/\"\u003eDocumentación Spark\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ca href\u003d\"http://spark.apache.org/docs/2.1.1/api/scala/index.html\"\u003eAPI Spark Scala\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003ePrincipales referencias online:\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ca href\u003d\"http://spark.apache.org/docs/2.2.1/\"\u003eDocumentación Spark\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ca href\u003d\"http://spark.apache.org/docs/2.2.1/api/python/index.html\"\u003eAPI Spark Python\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539375123667_1207388555",
+      "jobName": "paragraph_1574195617700_-1775955239",
       "id": "20181012-171203_1400816125",
-      "dateCreated": "Oct 12, 2018 5:12:03 PM",
-      "dateStarted": "Oct 12, 2018 5:15:01 PM",
-      "dateFinished": "Oct 12, 2018 5:15:01 PM",
+      "dateCreated": "2019-11-19 17:33:37.700",
+      "dateStarted": "2019-11-19 20:07:44.796",
+      "dateFinished": "2019-11-19 20:07:44.803",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Ejercicios MapReduce con Spark",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-19 17:33:37.703",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -768,29 +791,32 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413346_-1251617313",
+      "jobName": "paragraph_1574195617701_-2055164482",
       "id": "20171016-172908_1510165702",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "dateCreated": "2019-11-19 17:33:37.701",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Ejercicio 1",
-      "text": "%md\n\nModifique el programa *word count* siguiente para que cuente la **cantidad de apariciones de cada letra** en el archivo.\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "text": "%md\n\nModifique el programa *word count* siguiente para que cuente la **cantidad de apariciones de cada letra** en el archivo.\n\n* Ayuda: solo hay que modificar la linea 6\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 18:55:45.648",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "title": true,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -801,46 +827,56 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eModifique el programa \u003cem\u003eword count\u003c/em\u003e siguiente para que cuente la \u003cstrong\u003ecantidad de apariciones de cada letra\u003c/strong\u003e en el archivo.\u003c/p\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eModifique el programa \u003cem\u003eword count\u003c/em\u003e siguiente para que cuente la \u003cstrong\u003ecantidad de apariciones de cada letra\u003c/strong\u003e en el archivo.\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003eAyuda: solo hay que modificar la linea 6\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413346_-1251617313",
+      "jobName": "paragraph_1574195617703_-405424723",
       "id": "20171010-202446_178633207",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "2019-11-19 17:33:37.703",
+      "dateStarted": "2019-11-21 18:30:52.710",
+      "dateFinished": "2019-11-21 18:30:52.732",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "val lines \u003d sc.textFile(\"README.md\")\n\nval words \u003d lines\n            .flatMap(l \u003d\u003e l.split(\" \"))\n            .filter(l \u003d\u003e ! l.isEmpty)\n\n// MapReduce\nval wordCount \u003d words.map(x \u003d\u003e (x,1))\n                .reduceByKey((nx,ny) \u003d\u003e nx+ny)\n\nval result \u003d wordCount.sortBy((p \u003d\u003e p._2), ascending \u003d false)\n\nresult.collect() // traigo resultados\n      .take(10)\n      .foreach(p \u003d\u003e println(p))\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "text": "%pyspark\n\nlines \u003d sc.textFile(\"README.md\")\n\nwords \u003d lines \\\n    .flatMap(lambda line: line.split(\" \")) \\\n    .filter(lambda word: word)\n\n\n#MapReduce\nwordCount \u003d words \\\n    .map(lambda word: (word,1)) \\\n    .reduceByKey(lambda n,m: n+m)\n\nresult \u003d wordCount \\\n    .sortBy((lambda p: p[1]), ascending \u003d False) # ordena por cantidad\n\nlocal_result \u003d result.collect() # Traigo desde cluster\n\nfor word, count in local_result[:10]: # tomo 10\n    print word, count # los imprimo\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 18:53:24.455",
       "config": {
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "results": {},
         "enabled": true,
         "editorSetting": {
-          "language": "scala"
-        }
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "fontSize": 9.0,
+        "lineNumbers": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539354413347_-1252002062",
+      "jobName": "paragraph_1574195617705_-61879896",
       "id": "20171011-154135_2131718224",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
+      "dateCreated": "2019-11-19 17:33:37.705",
+      "dateStarted": "2019-11-21 18:29:13.482",
+      "dateFinished": "2019-11-21 18:29:13.685",
+      "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Ejercicio 2",
       "text": "%md\nCada línea del archivo `~/diplodatos_bigdata/ds/links_raw.txt` contiene un url de una página web seguido de los links que posee a otras páginas web:\n```\n\u003curl\u003e \u003curl link 1\u003e \u003curl link 2\u003e ... \u003curl link n\u003e\n```\n\nBasándose en la utilización de la técnica de *MapReduce* que se mostró en el programa `word count` haga un programa en Spark que cuente la cantidad de links que apuntan a cada página.\n\n#### Ayuda\n\nA continuación está el comienzo del programa. Falta hacer el *MapReduce* y mostrar el resultado.\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-19 17:33:37.708",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -868,46 +904,53 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413347_-1252002062",
+      "jobName": "paragraph_1574195617707_508629345",
       "id": "20171011-175322_1451259292",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "dateCreated": "2019-11-19 17:33:37.707",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "val baseDir \u003d \" .... /diplodatos_bigdata\" // llenar con el directorio git\n\nval lines \u003d sc.textFile(baseDir + \"/ds/links_raw.txt\")\n\nval linksTo \u003d lines\n                .flatMap(l \u003d\u003e l.split(\" \").tail) // separo los urls y tomo solo los apuntados\n// Ahora linksTo tiene las paginas apuntadas\n\n// Completar los ...\n\nval invLinkCount \u003d linksTo.map(...)\n                    .reduceByKey(...)\n\nval result \u003d invLinkCount.sortBy(p \u003d\u003e ..., ascending \u003d false)\n\nresult.collect() // traigo resultados\n      .take(10)\n      .foreach(p \u003d\u003e ...)\n",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "text": "%pyspark\n\nbaseDir \u003d \" .... /diplodatos_bigdata\" # llenar con el directorio git\n\nlines \u003d sc.textFile(baseDir + \"/ds/links_raw.txt\")\n\nlinksTo \u003d lines \\\n    .flatMap(lambda l: l.split(\" \")[1:]) # separo los links y tomo los apuntados\n\n# Ahora linksTo tiene las paginas apuntadas\n\n# Completar los ...\n\n# MapReduce\ninvLinkCount \u003d linksTo.map(...) \\\n    .reduceByKey(...)\n\nresult \u003d invLinkCount.sortBy((lambda p: ...), ascending \u003d False)\n\nlocal_result \u003d result.collect() # Traigo desde cluster\n\nfor word, count in local_result[:10]: # tomo 10\n    print word, count # los imprimo\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 18:48:39.831",
       "config": {
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
-        "results": {},
+        "fontSize": 9.0,
         "enabled": true,
+        "results": {},
         "editorSetting": {
-          "language": "scala",
-          "editOnDblClick": false
-        }
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539354413347_-1252002062",
-      "id": "20171012-200915_1451462516",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "jobName": "paragraph_1574372821772_826652999",
+      "id": "20191121-184701_1405603118",
+      "dateCreated": "2019-11-21 18:47:01.772",
       "status": "READY",
-      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "FIN",
       "text": "val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-21 18:55:35.271",
       "config": {
         "tableHide": true,
         "editorSetting": {
-          "language": "scala"
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/scala",
@@ -926,7 +969,8 @@
             }
           }
         ],
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -946,52 +990,21 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539354413347_-1252002062",
+      "jobName": "paragraph_1574195617710_-1828813901",
       "id": "20160712-175904_2058049512",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
-      "status": "READY",
-      "errorMessage": "",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "dateUpdated": "Oct 12, 2018 11:26:53 AM",
-      "config": {},
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "apps": [],
-      "jobName": "paragraph_1539354413348_-1253925806",
-      "id": "20160829-174645_1462733036",
-      "dateCreated": "Oct 12, 2018 11:26:53 AM",
+      "dateCreated": "2019-11-19 17:33:37.710",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     }
   ],
-  "name": "Clase 01 - Introducción a Spark",
-  "id": "2DSJT6EQ6",
-  "angularObjects": {
-    "2CVPMZQDC:shared_process": [],
-    "2CVZRWYXD:shared_process": [],
-    "2CXC3J873:shared_process": [],
-    "2CW9KVZFB:shared_process": [],
-    "2CWBZB5J2:shared_process": [],
-    "2CWQPZNH6:shared_process": [],
-    "2CWB7GZBS:shared_process": [],
-    "2CUMUUMCY:shared_process": [],
-    "2CX36SA9F:shared_process": [],
-    "2CVWTU38R:shared_process": [],
-    "2CVGJFNZ4:shared_process": [],
-    "2CUKDKYCE:shared_process": [],
-    "2CWDFCUCZ:shared_process": [],
-    "2CUNFHEUZ:shared_process": [],
-    "2CW49AZMR:shared_process": [],
-    "2CWE35VRJ:shared_process": [],
-    "2CWV6WPV3:shared_process": [],
-    "2CXGQWA1W:shared_process": [],
-    "2CUU3PNNG:shared_process": []
+  "name": "Diplodatos/Clase 01 - Introducción a Spark",
+  "id": "2ESXMT8HM",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
   },
-  "config": {},
   "info": {}
 }
