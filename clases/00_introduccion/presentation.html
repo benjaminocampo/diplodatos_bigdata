@@ -105,7 +105,7 @@
             </aside>
             
             <aside class="page_number">
-              1/29
+              1/37
             </aside>
           </footer>
         </div>
@@ -147,7 +147,7 @@
             </aside>
             
             <aside class="page_number">
-              2/29
+              2/37
             </aside>
           </footer>
         </div>
@@ -166,7 +166,8 @@
 <li>Bajar de repo:</li>
 </ul>
 <pre><span></span><span class="nb">cd</span>
-git clone https://bigdata_famaf@bitbucket.org/bigdata_famaf/diplodatos_bigdata.git
+git clone
+  https://bigdata_famaf@bitbucket.org/bigdata_famaf/diplodatos_bigdata.git
 </pre>
 <ul>
 <li><p class="first">Abrir con navegador esta presentación en:</p>
@@ -191,7 +192,7 @@ git clone https://bigdata_famaf@bitbucket.org/bigdata_famaf/diplodatos_bigdata.g
             </aside>
             
             <aside class="page_number">
-              3/29
+              3/37
             </aside>
           </footer>
         </div>
@@ -212,7 +213,7 @@ git clone https://bigdata_famaf@bitbucket.org/bigdata_famaf/diplodatos_bigdata.g
             
               <p>Veremos</p>
 <ul class="simple">
-<li>Necesidad de BigData</li>
+<li>Que es Big Data</li>
 <li>Problemas</li>
 <li>Soluciones</li>
 </ul>
@@ -229,7 +230,7 @@ git clone https://bigdata_famaf@bitbucket.org/bigdata_famaf/diplodatos_bigdata.g
             </aside>
             
             <aside class="page_number">
-              4/29
+              4/37
             </aside>
           </footer>
         </div>
@@ -240,21 +241,106 @@ git clone https://bigdata_famaf@bitbucket.org/bigdata_famaf/diplodatos_bigdata.g
         <div class="slide has_footer slide-5">
           <div class="inner">
             
+            <header><h1>Curso</h1></header>
+            
+            
+            <section><h2>Contenido general</h2>
+<ul class="simple">
+<li>Parte 1 (8 hs)<ul>
+<li>Introducción a Big Data y Spark</li>
+<li>RDD's</li>
+<li>Conceptos de computación distribuida</li>
+<li>Interfáz SQL</li>
+</ul>
+</li>
+<li>Parte 2 (8 hs)<ul>
+<li>Machine Learning sobre grandes volumenes de datos</li>
+<li>Procesamiento de grandes grafos</li>
+</ul>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
+            
+            
+            <aside class="source">
+              Source: <a href="presentation.rst">presentation.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              5/37
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: presentation.rst -->
+      <div class="slide-wrapper">
+        <div class="slide has_footer slide-6">
+          <div class="inner">
+            
+            <header><h1>Que es Big Data?</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Análisis y marketing en redes sociales?</li>
+<li>Inteligencia artificial?</li>
+<li>Ciencia de datos (data science)?</li>
+<li>Internet de las cosas (internet of things)?</li>
+</ul>
+
+<h2>Tiene que ver con cantidad de datos</h2></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
+            
+            
+            <aside class="source">
+              Source: <a href="presentation.rst">presentation.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              6/37
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: presentation.rst -->
+      <div class="slide-wrapper">
+        <div class="slide has_footer slide-7">
+          <div class="inner">
+            
             <header><h1>Cantidad de Datos</h1></header>
             
             
             <section><!-- Hoy transmite desde sus servidores (Grid) **10GB/Seg**\ :sup:`(1)` -->
-<ul>
-<li><p class="first">Colisionador de partículas CERN generó <strong>40 TB/Seg en 2012</strong>.</p>
-</li>
-<li><p class="first">Avión Airbus A380 genera <strong>640 TB por vuelo</strong>.</p>
-</li>
-<li><p class="first">Twitter genera <strong>12 TB por día</strong>.</p>
-</li>
-<li><p class="first">Bolsa de Nueva York genera <strong>1 TB por día</strong>.</p>
-</li>
-<li><p class="first">Cosechadora genera <strong>5.000 datos por hectárea</strong> en cada pasada.</p>
-<p>En Argentina hay alrededor de <strong>30.000.000 de hectáreas</strong> cultivadas.</p>
+<ul class="simple">
+<li>Colisionador de partículas CERN generó <strong>40 TB/Seg en 2012</strong>.</li>
+<li>Avión Airbus A380 genera <strong>640 TB por vuelo</strong>.</li>
+<li>Twitter genera <strong>12 TB por día</strong>.</li>
+<li>Bolsa de Nueva York genera <strong>1 TB por día</strong>.</li>
+<li>Cosechadora genera <strong>5.000 datos por hectárea</strong> en cada pasada.<ul>
+<li>En Argentina hay alrededor de <strong>30.000.000 de hectáreas</strong> cultivadas.</li>
+<li><strong>150 TB por pasada</strong>.</li>
+</ul>
 </li>
 </ul>
 <pre class="literal-block">
@@ -280,7 +366,7 @@ Gentileza Esteban Feuerstein 2014
             </aside>
             
             <aside class="page_number">
-              5/29
+              7/37
             </aside>
           </footer>
         </div>
@@ -288,7 +374,110 @@ Gentileza Esteban Feuerstein 2014
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-6">
+        <div class="slide has_footer slide-8">
+          <div class="inner">
+            
+            <header><h1>Jampp</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Empresa argentina mayorista de publicidad en apps de celulares</li>
+</ul>
+<img alt="orbe-meetup-ds-6.png" src="orbe-meetup-ds-6.png" style="width: 70%;" />
+<ul class="simple">
+<li>+100TB procesados por día</li>
+<li>+600TB de datos almacenados y consultados</li>
+<li>+70 instancias <strong>EMR</strong></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+              <ul class="simple">
+<li>Otro ejemplo local</li>
+<li>Doctorado de FaMAF maneja la infrestructura</li>
+<li>Con instancias spot de Amazon</li>
+<li>Bajísima latencia en Amazon!</li>
+<li>Ver EMR</li>
+</ul>
+            
+            </section>
+          </div>
+          <footer>
+            
+              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
+            
+            
+            <aside class="source">
+              Source: <a href="presentation.rst">presentation.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              8/37
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: presentation.rst -->
+      <div class="slide-wrapper">
+        <div class="slide has_footer slide-9">
+          <div class="inner">
+            
+            <header><h1>Foto del agujero negro</h1></header>
+            
+            
+            <section><img alt="blackhole-184.jpg" src="blackhole-184.jpg" style="width: 55%;" />
+<ul>
+<li><p class="first">5 <strong>Petabytes</strong> =  5000 Terabytes de información</p>
+<p>= mp3 de 5000 años de duración.</p>
+<img alt="blackhole-185.jpg" src="blackhole-185.jpg" style="width: 30%;" />
+<ul class="simple">
+<li>los 5 PB transportados por <strong>avión</strong></li>
+</ul>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+              <ul class="simple">
+<li>Telescopio de escala planetaria formado por 8 radiotelescopios</li>
+<li>Interesante problema de datos muy <strong>distribuidos</strong></li>
+<li>Problemas de velocidad de red que se veran mas adelante</li>
+<li>Media tonelada de hd</li>
+<li>shipping those drives from Hawaii to MIT works out to 14 gigabytes per second (112 gigabits per second)</li>
+<li>hd rellenos de helio para que no fallen en lugares inospitos</li>
+<li>Event Horizon Telescope (EHT)</li>
+<li>Reconstruccion de Imagen con Regularized Maximum Likelihood y Clean (deconvolucion)</li>
+<li>2 equipos RML y dos Clean</li>
+</ul>
+            
+            </section>
+          </div>
+          <footer>
+            
+              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
+            
+            
+            <aside class="source">
+              Source: <a href="presentation.rst">presentation.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              9/37
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: presentation.rst -->
+      <div class="slide-wrapper">
+        <div class="slide has_footer slide-10">
           <div class="inner">
             
             <header><h1>Nuevas Palabras</h1></header>
@@ -305,7 +494,6 @@ Gentileza Esteban Feuerstein 2014
 <li><p class="first">1 <strong>Zettabyte</strong> = 1000 Exabytes</p>
 </li>
 <li><p class="first">1 <strong>Yottabyte</strong> = 1000 Zetabytes</p>
-<p>= la totalidad de Internet</p>
 <p>(Se necesitarían aproximadamente 11,000,000,000,000 años para descargar un archivo de 1 Yottabyte)</p>
 </li>
 </ul>
@@ -336,7 +524,7 @@ Esteban Feuerstein 2014 | (1) http://home.cern/about/computing
             </aside>
             
             <aside class="page_number">
-              6/29
+              10/37
             </aside>
           </footer>
         </div>
@@ -344,7 +532,7 @@ Esteban Feuerstein 2014 | (1) http://home.cern/about/computing
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-7">
+        <div class="slide has_footer slide-11">
           <div class="inner">
             
             <header><h1>Aún más palabras</h1></header>
@@ -377,7 +565,7 @@ Esteban Feuerstein 2014 | (1) http://home.cern/about/computing
             </aside>
             
             <aside class="page_number">
-              7/29
+              11/37
             </aside>
           </footer>
         </div>
@@ -385,18 +573,18 @@ Esteban Feuerstein 2014 | (1) http://home.cern/about/computing
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-8">
+        <div class="slide has_footer slide-12">
           <div class="inner">
             
             <header><h1>Perspectiva</h1></header>
             
             
             <section><ul class="simple">
-<li>Universo digital crece x2 cada 2 años</li>
+<li>Universo digital será de 40 Zettabytes a fines del 2020</li>
 </ul>
 <img alt="grow_digital_universe.png" src="grow_digital_universe.png" style="width: 60%;" />
 <pre class="literal-block">
-The digital Universe in 2020 (publicado 2012)
+The digital Universe in 2020
 http://www.emc.com/collateral/
   analyst-reports/idc-the-digital-universe-in-2020.pdf
 </pre></section>
@@ -408,7 +596,7 @@ http://www.emc.com/collateral/
             
               <ul class="simple">
 <li>Estudio del 2012</li>
-<li>Actualmente la predicciones son aún peores</li>
+<li>Actualmente la predicciones se han superado</li>
 </ul>
             
             </section>
@@ -423,7 +611,7 @@ http://www.emc.com/collateral/
             </aside>
             
             <aside class="page_number">
-              8/29
+              12/37
             </aside>
           </footer>
         </div>
@@ -431,17 +619,16 @@ http://www.emc.com/collateral/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-9">
+        <div class="slide has_footer slide-13">
           <div class="inner">
             
             <header><h1>Aún más</h1></header>
             
             
-            <section><img alt="geopbyte.jpg" src="geopbyte.jpg" style="width: 70%;" />
+            <section><img alt="grow_digital_universe-2018.png" src="grow_digital_universe-2018.png" style="width: 90%;" />
 <pre class="literal-block">
-HP’s Post-Electronic Solution To Tomorrow’s Huge Data (2014)
-http://www.fastcompany.com/3033549/internet-of-things/
-  hps-post-electronic-solution-to-tomorrows-huge-data
+https://www.seagate.com/files/www-content/
+  our-story/trends/files/idc-seagate-dataage-whitepaper.pdf
 </pre></section>
             
           </div>
@@ -450,7 +637,9 @@ http://www.fastcompany.com/3033549/internet-of-things/
             <section>
             
               <ul class="simple">
-<li>Estudio del 2014</li>
+<li>Estudio del 2018</li>
+<li>Mas para el 2020</li>
+<li>2018 33 ZB</li>
 </ul>
             
             </section>
@@ -465,7 +654,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              9/29
+              13/37
             </aside>
           </footer>
         </div>
@@ -473,7 +662,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide slide-10">
+        <div class="slide slide-14">
           <div class="inner">
             
             <header><h1>Como procesar y almacenar tantos datos?</h1></header>
@@ -500,7 +689,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              10/29
+              14/37
             </aside>
           </footer>
         </div>
@@ -508,14 +697,14 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-11">
+        <div class="slide has_footer slide-15">
           <div class="inner">
             
             <header><h1>Cluster de computadoras</h1></header>
             
             
             <section><ul class="simple">
-<li>Muchos nodos en red</li>
+<li>Muchas computadoras (nodos) en red</li>
 <li>Hardware escalable</li>
 </ul>
 <img alt="USC_Data_Center_Wiring_4.jpg" src="USC_Data_Center_Wiring_4.jpg" style="width: 80%;" /></section>
@@ -526,7 +715,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             <section>
             
               <ul class="simple">
-<li>No queda otra: no se pueden o no escala procesar todo en una máquina</li>
+<li>No queda otra que usar muchas mauinas: no se pueden o no escala procesar todo en una máquina</li>
 <li>Hardware escalable: se pueden agregar nodos y no mover todo a una nueva máquina</li>
 </ul>
             
@@ -542,7 +731,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              11/29
+              15/37
             </aside>
           </footer>
         </div>
@@ -550,7 +739,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-12">
+        <div class="slide has_footer slide-16">
           <div class="inner">
             
             <header><h1>Almacenamiento de Datos</h1></header>
@@ -566,7 +755,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
 <li>Modelo de programación Network Programming (MPI).</li>
 </ul>
 </li>
-<li>Problema: <strong>red es lenta</strong>.</li>
+<li>Problema: reduce paralelismo y <strong>red es lenta</strong>.</li>
 </ul>
 <img alt="product-shot-isilon-hd-series-600x350.jpg" src="product-shot-isilon-hd-series-600x350.jpg" style="width: 30%;" />
 <pre class="literal-block">
@@ -579,6 +768,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             <section>
             
               <ul class="simple">
+<li>Scale-Out NAS es la solucion mas conocida</li>
 <li>Hace 10 años que infiniband está en 50GB/s (con muy baja latencia).</li>
 <li>Veremos este fenómeno unas filminas mas adelante</li>
 <li>Otros problemas: MPI dificil de programar (tiempo de desarrollo), <strong>tolerancia a fallas</strong> o resilencia</li>
@@ -596,7 +786,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              12/29
+              16/37
             </aside>
           </footer>
         </div>
@@ -604,7 +794,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide slide-13">
+        <div class="slide slide-17">
           <div class="inner">
             
             <header><h1>Puede aumentar velocidad en red? Esperamos magia tecnológica?</h1></header>
@@ -627,7 +817,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              13/29
+              17/37
             </aside>
           </footer>
         </div>
@@ -635,7 +825,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-14">
+        <div class="slide has_footer slide-18">
           <div class="inner">
             
             <header><h1>No es posible</h1></header>
@@ -676,7 +866,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              14/29
+              18/37
             </aside>
           </footer>
         </div>
@@ -684,7 +874,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-15">
+        <div class="slide has_footer slide-19">
           <div class="inner">
             
             <header><h1>Alternativa a Filers</h1></header>
@@ -692,59 +882,16 @@ http://www.fastcompany.com/3033549/internet-of-things/
             
             <section><h2>Discos locales en cada nodo</h2>
 <blockquote>
-<img alt="U2_server.jpg" src="U2_server.jpg" style="width: 30%;" />
+<img alt="U2_server.jpg" src="U2_server.jpg" style="width: 25%;" />
 </blockquote>
 <ul>
 <li><dl class="first docutils">
-<dt>Partición de datos en nodos (<em>chunks</em>)</dt>
+<dt>Distribución de datos en distintas computadoras (nodos)</dt>
 <dd><img alt="particion.png" class="first last" src="particion.png" style="width: 55%;" />
 </dd>
 </dl>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
-            
-            
-            <aside class="source">
-              Source: <a href="presentation.rst">presentation.rst</a>
-            </aside>
-            
-            <aside class="page_number">
-              15/29
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: presentation.rst -->
-      <div class="slide-wrapper">
-        <div class="slide has_footer slide-16">
-          <div class="inner">
-            
-            <header><h1>Como programar</h1></header>
-            
-            
-            <section><h1>Modelo Data Flow</h1>
 <ul class="simple">
-<li>Restringir interfaces de programación (patrones)<ul>
-<li>el sistema puede hacer más cosas automáticas</li>
-</ul>
-</li>
-<li>Transportar programas a datos</li>
-<li>Menos red!</li>
-<li>Facilita programación paralela</li>
-<li>Mayor ejemplo: <strong>MapReduce</strong> (MR)<ul>
-<li>Otros: Pig, Cascading, Storm, Flink, <strong>Spark</strong></li>
+<li>lectura en paralelo</li>
 </ul>
 </li>
 </ul></section>
@@ -755,9 +902,12 @@ http://www.fastcompany.com/3033549/internet-of-things/
             <section>
             
               <ul class="simple">
-<li>Pig, Cascading, Storm, Flink son ejemplos de data flow programming</li>
-<li>Pig, Cascading: Patrones de programación de + alto nivel implementados en MR</li>
-<li>Storm, Flink: Similar a MR pero para procesar streams en real time</li>
+<li>Los pedacitos de datos se llaman <em>chunks</em></li>
+<li>HD 2 veces mas lento que red <a class="reference external" href="https://gist.github.com/jboner/2841832">https://gist.github.com/jboner/2841832</a><ul>
+<li>aunque + paralelismo</li>
+</ul>
+</li>
+<li>SSD 10 veces mas rapido que red <a class="reference external" href="https://serverfault.com/questions/238417/are-networks-now-faster-than-disks">https://serverfault.com/questions/238417/are-networks-now-faster-than-disks</a></li>
 </ul>
             
             </section>
@@ -772,7 +922,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              16/29
+              19/37
             </aside>
           </footer>
         </div>
@@ -780,26 +930,25 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-17">
+        <div class="slide has_footer slide-20">
           <div class="inner">
             
-            <header><h1>Implementación</h1></header>
+            <header><h1>Como programar</h1></header>
             
             
-            <section><ul>
-<li><p class="first">Patrones como grafo de operaciones de alto nivel</p>
+            <section><h1>Modelo Data Flow</h1>
 <ul class="simple">
-<li>relación temporal entre <strong>operaciones</strong> (map, reduce, filter, join, etc.)</li>
-</ul>
-<img alt="data_flow.png" src="data_flow.png" style="width: 20%;" />
-</li>
-<li><p class="first">El sistema elige como dividir las operaciones en <strong>tareas</strong> y <strong>donde correrlas</strong></p>
-<ul class="simple">
-<li>Gestor de clusters: Hadoop Yarn, Apache Mesos, Amazon EC2.</li>
+<li>Transportar programas a datos<ul>
+<li>distribuidos en computadoras</li>
 </ul>
 </li>
-<li><p class="first">Tolerancia a fallos: replicación de tareas</p>
+<li>Menos red!</li>
+<li>Mas paralelismo</li>
+<li>Restringir interfaces de programación (patrones)<ul>
+<li>el sistema puede hacer más cosas automáticas</li>
+</ul>
 </li>
+<li>Facilita programación paralela</li>
 </ul></section>
             
           </div>
@@ -807,7 +956,51 @@ http://www.fastcompany.com/3033549/internet-of-things/
             <header><h1>Presenter Notes</h1></header>
             <section>
             
-              <p>Donde correrlas --&gt; se transporta programas a datos</p>
+            </section>
+          </div>
+          <footer>
+            
+              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
+            
+            
+            <aside class="source">
+              Source: <a href="presentation.rst">presentation.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              20/37
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: presentation.rst -->
+      <div class="slide-wrapper">
+        <div class="slide has_footer slide-21">
+          <div class="inner">
+            
+            <header><h1>Implementación</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Se escribe programa <strong>declarativo</strong></li>
+<li>Paralelización automática</li>
+<li>El sistema elige como dividir las operaciones en <strong>tareas</strong> y <strong>donde correrlas</strong><ul>
+<li>Gestor de clusters: Hadoop Yarn, Apache Mesos, Amazon EC2.</li>
+</ul>
+</li>
+<li>Tolerancia a fallos: replicación de tareas</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+              <ul class="simple">
+<li>Donde correrlas --&gt; se transporta programas a datos</li>
+<li>Declarativo: se dice el que no el como</li>
+</ul>
             
             </section>
           </div>
@@ -821,7 +1014,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              17/29
+              21/37
             </aside>
           </footer>
         </div>
@@ -829,15 +1022,15 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-18">
+        <div class="slide has_footer slide-22">
           <div class="inner">
             
             <header><h1>Mejora</h1></header>
             
             
-            <section><h2>Replicación</h2>
+            <section><h2>Replicación de Datos</h2>
 <ul class="simple">
-<li>Varias copias por chunk</li>
+<li>Varias copias del pedacito de dato (chunk)</li>
 </ul>
 <img alt="particion_replicacion.png" src="particion_replicacion.png" style="width: 55%;" />
 <ul class="simple">
@@ -852,6 +1045,10 @@ http://www.fastcompany.com/3033549/internet-of-things/
             <header><h1>Presenter Notes</h1></header>
             <section>
             
+              <ul class="simple">
+<li>FS distribuido</li>
+</ul>
+            
             </section>
           </div>
           <footer>
@@ -864,7 +1061,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              18/29
+              22/37
             </aside>
           </footer>
         </div>
@@ -872,17 +1069,16 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-19">
+        <div class="slide has_footer slide-23">
           <div class="inner">
             
-            <header><h1>Historia</h1></header>
+            <header><h1>MapReduce</h1></header>
             
             
-            <section><img alt="historia.jpg" src="historia.jpg" style="width: 100%;" />
-<ul class="simple">
-<li>Limitaciones de MapReduce</li>
-<li>Surge <strong>Spark</strong> (big item del curso)</li>
-</ul></section>
+            <section><ul class="simple">
+<li>Ejemplo canónico de Data Flow Programming</li>
+</ul>
+<img alt="index-auto-0007-0001.gif" src="index-auto-0007-0001.gif" style="width: 70%;" /></section>
             
           </div>
           <div class="presenter_notes">
@@ -901,7 +1097,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              19/29
+              23/37
             </aside>
           </footer>
         </div>
@@ -909,17 +1105,110 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-20">
+        <div class="slide has_footer slide-24">
           <div class="inner">
             
-            <header><h1>Limitaciones de Map Reduce</h1></header>
+            <header><h1>Word Count con MR</h1></header>
+            
+            
+            <section><img alt="word-count.png" src="word-count.png" style="width: 100%;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
+            
+            
+            <aside class="source">
+              Source: <a href="presentation.rst">presentation.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              24/37
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: presentation.rst -->
+      <div class="slide-wrapper">
+        <div class="slide has_footer slide-25">
+          <div class="inner">
+            
+            <header><h1>Aplicaciones MR</h1></header>
+            
+            
+            <section><ul class="simple">
+<li>Page Rank</li>
+<li>Distributed grep</li>
+<li>Distributed sort</li>
+<li>Web link-graph reversal</li>
+<li>Inverted index construction</li>
+<li><dl class="first docutils">
+<dt><strong>Machine Learning</strong></dt>
+<dd><ul class="first last">
+<li>Logistic Regresion, Random Forest, K-means, ...</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Backend SQL para Data Warehouse</strong></dt>
+<dd><ul class="first last">
+<li>Apache Hive.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+              <ul class="simple">
+<li>Apache Hive = Amazon Redshift.</li>
+</ul>
+            
+            </section>
+          </div>
+          <footer>
+            
+              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
+            
+            
+            <aside class="source">
+              Source: <a href="presentation.rst">presentation.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              25/37
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: presentation.rst -->
+      <div class="slide-wrapper">
+        <div class="slide has_footer slide-26">
+          <div class="inner">
+            
+            <header><h1>Limitaciones de MR</h1></header>
             
             
             <section><ul>
-<li><p class="first">No es bueno para algoritmos iterativos (varios MR)</p>
+<li><p class="first">No es bueno para algoritmos iterativos</p>
 <blockquote>
 <ul class="simple">
-<li>la mayoría (page Rank, descenso por el gradiente, clustering, etc).</li>
+<li>muchos MR.</li>
+<li>page Rank, descenso por el gradiente, clustering, etc. (la mayoría)</li>
 </ul>
 </blockquote>
 </li>
@@ -950,7 +1239,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              20/29
+              26/37
             </aside>
           </footer>
         </div>
@@ -958,7 +1247,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-21">
+        <div class="slide has_footer slide-27">
           <div class="inner">
             
             <header><h1>Ejemplo: Page Rank</h1></header>
@@ -987,7 +1276,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              21/29
+              27/37
             </aside>
           </footer>
         </div>
@@ -995,7 +1284,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-22">
+        <div class="slide has_footer slide-28">
           <div class="inner">
             
             <header><h1>Problema</h1></header>
@@ -1005,6 +1294,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
 <img alt="iter_app.png" src="iter_app.png" style="width: 100%;" />
 <ul class="simple">
 <li>90% del tiempo haciendo I/O</li>
+<li>Solución: Spark = MR++ en memoria</li>
 </ul></section>
             
           </div>
@@ -1024,7 +1314,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              22/29
+              28/37
             </aside>
           </footer>
         </div>
@@ -1032,56 +1322,18 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide slide-23">
+        <div class="slide has_footer slide-29">
           <div class="inner">
             
-            <header><h1>Spark = MR++ en memoria</h1></header>
+            <header><h1>Implementación Spark</h1></header>
             
             
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
-            
-            
-            <aside class="source">
-              Source: <a href="presentation.rst">presentation.rst</a>
-            </aside>
-            
-            <aside class="page_number">
-              23/29
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: presentation.rst -->
-      <div class="slide-wrapper">
-        <div class="slide has_footer slide-24">
-          <div class="inner">
-            
-            <header><h1>Curso</h1></header>
-            
-            
-            <section><h2>Contenido general</h2>
+            <section><ul>
+<li><p class="first">Patrones como <strong>grafo de operaciones</strong> de alto nivel</p>
 <ul class="simple">
-<li>Parte 1 (8 hs)<ul>
-<li>Introducción a Big Data y Spark</li>
-<li>RDD's</li>
-<li>Conceptos de computación distribuida</li>
-<li>Interfáz SQL</li>
+<li>relación <strong>temporal</strong> entre operaciones (map, reduce, filter, join, etc.)</li>
 </ul>
-</li>
-<li>Parte 2 (8 hs)<ul>
-<li>Machine Learning sobre grandes volumenes de datos</li>
-<li>Procesamiento de grandes grafos</li>
-</ul>
+<img alt="execution-graph.png" src="execution-graph.png" style="width: 70%;" />
 </li>
 </ul></section>
             
@@ -1102,7 +1354,7 @@ http://www.fastcompany.com/3033549/internet-of-things/
             </aside>
             
             <aside class="page_number">
-              24/29
+              29/37
             </aside>
           </footer>
         </div>
@@ -1110,7 +1362,95 @@ http://www.fastcompany.com/3033549/internet-of-things/
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-25">
+        <div class="slide has_footer slide-30">
+          <div class="inner">
+            
+            <header><h1>Historia</h1></header>
+            
+            
+            <section><img alt="historia.jpg" src="historia.jpg" style="width: 100%;" /></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
+            
+            
+            <aside class="source">
+              Source: <a href="presentation.rst">presentation.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              30/37
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: presentation.rst -->
+      <div class="slide-wrapper">
+        <div class="slide has_footer slide-31">
+          <div class="inner">
+            
+            <header><h1>Areas del Big Data</h1></header>
+            
+            
+            <section><h2>- Analitics (datos estructurados)</h2>
+
+
+<h2>- Machine Learning</h2>
+
+
+<h2>- Análisis de Redes (grandes grafos)</h2>
+
+
+<h2>- Streaming (real time)</h2>
+
+
+<h2>- Visualización</h2>
+<ul class="simple">
+<li>Herramientas: Pig, Cascading, Storm, Flink, Zeppelin, <strong>Spark</strong></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+              <ul class="simple">
+<li>Streaming en big data lo hace Jampp</li>
+<li>Pig, Cascading, Storm, Flink son ejemplos de data flow programming</li>
+<li>Pig, Cascading: Patrones de programación de + alto nivel implementados en MR</li>
+<li>Storm, Flink: Similar a MR pero para procesar streams en real time</li>
+</ul>
+            
+            </section>
+          </div>
+          <footer>
+            
+              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
+            
+            
+            <aside class="source">
+              Source: <a href="presentation.rst">presentation.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              31/37
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: presentation.rst -->
+      <div class="slide-wrapper">
+        <div class="slide has_footer slide-32">
           <div class="inner">
             
             <header><h1>Curso</h1></header>
@@ -1154,7 +1494,7 @@ ls
             </aside>
             
             <aside class="page_number">
-              25/29
+              32/37
             </aside>
           </footer>
         </div>
@@ -1162,7 +1502,7 @@ ls
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-26">
+        <div class="slide has_footer slide-33">
           <div class="inner">
             
             <header><h1>Curso</h1></header>
@@ -1202,7 +1542,7 @@ ls
             </aside>
             
             <aside class="page_number">
-              26/29
+              33/37
             </aside>
           </footer>
         </div>
@@ -1210,10 +1550,10 @@ ls
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-27">
+        <div class="slide has_footer slide-34">
           <div class="inner">
             
-            <header><h1>Usar <a class="reference external" href="http://zeppelin.apache.org/">Zeppelin</a> en mi notebook</h1></header>
+            <header><h1>Usar <a class="reference external" href="http://zeppelin.apache.org/">Zeppelin</a> en tu notebook</h1></header>
             
             
             <section><ul>
@@ -1224,7 +1564,7 @@ tar -xzvf bigdatasoft.tgz
 </pre>
 </li>
 <li><p class="first">Ejecutar</p>
-<pre><span></span><span class="nb">cd</span> spark/zeppelin-0.7.3-bin-all
+<pre><span></span><span class="nb">cd</span> spark/zeppelin-0.8.2-bin-all
 bin/zeppelin.sh
 </pre>
 </li>
@@ -1257,7 +1597,7 @@ bin/zeppelin.sh
             </aside>
             
             <aside class="page_number">
-              27/29
+              34/37
             </aside>
           </footer>
         </div>
@@ -1265,7 +1605,7 @@ bin/zeppelin.sh
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide has_footer slide-28">
+        <div class="slide has_footer slide-35">
           <div class="inner">
             
             <header><h1>Usar <a class="reference external" href="http://zeppelin.apache.org/">Zeppelin</a> en nabucodonosor</h1></header>
@@ -1286,13 +1626,7 @@ sed <span class="s2">&quot;s/&lt;value&gt;8080/&lt;value&gt;</span>$<span class=
 bin/zeppelin.sh
 </pre>
 </li>
-<li><dl class="first docutils">
-<dt>En navegador abrir</dt>
-<dd><p class="first last"><a class="reference external" href="http://nabucodonosor.ccad.unc.edu.ar">http://nabucodonosor.ccad.unc.edu.ar</a>:&lt;nuevo puerto&gt;</p>
-</dd>
-</dl>
-</li>
-<li><p class="first">Abrir notebook (idem)</p>
+<li><p class="first">continua ...</p>
 </li>
 </ul></section>
             
@@ -1313,7 +1647,7 @@ bin/zeppelin.sh
             </aside>
             
             <aside class="page_number">
-              28/29
+              35/37
             </aside>
           </footer>
         </div>
@@ -1321,7 +1655,56 @@ bin/zeppelin.sh
       
       <!-- slide source: presentation.rst -->
       <div class="slide-wrapper">
-        <div class="slide slide-29">
+        <div class="slide has_footer slide-36">
+          <div class="inner">
+            
+            <header><h1>Usar <a class="reference external" href="http://zeppelin.apache.org/">Zeppelin</a> en nabucodonosor</h1></header>
+            
+            
+            <section><h2>(continuación)</h2>
+<p>En tu maquina:</p>
+<ul class="simple">
+<li>En terminal hacer port forwarding de ssh:</li>
+</ul>
+<pre><span></span>ssh -vCN -L <span class="m">8080</span>:localhost:&lt;nuevo puerto&gt; <span class="se">\</span>
+      -l &lt;login en nabuco&gt; nabucodonosor.ccad.unc.edu.ar
+</pre>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>En navegador abrir</dt>
+<dd><a class="reference external" href="http://localhost:8080">http://localhost:8080</a></dd>
+</dl>
+</li>
+<li>Abrir notebook (idem)</li>
+</ul>
+<p>Nota: Para windows leer instrucciones en <a class="reference external" href="https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-linux-ambari-ssh-tunnel">https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-linux-ambari-ssh-tunnel</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+              Programación Distribuida sobre Grandes Volúmenes de Datos | Damián Barsotti | FaMAF - UNC
+            
+            
+            <aside class="source">
+              Source: <a href="presentation.rst">presentation.rst</a>
+            </aside>
+            
+            <aside class="page_number">
+              36/37
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: presentation.rst -->
+      <div class="slide-wrapper">
+        <div class="slide slide-37">
           <div class="inner">
             
             <header><h1>Seguimos con notebook</h1></header>
@@ -1344,7 +1727,7 @@ bin/zeppelin.sh
             </aside>
             
             <aside class="page_number">
-              29/29
+              37/37
             </aside>
           </footer>
         </div>
@@ -1383,152 +1766,200 @@ bin/zeppelin.sh
       
       
       <tr id="toc-row-5">
-        <th><a href="#slide:5">Cantidad de Datos</a></th>
+        <th><a href="#slide:5">Curso</a></th>
         <td><a href="#slide:5">5</a></td>
       </tr>
       
       
       <tr id="toc-row-6">
-        <th><a href="#slide:6">Nuevas Palabras</a></th>
+        <th><a href="#slide:6">Que es Big Data?</a></th>
         <td><a href="#slide:6">6</a></td>
       </tr>
       
       
       <tr id="toc-row-7">
-        <th><a href="#slide:7">Aún más palabras</a></th>
+        <th><a href="#slide:7">Cantidad de Datos</a></th>
         <td><a href="#slide:7">7</a></td>
       </tr>
       
       
       <tr id="toc-row-8">
-        <th><a href="#slide:8">Perspectiva</a></th>
+        <th><a href="#slide:8">Jampp</a></th>
         <td><a href="#slide:8">8</a></td>
       </tr>
       
       
       <tr id="toc-row-9">
-        <th><a href="#slide:9">Aún más</a></th>
+        <th><a href="#slide:9">Foto del agujero negro</a></th>
         <td><a href="#slide:9">9</a></td>
       </tr>
       
       
       <tr id="toc-row-10">
-        <th><a href="#slide:10">Como procesar y almacenar tantos datos?</a></th>
+        <th><a href="#slide:10">Nuevas Palabras</a></th>
         <td><a href="#slide:10">10</a></td>
       </tr>
       
       
       <tr id="toc-row-11">
-        <th><a href="#slide:11">Cluster de computadoras</a></th>
+        <th><a href="#slide:11">Aún más palabras</a></th>
         <td><a href="#slide:11">11</a></td>
       </tr>
       
       
       <tr id="toc-row-12">
-        <th><a href="#slide:12">Almacenamiento de Datos</a></th>
+        <th><a href="#slide:12">Perspectiva</a></th>
         <td><a href="#slide:12">12</a></td>
       </tr>
       
       
       <tr id="toc-row-13">
-        <th><a href="#slide:13">Puede aumentar velocidad en red? Esperamos magia tecnológica?</a></th>
+        <th><a href="#slide:13">Aún más</a></th>
         <td><a href="#slide:13">13</a></td>
       </tr>
       
       
       <tr id="toc-row-14">
-        <th><a href="#slide:14">No es posible</a></th>
+        <th><a href="#slide:14">Como procesar y almacenar tantos datos?</a></th>
         <td><a href="#slide:14">14</a></td>
       </tr>
       
       
       <tr id="toc-row-15">
-        <th><a href="#slide:15">Alternativa a Filers</a></th>
+        <th><a href="#slide:15">Cluster de computadoras</a></th>
         <td><a href="#slide:15">15</a></td>
       </tr>
       
       
       <tr id="toc-row-16">
-        <th><a href="#slide:16">Como programar</a></th>
+        <th><a href="#slide:16">Almacenamiento de Datos</a></th>
         <td><a href="#slide:16">16</a></td>
       </tr>
       
       
       <tr id="toc-row-17">
-        <th><a href="#slide:17">Implementación</a></th>
+        <th><a href="#slide:17">Puede aumentar velocidad en red? Esperamos magia tecnológica?</a></th>
         <td><a href="#slide:17">17</a></td>
       </tr>
       
       
       <tr id="toc-row-18">
-        <th><a href="#slide:18">Mejora</a></th>
+        <th><a href="#slide:18">No es posible</a></th>
         <td><a href="#slide:18">18</a></td>
       </tr>
       
       
       <tr id="toc-row-19">
-        <th><a href="#slide:19">Historia</a></th>
+        <th><a href="#slide:19">Alternativa a Filers</a></th>
         <td><a href="#slide:19">19</a></td>
       </tr>
       
       
       <tr id="toc-row-20">
-        <th><a href="#slide:20">Limitaciones de Map Reduce</a></th>
+        <th><a href="#slide:20">Como programar</a></th>
         <td><a href="#slide:20">20</a></td>
       </tr>
       
       
       <tr id="toc-row-21">
-        <th><a href="#slide:21">Ejemplo: Page Rank</a></th>
+        <th><a href="#slide:21">Implementación</a></th>
         <td><a href="#slide:21">21</a></td>
       </tr>
       
       
       <tr id="toc-row-22">
-        <th><a href="#slide:22">Problema</a></th>
+        <th><a href="#slide:22">Mejora</a></th>
         <td><a href="#slide:22">22</a></td>
       </tr>
       
       
       <tr id="toc-row-23">
-        <th><a href="#slide:23">Spark = MR++ en memoria</a></th>
+        <th><a href="#slide:23">MapReduce</a></th>
         <td><a href="#slide:23">23</a></td>
       </tr>
       
       
       <tr id="toc-row-24">
-        <th><a href="#slide:24">Curso</a></th>
+        <th><a href="#slide:24">Word Count con MR</a></th>
         <td><a href="#slide:24">24</a></td>
       </tr>
       
       
       <tr id="toc-row-25">
-        <th><a href="#slide:25">Curso</a></th>
+        <th><a href="#slide:25">Aplicaciones MR</a></th>
         <td><a href="#slide:25">25</a></td>
       </tr>
       
       
       <tr id="toc-row-26">
-        <th><a href="#slide:26">Curso</a></th>
+        <th><a href="#slide:26">Limitaciones de MR</a></th>
         <td><a href="#slide:26">26</a></td>
       </tr>
       
       
       <tr id="toc-row-27">
-        <th><a href="#slide:27">Usar <a class="reference external" href="http://zeppelin.apache.org/">Zeppelin</a> en mi notebook</a></th>
+        <th><a href="#slide:27">Ejemplo: Page Rank</a></th>
         <td><a href="#slide:27">27</a></td>
       </tr>
       
       
       <tr id="toc-row-28">
-        <th><a href="#slide:28">Usar <a class="reference external" href="http://zeppelin.apache.org/">Zeppelin</a> en nabucodonosor</a></th>
+        <th><a href="#slide:28">Problema</a></th>
         <td><a href="#slide:28">28</a></td>
       </tr>
       
       
       <tr id="toc-row-29">
-        <th><a href="#slide:29">Seguimos con notebook</a></th>
+        <th><a href="#slide:29">Implementación Spark</a></th>
         <td><a href="#slide:29">29</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-30">
+        <th><a href="#slide:30">Historia</a></th>
+        <td><a href="#slide:30">30</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-31">
+        <th><a href="#slide:31">Areas del Big Data</a></th>
+        <td><a href="#slide:31">31</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-32">
+        <th><a href="#slide:32">Curso</a></th>
+        <td><a href="#slide:32">32</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-33">
+        <th><a href="#slide:33">Curso</a></th>
+        <td><a href="#slide:33">33</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-34">
+        <th><a href="#slide:34">Usar <a class="reference external" href="http://zeppelin.apache.org/">Zeppelin</a> en tu notebook</a></th>
+        <td><a href="#slide:34">34</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-35">
+        <th><a href="#slide:35">Usar <a class="reference external" href="http://zeppelin.apache.org/">Zeppelin</a> en nabucodonosor</a></th>
+        <td><a href="#slide:35">35</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-36">
+        <th><a href="#slide:36">Usar <a class="reference external" href="http://zeppelin.apache.org/">Zeppelin</a> en nabucodonosor</a></th>
+        <td><a href="#slide:36">36</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-37">
+        <th><a href="#slide:37">Seguimos con notebook</a></th>
+        <td><a href="#slide:37">37</a></td>
       </tr>
       
       

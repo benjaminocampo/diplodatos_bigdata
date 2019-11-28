@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-# export JAVA_HOME=
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 # export MASTER=                 		# Spark master url. eg. spark://master_addr:7077. Leave empty if you want to use local mode.
 # export ZEPPELIN_ADDR                          # Bind address (default 127.0.0.1)
 # export ZEPPELIN_PORT                          # port number to listen (default 8080)
@@ -84,7 +84,7 @@ export ZEPPELIN_INTP_MEM="-Xmx3g -Dspark.master=local[*] -Dspark.sql.catalogImpl
 # Pyspark (supported with Spark 1.2.1 and above)
 # To configure pyspark, you need to set spark distribution's path to 'spark.home' property in Interpreter setting screen in Zeppelin GUI
 # export PYSPARK_PYTHON          		# path to the python command. must be the same path on the driver(Zeppelin) and all workers.
-# export PYTHONPATH
+export PYTHONPATH="$PYTHONPATH:$ZEPPELIN_HOME/local-repo/graphframes/graphframes/0.6.0-spark2.2-s_2.11/graphframes-0.6.0-spark2.2-s_2.11.jar"
 
 ## Spark interpreter options ##
 ##
