@@ -3,7 +3,7 @@
     {
       "text": "print(s\"\"\"%html\n\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:12:01 PM",
+      "dateUpdated": "2019-11-26 02:29:04.344",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -24,7 +24,8 @@
             }
           }
         ],
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -35,36 +36,38 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n"
+            "data": "\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768599_427647766",
+      "jobName": "paragraph_1574633139068_-304760348",
       "id": "20161011-125025_834797080",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:11:35 PM",
-      "dateFinished": "Oct 11, 2018 7:11:36 PM",
+      "dateCreated": "2019-11-24 19:05:39.068",
+      "dateStarted": "2019-11-26 02:28:23.373",
+      "dateFinished": "2019-11-26 02:28:23.764",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "",
-      "text": "%md\n### Antes de comenzar\n#### En máquina virtual\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd diplodatos_bigdata\ngit pull\n```\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/):\n```sh\ncd\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080)\n1. Seleccionar `Import note`\n1. Elegir json en `diplodatos_bigdata/clases/03_sql/note.json`\n2. Seleccionar `Clase 03 - SQL`\n\n \n",
+      "text": "%md\n### Antes de comenzar\n#### En máquina virtual\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd diplodatos_bigdata\ngit pull\n```\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/):\n```sh\ncd\ncd spark/zeppelin-0.8.3-bin-all\n./bin/zeppelin-daemon.sh start\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080)\n1. Seleccionar `Import note`\n1. Elegir json en `diplodatos_bigdata/clases/03_sql/note.json`\n2. Seleccionar `Clase 03 - SQL`\n\n \n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:13:14 PM",
+      "dateUpdated": "2019-11-24 19:06:40.212",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "title": false,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -75,28 +78,29 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eAntes de comenzar\u003c/h3\u003e\n\u003ch4\u003eEn máquina virtual\u003c/h4\u003e\n\u003col\u003e\n  \u003cli\u003eLanzar terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repo:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd diplodatos_bigdata\ngit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd\ncd spark/zeppelin-0.7.3-bin-all\n./bin/zeppelin-daemon.sh start\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003eEn navegador abrir \u003ca href\u003d\"http://localhost:8080\"\u003ehttp://localhost:8080\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eImport note\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eElegir json en \u003ccode\u003ediplodatos_bigdata/clases/03_sql/note.json\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eClase 03 - SQL\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eAntes de comenzar\u003c/h3\u003e\n\u003ch4\u003eEn máquina virtual\u003c/h4\u003e\n\u003col\u003e\n  \u003cli\u003eLanzar terminal\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eActualizar repo:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd diplodatos_bigdata\ngit pull\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eLanzar \u003ca href\u003d\"http://zeppelin.apache.org/\"\u003eZeppelin\u003c/a\u003e:\u003c/p\u003e\n  \u003cpre\u003e\u003ccode class\u003d\"sh\"\u003ecd\ncd spark/zeppelin-0.8.3-bin-all\n./bin/zeppelin-daemon.sh start\n\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\n  \u003cli\u003eEn navegador abrir \u003ca href\u003d\"http://localhost:8080\"\u003ehttp://localhost:8080\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eImport note\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eElegir json en \u003ccode\u003ediplodatos_bigdata/clases/03_sql/note.json\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eSeleccionar \u003ccode\u003eClase 03 - SQL\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768600_425724022",
+      "jobName": "paragraph_1574633139070_-1730553600",
       "id": "20171024-161854_528178880",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:13:01 PM",
-      "dateFinished": "Oct 11, 2018 7:13:01 PM",
+      "dateCreated": "2019-11-24 19:05:39.070",
+      "dateStarted": "2019-11-24 19:06:34.331",
+      "dateFinished": "2019-11-24 19:06:36.502",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n# Datasets/Dataframes\n\n* Spark permite interactuar con datos estructurados (Bases de Datos tabulares) o semiestructurados (JSON) con su componente **Spark SQL**.\n* Sus interfaces son **SQL** y **Dataset/Dataframe** API (programática, parecida a [Python Panda dataframes](http://pandas.pydata.org/pandas-docs/stable/dsintro.html)).\n\u003cbr\u003e\n\n    ```scala\n      type DataFrame \u003d Dataset[Row]\n    ```\n\n",
+      "text": "%md\n# Datasets/Dataframes\n\n* Spark permite interactuar con datos estructurados (Bases de Datos tabulares) o semiestructurados (JSON) con su componente **Spark SQL**.\n* Sus interfaces son **SQL** y **Dataframe/Dataset** API .\n    - Programática, parecida a [Python Pandas dataframes](http://pandas.pydata.org/pandas-docs/stable/dsintro.html).\n    - Demasiado parecida. Ver [Koalas](https://github.com/databricks/koalas).\n* La API Dataset es tipada y solo existe para Scala y Java.\n\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:43:07 PM",
+      "dateUpdated": "2019-11-29 15:58:46.935",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
@@ -114,7 +118,8 @@
             }
           }
         ],
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -125,23 +130,23 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eDatasets/Dataframes\u003c/h1\u003e\n\u003cul\u003e\n  \u003cli\u003eSpark permite interactuar con datos estructurados (Bases de Datos tabulares) o semiestructurados (JSON) con su componente \u003cstrong\u003eSpark SQL\u003c/strong\u003e.\u003c/li\u003e\n  \u003cli\u003eSus interfaces son \u003cstrong\u003eSQL\u003c/strong\u003e y \u003cstrong\u003eDataset/Dataframe\u003c/strong\u003e API (programática, parecida a \u003ca href\u003d\"http://pandas.pydata.org/pandas-docs/stable/dsintro.html\"\u003ePython Panda dataframes\u003c/a\u003e).\u003cbr/\u003e\u003cbr\u003e\n    \u003cpre\u003e\u003ccode class\u003d\"scala\"\u003e  type DataFrame \u003d Dataset[Row]\n\u003c/code\u003e\u003c/pre\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eDatasets/Dataframes\u003c/h1\u003e\n\u003cul\u003e\n  \u003cli\u003eSpark permite interactuar con datos estructurados (Bases de Datos tabulares) o semiestructurados (JSON) con su componente \u003cstrong\u003eSpark SQL\u003c/strong\u003e.\u003c/li\u003e\n  \u003cli\u003eSus interfaces son \u003cstrong\u003eSQL\u003c/strong\u003e y \u003cstrong\u003eDataframe/Dataset\u003c/strong\u003e API .\n    \u003cul\u003e\n      \u003cli\u003eProgramática, parecida a \u003ca href\u003d\"http://pandas.pydata.org/pandas-docs/stable/dsintro.html\"\u003ePython Pandas dataframes\u003c/a\u003e.\u003c/li\u003e\n      \u003cli\u003eDemasiado parecida. Ver \u003ca href\u003d\"https://github.com/databricks/koalas\"\u003eKoalas\u003c/a\u003e.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eLa API Dataset es tipada y solo existe para Scala y Java.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768600_425724022",
+      "jobName": "paragraph_1574633139071_198507444",
       "id": "20161011-125142_1705237118",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:43:00 PM",
-      "dateFinished": "Oct 11, 2018 7:43:00 PM",
+      "dateCreated": "2019-11-24 19:05:39.071",
+      "dateStarted": "2019-11-29 15:58:41.917",
+      "dateFinished": "2019-11-29 15:58:41.926",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "print(s\"\"\"%html\n\u0026nbsp;\n\u003cimg src\u003d\"$baseDir/03_sql/unified_stack.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:13:49 PM",
+      "dateUpdated": "2019-11-26 02:31:48.248",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -162,7 +167,8 @@
             }
           }
         ],
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -173,16 +179,16 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u0026nbsp;\n\u003cimg src\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/03_sql/unified_stack.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n"
+            "data": "\u0026nbsp;\n\u003cimg src\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/03_sql/unified_stack.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768600_425724022",
+      "jobName": "paragraph_1574633139071_-57096021",
       "id": "20161011-132101_236091967",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:13:38 PM",
-      "dateFinished": "Oct 11, 2018 7:13:39 PM",
+      "dateCreated": "2019-11-24 19:05:39.071",
+      "dateStarted": "2019-11-26 02:31:41.189",
+      "dateFinished": "2019-11-26 02:31:41.405",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -190,7 +196,7 @@
       "title": "API 2.x.x unificada",
       "text": "print(s\"\"\"%html\n\u0026nbsp;\n\u003cimg src\u003d\"$baseDir/03_sql/dataset_dataframe_unificado.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:14:53 PM",
+      "dateUpdated": "2019-11-26 02:31:53.569",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -212,7 +218,8 @@
             }
           }
         ],
-        "enabled": false
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -228,23 +235,23 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768600_425724022",
+      "jobName": "paragraph_1574633139072_-516381840",
       "id": "20161011-134614_1124280099",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:13:58 PM",
-      "dateFinished": "Oct 11, 2018 7:13:58 PM",
-      "status": "FINISHED",
+      "dateCreated": "2019-11-24 19:05:39.072",
+      "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### SparkSession\n\n* Para acceder al cluster desde la API se utiliza `SparkSession`.\n* El `SparkContext` deriva de él.\n\n```scala\nimport org.apache.spark.sql.SparkSession\n\nval spark \u003d SparkSession\n  .builder()\n  .appName(\"Spark ejemplo\")\n  .config(\"spark.some.config.option\", \"algun-valor\")\n  .getOrCreate()\n\nval sc \u003d spark.sparkContext\n\n// Para conversion implícita, por ej entre RDD a DataFrames\nimport spark.implicits._\n```\n\n* En Zeppelin ya están predefinidos: \n  - `SparkSession` objeto `spark` \n  - `SparkContext` objeto `sc`\n\n(más información en [How to use SparkSession in Apache Spark 2.0](https://databricks.com/blog/2016/08/15/how-to-use-sparksession-in-apache-spark-2-0.html))\n",
+      "text": "%md\n### SparkSession\n\n* Para acceder al cluster desde la API se utiliza `SparkSession`.\n* El `SparkContext` deriva de él.\n\n```python\nfrom pyspark.sql import SparkSession\n\nspark \u003d SparkSession \\\n    .builder \\\n    .appName(\"Python Spark ejemplo\") \\\n    .config(\"spark.some.config.option\", \"algun-valor\") \\\n    .getOrCreate()\n    \nsc \u003d spark.sparkContext\n\n```\n\n* En Zeppelin ya están predefinidos: \n  - `SparkSession` objeto `spark` \n  - `SparkContext` objeto `sc`\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:20:05 PM",
+      "dateUpdated": "2019-11-24 19:20:25.947",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
@@ -262,7 +269,8 @@
             }
           }
         ],
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -273,24 +281,25 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eSparkSession\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003ePara acceder al cluster desde la API se utiliza \u003ccode\u003eSparkSession\u003c/code\u003e.\u003c/li\u003e\n  \u003cli\u003eEl \u003ccode\u003eSparkContext\u003c/code\u003e deriva de él.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre\u003e\u003ccode class\u003d\"scala\"\u003eimport org.apache.spark.sql.SparkSession\n\nval spark \u003d SparkSession\n  .builder()\n  .appName(\u0026quot;Spark ejemplo\u0026quot;)\n  .config(\u0026quot;spark.some.config.option\u0026quot;, \u0026quot;algun-valor\u0026quot;)\n  .getOrCreate()\n\nval sc \u003d spark.sparkContext\n\n// Para conversion implícita, por ej entre RDD a DataFrames\nimport spark.implicits._\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n  \u003cli\u003eEn Zeppelin ya están predefinidos:\u003c/li\u003e\n  \u003cli\u003e\u003ccode\u003eSparkSession\u003c/code\u003e objeto \u003ccode\u003espark\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ccode\u003eSparkContext\u003c/code\u003e objeto \u003ccode\u003esc\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e(más información en \u003ca href\u003d\"https://databricks.com/blog/2016/08/15/how-to-use-sparksession-in-apache-spark-2-0.html\"\u003eHow to use SparkSession in Apache Spark 2.0\u003c/a\u003e)\u003c/p\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eSparkSession\u003c/h3\u003e\n\u003cul\u003e\n  \u003cli\u003ePara acceder al cluster desde la API se utiliza \u003ccode\u003eSparkSession\u003c/code\u003e.\u003c/li\u003e\n  \u003cli\u003eEl \u003ccode\u003eSparkContext\u003c/code\u003e deriva de él.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre\u003e\u003ccode class\u003d\"python\"\u003efrom pyspark.sql import SparkSession\n\nspark \u003d SparkSession \\\n    .builder \\\n    .appName(\u0026quot;Python Spark ejemplo\u0026quot;) \\\n    .config(\u0026quot;spark.some.config.option\u0026quot;, \u0026quot;algun-valor\u0026quot;) \\\n    .getOrCreate()\n    \nsc \u003d spark.sparkContext\n\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n  \u003cli\u003eEn Zeppelin ya están predefinidos:\u003c/li\u003e\n  \u003cli\u003e\u003ccode\u003eSparkSession\u003c/code\u003e objeto \u003ccode\u003espark\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ccode\u003eSparkContext\u003c/code\u003e objeto \u003ccode\u003esc\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768601_425339273",
+      "jobName": "paragraph_1574633139073_1948319480",
       "id": "20161011-174856_51715674",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:19:49 PM",
-      "dateFinished": "Oct 11, 2018 7:19:49 PM",
+      "dateCreated": "2019-11-24 19:05:39.073",
+      "dateStarted": "2019-11-24 19:19:37.690",
+      "dateFinished": "2019-11-24 19:19:37.696",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Lectura de datos\n\n#### Estructurados y semiestructurados\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:21:29 PM",
+      "dateUpdated": "2019-11-24 19:05:39.074",
       "config": {
+        "tableHide": false,
         "editorSetting": {
           "language": "markdown",
           "editOnDblClick": true
@@ -299,8 +308,7 @@
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "results": {},
-        "enabled": false,
-        "tableHide": false
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -316,17 +324,17 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768601_425339273",
+      "jobName": "paragraph_1574633139073_1532954991",
       "id": "20171020-102828_1480663464",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:21:23 PM",
-      "dateFinished": "Oct 11, 2018 7:21:23 PM",
-      "status": "FINISHED",
+      "dateCreated": "2019-11-24 19:05:39.073",
+      "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n\n#### Formatos:\n\n* json\n* csv\n* parquet\n* orc\n* libsvm\n* text\n* ...\n",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-24 19:05:39.074",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -353,27 +361,30 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768601_425339273",
+      "jobName": "paragraph_1574633139074_2069215563",
       "id": "20171019-163121_1592075078",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
+      "dateCreated": "2019-11-24 19:05:39.074",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n#### Fuentes de datos:\n\n* Archivos en fs local o distribuid (ej hdfs)\n* jdbc (posgress, oracle, mysql,...)\n* Apache Hive (se usa execution backend Spark en ves de MR)\n* Amazon Redshift, S3\n* Azure Storage Services\n* Cassandra\n* MongoDB\n* Neo4j\n* ...",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-28 16:24:22.716",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 6.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -389,16 +400,17 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768602_426493519",
+      "jobName": "paragraph_1574633139075_37304255",
       "id": "20171020-102923_1888981134",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
+      "dateCreated": "2019-11-24 19:05:39.075",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Ejemplo\n\n#### Tabla de perfiles [last.fm](last.fm)\n\nFormato:\n\n    id \\t gender (\u0027m\u0027|\u0027f\u0027|empty) \\t age (int|empty) \\t country (str|empty) \\t registered (date|empty)\n",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-24 19:05:39.076",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -425,9 +437,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768602_426493519",
+      "jobName": "paragraph_1574633139075_-54282876",
       "id": "20171020-170028_1956391103",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
+      "dateCreated": "2019-11-24 19:05:39.075",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -435,165 +447,285 @@
     {
       "text": "%sh\nhead ../../diplodatos_bigdata/ds/userid-profile.tsv\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:26:27 PM",
+      "dateUpdated": "2019-11-24 19:20:34.531",
       "config": {
         "colWidth": 12.0,
-        "enabled": true,
+        "editorMode": "ace/mode/sh",
         "results": {},
+        "enabled": true,
         "editorSetting": {
           "language": "sh",
-          "editOnDblClick": false
+          "editOnDblClick": false,
+          "completionSupport": false
         },
-        "editorMode": "ace/mode/sh"
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539296771333_-829121098",
+      "jobName": "paragraph_1574633139076_1501620897",
       "id": "20181011-192611_2092112872",
-      "dateCreated": "Oct 11, 2018 7:26:11 PM",
-      "dateStarted": "Oct 11, 2018 7:26:27 PM",
-      "dateFinished": "Oct 11, 2018 7:26:28 PM",
+      "dateCreated": "2019-11-24 19:05:39.076",
+      "dateStarted": "2019-11-24 19:20:34.560",
+      "dateFinished": "2019-11-24 19:20:36.527",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Lectura",
-      "text": "val profiles \u003d spark.read.format(\"csv\")\n                .option(\"delimiter\", \"\\\\t\")\n                .option(\"header\", \"true\")\n                .option(\"inferSchema\", \"true\")\n                .load(\"../../diplodatos_bigdata/ds/userid-profile.tsv\")\n",
+      "text": "%pyspark\n\nprofiles \u003d spark.read.load(\"../../diplodatos_bigdata/ds/userid-profile.tsv\",\n                    format\u003d\"csv\", delimiter\u003d\"\\t\", header\u003dTrue, inferSchema\u003dTrue)\n                    \n# Ver en schema siguiente si inferSchema\u003dFalse\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 9:33:15 PM",
+      "dateUpdated": "2019-11-28 16:39:23.418",
       "config": {
         "editorSetting": {
-          "language": "scala",
-          "editOnDblClick": false
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "title": true,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1574633139077_147163776",
+      "id": "20171019-160931_1102056402",
+      "dateCreated": "2019-11-24 19:05:39.077",
+      "dateStarted": "2019-11-28 16:39:23.464",
+      "dateFinished": "2019-11-28 16:39:23.572",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Esquema",
+      "text": "%pyspark\n\nprofiles.printSchema()\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-28 16:30:14.953",
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/python",
+        "title": true,
+        "results": {},
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768602_426493519",
-      "id": "20171019-160931_1102056402",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 9:33:15 PM",
-      "dateFinished": "Oct 11, 2018 9:33:16 PM",
+      "jobName": "paragraph_1574633139077_-681839894",
+      "id": "20171020-165528_926197483",
+      "dateCreated": "2019-11-24 19:05:39.077",
+      "dateStarted": "2019-11-28 16:30:15.001",
+      "dateFinished": "2019-11-28 16:30:15.007",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "Esquema",
-      "text": "profiles.printSchema\n\nprofiles.show\n",
+      "title": "Ver el contenido",
+      "text": "%pyspark\n\nprofiles.show()\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:25:38 PM",
+      "dateUpdated": "2019-11-26 02:51:31.918",
       "config": {
-        "editorSetting": {
-          "language": "scala"
-        },
-        "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
-        "title": true,
+        "colWidth": 6.0,
+        "fontSize": 9.0,
+        "enabled": true,
         "results": {},
-        "enabled": true
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "title": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768602_426493519",
-      "id": "20171020-165528_926197483",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:25:38 PM",
-      "dateFinished": "Oct 11, 2018 7:25:40 PM",
+      "jobName": "paragraph_1574746841888_140438548",
+      "id": "20191126-024041_1950604952",
+      "dateCreated": "2019-11-26 02:40:41.888",
+      "dateStarted": "2019-11-26 02:51:31.955",
+      "dateFinished": "2019-11-26 02:51:31.987",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Tambien se puede ver con Zeppelin",
+      "text": "%pyspark\n\nz.show(profiles.limit(20)) # limit(n) devuelve solo las primeras n filas \n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-26 02:40:17.887",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "gender": "string",
+                      "age": "string",
+                      "country": "string",
+                      "registered": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1574746690351_1341355600",
+      "id": "20191126-023810_382641811",
+      "dateCreated": "2019-11-26 02:38:10.351",
+      "dateStarted": "2019-11-26 02:39:21.092",
+      "dateFinished": "2019-11-26 02:39:21.175",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Query SQL plano",
-      "text": "profiles.createOrReplaceTempView(\"users\")\n\n//Cantidad de usuarios por país\nval nUsr4Ctry \u003d spark.sql(\"SELECT country, count(*) AS cantidad FROM users GROUP BY country ORDER BY cantidad DESC\")\n\nnUsr4Ctry.show\n",
+      "text": "%pyspark\n\nprofiles.createOrReplaceTempView(\"users\")\n\n#Cantidad de usuarios por país\nnUsr4Ctry \u003d spark.sql(\"SELECT country, count(*) AS cantidad FROM users GROUP BY country ORDER BY cantidad DESC\")\n\nnUsr4Ctry.show()\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 8:41:34 PM",
+      "dateUpdated": "2019-11-28 16:34:27.902",
       "config": {
         "editorSetting": {
-          "language": "scala"
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "title": true,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768603_426108771",
+      "jobName": "paragraph_1574633139078_-1123446862",
       "id": "20171020-195004_405222821",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 8:41:35 PM",
-      "dateFinished": "Oct 11, 2018 8:42:03 PM",
+      "dateCreated": "2019-11-24 19:05:39.078",
+      "dateStarted": "2019-11-28 16:34:27.946",
+      "dateFinished": "2019-11-28 16:34:28.951",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Query SQL programático",
-      "text": "val nUsr4Ctry2 \u003d profiles\n                .groupBy($\"country\").agg(count($\"*\").as(\"cantidad\"))\n                .orderBy($\"cantidad\".desc)\n// Cada operación SQL también es un método\n\nnUsr4Ctry2.show\n\n",
+      "text": "%pyspark\n\nfrom pyspark.sql.functions import count\n\nnUsr4Ctry2 \u003d profiles \\\n                .groupBy(\"country\").agg(count(\"*\").alias(\"cantidad\")) \\\n                .orderBy(\"cantidad\", ascending\u003dFalse)\n# Cada operación SQL es un método\n\nnUsr4Ctry2.show()\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 8:41:36 PM",
+      "dateUpdated": "2019-11-28 17:19:19.737",
       "config": {
         "editorSetting": {
-          "language": "scala"
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "title": true,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768603_426108771",
+      "jobName": "paragraph_1574633139078_1818731448",
       "id": "20171020-181216_461915575",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 8:41:58 PM",
-      "dateFinished": "Oct 11, 2018 8:42:06 PM",
+      "dateCreated": "2019-11-24 19:05:39.078",
+      "dateStarted": "2019-11-28 17:19:19.774",
+      "dateFinished": "2019-11-28 17:19:20.049",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Ejercicio",
-      "text": "%md\nComplete el código siguiente para calcular en un Dataframe la cantidad de usuarios por pais desagregando por sexo usando SQL plano o programático.",
+      "text": "%md\nComplete los siguientes programas que calculan en un Dataframe la cantidad de usuarios por pais desagregando por sexo y ordenando por la cantidad de mayor a menor, usando **SQL plano y programático**.\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:50:18 PM",
+      "dateUpdated": "2019-11-26 03:02:08.347",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "title": true,
         "results": {},
-        "enabled": true
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -604,90 +736,97 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eComplete el código siguiente para calcular en un Dataframe la cantidad de usuarios por pais desagregando por sexo usando SQL plano o programático.\u003c/p\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eComplete los siguientes programas que calculan en un Dataframe la cantidad de usuarios por pais desagregando por sexo y ordenando por la cantidad de mayor a menor, usando \u003cstrong\u003eSQL plano y programático\u003c/strong\u003e.\u003c/p\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768603_426108771",
+      "jobName": "paragraph_1574633139080_-2091275800",
       "id": "20171023-114452_748688701",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:50:18 PM",
-      "dateFinished": "Oct 11, 2018 7:50:18 PM",
+      "dateCreated": "2019-11-24 19:05:39.080",
+      "dateStarted": "2019-11-26 03:02:01.567",
+      "dateFinished": "2019-11-26 03:02:01.572",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "// Con SQL plano\n\nval nUsr4CtryGen \u003d spark.sql(\"SELECT country, gender, count(*) AS cantidad FROM users GROUP BY ... ORDER BY ...\")\n\nnUsr4CtryGen.show\n",
+      "text": "%pyspark\n\n# Con SQL plano\n\nnUsr4CtryGen \u003d spark.sql(\"SELECT country, gender, count(*) AS cantidad FROM users GROUP BY ... ORDER BY ...\")\n\nnUsr4CtryGen.show()\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:53:16 PM",
+      "dateUpdated": "2019-11-29 17:37:54.301",
       "config": {
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "results": {},
         "enabled": true,
         "editorSetting": {
-          "language": "scala",
-          "editOnDblClick": false
-        }
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "apps": [],
-      "jobName": "paragraph_1539295768603_426108771",
-      "id": "20171024-102640_808955464",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:50:43 PM",
-      "dateFinished": "Oct 11, 2018 7:50:44 PM",
-      "status": "FINISHED",
-      "errorMessage": "",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "// Con SQL porgramático\n\nval nUsr4CtryGen2 \u003d profiles\n                .groupBy($\"country\", ...).agg(count($\"*\").as(\"cantidad\"))\n                .orderBy($\"country\", ...)\n\nnUsr4CtryGen2.show\n",
-      "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:54:29 PM",
-      "config": {
-        "colWidth": 12.0,
-        "enabled": true,
-        "results": {},
-        "editorSetting": {
-          "language": "scala"
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "fontSize": 9.0,
+        "editorHide": false
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539298280964_-1501653429",
-      "id": "20181011-195120_1975378038",
-      "dateCreated": "Oct 11, 2018 7:51:20 PM",
-      "dateStarted": "Oct 11, 2018 7:53:38 PM",
-      "dateFinished": "Oct 11, 2018 7:53:40 PM",
-      "status": "FINISHED",
-      "errorMessage": "",
+      "jobName": "paragraph_1574747415581_-426192243",
+      "id": "20191126-025015_908338399",
+      "dateCreated": "2019-11-26 02:50:15.581",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\n# Con SQL porgramático\n\nnUsr4CtryGen2 \u003d profiles \\\n                .groupBy(\"country\", ...).agg(count(\"*\").alias(\"cantidad\")) \\\n                .orderBy(\"cantidad\", ...)\n\nnUsr4CtryGen2.show()\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-26 03:08:32.685",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "results": {},
+        "enabled": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "fontSize": 9.0,
+        "title": false,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1574748460946_456947324",
+      "id": "20191126-030740_538459228",
+      "dateCreated": "2019-11-26 03:07:40.946",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Lectura desde JDBC",
-      "text": "%md\n```scala\nval opts \u003d Map(\n  \"url\" -\u003e \"jdbc:postgresql:sparkdb\",\n  \"dbtable\" -\u003e \"projects\")\nval df \u003d spark.\n  read.\n  format(\"jdbc\").\n  options(opts).\n  load\n```\nMás información en:\n\n* [Mastering Apache Spark](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/exercises/spark-exercise-dataframe-jdbc-postgresql.html).\n* [Databricks](https://docs.databricks.com/spark/latest/data-sources/sql-databases.html).\n\n",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
+      "text": "%md\n```python\ndf \u003d spark.read \\\n    .format(\"jdbc\") \\\n    .option(\"url\", \"jdbc:postgresql://localhost/test\") \\\n    .option(\"dbtable\", \"projects\") \\\n    .option(\"user\", \"username\") \\\n    .option(\"password\", \"password\") \\\n    .load()\n```\nMás información en:\n\n* [Spark SQL](http://spark.apache.org/docs/latest/sql-programming-guide.html#jdbc-to-other-databases).\n* [Ejemplo](https://supergloo.com/spark-sql/spark-sql-mysql-python-example-jdbc/).\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-26 03:31:33.768",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 6.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "title": true,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -698,35 +837,38 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cpre\u003e\u003ccode class\u003d\"scala\"\u003eval opts \u003d Map(\n  \u0026quot;url\u0026quot; -\u0026gt; \u0026quot;jdbc:postgresql:sparkdb\u0026quot;,\n  \u0026quot;dbtable\u0026quot; -\u0026gt; \u0026quot;projects\u0026quot;)\nval df \u003d spark.\n  read.\n  format(\u0026quot;jdbc\u0026quot;).\n  options(opts).\n  load\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eMás información en:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ca href\u003d\"https://jaceklaskowski.gitbooks.io/mastering-apache-spark/exercises/spark-exercise-dataframe-jdbc-postgresql.html\"\u003eMastering Apache Spark\u003c/a\u003e.\u003c/li\u003e\n  \u003cli\u003e\u003ca href\u003d\"https://docs.databricks.com/spark/latest/data-sources/sql-databases.html\"\u003eDatabricks\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cpre\u003e\u003ccode class\u003d\"python\"\u003edf \u003d spark.read \\\n    .format(\u0026quot;jdbc\u0026quot;) \\\n    .option(\u0026quot;url\u0026quot;, \u0026quot;jdbc:postgresql://localhost/test\u0026quot;) \\\n    .option(\u0026quot;dbtable\u0026quot;, \u0026quot;projects\u0026quot;) \\\n    .option(\u0026quot;user\u0026quot;, \u0026quot;username\u0026quot;) \\\n    .option(\u0026quot;password\u0026quot;, \u0026quot;password\u0026quot;) \\\n    .load()\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eMás información en:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ca href\u003d\"http://spark.apache.org/docs/latest/sql-programming-guide.html#jdbc-to-other-databases\"\u003eSpark SQL\u003c/a\u003e.\u003c/li\u003e\n  \u003cli\u003e\u003ca href\u003d\"https://supergloo.com/spark-sql/spark-sql-mysql-python-example-jdbc/\"\u003eEjemplo\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768604_424185026",
+      "jobName": "paragraph_1574633139082_1457938836",
       "id": "20171023-092655_178501000",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateCreated": "2019-11-24 19:05:39.082",
+      "dateStarted": "2019-11-26 03:30:13.767",
+      "dateFinished": "2019-11-26 03:30:13.771",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Lectura desde HIVE",
-      "text": "%md\n```scala\nval spark \u003d SparkSession\n  .builder()\n  .appName(\"Spark Hive Example\")\n  .config(\"spark.sql.warehouse.dir\", warehouseLocation)\n  .enableHiveSupport()\n  .getOrCreate()\n  \nval sqlDF \u003d spark.sql(\"SELECT key, value FROM src WHERE key \u003c 10 ORDER BY key\")\n```\nMás información en:\n\n* [Spark SQL](https://spark.apache.org/docs/latest/sql-programming-guide.html#hive-tables).\n* [Mastering Spark](https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-hive-integration.html).\n\n",
+      "text": "%md\n\n```scala\nwarehouse_location \u003d abspath(\u0027spark-warehouse\u0027)\n\nspark \u003d SparkSession \\\n    .builder \\\n    .appName(\"Ejemplo Spark Hive\") \\\n    .config(\"spark.sql.warehouse.dir\", warehouse_location) \\\n    .enableHiveSupport() \\\n    .getOrCreate()\n\nsqlDF \u003d spark.sql(\"SELECT key, value FROM src WHERE key \u003c 10 ORDER BY key\")\n```\nMás información en:\n\n* [Spark SQL](https://spark.apache.org/docs/latest/sql-programming-guide.html#hive-tables).\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:41:30 PM",
+      "dateUpdated": "2019-11-26 03:31:30.558",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 6.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "title": true,
         "results": {},
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -737,22 +879,23 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cpre\u003e\u003ccode class\u003d\"scala\"\u003eval spark \u003d SparkSession\n  .builder()\n  .appName(\u0026quot;Spark Hive Example\u0026quot;)\n  .config(\u0026quot;spark.sql.warehouse.dir\u0026quot;, warehouseLocation)\n  .enableHiveSupport()\n  .getOrCreate()\n  \nval sqlDF \u003d spark.sql(\u0026quot;SELECT key, value FROM src WHERE key \u0026lt; 10 ORDER BY key\u0026quot;)\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eMás información en:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ca href\u003d\"https://spark.apache.org/docs/latest/sql-programming-guide.html#hive-tables\"\u003eSpark SQL\u003c/a\u003e.\u003c/li\u003e\n  \u003cli\u003e\u003ca href\u003d\"https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-hive-integration.html\"\u003eMastering Spark\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cpre\u003e\u003ccode class\u003d\"scala\"\u003ewarehouse_location \u003d abspath(\u0026#39;spark-warehouse\u0026#39;)\n\nspark \u003d SparkSession \\\n    .builder \\\n    .appName(\u0026quot;Ejemplo Spark Hive\u0026quot;) \\\n    .config(\u0026quot;spark.sql.warehouse.dir\u0026quot;, warehouse_location) \\\n    .enableHiveSupport() \\\n    .getOrCreate()\n\nsqlDF \u003d spark.sql(\u0026quot;SELECT key, value FROM src WHERE key \u0026lt; 10 ORDER BY key\u0026quot;)\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eMás información en:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ca href\u003d\"https://spark.apache.org/docs/latest/sql-programming-guide.html#hive-tables\"\u003eSpark SQL\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768604_424185026",
+      "jobName": "paragraph_1574633139083_440008162",
       "id": "20171023-093701_2112740736",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:41:19 PM",
-      "dateFinished": "Oct 11, 2018 7:41:19 PM",
+      "dateCreated": "2019-11-24 19:05:39.083",
+      "dateStarted": "2019-11-26 03:31:18.250",
+      "dateFinished": "2019-11-26 03:31:18.261",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Escritura",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-24 19:05:39.084",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -779,76 +922,86 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768604_424185026",
+      "jobName": "paragraph_1574633139084_-76961397",
       "id": "20171023-115539_2069683705",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
+      "dateCreated": "2019-11-24 19:05:39.084",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "SQL",
-      "text": "spark.sql(\"drop table if exists mytable\") // borro la tabla si existe\n\nspark.sql(\"create table mytable as select * from users\");\n// Simula Hive Dat Warehouse local\n",
+      "text": "%pyspark\n\nspark.sql(\"drop table if exists mytable\") # borro la tabla si existe\n\nspark.sql(\"create table mytable as select * from users\")\n# Simula Hive Data Warehouse local\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 8:09:38 PM",
+      "dateUpdated": "2019-11-28 16:34:50.909",
       "config": {
         "editorSetting": {
-          "language": "scala",
-          "editOnDblClick": false
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "title": true,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768604_424185026",
+      "jobName": "paragraph_1574633139084_1421449733",
       "id": "20171023-115517_1163412651",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 8:09:38 PM",
-      "dateFinished": "Oct 11, 2018 8:09:39 PM",
+      "dateCreated": "2019-11-24 19:05:39.084",
+      "dateStarted": "2019-11-28 16:34:50.953",
+      "dateFinished": "2019-11-28 16:34:52.000",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Dataframe",
-      "text": "import org.apache.spark.sql.SaveMode\n\nprofiles.write.mode(SaveMode.Overwrite).save(\"./profiles.parquet\")\n",
+      "text": "%pyspark\n\nprofiles.write.mode(\"overwrite\").save(\"./profiles.parquet\")\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:44:02 PM",
+      "dateUpdated": "2019-11-28 16:39:52.001",
       "config": {
         "editorSetting": {
-          "language": "scala"
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "title": true,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
       "apps": [],
-      "jobName": "paragraph_1539295768605_423800277",
+      "jobName": "paragraph_1574633139085_-1119273826",
       "id": "20171023-115718_1445962443",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:44:02 PM",
-      "dateFinished": "Oct 11, 2018 7:44:03 PM",
+      "dateCreated": "2019-11-24 19:05:39.085",
+      "dateStarted": "2019-11-28 16:39:52.038",
+      "dateFinished": "2019-11-28 16:39:52.295",
       "status": "FINISHED",
-      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%sh\nls -ld ./spark-warehouse\nls -l ./spark-warehouse\n\nls -ld ./*.parquet",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:44:06 PM",
+      "dateUpdated": "2019-11-28 16:39:56.394",
       "config": {
         "colWidth": 12.0,
         "editorMode": "ace/mode/sh",
@@ -856,19 +1009,21 @@
         "enabled": true,
         "editorSetting": {
           "language": "sh",
-          "editOnDblClick": false
-        }
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768605_423800277",
+      "jobName": "paragraph_1574633139086_-584667034",
       "id": "20171023-165238_672281439",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 7:44:07 PM",
-      "dateFinished": "Oct 11, 2018 7:44:07 PM",
+      "dateCreated": "2019-11-24 19:05:39.086",
+      "dateStarted": "2019-11-28 16:39:56.448",
+      "dateFinished": "2019-11-28 16:39:58.395",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -877,7 +1032,7 @@
       "title": "Ejercicio",
       "text": "%md\nComplete el siguiente programa par calcular la edad promedio por género y guarde el resultado como tabla SQL y como archivo parquet.\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 8:15:54 PM",
+      "dateUpdated": "2019-11-24 19:05:39.087",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -905,80 +1060,275 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768605_423800277",
+      "jobName": "paragraph_1574633139086_323450214",
       "id": "20171023-164954_326955331",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 8:11:16 PM",
-      "dateFinished": "Oct 11, 2018 8:11:16 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "// Como tabla SQL\n\nspark.sql(\"drop table if exists gen_prom\") // borro la tabla si existe\n\nspark.sql(\"create table gen_prom as SELECT gender, avg(...) AS age_avg FROM users GROUP BY ...\")\n\n// Cargo tabla y muestro su contenido\nspark.sql(\"select * from gen_prom\").show\n",
-      "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 8:18:04 PM",
-      "config": {
-        "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
-        "results": {},
-        "enabled": true,
-        "editorSetting": {
-          "language": "scala",
-          "editOnDblClick": false
-        }
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "apps": [],
-      "jobName": "paragraph_1539295768605_423800277",
-      "id": "20171024-102625_2088080876",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 8:09:04 PM",
-      "dateFinished": "Oct 11, 2018 8:09:10 PM",
-      "status": "FINISHED",
+      "dateCreated": "2019-11-24 19:05:39.086",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "// Como parquet\n\nval genProm \u003d profiles\n                .groupBy($\"...\").agg(avg($\"...\").as(\"age_avg\"))\n\nimport org.apache.spark.sql.SaveMode\n\ngenProm.write.mode(SaveMode.Overwrite).save(\"./gen_prom.parquet\")\n\n// Cargo parquet y muestro su contenido\nspark.read.load(\"./gen_prom.parquet\").show\n",
+      "title": "",
+      "text": "%pyspark\n\n# Como tabla SQL\n\nspark.sql(\"drop table if exists gen_prom\") # borro la tabla si existe\n\nspark.sql(\"create table gen_prom as SELECT gender, avg(...) AS age_avg FROM users GROUP BY ...\")\n\n#Cargo tabla y muestro su contenido\n\nspark.sql(\"select * from gen_prom\").show()\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 8:45:40 PM",
+      "dateUpdated": "2019-11-28 17:14:01.704",
       "config": {
         "colWidth": 6.0,
-        "enabled": true,
+        "editorMode": "ace/mode/python",
         "results": {},
+        "enabled": true,
         "editorSetting": {
-          "language": "scala"
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "fontSize": 9.0,
+        "title": false,
+        "editorHide": false
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539299550409_382472849",
-      "id": "20181011-201230_108637768",
-      "dateCreated": "Oct 11, 2018 8:12:30 PM",
-      "dateStarted": "Oct 11, 2018 8:44:28 PM",
-      "dateFinished": "Oct 11, 2018 8:44:34 PM",
-      "status": "FINISHED",
-      "errorMessage": "",
+      "jobName": "paragraph_1574972009292_1671683489",
+      "id": "20191128-171329_636693326",
+      "dateCreated": "2019-11-28 17:13:29.292",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\nMas información en \n* [API Dataset](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.Dataset)\n* [Column Class](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.Column)\n* [Function Reference](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.functions$)\n* [Doc Spark SQL](http://spark.apache.org/docs/latest/sql-programming-guide.html)\n* [API DataFrameWriter](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.DataFrameWriter)",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
+      "text": "%pyspark\n\n# Como parquet\n\nfrom pyspark.sql.functions import ...\n\ngenProm \u003d profiles \\\n            .groupBy(...).agg(avg(...).alias(\"age_avg\"))\n\ngenProm.write.mode(\"overwrite\").save(\"./gen_prom.parquet\")\n\n# Cargo parquet y muestro su contenido\nspark.read.load(\"./gen_prom.parquet\").show()\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-28 17:23:33.782",
+      "config": {
+        "colWidth": 6.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1574972536445_-1954753347",
+      "id": "20191128-172216_319223823",
+      "dateCreated": "2019-11-28 17:22:16.445",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Mas Información en",
+      "text": "%md\n\n* [API Python SQL](http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html)\n* [Function Reference](http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html#module-pyspark.sql.functions)\n* [Doc Spark SQL](http://spark.apache.org/docs/2.2.1/sql-programming-guide.html)\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-28 17:30:48.632",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false,
+        "fontSize": 9.0,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ca href\u003d\"http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html\"\u003eAPI Python SQL\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ca href\u003d\"http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html#module-pyspark.sql.functions\"\u003eFunction Reference\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ca href\u003d\"http://spark.apache.org/docs/2.2.1/sql-programming-guide.html\"\u003eDoc Spark SQL\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1574633139088_-870309825",
+      "id": "20161012-103356_1938807399",
+      "dateCreated": "2019-11-24 19:05:39.088",
+      "dateStarted": "2019-11-28 17:30:17.372",
+      "dateFinished": "2019-11-28 17:30:17.386",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Eficiencia\n\nLos **RDD** tienen el overhead de la *serialización*:\n\n* cuando los objetos se transfieren (por red) y guardan (disco)\n* overhead de garbage collector\n\nLos **Datasets** solucionan estos problemas:\n\n* Serializa a binario usando **encoders**\n    - parte del proyecto Tungsten\n    - permite operaciones sin deserializar\n    - corre *off-heap* (sin garbage collection)\n    - código para serialización generado en forma dinámica\n* Con la información de la estructura (*schema*) Spark hace optimizaciones.\n    - Usa *Catalyst optimizer*.\n    - Transfiere solo columnas usadas, no objetos enteros (relational query plan).\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-28 18:31:45.252",
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false,
+        "fontSize": 9.0
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eEficiencia\u003c/h3\u003e\n\u003cp\u003eLos \u003cstrong\u003eRDD\u003c/strong\u003e tienen el overhead de la \u003cem\u003eserialización\u003c/em\u003e:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003ecuando los objetos se transfieren (por red) y guardan (disco)\u003c/li\u003e\n  \u003cli\u003eoverhead de garbage collector\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eLos \u003cstrong\u003eDatasets\u003c/strong\u003e solucionan estos problemas:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003eSerializa a binario usando \u003cstrong\u003eencoders\u003c/strong\u003e\n    \u003cul\u003e\n      \u003cli\u003eparte del proyecto Tungsten\u003c/li\u003e\n      \u003cli\u003epermite operaciones sin deserializar\u003c/li\u003e\n      \u003cli\u003ecorre \u003cem\u003eoff-heap\u003c/em\u003e (sin garbage collection)\u003c/li\u003e\n      \u003cli\u003ecódigo para serialización generado en forma dinámica\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eCon la información de la estructura (*schema*) Spark hace optimizaciones.\n    \u003cul\u003e\n      \u003cli\u003eUsa \u003cem\u003eCatalyst optimizer\u003c/em\u003e.\u003c/li\u003e\n      \u003cli\u003eTransfiere solo columnas usadas, no objetos enteros (relational query plan).\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1574633139089_1514310120",
+      "id": "20161011-174737_215333010",
+      "dateCreated": "2019-11-24 19:05:39.089",
+      "dateStarted": "2019-11-28 18:30:53.231",
+      "dateFinished": "2019-11-28 18:30:53.241",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "WordCount con RDD",
+      "text": "%pyspark\n\nlinesRDD \u003d sc.textFile(\"README.md\")\n\nwordsRDD \u003d linesRDD \\\n            .flatMap(lambda l: l.split(\" \")) \\\n            .filter(lambda w:  w)\n#MapReduce:\nwordCountRDD \u003d wordsRDD.map(lambda w: (w,1)) \\\n                .reduceByKey(lambda nx,ny:  nx+ny)\n\nresultRDD \u003d wordCountRDD \\\n                .sortBy((lambda p: p[1]), ascending \u003d False)\n                # ordena por cantidad\n\nprint \"Resultado:\"\n\nfor w, c in resultRDD.collect()[:3]: #  traigo resultados\n    print w, c\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-28 18:38:41.167",
+      "config": {
+        "lineNumbers": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/python",
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "fontSize": 9.0
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1574633139090_418327829",
+      "id": "20161011-173655_294413553",
+      "dateCreated": "2019-11-24 19:05:39.090",
+      "dateStarted": "2019-11-28 18:38:41.198",
+      "dateFinished": "2019-11-28 18:38:41.671",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "WordCount con DataFrames",
+      "text": "%pyspark\n\nfrom pyspark.sql.functions import split, explode\n\nlinesDF \u003d spark.read.text(\"README.md\").toDF(\"lineas\")\n\nwordsDF \u003d linesDF \\\n            .select(explode(split(\"lineas\", \u0027 \u0027)).alias(\"words\")) \\\n            .filter(\"words !\u003d \u0027\u0027\")\n\nwordCountDF \u003d wordsDF \\\n                .groupBy(\"words\").count()\n\nresultDF \u003d wordCountDF \\\n                .orderBy(\"count\", ascending\u003dFalse)\n#                // ordena por cantidad\n\nprint \"Resultado:\"\n\nresultDF.show(n\u003d3, truncate\u003dFalse)\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-28 19:10:41.517",
+      "config": {
+        "lineNumbers": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/python",
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "fontSize": 9.0
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1574633139091_852424514",
+      "id": "20161011-190925_989390669",
+      "dateCreated": "2019-11-24 19:05:39.091",
+      "dateStarted": "2019-11-28 19:10:01.854",
+      "dateFinished": "2019-11-28 19:10:14.021",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "print(s\"\"\"%html\n\u0026nbsp;\n\u003cimg src\u003d\"$baseDir/03_sql/Distributed-Wordcount-Chart.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-24 19:05:39.092",
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/scala",
         "editorHide": true,
         "results": [
           {
@@ -1004,193 +1354,26 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eMas información en\u003cbr/\u003e* \u003ca href\u003d\"http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.Dataset\"\u003eAPI Dataset\u003c/a\u003e\u003cbr/\u003e* \u003ca href\u003d\"http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.Column\"\u003eColumn Class\u003c/a\u003e\u003cbr/\u003e* \u003ca href\u003d\"http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.functions$\"\u003eFunction Reference\u003c/a\u003e\u003cbr/\u003e* \u003ca href\u003d\"http://spark.apache.org/docs/latest/sql-programming-guide.html\"\u003eDoc Spark SQL\u003c/a\u003e\u003cbr/\u003e* \u003ca href\u003d\"http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.DataFrameWriter\"\u003eAPI DataFrameWriter\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e"
-          }
-        ]
-      },
-      "apps": [],
-      "jobName": "paragraph_1539295768605_423800277",
-      "id": "20161012-103356_1938807399",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "status": "READY",
-      "errorMessage": "",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md\n### Eficiencia\n\nLos **RDD** tienen el overhead de la *serialización* (aunque use *Kryo*):\n\n* cuando los objetos se transfieren (por red) y guardan (disco)\n* overhead de garbage collector de la JVM\n\nLos **Datasets** solucionan estos problemas:\n\n* Serializa a binario usando **encoders**\n    - parte del proyecto Tungsten\n    - permite operaciones sin deserializar\n    - corre *off-heap* (sin garbage collection)\n    - código para serialización generado en forma dinámica\n* Con la información de la estructura (*schema*) Spark hace optimizaciones.\n    - Usa *Catalyst optimizer*.\n    - Transfiere solo columnas usadas, no objetos enteros (relational query plan).\n",
-      "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 8:26:43 PM",
-      "config": {
-        "colWidth": 12.0,
-        "editorMode": "ace/mode/markdown",
-        "editorHide": true,
-        "results": [
-          {
-            "graph": {
-              "mode": "table",
-              "height": 300.0,
-              "optionOpen": false,
-              "keys": [],
-              "values": [],
-              "groups": [],
-              "scatter": {}
-            }
-          }
-        ],
-        "enabled": true,
-        "editorSetting": {
-          "language": "markdown",
-          "editOnDblClick": true
-        },
-        "tableHide": false
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eEficiencia\u003c/h3\u003e\n\u003cp\u003eLos \u003cstrong\u003eRDD\u003c/strong\u003e tienen el overhead de la \u003cem\u003eserialización\u003c/em\u003e (aunque use \u003cem\u003eKryo\u003c/em\u003e):\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003ecuando los objetos se transfieren (por red) y guardan (disco)\u003c/li\u003e\n  \u003cli\u003eoverhead de garbage collector de la JVM\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eLos \u003cstrong\u003eDatasets\u003c/strong\u003e solucionan estos problemas:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003eSerializa a binario usando \u003cstrong\u003eencoders\u003c/strong\u003e\n    \u003cul\u003e\n      \u003cli\u003eparte del proyecto Tungsten\u003c/li\u003e\n      \u003cli\u003epermite operaciones sin deserializar\u003c/li\u003e\n      \u003cli\u003ecorre \u003cem\u003eoff-heap\u003c/em\u003e (sin garbage collection)\u003c/li\u003e\n      \u003cli\u003ecódigo para serialización generado en forma dinámica\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eCon la información de la estructura (*schema*) Spark hace optimizaciones.\n    \u003cul\u003e\n      \u003cli\u003eUsa \u003cem\u003eCatalyst optimizer\u003c/em\u003e.\u003c/li\u003e\n      \u003cli\u003eTransfiere solo columnas usadas, no objetos enteros (relational query plan).\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
-          }
-        ]
-      },
-      "apps": [],
-      "jobName": "paragraph_1539295768606_424954524",
-      "id": "20161011-174737_215333010",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 8:26:43 PM",
-      "dateFinished": "Oct 11, 2018 8:26:43 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "title": "WordCount con RDD",
-      "text": "val linesRDD \u003d sc.textFile(\"README.md\")\n\nval wordsRDD \u003d linesRDD\n                .flatMap(l \u003d\u003e l.split(\" \"))\n                .filter(w \u003d\u003e ! w.isEmpty)\n//MapReduce:\nval wordCountRDD \u003d wordsRDD.map(w \u003d\u003e (w,1))\n                .reduceByKey((nx,ny) \u003d\u003e nx+ny)\n\nval resultRDD \u003d wordCountRDD\n                .sortBy((p \u003d\u003e p._2), ascending \u003d false)\n                // ordena por cantidad\n\nprintln(\"Resultado:\")\n\nresultRDD.collect() // traigo resultados\n      .take(3)\n      .foreach(p \u003d\u003e println(p))",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
-      "config": {
-        "lineNumbers": true,
-        "editorSetting": {
-          "language": "scala"
-        },
-        "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
-        "title": true,
-        "results": {},
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "apps": [],
-      "jobName": "paragraph_1539295768606_424954524",
-      "id": "20161011-173655_294413553",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "status": "READY",
-      "errorMessage": "",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "title": "WordCount con Dataset",
-      "text": "val linesDS \u003d spark.read.text(\"README.md\").as[String]\n\nval wordsDS \u003d linesDS\n                .flatMap(l \u003d\u003e l.split(\" \"))\n                .filter(w \u003d\u003e ! w.isEmpty)\n\nval wordCountDS \u003d wordsDS\n                .groupBy($\"value\").count\n\nval resultDS \u003d wordCountDS\n                .orderBy($\"count\".desc)\n                // ordena por cantidad\n\nprintln(\"Resultado:\")\n\nresultDS.show(3)\n\nprintln(\"El schema de words es:\")\nwordsDS.printSchema()",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
-      "config": {
-        "lineNumbers": true,
-        "editorSetting": {
-          "language": "scala"
-        },
-        "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
-        "title": true,
-        "results": {},
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "apps": [],
-      "jobName": "paragraph_1539295768606_424954524",
-      "id": "20161011-190925_989390669",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "status": "READY",
-      "errorMessage": "",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "print(s\"\"\"%html\n\u0026nbsp;\n\u003cimg src\u003d\"$baseDir/03_sql/Distributed-Wordcount-Chart.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n\"\"\")",
-      "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 9:20:01 PM",
-      "config": {
-        "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
-        "editorHide": true,
-        "results": [
-          {
-            "graph": {
-              "mode": "table",
-              "height": 300.0,
-              "optionOpen": false,
-              "keys": [],
-              "values": [],
-              "groups": [],
-              "scatter": {}
-            }
-          }
-        ],
-        "enabled": false,
-        "editorSetting": {
-          "language": "scala"
-        }
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "HTML",
             "data": "\u0026nbsp;\n\u003cimg src\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/03_sql/Distributed-Wordcount-Chart.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768606_424954524",
+      "jobName": "paragraph_1574633139091_-14823926",
       "id": "20161011-201107_202795512",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 9:19:18 PM",
-      "dateFinished": "Oct 11, 2018 9:19:18 PM",
-      "status": "FINISHED",
+      "dateCreated": "2019-11-24 19:05:39.091",
+      "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "print(s\"\"\"%html\n\u0026nbsp;\n\u003cimg src\u003d\"$baseDir/03_sql/Memory-Usage-when-Caching-Chart.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 9:19:52 PM",
+      "dateUpdated": "2019-11-24 19:05:39.093",
       "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
         "colWidth": 6.0,
         "editorMode": "ace/mode/scala",
         "editorHide": true,
@@ -1207,10 +1390,7 @@
             }
           }
         ],
-        "enabled": false,
-        "editorSetting": {
-          "language": "scala"
-        }
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -1226,25 +1406,27 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768607_424569775",
+      "jobName": "paragraph_1574633139092_-1214691455",
       "id": "20161011-201419_1048673058",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 9:19:36 PM",
-      "dateFinished": "Oct 11, 2018 9:19:37 PM",
-      "status": "FINISHED",
+      "dateCreated": "2019-11-24 19:05:39.092",
+      "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Tungsten en acción",
-      "text": "val ints \u003d 1 to math.pow(10, 6).toInt\nval intsRDD \u003d sc.parallelize(ints).setName(\"intsRDD\").cache\n\n// Fuerzo evaluacion\nintsRDD.count\n\n// Ver sparkui storage. Descomentar proximas lineas y ver de nuevo\n\n//val intsDF \u003d ints.toDF.cache\n\n//intsDF.count\n",
+      "text": "%pyspark\n\nints \u003d range(pow(10, 6))\nprint ints[:10]\nintsRDD \u003d sc.parallelize(ints).setName(\"intsRDD\").cache()\n\n# Fuerzo evaluacion\nprint intsRDD.count()\n\n# Ver sparkui storage. Descomentar proximas lineas y ver de nuevo\n\nfrom pyspark.sql.types import IntegerType\n\n#intsDF \u003d spark.createDataFrame(ints, IntegerType()).cache()\n#intsDF.cache()\n\n#print intsDF.count()\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 9:22:22 PM",
+      "dateUpdated": "2019-11-28 20:15:48.967",
       "config": {
         "editorSetting": {
-          "language": "scala"
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "editorHide": false,
         "title": true,
         "results": {},
@@ -1257,29 +1439,34 @@
           "groups": [],
           "scatter": {}
         },
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768607_424569775",
+      "jobName": "paragraph_1574633139093_1208015381",
       "id": "20161017-104100_1861019655",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 9:21:24 PM",
-      "dateFinished": "Oct 11, 2018 9:21:42 PM",
+      "dateCreated": "2019-11-24 19:05:39.093",
+      "dateStarted": "2019-11-28 20:15:27.986",
+      "dateFinished": "2019-11-28 20:15:36.684",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "{\nval uiHost \u003d sc.getConf.getOption(\"spark.driver.host\").getOrElse(\"localhost\")\nval uiPort \u003d sc.getConf.getOption(\"spark.ui.port\").getOrElse(\"4040\")\nprint(s\"\"\"\n%html\n\u003cbr\u003e\nVer resultado en Spark UI Storage\n\u003ca href\u003d\"http://$uiHost:$uiPort/storage\"\u003ehttp://$uiHost(host):$uiPort(port)/storage\u003c/a\u003e\n\"\"\")\n}",
+      "text": "{\nval uiHost \u003d sc.getConf.getOption(\"spark.driver.host\").getOrElse(\"localhost\")\nval uiPort \u003d sc.getConf.getOption(\"spark.ui.port\").getOrElse(\"4040\")\nprint(s\"\"\"%html\n\u003cbr\u003e\nVer resultado en Spark UI Storage\n\u003ca href\u003d\"http://$uiHost:$uiPort/storage\"\u003ehttp://$uiHost(host):$uiPort(port)/storage\u003c/a\u003e\n\"\"\")\n}",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 9:22:37 PM",
+      "dateUpdated": "2019-11-28 19:15:24.582",
       "config": {
+        "tableHide": false,
         "editorSetting": {
-          "language": "scala"
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/scala",
@@ -1298,7 +1485,7 @@
           }
         ],
         "enabled": true,
-        "tableHide": false
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -1308,35 +1495,34 @@
         "code": "SUCCESS",
         "msg": [
           {
-            "type": "TEXT",
-            "data": "\n"
-          },
-          {
             "type": "HTML",
             "data": "\u003cbr\u003e\nVer resultado en Spark UI Storage\n\u003ca href\u003d\"http://192.168.1.201:4040/storage\"\u003ehttp://192.168.1.201(host):4040(port)/storage\u003c/a\u003e\n"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768607_424569775",
+      "jobName": "paragraph_1574633139093_1303617235",
       "id": "20161017-104452_771251326",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 9:20:49 PM",
-      "dateFinished": "Oct 11, 2018 9:20:50 PM",
+      "dateCreated": "2019-11-24 19:05:39.093",
+      "dateStarted": "2019-11-28 19:15:20.760",
+      "dateFinished": "2019-11-28 19:15:21.232",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Ejemplo",
-      "text": "val df \u003d spark.read.json(\"../../diplodatos_bigdata/ds/people.json\")\n\n// Displays the content of the DataFrame to stdout\ndf.show()\n\n// Selecciona todo incrementando la edad\ndf.select($\"name\", $\"age\" + 1).show()\n\n// Selecciona personas con mas de 21 años\ndf.filter($\"age\" \u003e 21).show()\n",
+      "text": "%pyspark\n\ndf \u003d spark.read.json(\"../../diplodatos_bigdata/ds/people.json\")\n\n# Displays the content of the DataFrame to stdout\ndf.show()\n\n# Selecciona todo incrementando la edad\ndf.selectExpr(\"name\", \"age + 1\").show()\n\n# O tambien\ndf.select(\"name\", df.age + 1).show()\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 9:28:17 PM",
+      "dateUpdated": "2019-11-28 19:28:15.581",
       "config": {
         "editorSetting": {
-          "language": "scala"
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "title": true,
         "results": [
           {
@@ -1351,31 +1537,36 @@
             }
           }
         ],
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768607_424569775",
+      "jobName": "paragraph_1574633139094_1555958677",
       "id": "20161011-151030_1991021842",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 9:28:18 PM",
-      "dateFinished": "Oct 11, 2018 9:28:20 PM",
+      "dateCreated": "2019-11-24 19:05:39.094",
+      "dateStarted": "2019-11-28 19:28:15.614",
+      "dateFinished": "2019-11-28 19:28:15.753",
       "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "// Cuenta personas por edad\ndf.groupBy(\"age\").count().show()\n\ndf.groupBy(\"age\").count().explain(true)\n\n// Convierte a Dataset denotando el tipo\nval ds \u003d df.as[(Long,String)]\n",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
+      "text": "%pyspark\n\n# Selecciona personas con mas de 21 años\ndf.filter(\"age \u003e 21\").show()\n\n# Cuenta personas por edad\ndf.groupBy(\"age\").count().show()\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-28 19:28:12.560",
       "config": {
         "editorSetting": {
-          "language": "scala"
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 6.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "editorHide": false,
         "results": [
           {
@@ -1390,23 +1581,27 @@
             }
           }
         ],
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768608_410334066",
+      "jobName": "paragraph_1574633139095_-690928886",
       "id": "20171024-102324_940444908",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "status": "READY",
+      "dateCreated": "2019-11-24 19:05:39.095",
+      "dateStarted": "2019-11-28 19:28:12.590",
+      "dateFinished": "2019-11-28 19:28:12.916",
+      "status": "FINISHED",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Ventajas/desventajas de las diferentes APIs",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-24 19:05:39.096",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1445,9 +1640,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768608_410334066",
+      "jobName": "paragraph_1574633139096_251906823",
       "id": "20161017-123303_1620980443",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
+      "dateCreated": "2019-11-24 19:05:39.096",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1455,7 +1650,8 @@
     {
       "title": "APIs tipadas y no tipadas",
       "text": "print(s\"\"\"\n%table\nLenguaje\\t Abstracción Principal\nScala \\t Dataset[T] y Dataframe (Datset[Row])\nJava  \\t Dataset[T]\nPython \\t Dataframe\nR \\t Dataframe\n\"\"\")\n",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-24 19:05:58.182",
       "config": {
         "colWidth": 6.0,
         "editorMode": "ace/mode/scala",
@@ -1493,11 +1689,34 @@
                   "index": 1.0,
                   "aggr": "sum"
                 }
-              }
+              },
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Lenguaje": "string",
+                      " Abstracción Principal": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
             }
           }
         ],
-        "enabled": false
+        "enabled": false,
+        "fontSize": 9.0,
+        "editorSetting": {}
       },
       "settings": {
         "params": {},
@@ -1513,9 +1732,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768608_410334066",
+      "jobName": "paragraph_1574633139096_178123198",
       "id": "20161017-123522_72698600",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
+      "dateCreated": "2019-11-24 19:05:39.096",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1524,8 +1743,11 @@
       "title": "Detección de errores",
       "text": "print(s\"\"\"%html\n\u0026nbsp;\n\u003cimg src\u003d\"$baseDir/03_sql/type-safety-spectrum.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 9:27:44 PM",
+      "dateUpdated": "2019-11-24 19:05:39.097",
       "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
         "colWidth": 6.0,
         "editorMode": "ace/mode/scala",
         "editorHide": true,
@@ -1543,10 +1765,7 @@
             }
           }
         ],
-        "enabled": false,
-        "editorSetting": {
-          "language": "scala"
-        }
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -1562,18 +1781,18 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768609_409949317",
+      "jobName": "paragraph_1574633139097_342733199",
       "id": "20161017-124430_789707578",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 9:27:24 PM",
-      "dateFinished": "Oct 11, 2018 9:27:25 PM",
-      "status": "FINISHED",
+      "dateCreated": "2019-11-24 19:05:39.097",
+      "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Cuando usar Datasets Dataframes o RDD",
       "text": "%md\n* Si se necesita expresiones de alto nivel, filters, maps, aggregations, promedios, sumatorias, queries SQL, acceso por columna y funciones lambda sobre datos semiestructurados\n    - para desarrollar aplicaciones finales (Data Ingeeniering) usar **Datasets**.\n    - para análisis interactivo (Data Scientist) usar **Dataframes**. \n* Si se necesita mayor seguridad de tipos chequeandolos a tiempo de compilación, objetos JVM, beneficios de optimización Catalyst y código eficiente con Tungsten usar **Datasets**.\n* Si se quiere una API unificada a traves de la la librerías Spark usar **DataFrames** o **Datasets**.\n* Si se quiere trabajar en R no queda otra que usar **DataFrames**.\n* Si se quiere trabajar en Python no queda otra que usar **DataFrames** y recurrir a **RDDs** si se necesita mayor control.\n",
-      "dateUpdated": "Oct 11, 2018 7:09:28 PM",
+      "user": "anonymous",
+      "dateUpdated": "2019-11-24 19:05:39.098",
       "config": {
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
@@ -1608,30 +1827,32 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768609_409949317",
+      "jobName": "paragraph_1574633139097_-347369267",
       "id": "20161017-124933_322133526",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
+      "dateCreated": "2019-11-24 19:05:39.097",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Ejercicio",
-      "text": "%md\nCon el dataset `profiles` complete el siguiente código para calcular la cantidad de registraciones por día de la semana.\n\n#### Ayuda:\n\nEn [SQL API Function Reference](http://spark.apache.org/docs/2.1.1/api/scala/index.html#org.apache.spark.sql.functions$) en la sección \"Date time functions\" hay métodos para manipular fechas.\n",
+      "text": "%md\nCon el dataset `profiles` complete el siguiente código para calcular la cantidad de registraciones por día de la semana.\n\n#### Ayuda:\n\nEn [SQL API Function Reference](http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html#module-pyspark.sql.functions) en la sección \"Date time functions\" hay métodos para manipular fechas.\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 9:47:11 PM",
+      "dateUpdated": "2019-11-28 19:18:42.113",
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
         "title": true,
         "results": {},
-        "enabled": true
+        "enabled": false,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -1642,65 +1863,111 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eCon el dataset \u003ccode\u003eprofiles\u003c/code\u003e complete el siguiente código para calcular la cantidad de registraciones por día de la semana.\u003c/p\u003e\n\u003ch4\u003eAyuda:\u003c/h4\u003e\n\u003cp\u003eEn \u003ca href\u003d\"http://spark.apache.org/docs/2.1.1/api/scala/index.html#org.apache.spark.sql.functions$\"\u003eSQL API Function Reference\u003c/a\u003e en la sección \u0026ldquo;Date time functions\u0026rdquo; hay métodos para manipular fechas.\u003c/p\u003e\n\u003c/div\u003e"
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eCon el dataset \u003ccode\u003eprofiles\u003c/code\u003e complete el siguiente código para calcular la cantidad de registraciones por día de la semana.\u003c/p\u003e\n\u003ch4\u003eAyuda:\u003c/h4\u003e\n\u003cp\u003eEn \u003ca href\u003d\"http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html#module-pyspark.sql.functions\"\u003eSQL API Function Reference\u003c/a\u003e en la sección \u0026ldquo;Date time functions\u0026rdquo; hay métodos para manipular fechas.\u003c/p\u003e\n\u003c/div\u003e"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768609_409949317",
+      "jobName": "paragraph_1574633139098_1945893081",
       "id": "20171023-182043_62941752",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 9:47:11 PM",
-      "dateFinished": "Oct 11, 2018 9:47:11 PM",
+      "dateCreated": "2019-11-24 19:05:39.098",
+      "dateStarted": "2019-11-28 19:18:35.618",
+      "dateFinished": "2019-11-28 19:18:35.622",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "val regByDayOfWeek \u003d profiles.select($\"registered\", unix_timestamp($\"registered\", ...).as(\"reg_sec\"))\n                    .select($\"*\", from_unixtime(...,\"E\").as(\"day_week\"))\n\n\nz.show(regByDayOfWeek.groupBy($\"day_week\").count)\n",
+      "text": "%pyspark\n\nfrom pyspark.sql.functions import unix_timestamp, from_unixtime\n\nprofiles \u003d spark.read.load(\"../../diplodatos_bigdata/ds/userid-profile.tsv\",\n                    format\u003d\"csv\", delimiter\u003d\"\\t\", header\u003dTrue, inferSchema\u003dTrue)\n\nregByDayOfWeek \u003d profiles.select(\"registered\", unix_timestamp(\"registered\", ...).alias(\"reg_sec\")) \\\n                    .select(\"*\", from_unixtime(...,\"E\").alias(\"day_week\"))\n\n\nz.show(regByDayOfWeek.groupBy(\"day_week\").count())\n",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 9:46:37 PM",
+      "dateUpdated": "2019-11-28 19:36:55.751",
       "config": {
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "enabled": true,
         "results": {
-          "1": {
+          "0": {
             "graph": {
-              "mode": "table",
+              "mode": "multiBarChart",
               "height": 300.0,
-              "optionOpen": false
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "day_week": "string",
+                      "count": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "day_week",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "count",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ]
             },
             "helium": {}
           }
         },
-        "enabled": true,
         "editorSetting": {
-          "language": "scala",
-          "editOnDblClick": false
-        }
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python",
+        "editorHide": false
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768610_411103563",
-      "id": "20171024-102610_1966830072",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 9:45:10 PM",
-      "dateFinished": "Oct 11, 2018 9:45:13 PM",
-      "status": "FINISHED",
-      "errorMessage": "",
+      "jobName": "paragraph_1574980408747_406096059",
+      "id": "20191128-193328_151154793",
+      "dateCreated": "2019-11-28 19:33:28.747",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Fin",
-      "text": "val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
+      "text": "//val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\nval baseDir\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 9:48:51 PM",
+      "dateUpdated": "2019-11-29 17:37:19.802",
       "config": {
         "tableHide": true,
         "editorSetting": {
-          "language": "scala"
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/scala",
@@ -1719,7 +1986,8 @@
             }
           }
         ],
-        "enabled": true
+        "enabled": true,
+        "fontSize": 9.0
       },
       "settings": {
         "params": {},
@@ -1729,30 +1997,31 @@
         "code": "SUCCESS",
         "msg": [
           {
-            "type": "TEXT",
-            "data": "baseDir: String \u003d https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\n"
-          },
-          {
             "type": "HTML",
-            "data": "\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n"
+            "data": "\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\nbaseDir: String \u003d https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\n"
           }
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1539295768610_411103563",
+      "jobName": "paragraph_1574633139099_-1076078812",
       "id": "20161011-125733_1279366716",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "dateStarted": "Oct 11, 2018 9:04:07 PM",
-      "dateFinished": "Oct 11, 2018 9:04:08 PM",
+      "dateCreated": "2019-11-24 19:05:39.099",
+      "dateStarted": "2019-11-26 02:28:09.670",
+      "dateFinished": "2019-11-26 02:28:09.816",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "",
       "user": "anonymous",
-      "dateUpdated": "Oct 11, 2018 7:11:06 PM",
+      "dateUpdated": "2019-11-24 19:05:39.101",
       "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
         "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "results": {},
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -1762,49 +2031,32 @@
           "groups": [],
           "scatter": {}
         },
-        "enabled": true,
-        "results": {},
-        "editorSetting": {
-          "language": "scala"
-        },
-        "editorMode": "ace/mode/scala"
+        "enabled": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1539295768610_411103563",
+      "jobName": "paragraph_1574633139100_-1925710851",
       "id": "20161011-131205_59629538",
-      "dateCreated": "Oct 11, 2018 7:09:28 PM",
-      "status": "FINISHED",
+      "dateCreated": "2019-11-24 19:05:39.100",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     }
   ],
-  "name": "Clase 03 - SQL",
-  "id": "2DUKJZ971",
+  "name": "Diplodatos/Clase 03 - SQL",
+  "id": "2ETMFW3YF",
+  "noteParams": {},
+  "noteForms": {},
   "angularObjects": {
-    "2DVCPKERU:shared_process": [],
-    "2DRH5MGD2:shared_process": [],
-    "2DT8RGM5K:shared_process": [],
-    "2DTBNGED4:shared_process": [],
-    "2DUJTWGBK:shared_process": [],
-    "2DVDPKT5E:shared_process": [],
-    "2DTHT6XEM:shared_process": [],
-    "2DSR5ZQRN:shared_process": [],
-    "2DUUQHMED:shared_process": [],
-    "2DUYR3928:shared_process": [],
-    "2DU693TAM:shared_process": [],
-    "2DTUS9FCK:shared_process": [],
-    "2DSAF8SZS:shared_process": [],
-    "2DSYWZ69A:shared_process": [],
-    "2DTR3QF32:shared_process": [],
-    "2DU2RAXU9:shared_process": [],
-    "2DSG68MMD:shared_process": [],
-    "2DTTN7EC4:shared_process": [],
-    "2DV1379NW:shared_process": []
+    "md:shared_process": [],
+    "sh:shared_process": [],
+    "spark:shared_process": []
   },
-  "config": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
   "info": {}
 }
