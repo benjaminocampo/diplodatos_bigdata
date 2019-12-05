@@ -812,6 +812,47 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "%md\n\n### Ejercicio\n\nHacer con pipelines uno de los ejemplos de clasificacionde clase anterior. Plotear el resultado.\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-12-05 19:57:29.295",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eEjercicio\u003c/h3\u003e\n\u003cp\u003eHacer con pipelines uno de los ejemplos de clasificacionde clase anterior. Plotear el resultado.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1575586434614_63569949",
+      "id": "20191205-195354_363578557",
+      "dateCreated": "2019-12-05 19:53:54.614",
+      "dateStarted": "2019-12-05 19:57:29.295",
+      "dateFinished": "2019-12-05 19:57:29.299",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "title": "Fin",
       "text": "val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
       "user": "anonymous",
@@ -906,6 +947,7 @@
   "noteForms": {},
   "angularObjects": {
     "md:shared_process": [],
+    "python:shared_process": [],
     "spark:shared_process": []
   },
   "config": {
