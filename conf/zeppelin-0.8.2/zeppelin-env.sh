@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+# export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 # export MASTER=                 		# Spark master url. eg. spark://master_addr:7077. Leave empty if you want to use local mode.
 # export ZEPPELIN_ADDR                          # Bind address (default 127.0.0.1)
 # export ZEPPELIN_PORT                          # port number to listen (default 8080)

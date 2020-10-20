@@ -25,6 +25,6 @@ result = wordCount \
 local_result = result.collect() # Traigo desde cluster
 
 for word, count in local_result[:10]: # tomo 10
-    print word, count # los imprimo
+    print(word, count) # los imprimo
 
 spark.stop()
