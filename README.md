@@ -18,7 +18,7 @@
         conda install openjdk=8.0.152
 ```
 
-* Bajar el archivo zip desde [aguí](http://cs.famaf.unc.edu.ar/~damian/tmp/bigdatasoft.zip) y descomprimir
+* Bajar el archivo zip desde [aquí](http://cs.famaf.unc.edu.ar/~damian/tmp/bigdatasoft.zip) y descomprimir
 (debe haberse creado un directorio `spark`).
 
 * Ejecutar desde el directorio `spark` recién creado y en el environment de anaconda:
@@ -55,7 +55,7 @@
         conda install openjdk=8.0.152
 ```
 
-* Bajar el archivo zip desde [aguí](http://...) y descomprimir.
+* Bajar el archivo zip desde [aquí](http://cs.famaf.unc.edu.ar/~damian/tmp/bigdatasoft.zip) y descomprimir.
 ```sh
         cd
         wget http://cs.famaf.unc.edu.ar/~damian/tmp/bigdatasoft.zip
