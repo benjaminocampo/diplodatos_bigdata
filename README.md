@@ -55,7 +55,7 @@
         conda install openjdk=8.0.152
 ```
 
-* Bajar el archivo zip desde [aquí](http://cs.famaf.unc.edu.ar/~damian/tmp/bigdatasoft.zip) y descomprimir.
+* Bajar el archivo zip desde [aquí](http://cs.famaf.unc.edu.ar/~damian/tmp/bigdatasoft.zip) y descomprimir:
 ```sh
         cd
         wget http://cs.famaf.unc.edu.ar/~damian/tmp/bigdatasoft.zip
