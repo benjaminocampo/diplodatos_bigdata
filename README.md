@@ -2,7 +2,7 @@
 
 ## Como instalar el software necesario para la materia
 
-### En tu notebook (>4GB ram)
+### En tu computadora (>4GB ram)
 
 * Instalar anaconda si no lo tiene ya instalado (ver https://docs.anaconda.com/anaconda/install).
 
