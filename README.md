@@ -30,7 +30,9 @@
 * En navegador abrir http://localhost:8080.
   Se tiene que ver la interfaz inicial a [Zepelin](https://zeppelin.apache.org/docs/0.8.2/quickstart/explore_ui.html).
 
-
+* Hay que instalar también [git](https://git-scm.com).
+  La versión para Windows está en [https://git-scm.com/download/win](https://git-scm.com/download/win).
+  
 ### En nabucodonosor
 
 * Hacer ssh a tu cuenta en nabucodonosor
