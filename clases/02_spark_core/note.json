@@ -3,7 +3,7 @@
     {
       "text": "print(s\"\"\"%html\n\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:03:34.188",
+      "dateUpdated": "2020-10-23 00:11:20.342",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -118,16 +118,17 @@
     {
       "text": "print(s\"\"\"%html\n\u0026nbsp;\n\u003cimg src\u003d\"$baseDir/02_spark_core/core_stack.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:03:34.189",
+      "dateUpdated": "2020-10-23 00:11:57.800",
       "config": {
         "tableHide": false,
         "editorSetting": {
-          "language": "markdown",
-          "editOnDblClick": true,
-          "completionSupport": false
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
         },
         "colWidth": 6.0,
-        "editorMode": "ace/mode/markdown",
+        "editorMode": "ace/mode/scala",
         "editorHide": true,
         "fontSize": 9.0,
         "results": {},
@@ -235,7 +236,7 @@
     {
       "text": "println(s\"\"\"%html\n\u003cimg src\u003d\"$baseDir/01_intro_spark/driver_exec.png\" alt\u003d\"Drawing\" style\u003d\"width: 60%;\"/\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:03:34.190",
+      "dateUpdated": "2020-10-23 00:12:02.344",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -313,7 +314,7 @@
     {
       "text": "%md\n\n\u0026nbsp;\n\n* Los programas en el driver se conectan al cluster Spark a través de un objeto `SparkContext`\n* Le dice a Spark como conectarce con el cluster (o a los distintos threads en modo local)\n    - (representa la conección al cluster) \n* En Zeppelin (y shell) está predefinida la variable `sc` de tipo `SparkContext`\n    - otros programas deben crearla con `new`\n\n![](https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/cluster-overview.png)\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:03:34.191",
+      "dateUpdated": "2020-10-23 00:12:10.203",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -530,7 +531,7 @@
       "title": "Ejemplo log analysis",
       "text": "%pyspark\n\ninputRDD \u003d sc.textFile(\"./logs/\") # RDD de entrada\n\n# se crea un nuevo RDD:\nerrorRDD \u003d inputRDD.filter(lambda line: \"ERROR\" in line) \n\n# se crea otro nuevo RDD\nconfigRDD \u003d inputRDD.filter(lambda line: \"config\" in line) \n\nerrOrConfRDD \u003d errorRDD.union(configRDD) \n\nfor ln, l in enumerate(errOrConfRDD.collect()):\n    print(\"Linea {}:\".format(ln), l)\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:32:07.666",
+      "dateUpdated": "2020-10-23 00:21:07.144",
       "config": {
         "lineNumbers": true,
         "editorSetting": {
@@ -552,19 +553,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603407814192_-1597586853",
-      "id": "20171013-162323_997815285",
-      "dateCreated": "2020-10-22 20:03:34.192",
-      "dateStarted": "2020-10-22 20:32:07.699",
-      "dateFinished": "2020-10-22 20:32:08.913",
-      "status": "FINISHED",
-      "errorMessage": "",
+      "jobName": "paragraph_1603423267119_-1405348602",
+      "id": "20201023-002107_2147167260",
+      "dateCreated": "2020-10-23 00:21:07.119",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "print(s\"\"\"%html\n\u003cimg src\u003d\"$baseDir/02_spark_core/log_linage.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:03:34.192",
+      "dateUpdated": "2020-10-23 00:12:16.477",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -601,9 +599,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "{\nval uiHost \u003d sc.getConf.getOption(\"spark.driver.host\").getOrElse(\"localhost\")\nval uiPort \u003d sc.getConf.getOption(\"spark.ui.port\").getOrElse(\"4040\")\n\nval textLocal \u003d s\"\"\"\n%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n\u003ca href\u003d\"http://$uiHost:$uiPort\"\u003ehttp://$uiHost(host):$uiPort(port)\u003c/a\u003e\n\"\"\"\n\nval textNabuco \u003d s\"\"\"\n%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n\u003ca href\u003d\"http://localhost:4040\"\u003ehttp://localhost(host):4040(port)\u003c/a\u003e\u003cbr\u003e\nRecordar hacer el tunel ssh:\u003cbr\u003e\nssh -vCN -L 4040:localhost:$uiPort -l damian nabucodonosor.ccad.unc.edu.ar\n\"\"\"\n\nif (uiHost \u003d\u003d \"200.16.29.165\")\n    print(textNabuco)\nelse\n    print(textLocal)\n}\n",
+      "text": "{\nval uiHost \u003d sc.getConf.getOption(\"spark.driver.host\").getOrElse(\"localhost\")\nval uiPort \u003d sc.getConf.getOption(\"spark.ui.port\").getOrElse(\"4040\")\n\nval textLocal \u003d s\"\"\"\n%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n\u003ca href\u003d\"http://$uiHost:$uiPort\"\u003ehttp://$uiHost(host):$uiPort(port)\u003c/a\u003e\n\"\"\"\n\nval textNabuco \u003d s\"\"\"\n%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n\u003ca href\u003d\"http://localhost:4040\"\u003ehttp://localhost(host):4040(port)\u003c/a\u003e\u003cbr\u003e\nRecordar hacer el tunel ssh:\u003cbr\u003e\nssh -vCN -L 4040:localhost:$uiPort -l \u0026lt;tu login\u0026gt; nabucodonosor.ccad.unc.edu.ar\n\"\"\"\n\nif (uiHost \u003d\u003d \"200.16.29.165\")\n    print(textNabuco)\nelse\n    print(textLocal)\n}\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:49:18.201",
+      "dateUpdated": "2020-10-23 00:23:04.922",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -639,8 +637,8 @@
       "jobName": "paragraph_1603407814192_-1925636016",
       "id": "20171013-163432_1466279672",
       "dateCreated": "2020-10-22 20:03:34.192",
-      "dateStarted": "2020-10-22 20:49:15.839",
-      "dateFinished": "2020-10-22 20:49:16.022",
+      "dateStarted": "2020-10-22 23:51:34.742",
+      "dateFinished": "2020-10-22 23:51:34.985",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -770,7 +768,7 @@
       "title": "Logs análisis (muestra solo 2 lineas)",
       "text": "%pyspark\n\ninputRDD \u003d sc.textFile(\"./logs/\") # RDD de entrada\nerrorRDD \u003d inputRDD.filter(lambda line: \"ERROR\" in line) #  se crea un nuevo RDD\nconfigRDD \u003d inputRDD.filter(lambda line: \"config\" in line) # se crea un nuevo RDD\n\nerrOrConfRDD \u003d errorRDD.union(configRDD) \n\nfor ln, l in enumerate(errOrConfRDD.take(2)): # take(2) en vez de collect\n    print(\"Linea {}:\".format(ln), l)\n\n# Compara con primer programa en Spark UI\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:32:21.951",
+      "dateUpdated": "2020-10-23 00:21:21.560",
       "config": {
         "lineNumbers": true,
         "editorSetting": {
@@ -792,13 +790,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603407814193_104931399",
-      "id": "20171013-172118_1147412885",
-      "dateCreated": "2020-10-22 20:03:34.193",
-      "dateStarted": "2020-10-22 20:32:22.010",
-      "dateFinished": "2020-10-22 20:32:22.135",
-      "status": "FINISHED",
-      "errorMessage": "",
+      "jobName": "paragraph_1603423281506_-1439481842",
+      "id": "20201023-002121_604229819",
+      "dateCreated": "2020-10-23 00:21:21.507",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -841,9 +836,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\n\nlinesRDD \u003d sc.textFile(\"./logs/\")\n\ncharsRDD \u003d linesRDD \\\n            .flatMap(lambda l: l)\n\nonlyCRDD \u003d charsRDD \\\n            ....(lambda car: ...\u003d\u003d...)\n\nprint \"Aparecen {} letras c en los logs.\".format(onlyCRDD.count())\n",
+      "text": "%pyspark\n\nlinesRDD \u003d sc.textFile(\"./logs/\")\n\ncharsRDD \u003d linesRDD \\\n            .flatMap(lambda l: l)\n\nonlyCRDD \u003d charsRDD \\\n            ....(lambda car: ...\u003d\u003d...)\n\nprint(\"Aparecen {} letras c en los logs.\".format(onlyCRDD.count()))\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:06:37.664",
+      "dateUpdated": "2020-10-22 23:49:38.324",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -911,7 +906,7 @@
     {
       "text": "%pyspark\n\ninput \u003d sc.parallelize(range(30)) # Se crea la lista [0,...,29] y se lo convierte en RDD \n\nresult \u003d input.map(lambda x: x*x)\n\nprint(\"La media es \", result.mean()) # computa los cuadrados\n\nfor r in result.collect():\n     print(r) # recomputa los cuadrados :(",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:35:33.700",
+      "dateUpdated": "2020-10-23 00:21:35.798",
       "config": {
         "lineNumbers": true,
         "editorSetting": {
@@ -924,29 +919,30 @@
         "editorMode": "ace/mode/python",
         "fontSize": 14.0,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "editorHide": false
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603407814194_-380168223",
-      "id": "20171016-174929_1389420364",
-      "dateCreated": "2020-10-22 20:03:34.195",
-      "dateStarted": "2020-10-22 20:35:33.726",
-      "dateFinished": "2020-10-22 20:35:33.917",
-      "status": "FINISHED",
-      "errorMessage": "",
+      "jobName": "paragraph_1603423295745_858004267",
+      "id": "20201023-002135_640378642",
+      "dateCreated": "2020-10-23 00:21:35.745",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "{\nval uiHost \u003d sc.getConf.getOption(\"spark.driver.host\").getOrElse(\"localhost\")\nval uiPort \u003d sc.getConf.getOption(\"spark.ui.port\").getOrElse(\"4040\")\nprint(s\"\"\"\n%html\n(ver resultado en Spark UI\n\u003ca href\u003d\"http://$uiHost:$uiPort\"\u003ehttp://$uiHost(host):$uiPort(port)\u003c/a\u003e)\n\u003cbr\u003e\n\u003cbr\u003e\nPara evitarlo Spark puede cachear los datos:\n\"\"\")\n}",
+      "text": "{\nval uiHost \u003d sc.getConf.getOption(\"spark.driver.host\").getOrElse(\"localhost\")\nval uiPort \u003d sc.getConf.getOption(\"spark.ui.port\").getOrElse(\"4040\")\n\nval textLocal \u003d s\"\"\"\n%html\n(ver resultado en Spark UI\n\u003ca href\u003d\"http://$uiHost:$uiPort\"\u003ehttp://$uiHost(host):$uiPort(port)\u003c/a\u003e)\n\u003cbr\u003e\n\u003cbr\u003e\nPara evitarlo Spark puede cachear los datos:\n\"\"\"\n\nval textNabuco \u003d s\"\"\"\n%html\n(ver resultado en Spark UI\n\u003ca href\u003d\"http://localhost:4040\"\u003ehttp://localhost(host):4040(port)\u003c/a\u003e\n\u003cbr\u003e\n\u003cbr\u003e\nPara evitarlo Spark puede cachear los datos:\n\"\"\"\n\nif (uiHost \u003d\u003d \"200.16.29.165\")\n    print(textNabuco)\nelse\n    print(textLocal)\n}\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:03:34.195",
+      "dateUpdated": "2020-10-23 00:26:44.240",
       "config": {
         "editorSetting": {
-          "language": "scala"
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
         },
         "colWidth": 12.0,
         "editorMode": "ace/mode/scala",
@@ -968,7 +964,7 @@
           },
           {
             "type": "HTML",
-            "data": "(ver resultado en Spark UI\n\u003ca href\u003d\"http://192.168.1.201:4040\"\u003ehttp://192.168.1.201(host):4040(port)\u003c/a\u003e)\n\u003cbr\u003e\n\u003cbr\u003e\nPara evitarlo Spark puede cachear los datos:\n"
+            "data": "(ver resultado en Spark UI\n\u003ca href\u003d\"http://192.168.0.100:4040\"\u003ehttp://192.168.0.100(host):4040(port)\u003c/a\u003e)\n\u003cbr\u003e\n\u003cbr\u003e\nPara evitarlo Spark puede cachear los datos:\n"
           }
         ]
       },
@@ -976,14 +972,15 @@
       "jobName": "paragraph_1603407814195_-1124133736",
       "id": "20171016-175252_2114983095",
       "dateCreated": "2020-10-22 20:03:34.195",
-      "status": "READY",
-      "errorMessage": "",
+      "dateStarted": "2020-10-23 00:26:44.275",
+      "dateFinished": "2020-10-23 00:26:44.523",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%pyspark\n\ninput \u003d sc.parallelize(range(30)) # Se crea la lista [0,...,29] y se lo convierte en RDD \n\nresult \u003d input.map(lambda x: x*x) \\\n              .setName(\"cuadrados\").cache() # cache de datos\n\nprint(\"La media es \", result.mean()) # computa los cuadrados\n\nfor r in result.collect():\n     print(r) # no recomputa el map :)",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:36:23.632",
+      "dateUpdated": "2020-10-23 00:21:55.758",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -995,26 +992,24 @@
         "editorMode": "ace/mode/python",
         "fontSize": 14.0,
         "results": {},
-        "enabled": true
+        "enabled": true,
+        "editorHide": false
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603407814195_1293839564",
-      "id": "20191123-211823_434400389",
-      "dateCreated": "2020-10-22 20:03:34.195",
-      "dateStarted": "2020-10-22 20:36:23.696",
-      "dateFinished": "2020-10-22 20:36:23.985",
-      "status": "FINISHED",
-      "errorMessage": "",
+      "jobName": "paragraph_1603423315706_1795752324",
+      "id": "20201023-002155_1881617494",
+      "dateCreated": "2020-10-23 00:21:55.706",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "{\nval uiHost \u003d sc.getConf.getOption(\"spark.driver.host\").getOrElse(\"localhost\")\nval uiPort \u003d sc.getConf.getOption(\"spark.ui.port\").getOrElse(\"4040\")\nprint(s\"\"\"\n%html\nVer resultado en Spark UI\n\u003ca href\u003d\"http://$uiHost:$uiPort/storage\"\u003ehttp://$uiHost(host):$uiPort(port)/storage\u003c/a\u003e\n\u003cbr\u003e\nObservar tambien green dots en Dag Visualization.\n\"\"\")\n}",
+      "text": "{\nval uiHost \u003d sc.getConf.getOption(\"spark.driver.host\").getOrElse(\"localhost\")\nval uiPort \u003d sc.getConf.getOption(\"spark.ui.port\").getOrElse(\"4040\")\n\nval textLocal \u003d s\"\"\"\n%html\nVer resultado en Spark UI\n\u003ca href\u003d\"http://$uiHost:$uiPort/storage\"\u003ehttp://$uiHost(host):$uiPort(port)/storage\u003c/a\u003e\n\u003cbr\u003e\nObservar tambien green dots en Dag Visualization.\n\"\"\"\n\nval textNabuco \u003d s\"\"\"\n%html\nVer resultado en Spark UI\n\u003ca href\u003d\"http://localhost:4040/storage\"\u003ehttp://localhost(host):4040(port)/storage\u003c/a\u003e\n\u003cbr\u003e\nObservar tambien green dots en Dag Visualization.\n\"\"\"\n\nif (uiHost \u003d\u003d \"200.16.29.165\")\n    print(textNabuco)\nelse\n    print(textLocal)\n}\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:03:34.195",
+      "dateUpdated": "2020-10-23 00:29:04.173",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -1042,7 +1037,7 @@
           },
           {
             "type": "HTML",
-            "data": "Ver resultado en Spark UI\n\u003ca href\u003d\"http://192.168.1.201:4040/storage\"\u003ehttp://192.168.1.201(host):4040(port)/storage\u003c/a\u003e\n\u003cbr\u003e\nObservar tambien green dots en Dag Visualization.\n"
+            "data": "Ver resultado en Spark UI\n\u003ca href\u003d\"http://192.168.0.100:4040/storage\"\u003ehttp://192.168.0.100(host):4040(port)/storage\u003c/a\u003e\n\u003cbr\u003e\nObservar tambien green dots en Dag Visualization.\n"
           }
         ]
       },
@@ -1050,8 +1045,9 @@
       "jobName": "paragraph_1603407814195_-1357135628",
       "id": "20171016-180034_191267646",
       "dateCreated": "2020-10-22 20:03:34.195",
-      "status": "READY",
-      "errorMessage": "",
+      "dateStarted": "2020-10-23 00:28:59.736",
+      "dateFinished": "2020-10-23 00:28:59.939",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -1137,7 +1133,7 @@
     {
       "text": "print(s\"\"\"%html\n\u003cimg src\u003d\"$baseDir/02_spark_core/python-spark.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:03:34.196",
+      "dateUpdated": "2020-10-23 00:12:25.288",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1772,7 +1768,7 @@
       "title": "FIN",
       "text": "//val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\nval baseDir\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\nval homeDir\u003d\"/home/damian\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 1;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.match(\"(~|\\d+)\\.-\") !\u003d -1 ) {\n            console.log(inner)\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "2020-10-22 20:03:34.198",
+      "dateUpdated": "2020-10-23 00:11:44.496",
       "config": {
         "tableHide": true,
         "editorSetting": {
