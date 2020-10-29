@@ -518,7 +518,7 @@
       "title": "Entrenamiento:",
       "text": "println(s\"\"\"%html\n\u003ccenter\u003e\n\u003cimg src\u003d\"$baseDir/05_ml/04-entrenamiento.svg\" alt\u003d\"Drawing\" style\u003d\"width: 90%;\"/\u003e\n\u003c/center\u003e\n\"\"\")\n\n/*\n%md\n#### Entrenamiento:\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:Dataframe;Entrenamiento{bg:cornsilk}]-\u003e[Estimator;(algoritmo ML)|fit()]\n  [Estimator;(algoritmo ML)|fit(){bg:red}]-\u003e[note:Transformer;(modelo){bg:orange}]\n%%%\n\n  [Dataframe Entrenamiento{bg:cornsilk}]-\u003e[Estimator (algoritmo ML)|*fit()*{bg:red}]\n  [Estimator (algoritmo ML)|fit(){bg:red}]-\u003e[Transformer (modelo){bg:orange}]\n*/\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-28 16:47:02.903",
+      "dateUpdated": "2020-10-29 11:44:35.589",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -561,7 +561,7 @@
       "title": "Uso:",
       "text": "println(s\"\"\"%html\n\u003ccenter\u003e\n\u003cimg src\u003d\"$baseDir/05_ml/05-uso.svg\" alt\u003d\"Drawing\" style\u003d\"width: 80%;\"/\u003e\n\u003c/center\u003e\n\"\"\")\n\n/*\n%md\n#### Uso:\n\n%%% yuml type\u003dclass style\u003dplain format\u003dsvg\n  [note:Dataframe;Entrada{bg:cornsilk}]-\u003e[Transformer;(modelo)|transform(){bg:orange}]\n  [Transformer;(modelo)|transform(){bg:orange}]-\u003e[note:Dataframe;Salida{bg:cornsilk}]\n%%%\n [Dataframe Entrada{bg:cornsilk}]-\u003e[Transformer (modelo)|*transform()*{bg:orange}]\n  [Transformer (modelo)|_transform()_{bg:orange}]-\u003e[Dataframe Salida{bg:cornsilk}]\n*/",
       "user": "anonymous",
-      "dateUpdated": "2020-10-28 16:58:45.822",
+      "dateUpdated": "2020-10-29 11:15:51.501",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -805,7 +805,7 @@
       "title": "Transformador de features:",
       "text": "println(s\"\"\"%html\n\u003ccenter\u003e\n\u003cimg src\u003d\"$baseDir/05_ml/06-transformador-features.svg\" alt\u003d\"Drawing\" style\u003d\"width: 80%;\"/\u003e\n\u003c/center\u003e\n\"\"\")\n\n/*\n%md\n### Transformador de features\n\n\n        %%% yuml type\u003dclass style\u003dplain format\u003dsvg\n          [note:Dataframe;Entrada{bg:cornsilk}]-\u003e[Transformer;(featurizer)|transform(){bg:orange}]\n          [Transformer;(featurizer)|transform(){bg:orange}]-\u003e[note:Dataframe; vector features{bg:cornsilk}]\n        %%%\n\n#### (todo es Transformer o Estimator)\n\n[Dataframe Entrada{bg:cornsilk}]-\u003e[Transformer (featurizer)|*transform()*{bg:orange}]\n          [Transformer (featurizer)|*transform()*{bg:orange}]-\u003e[Dataframe Features{bg:cornsilk}]\n*/",
       "user": "anonymous",
-      "dateUpdated": "2020-10-28 16:49:49.426",
+      "dateUpdated": "2020-10-29 11:13:29.424",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -2621,7 +2621,7 @@
       "title": "Creación de datos 3D al azar",
       "text": "%pyspark\n\nfrom pyspark.mllib.random import RandomRDDs\nfrom pyspark.ml.linalg import DenseVector\n\ndimension \u003d 3\ncantVect \u003d 50\ndisper \u003d 5.0\n\n# Creo cantVect puntos con distribucion normal centrado en 5 ptos distintos\n\ndataset1 \u003d RandomRDDs.normalVectorRDD(sc, cantVect, dimension) \\\n    .map(lambda v: DenseVector(v)) \\\n    .map(lambda dv: (dv,)) \\\n    .toDF([\"features\"])\n\ndataset2 \u003d RandomRDDs.normalVectorRDD(sc, cantVect, dimension) \\\n    .map(lambda v: DenseVector([v[0]+disper,v[1],v[2]])) \\\n    .map(lambda dv: (dv,)) \\\n    .toDF([\"features\"])\n\ndataset3 \u003d RandomRDDs.normalVectorRDD(sc, cantVect, dimension) \\\n    .map(lambda v: DenseVector([v[0],v[1]+disper,v[2]])) \\\n    .map(lambda dv: (dv,)) \\\n    .toDF([\"features\"])\n\ndataset4 \u003d RandomRDDs.normalVectorRDD(sc, cantVect, dimension) \\\n    .map(lambda v: DenseVector([v[0],v[1],v[2]+disper])) \\\n    .map(lambda dv: (dv,)) \\\n    .toDF([\"features\"])\n\ndataset5 \u003d RandomRDDs.normalVectorRDD(sc, cantVect, dimension) \\\n    .map(lambda v: DenseVector([v[0]+disper,v[1]+disper,v[2]+disper])) \\\n    .map(lambda dv: (dv,)) \\\n    .toDF([\"features\"])\n\ndataset \u003d dataset1.union(dataset2).union(dataset3).union(dataset4).union(dataset5)\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-28 18:38:56.362",
+      "dateUpdated": "2020-10-29 11:58:10.874",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -2670,9 +2670,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603921136249_-92069468",
-      "id": "20201028-183856_1988363681",
-      "dateCreated": "2020-10-28 18:38:56.249",
+      "jobName": "paragraph_1603983490823_1991982455",
+      "id": "20201029-115810_2102902904",
+      "dateCreated": "2020-10-29 11:58:10.823",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     },
@@ -3184,7 +3184,7 @@
       "title": "FIN",
       "text": "val baseDir\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\n//val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n//val baseDir\u003d\"http://localhost:8000\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-28 16:03:15.422",
+      "dateUpdated": "2020-10-29 11:08:46.666",
       "config": {
         "tableHide": true,
         "editorSetting": {
