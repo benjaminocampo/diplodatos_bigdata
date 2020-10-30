@@ -3,7 +3,7 @@
     {
       "text": "print(s\"\"\"%html\n\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.349",
+      "dateUpdated": "2020-10-24 14:01:17.339",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -32,9 +32,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812349_2061807939",
+      "jobName": "paragraph_1603558877339_930999084",
       "id": "20171010-191319_1407757246",
-      "dateCreated": "2020-10-23 12:43:32.349",
+      "dateCreated": "2020-10-24 14:01:17.339",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -42,7 +42,7 @@
     {
       "text": "%md\n### Antes de comenzar\n#### En máquina virtual\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd diplodatos_bigdata\ngit pull\n```\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/):\n```sh\ncd\ncd spark/zeppelin-0.8.2-bin-all\n./bin/zeppelin-daemon.sh start\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080)\n1. Seleccionar `Import note`\n1. Elegir json en `diplodatos_bigdata/clases/04_dataframes_tablas/note.json`\n2. Seleccionar `Clase 04 - Dataframes y Tablas`",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.350",
+      "dateUpdated": "2020-10-24 14:01:17.340",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -71,9 +71,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812350_-1732457371",
+      "jobName": "paragraph_1603558877340_1047034396",
       "id": "20171026-104916_1471485600",
-      "dateCreated": "2020-10-23 12:43:32.350",
+      "dateCreated": "2020-10-24 14:01:17.340",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -81,7 +81,7 @@
     {
       "text": "%md\n# Dataframes y Tablas (ejemplo)\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.350",
+      "dateUpdated": "2020-10-24 14:01:17.341",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -108,9 +108,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812350_1029671338",
+      "jobName": "paragraph_1603558877340_-221169560",
       "id": "20171026-103332_714148651",
-      "dateCreated": "2020-10-23 12:43:32.350",
+      "dateCreated": "2020-10-24 14:01:17.340",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -119,7 +119,7 @@
       "title": "Lectura",
       "text": "%pyspark\n\nflightsInDF \u003d spark.read.load(\"../../diplodatos_bigdata/ds/flights.csv\",\n                    format\u003d\"csv\", header\u003dTrue, inferSchema\u003dTrue)\n           \nflightsInDF.count()\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:44:00.934",
+      "dateUpdated": "2020-10-24 14:01:17.341",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -140,12 +140,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812350_1852330233",
+      "jobName": "paragraph_1603558877341_-1848239326",
       "id": "20171024-111328_986579954",
-      "dateCreated": "2020-10-23 12:43:32.350",
-      "dateStarted": "2020-10-23 12:44:00.962",
-      "dateFinished": "2020-10-23 12:44:15.629",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.341",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -153,7 +151,7 @@
       "title": "Dataframe vuelos:",
       "text": "%pyspark\n\nz.show(flightsInDF.limit(10))",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:44:29.211",
+      "dateUpdated": "2020-10-24 14:01:17.341",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -231,12 +229,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812350_-661908003",
+      "jobName": "paragraph_1603558877341_1644942176",
       "id": "20171025-103319_281956173",
-      "dateCreated": "2020-10-23 12:43:32.350",
-      "dateStarted": "2020-10-23 12:44:29.260",
-      "dateFinished": "2020-10-23 12:44:29.411",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.341",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -244,7 +240,7 @@
       "title": "Descripción de columnas",
       "text": "println(s\"\"\"%table\nCol    \\t Nombre \\t Descripción\n1  \\t  Year              \\t 1987-2008\n2  \\t  Month             \\t 1-12\n3  \\t  DayofMonth        \\t 1-31\n4  \\t  DayOfWeek         \\t 1 (Monday) - 7 (Sunday)\n5  \\t  DepTime           \\t actual departure time (local, hhmm)\n6  \\t  CRSDepTime        \\t scheduled departure time (local, hhmm)\n7  \\t  ArrTime           \\t actual arrival time (local, hhmm)\n8  \\t  CRSArrTime        \\t scheduled arrival time (local, hhmm) (CRS \u003d computer reservation system)\n9  \\t  UniqueCarrier     \\t unique carrier code\n10 \\t  FlightNum         \\t flight number\n11 \\t  TailNum           \\t plane tail number\n12 \\t  ActualElapsedTime \\t in minutes\n13 \\t  CRSElapsedTime    \\t in minutes\n14 \\t  AirTime           \\t in minutes\n15 \\t  ArrDelay          \\t arrival delay, in minutes\n16 \\t  DepDelay          \\t departure delay, in minutes\n17 \\t  Origin            \\t origin IATA airport code\n18 \\t  Dest              \\t destination IATA airport code\n19 \\t  Distance          \\t in miles\n20 \\t  TaxiIn            \\t taxi in time, in minutes\n21 \\t  TaxiOut           \\t taxi out time in minutes\n22 \\t  Cancelled           \\t was the flight cancelled?\n23 \\t  CancellationCode  \\t reason for cancellation (A \u003d carrier, B \u003d weather, C \u003d NAS, D \u003d security)\n24 \\t  Diverted          \\t 1 \u003d yes, 0 \u003d no\n25 \\t  CarrierDelay      \\t in minutes\n26 \\t  WeatherDelay      \\t in minutes\n27 \\t  NASDelay          \\t in minutes\n28 \\t  SecurityDelay     \\t in minutes\n29 \\t  LateAircraftDelay \\t in minutes\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.350",
+      "dateUpdated": "2020-10-24 14:01:17.342",
       "config": {
         "editorSetting": {
           "language": "scala"
@@ -301,9 +297,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812350_-2134403526",
+      "jobName": "paragraph_1603558877341_869343127",
       "id": "20181012-101759_1789633805",
-      "dateCreated": "2020-10-23 12:43:32.350",
+      "dateCreated": "2020-10-24 14:01:17.341",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -312,7 +308,7 @@
       "title": "Algunas columnas importantes",
       "text": "%pyspark \n\nflightsInDF.select(\"UniqueCarrier\", \"FlightNum\", \"DepDelay\", \"ArrDelay\", \"Distance\").show()",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:44:57.253",
+      "dateUpdated": "2020-10-24 14:01:17.342",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -332,18 +328,18 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812350_-25176956",
+      "jobName": "paragraph_1603558877342_-2115069667",
       "id": "20171025-104344_1016086824",
-      "dateCreated": "2020-10-23 12:43:32.350",
+      "dateCreated": "2020-10-24 14:01:17.342",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Esquema",
-      "text": "%pyspark\n\nflightsInDF.printSchema",
+      "text": "%pyspark\n\nflightsInDF.printSchema()",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:45:10.438",
+      "dateUpdated": "2020-10-30 12:39:07.792",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -363,9 +359,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812351_308291048",
+      "jobName": "paragraph_1603558877342_128333004",
       "id": "20171025-104149_1269548688",
-      "dateCreated": "2020-10-23 12:43:32.351",
+      "dateCreated": "2020-10-24 14:01:17.342",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -374,7 +370,7 @@
       "title": "Vuelos retrasados (\u003e 15\u0027)",
       "text": "%pyspark\n\ndelayedDF \u003d flightsInDF.select(\"UniqueCarrier\", \"DepDelay\").filter(\"DepDelay \u003e 15\").cache()\n# Notar cache\n\nz.show(delayedDF)",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:46:09.686",
+      "dateUpdated": "2020-10-24 14:01:17.342",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -385,6 +381,7 @@
         "colWidth": 12.0,
         "editorMode": "ace/mode/python",
         "fontSize": 14.0,
+        "editorHide": false,
         "title": true,
         "results": {
           "0": {
@@ -416,25 +413,25 @@
             }
           }
         },
-        "enabled": true,
-        "editorHide": false
+        "enabled": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467969651_-285084597",
+      "jobName": "paragraph_1603558877342_-557083900",
       "id": "20201023-124609_685481330",
-      "dateCreated": "2020-10-23 12:46:09.652",
+      "dateCreated": "2020-10-24 14:01:17.342",
       "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Cantidad",
       "text": "%pyspark\n\nprint(\"Cantidad de vuelos retrasados por más de 15\u0027: \", delayedDF.count())",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:46:31.603",
+      "dateUpdated": "2020-10-24 14:01:17.343",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -454,12 +451,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812351_-1312225137",
+      "jobName": "paragraph_1603558877342_172660229",
       "id": "20171025-105226_241530836",
-      "dateCreated": "2020-10-23 12:43:32.351",
-      "dateStarted": "2020-10-23 12:46:31.635",
-      "dateFinished": "2020-10-23 12:46:31.864",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.342",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -467,7 +462,7 @@
       "title": "User Defined Functions (UDF)",
       "text": "%pyspark\n\nfrom pyspark.sql.functions import udf\nfrom pyspark.sql.types import IntegerType\n\n#* Función que define si un vuelo está retrasado\n#* Si el retraso es \u003e que 15\u0027 devuelve 1\n#* si no 0\n#* Si no está definida devuelve 0\n# ********************************************************/\n\ndef isDelayed(time):\n    if time \u003d\u003d \"NA\":\n        return 0 \n    elif int(time) \u003e 15: \n        return 1 \n    else:\n        return 0\n\n# UDF que define si un vuelo está retrasado\n\nisDelayedUDF \u003d udf(isDelayed, IntegerType())\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:47:25.807",
+      "dateUpdated": "2020-10-24 14:01:17.343",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -478,22 +473,20 @@
         "colWidth": 12.0,
         "editorMode": "ace/mode/python",
         "fontSize": 14.0,
+        "editorHide": false,
         "title": true,
         "results": {},
-        "enabled": true,
-        "editorHide": false
+        "enabled": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603468037473_610998566",
+      "jobName": "paragraph_1603558877343_-955229864",
       "id": "20201023-124717_172934529",
-      "dateCreated": "2020-10-23 12:47:17.473",
-      "dateStarted": "2020-10-23 12:47:25.836",
-      "dateFinished": "2020-10-23 12:47:25.840",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.343",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -501,7 +494,7 @@
       "title": "Nuevo Dataframe usando UDF",
       "text": "%pyspark\n\n# Nuevo Dataframe con algunas columnas y con una nueva indicando si el vuelo está retrasado\n\nflightsDF \u003d flightsInDF.select(\"Year\", \"Month\", \"DayofMonth\", \"DayOfWeek\", \"CRSDepTime\", \"UniqueCarrier\", \"FlightNum\", \n                    \"DepDelay\", \"ArrDelay\", \"Origin\", \"Dest\", \"TaxiIn\", \"TaxiOut\", \"Distance\",\n                    isDelayedUDF(\"DepDelay\").alias(\"IsDepDelayed\")).cache()\n\nz.show(flightsDF)",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:22:00.010",
+      "dateUpdated": "2020-10-24 14:01:17.343",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -512,6 +505,7 @@
         "colWidth": 12.0,
         "editorMode": "ace/mode/python",
         "fontSize": 14.0,
+        "editorHide": false,
         "title": true,
         "results": {
           "0": {
@@ -556,20 +550,17 @@
             }
           }
         },
-        "enabled": true,
-        "editorHide": false
+        "enabled": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603468073242_-88214456",
+      "jobName": "paragraph_1603558877343_273462508",
       "id": "20201023-124753_280003393",
-      "dateCreated": "2020-10-23 12:47:53.242",
-      "dateStarted": "2020-10-23 13:22:00.068",
-      "dateFinished": "2020-10-23 13:22:00.139",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.343",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -577,7 +568,7 @@
       "title": "Porcentaje de vuelos demorados",
       "text": "%pyspark\n\nfrom pyspark.sql.functions import sum, count\n\npercDelayedDF \u003d flightsDF.agg((sum(\"IsDepDelayed\") * 100 / count(\"*\")).alias(\"Porcentaje de vuelos retrasados\")).cache()\n\n# z.show(percDelayedDF)\n\nfirstRow \u003d percDelayedDF.first()\n\nporcentaje \u003d firstRow.asDict()[\"Porcentaje de vuelos retrasados\"]\n\nprint(\"%html Porcentaje de vuelos demorados: {}%\".format(porcentaje))\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:50:46.696",
+      "dateUpdated": "2020-10-24 14:01:17.343",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -625,12 +616,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812351_-2114495336",
+      "jobName": "paragraph_1603558877343_-786937837",
       "id": "20171025-112706_588393035",
-      "dateCreated": "2020-10-23 12:43:32.351",
-      "dateStarted": "2020-10-23 12:50:46.723",
-      "dateFinished": "2020-10-23 12:50:46.769",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.343",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -638,7 +627,7 @@
       "title": "Promedio de Taxi-out",
       "text": "%pyspark\n\nfrom pyspark.sql.functions import avg\n\npromTODF\u003d flightsDF.select(\"Origin\", \"Dest\", \"TaxiOut\") \\\n         .groupBy(\"Origin\", \"Dest\").agg(avg(\"TaxiOut\").alias(\"AvgTaxiOut\")) \\\n         .orderBy(\"AvgTaxiOut\", ascending\u003dFalse)\n         \nz.show(promTODF)\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:22:15.768",
+      "dateUpdated": "2020-10-24 14:01:17.343",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -688,12 +677,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812351_281085258",
+      "jobName": "paragraph_1603558877343_160658322",
       "id": "20171025-113658_633059161",
-      "dateCreated": "2020-10-23 12:43:32.351",
-      "dateStarted": "2020-10-23 13:22:15.829",
-      "dateFinished": "2020-10-23 13:22:16.345",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.343",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -701,7 +688,7 @@
       "title": "Ejercicio",
       "text": "%md\nAveriguar el promedio de Taxi-in por origen y destino.\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.352",
+      "dateUpdated": "2020-10-24 14:01:17.343",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -729,9 +716,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812351_-266946519",
+      "jobName": "paragraph_1603558877343_-2820386",
       "id": "20171025-132241_1506361808",
-      "dateCreated": "2020-10-23 12:43:32.352",
+      "dateCreated": "2020-10-24 14:01:17.343",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -739,7 +726,7 @@
     {
       "text": "%md\n## SQL Plano",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.352",
+      "dateUpdated": "2020-10-24 14:01:17.344",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -766,9 +753,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812352_5796117",
+      "jobName": "paragraph_1603558877343_-1774869256",
       "id": "20171025-132510_842210078",
-      "dateCreated": "2020-10-23 12:43:32.352",
+      "dateCreated": "2020-10-24 14:01:17.343",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -777,7 +764,7 @@
       "title": "Creación de tabla temporal",
       "text": "%pyspark\n\nflightsDF.createOrReplaceTempView(\"flightsTbl\")\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:22:34.798",
+      "dateUpdated": "2020-10-24 14:01:17.344",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -801,19 +788,18 @@
         "msg": []
       },
       "apps": [],
-      "jobName": "paragraph_1603467812352_1587382602",
+      "jobName": "paragraph_1603558877344_1473734228",
       "id": "20171025-132900_1727141453",
-      "dateCreated": "2020-10-23 12:43:32.352",
-      "dateStarted": "2020-10-23 13:22:34.867",
-      "dateFinished": "2020-10-23 13:22:34.887",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.344",
+      "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Tabla vuelos",
       "text": "%pyspark\n\nresDF \u003d spark.sql(\"SELECT * FROM flightsTbl LIMIT 10\")\n\nz.show(resDF)",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:23:02.449",
+      "dateUpdated": "2020-10-24 14:01:17.344",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -875,12 +861,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812352_506708298",
+      "jobName": "paragraph_1603558877344_-591548513",
       "id": "20171025-132857_774246264",
-      "dateCreated": "2020-10-23 12:43:32.352",
-      "dateStarted": "2020-10-23 13:23:00.775",
-      "dateFinished": "2020-10-23 13:23:00.845",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.344",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -888,7 +872,7 @@
       "title": "Tabla en interprete SQL de Zeppelin",
       "text": "%sql\nSELECT * FROM flightsTbl LIMIT 10\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:23:15.929",
+      "dateUpdated": "2020-10-24 14:01:17.344",
       "config": {
         "editorSetting": {
           "language": "sql",
@@ -950,20 +934,34 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812352_772309010",
+      "jobName": "paragraph_1603558877344_-1539520988",
       "id": "20171025-163653_453163089",
-      "dateCreated": "2020-10-23 12:43:32.352",
-      "dateStarted": "2020-10-23 13:23:15.966",
-      "dateFinished": "2020-10-23 13:23:16.003",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.344",
+      "status": "READY",
       "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n",
+      "user": "anonymous",
+      "dateUpdated": "2020-10-24 14:02:03.798",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1603558923797_-706355",
+      "id": "20201024-140203_596878544",
+      "dateCreated": "2020-10-24 14:02:03.797",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "UDF en SQL plano",
       "text": "%pyspark\n\nisDelayed # ya la definimos\n\n# Registración de UDF para usar con tablas\nspark.udf.register(\"isDelayedTabUDF\", isDelayed)\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:23:43.107",
+      "dateUpdated": "2020-10-24 14:01:17.344",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -987,19 +985,18 @@
         "msg": []
       },
       "apps": [],
-      "jobName": "paragraph_1603467812352_-1521654609",
+      "jobName": "paragraph_1603558877344_2107955715",
       "id": "20171025-163805_1615588877",
-      "dateCreated": "2020-10-23 12:43:32.352",
-      "dateStarted": "2020-10-23 13:23:43.145",
-      "dateFinished": "2020-10-23 13:23:43.161",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.344",
+      "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Cantidad de retrasos en llegadas por empresa",
       "text": "%sql\n\nSELECT UniqueCarrier, SUM(isDelayedTabUDF(ArrDelay)) AS NumArrDelays FROM flightsTbl GROUP BY UniqueCarrier\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:23:57.609",
+      "dateUpdated": "2020-10-24 14:01:17.345",
       "config": {
         "editorSetting": {
           "language": "sql",
@@ -1048,12 +1045,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812353_-1800454295",
+      "jobName": "paragraph_1603558877345_-1648884445",
       "id": "20171025-165217_871410176",
-      "dateCreated": "2020-10-23 12:43:32.353",
-      "dateStarted": "2020-10-23 13:23:57.637",
-      "dateFinished": "2020-10-23 13:23:58.403",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.345",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -1061,7 +1056,7 @@
       "title": "Promedio de retrasos en llegadas por empresa",
       "text": "%sql\n\nSELECT UniqueCarrier, AVG(ArrDelay) AS AvgTimeDelay FROM flightsTbl WHERE isDelayedTabUDF(ArrDelay) \u003d\u003d 1 GROUP BY UniqueCarrier ",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:24:11.561",
+      "dateUpdated": "2020-10-24 14:01:17.345",
       "config": {
         "editorSetting": {
           "language": "sql",
@@ -1111,12 +1106,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812353_-1294905501",
+      "jobName": "paragraph_1603558877345_-480701259",
       "id": "20171025-170442_132724882",
-      "dateCreated": "2020-10-23 12:43:32.353",
-      "dateStarted": "2020-10-23 13:24:11.586",
-      "dateFinished": "2020-10-23 13:24:12.095",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.345",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -1124,7 +1117,7 @@
       "title": "Version con SQL programático",
       "text": "%pyspark\n\n# Promedio de retrasos por empresa\n\nflightsDF.filter(isDelayedUDF(\"ArrDelay\") \u003d\u003d 1) \\\n    .groupBy(\"UniqueCarrier\") \\\n    .agg(avg(\"ArrDelay\")) \\\n    .show()\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:24:31.183",
+      "dateUpdated": "2020-10-24 14:01:17.345",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1144,9 +1137,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812353_-1915239670",
+      "jobName": "paragraph_1603558877345_815999690",
       "id": "20171025-172031_151485458",
-      "dateCreated": "2020-10-23 12:43:32.353",
+      "dateCreated": "2020-10-24 14:01:17.345",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1155,7 +1148,7 @@
       "title": "Ejercicio",
       "text": "%md\nEncontrar la distancia de vuelo promedio por empresa.",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.353",
+      "dateUpdated": "2020-10-24 14:01:17.345",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1183,9 +1176,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812353_-265042145",
+      "jobName": "paragraph_1603558877345_-661793062",
       "id": "20171025-172831_878679516",
-      "dateCreated": "2020-10-23 12:43:32.353",
+      "dateCreated": "2020-10-24 14:01:17.345",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1193,28 +1186,28 @@
     {
       "text": "%sql\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:24:41.356",
+      "dateUpdated": "2020-10-24 14:01:17.345",
       "config": {
-        "colWidth": 12.0,
-        "editorMode": "ace/mode/sql",
-        "results": {},
-        "enabled": true,
         "editorSetting": {
           "language": "sql",
           "editOnDblClick": false,
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "fontSize": 14.0
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 14.0,
+        "results": {},
+        "enabled": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812353_-1336663636",
+      "jobName": "paragraph_1603558877345_2110062063",
       "id": "20171025-173758_910006406",
-      "dateCreated": "2020-10-23 12:43:32.353",
+      "dateCreated": "2020-10-24 14:01:17.345",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1223,7 +1216,7 @@
       "title": "Retrasados y en horario por día de la semana",
       "text": "%sql\nSELECT DayOfWeek, CASE WHEN isDelayedTabUDF(ArrDelay) \u003d 1 THEN \u0027delayed\u0027 ELSE \u0027ok\u0027 END AS Delay, COUNT(1) AS Count\nFROM flightsTbl\nGROUP BY DayOfWeek, Delay\nORDER BY DayOfWeek\n/* Graficar con barras: key\u003dDayOfWeek, Groups\u003dDelay, Values\u003dCount */",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:24:54.771",
+      "dateUpdated": "2020-10-24 14:01:17.345",
       "config": {
         "editorSetting": {
           "language": "sql",
@@ -1302,9 +1295,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812353_-1432948330",
+      "jobName": "paragraph_1603558877345_2054900222",
       "id": "20191129-154125_82023760",
-      "dateCreated": "2020-10-23 12:43:32.353",
+      "dateCreated": "2020-10-24 14:01:17.345",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1313,7 +1306,7 @@
       "title": "Retrasados y en horario por hora",
       "text": "%sql\nSELECT CAST(CRSDepTime / 100 AS INT) AS Hour, CASE WHEN isDelayedTabUDF(DepDelay) \u003d 1 THEN \u0027delayed\u0027 ELSE \u0027ok\u0027 END AS Delay, COUNT(1) AS Count\nFROM flightsTbl\nGROUP BY Hour, Delay\nORDER BY Hour",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:25:05.753",
+      "dateUpdated": "2020-10-24 14:01:17.346",
       "config": {
         "editorSetting": {
           "language": "sql",
@@ -1373,9 +1366,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812353_-1066117013",
+      "jobName": "paragraph_1603558877345_-1253784917",
       "id": "20191129-154602_270147639",
-      "dateCreated": "2020-10-23 12:43:32.353",
+      "dateCreated": "2020-10-24 14:01:17.345",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1383,7 +1376,7 @@
     {
       "text": "%md\n\n## Lectura/Escritura\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.354",
+      "dateUpdated": "2020-10-24 14:01:17.346",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1410,9 +1403,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812354_30356183",
+      "jobName": "paragraph_1603558877346_-948385179",
       "id": "20171025-175036_627807411",
-      "dateCreated": "2020-10-23 12:43:32.354",
+      "dateCreated": "2020-10-24 14:01:17.346",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1421,7 +1414,7 @@
       "title": "Guardar como archivo Orc",
       "text": "%pyspark\n\nflightsDF.write.format(\"orc\").mode(\"overwrite\").save(\"flights.orc\")\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:26:34.390",
+      "dateUpdated": "2020-10-24 14:01:17.346",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1445,19 +1438,18 @@
         "msg": []
       },
       "apps": [],
-      "jobName": "paragraph_1603467812354_1861973875",
+      "jobName": "paragraph_1603558877346_-1403914970",
       "id": "20171025-190416_1081669159",
-      "dateCreated": "2020-10-23 12:43:32.354",
-      "dateStarted": "2020-10-23 13:26:34.445",
-      "dateFinished": "2020-10-23 13:26:35.088",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.346",
+      "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Save modes",
       "text": "println(s\"\"\"%table\nModo \\t Significado\n%html \u003ccode\u003e\"error\"\u003c/code\u003e (default) \\t Si existe se genera una excepción.\n%html \u003ccode\u003e\"append\"\u003c/code\u003e \\t Si existe se agrega al final.\n%html \u003ccode\u003e\"overwrite\"\u003c/code\u003e \\t Si existe se borra y se crea una nueva.\n%html \u003ccode\u003e\"ignore\"\u003c/code\u003e \\t Si existe no se guarda. Similar a CREATE TABLE IF NOT.\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.354",
+      "dateUpdated": "2020-10-24 14:01:17.346",
       "config": {
         "editorSetting": {
           "language": "scala",
@@ -1516,9 +1508,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812354_733596940",
+      "jobName": "paragraph_1603558877346_2060772672",
       "id": "20171025-175211_54977094",
-      "dateCreated": "2020-10-23 12:43:32.354",
+      "dateCreated": "2020-10-24 14:01:17.346",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1527,7 +1519,7 @@
       "title": "Cargar desde archivo Orc",
       "text": "%pyspark\n\ntestDF \u003d spark.read.format(\"orc\").load(\"flights.orc\")\n\nz.show(testDF)\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:26:41.186",
+      "dateUpdated": "2020-10-24 14:01:17.346",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1589,12 +1581,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812354_-1101535699",
+      "jobName": "paragraph_1603558877346_-73081931",
       "id": "20171025-191430_1617048029",
-      "dateCreated": "2020-10-23 12:43:32.354",
-      "dateStarted": "2020-10-23 13:26:39.029",
-      "dateFinished": "2020-10-23 13:26:39.246",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.346",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -1602,7 +1592,7 @@
       "title": "Comparacion entre original y guardado",
       "text": "%pyspark\n\nprint(\"%html Cantidad de filas en original: \", flightsDF.count())\nprint(\"\u003cbr\u003eCantidad de filas en guardado: \", testDF.count())\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:27:32.054",
+      "dateUpdated": "2020-10-24 14:01:17.347",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1622,12 +1612,10 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812354_954438448",
+      "jobName": "paragraph_1603558877346_1193837411",
       "id": "20171025-191548_1431708806",
-      "dateCreated": "2020-10-23 12:43:32.354",
-      "dateStarted": "2020-10-23 13:27:32.110",
-      "dateFinished": "2020-10-23 13:27:32.189",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.346",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
@@ -1635,7 +1623,7 @@
       "title": "Tablas persistentes",
       "text": "%md\n\n### Tablas permanentes\n\n* `createOrReplaceTempView` crea **tablas** temporales (desaparecen cuando se destruye  `SparkSession`).\n* `saveAsTable` \n    - guarda dataframes en *HiveMetastore* de forma permanente y\n    - permita utilizar SQL plano sobre ella.\n\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.354",
+      "dateUpdated": "2020-10-24 14:01:17.347",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -1663,9 +1651,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812354_-1911420743",
+      "jobName": "paragraph_1603558877347_-795095440",
       "id": "20171026-090957_1006984146",
-      "dateCreated": "2020-10-23 12:43:32.354",
+      "dateCreated": "2020-10-24 14:01:17.347",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1674,7 +1662,7 @@
       "title": "Guardado como tabla",
       "text": "%pyspark\n\nflightsDF.write.format(\"orc\").mode(\"overwrite\").saveAsTable(\"flightsPermTbl\")\n\n#antes usamos\n#flightsDF.createOrReplaceTempView(\"flightsTbl\")",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:28:24.320",
+      "dateUpdated": "2020-10-24 14:01:17.347",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1698,19 +1686,18 @@
         "msg": []
       },
       "apps": [],
-      "jobName": "paragraph_1603467812355_475436581",
+      "jobName": "paragraph_1603558877347_-624974231",
       "id": "20171026-091847_1137183197",
-      "dateCreated": "2020-10-23 12:43:32.355",
-      "dateStarted": "2020-10-23 13:28:24.351",
-      "dateFinished": "2020-10-23 13:28:24.895",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.347",
+      "status": "READY",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Tablas actuales",
       "text": "%sql\nSHOW Tables\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:28:28.407",
+      "dateUpdated": "2020-10-24 14:01:17.347",
       "config": {
         "editorSetting": {
           "language": "sql",
@@ -1760,19 +1747,17 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812355_650427045",
+      "jobName": "paragraph_1603558877347_703714556",
       "id": "20171026-093129_238597383",
-      "dateCreated": "2020-10-23 12:43:32.355",
-      "dateStarted": "2020-10-23 13:28:28.462",
-      "dateFinished": "2020-10-23 13:28:28.513",
-      "status": "FINISHED",
+      "dateCreated": "2020-10-24 14:01:17.347",
+      "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%sql\nSELECT * from flightsPermTbl LIMIT 5\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:29:01.194",
+      "dateUpdated": "2020-10-24 14:01:17.347",
       "config": {
         "editorSetting": {
           "language": "sql",
@@ -1833,9 +1818,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812355_11618736",
+      "jobName": "paragraph_1603558877347_-1614664591",
       "id": "20171026-092248_827292703",
-      "dateCreated": "2020-10-23 12:43:32.355",
+      "dateCreated": "2020-10-24 14:01:17.347",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1844,7 +1829,7 @@
       "title": "Leer tabla hacia dataframe",
       "text": "%pyspark\n\ndfFromTbl \u003d sqlContext.table(\"flightsPermTbl\")\n\ndfFromTbl.filter(\"IsDepDelayed \u003d\u003d 1\").show(5)\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:29:06.298",
+      "dateUpdated": "2020-10-24 14:01:17.348",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1864,9 +1849,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812355_-1307349455",
+      "jobName": "paragraph_1603558877348_-1464802056",
       "id": "20171026-092522_846201378",
-      "dateCreated": "2020-10-23 12:43:32.355",
+      "dateCreated": "2020-10-24 14:01:17.348",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1875,7 +1860,7 @@
       "title": "Borrar tabla",
       "text": "%sql\nDROP TABLE flightsPermTbl\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:29:15.204",
+      "dateUpdated": "2020-10-24 14:01:17.348",
       "config": {
         "editorSetting": {
           "language": "sql",
@@ -1899,9 +1884,9 @@
         "msg": []
       },
       "apps": [],
-      "jobName": "paragraph_1603467812355_1677333289",
+      "jobName": "paragraph_1603558877348_2139263027",
       "id": "20171026-093224_52675256",
-      "dateCreated": "2020-10-23 12:43:32.355",
+      "dateCreated": "2020-10-24 14:01:17.348",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1910,7 +1895,7 @@
       "title": "Tablas actuales",
       "text": "%sql\nSHOW Tables\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:29:20.521",
+      "dateUpdated": "2020-10-24 14:01:17.348",
       "config": {
         "editorSetting": {
           "language": "sql",
@@ -1961,9 +1946,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812355_1779497365",
+      "jobName": "paragraph_1603558877348_-844708859",
       "id": "20171026-093435_733648216",
-      "dateCreated": "2020-10-23 12:43:32.355",
+      "dateCreated": "2020-10-24 14:01:17.348",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -1972,7 +1957,7 @@
       "title": "Ejercicio",
       "text": "%md\nCalcular la cantidad de vuelos que parten de cada aeropuerto y guardar el resultado en una tabla permanente.\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.356",
+      "dateUpdated": "2020-10-24 14:01:17.348",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -2000,9 +1985,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812355_-907853409",
+      "jobName": "paragraph_1603558877348_-1362229922",
       "id": "20171026-101903_204159956",
-      "dateCreated": "2020-10-23 12:43:32.355",
+      "dateCreated": "2020-10-24 14:01:17.348",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -2011,7 +1996,7 @@
       "title": "Agregando nombres de empresas",
       "text": "%pyspark\n# en carriers.csv están los nombres\ncarriersDF \u003d spark.read \\\n                .load(\"../../diplodatos_bigdata/ds/carriers.csv\", format\u003d\"csv\", header\u003dTrue, inferSchema\u003dTrue)\n\nz.show(carriersDF.limit(5))",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:29:29.963",
+      "dateUpdated": "2020-10-24 14:01:17.349",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -2088,9 +2073,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812356_1238114004",
+      "jobName": "paragraph_1603558877348_-1857081261",
       "id": "20171026-102225_1262220351",
-      "dateCreated": "2020-10-23 12:43:32.356",
+      "dateCreated": "2020-10-24 14:01:17.348",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -2099,7 +2084,7 @@
       "title": "Join",
       "text": "%pyspark\n\nfrom pyspark.sql.functions import col\n\nflCarrDF \u003d flightsDF.join(carriersDF, col(\"Code\") \u003d\u003d col(\"UniqueCarrier\")) \\\n                .withColumnRenamed(\"Description\",\"CarrierName\")\n\nflCarrDF.count()\nz.show(flCarrDF.limit(5))",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:29:41.830",
+      "dateUpdated": "2020-10-24 14:01:17.349",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -2206,9 +2191,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812356_367425514",
+      "jobName": "paragraph_1603558877349_1070167618",
       "id": "20171026-102524_704218337",
-      "dateCreated": "2020-10-23 12:43:32.356",
+      "dateCreated": "2020-10-24 14:01:17.349",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -2217,7 +2202,7 @@
       "title": "Join con broadcast",
       "text": "%pyspark\n\nfrom pyspark.sql.functions import col, broadcast\n\nflCarrDF \u003d flightsDF.join(broadcast(carriersDF), col(\"Code\") \u003d\u003d col(\"UniqueCarrier\")) \\\n                .withColumnRenamed(\"Description\",\"CarrierName\")\n\nflCarrDF.count()\nz.show(flCarrDF.limit(5))\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 13:29:48.519",
+      "dateUpdated": "2020-10-24 14:01:17.349",
       "config": {
         "editorSetting": {
           "language": "python",
@@ -2325,9 +2310,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812356_837337133",
+      "jobName": "paragraph_1603558877349_-157535680",
       "id": "20181012-102820_156806349",
-      "dateCreated": "2020-10-23 12:43:32.356",
+      "dateCreated": "2020-10-24 14:01:17.349",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -2336,7 +2321,7 @@
       "title": "Ejercicio",
       "text": "%md\nUtilizando la información en el archivo `airports.csv` cambiar los códigos de los aeropuertos por sus nombres y agregar sus coordenadas. Hacerlo con SQL programático (usando dataframes).\n\n##### Ayuda:\n\nPuede ser útil el método `drop` que aparece en [Doc API Datasets](http://spark.apache.org/docs/2.1.1/api/scala/index.html#org.apache.spark.sql.Dataset).\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.356",
+      "dateUpdated": "2020-10-24 14:01:17.349",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -2364,9 +2349,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812356_-357738626",
+      "jobName": "paragraph_1603558877349_-807968798",
       "id": "20171026-102041_286502839",
-      "dateCreated": "2020-10-23 12:43:32.356",
+      "dateCreated": "2020-10-24 14:01:17.349",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -2374,7 +2359,7 @@
     {
       "text": "%md\n## Material Adicional\n\n2. [Spark SQL, DataFrames and DataSets Guide](http://spark.apache.org/docs/latest/sql-programming-guide.html)\n3. [Databricks - DataFrames and Datasets](https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-dataframes-python.html)\n\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.356",
+      "dateUpdated": "2020-10-24 14:01:17.350",
       "config": {
         "tableHide": false,
         "editorSetting": {
@@ -2403,9 +2388,9 @@
         ]
       },
       "apps": [],
-      "jobName": "paragraph_1603467812356_-377455678",
+      "jobName": "paragraph_1603558877349_-384373942",
       "id": "20171026-093734_1344273786",
-      "dateCreated": "2020-10-23 12:43:32.356",
+      "dateCreated": "2020-10-24 14:01:17.349",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
@@ -2414,7 +2399,7 @@
       "title": "FIN",
       "text": "//val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\nval baseDir\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 0;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.search(\".-\") !\u003d -1 ) {\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2020-10-23 12:43:32.356",
+      "dateUpdated": "2020-10-24 14:01:17.350",
       "config": {
         "tableHide": true,
         "editorSetting": {
@@ -2436,16 +2421,16 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1603467812356_1478747910",
+      "jobName": "paragraph_1603558877350_-1861117461",
       "id": "20171010-191336_1667301043",
-      "dateCreated": "2020-10-23 12:43:32.356",
+      "dateCreated": "2020-10-24 14:01:17.350",
       "status": "READY",
       "errorMessage": "",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "Diplodatos/Clase 04 - Ejemplo Dataframes y Tablas",
-  "id": "2FPQFT4SH",
+  "id": "2FQXJQBM6",
   "noteParams": {},
   "noteForms": {},
   "angularObjects": {
