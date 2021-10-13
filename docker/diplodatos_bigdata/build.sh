@@ -25,9 +25,6 @@ do
 done
 
 DIRNAME="$(dirname "$0")"
-GIT_DIR="$(realpath "$DIRNAME")"/../..
-
-DOCKER_GIT_DIR="$GIT_DIR"/docker
 
 # Stop all containers
 for c in $(docker ps -a -q  --filter ancestor=$IM)
@@ -40,5 +37,5 @@ then
     docker image rm $IM
 fi
 
-docker build --tag $IM -f dockerfiles/Dockerfile context
+docker build --tag $IM -f "$DIRNAME"/dockerfiles/Dockerfile "$DIRNAME"/context
 
