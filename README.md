@@ -4,6 +4,35 @@
 
 ### En tu computadora (>4GB ram)
 
+#### Instalación [docker](https://www.docker.com/)
+
+* Instalar docker en tu computadora: https://docs.docker.com/get-docker/
+
+* Ir al directorio con la defininición de la imagen en este repo:
+```
+        cd docker
+```
+
+* Crear la imagen ejecutando el comando:
+```
+        docker build --tag diplodatos/bigdata:1.0 -f ./diplodatos_bigdata/dockerfiles/Dockerfile ./diplodatos_bigdata/context
+```
+**Nota:** Si tiene Linux puede ejecutar el script `./diplodatos_bigdata/build.sh` en vez del comando anterior.
+
+* Para arrancar el container con [Zeppelin](https://zeppelin.apache.org/) ejecutar:
+```
+docker run -u id -u -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
+    -v vols/conf:/opt/zeppelin/conf \
+    -v vols/logs:/logs \
+    -v vols/notebook:/notebook \
+    -e ZEPPELIN_LOG_DIR='/logs' -e ZEPPELIN_NOTEBOOK_DIR='/notebook' \
+    --name diplodatos_bigdata diplodatos/bigdata:1.0
+```
+**Nota:** Si tiene Linux puede ejecutar el script `./zeppelin.sh` en vez del comando anterior.
+
+* Para utilizar [Zeppelin](https://zeppelin.apache.org/) en un navegador ir a [http://localhost:8080]().
+#### Instalación directa
+
 * Instalar anaconda si no lo tiene ya instalado (ver https://docs.anaconda.com/anaconda/install).
 
 * Crear un environment anaconda:  
