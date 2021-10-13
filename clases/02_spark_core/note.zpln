@@ -3,7 +3,7 @@
     {
       "text": "print(s\"\"\"%html\n<center>\n    <h1><a href=\"http://diplodatos.famaf.unc.edu.ar/\">Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones</a></h1>\n    <h2>Curso <a href=\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\">Programación Distribuida sobre Grandes Volúmenes de Datos</a></h2>\n</center>\n\n<br>\n\n<h3 style=\"text-align:center;\"> Damián Barsotti  </h3>\n\n<h3 style=\"text-align:center;\">\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    Facultad de Matemática Astronomía Física y Computación\n    </a>\n<br/>\n    <a href=\"http://www.unc.edu.ar\">\n    Universidad Nacional de Córdoba\n    </a>\n<br/>\n    <center>\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    <img src=\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt=\"Drawing\" style=\"width:50%;\"/>\n    </a>\n    </center>\n</h3>\n\n<p style=\"font-size:15px;\">\n    <br />\n        This work is licensed under a\n        <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n    <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">\n        <img alt=\"Creative Commons License\" style=\"border-width:0;vertical-align:middle;float:right\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" />\n    </a>\n</p>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -35,17 +35,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253550_332859671",
+      "jobName": "paragraph_1634160296178_1056938639",
       "id": "20171010-191319_1407757246",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
       "focus": true,
-      "$$hashKey": "object:19934"
+      "$$hashKey": "object:6469"
     },
     {
       "text": "%md\n\n# Spark Core\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -56,9 +56,9 @@
         "colWidth": 12,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
+        "fontSize": 9,
         "results": {},
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -76,16 +76,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253550_1617767811",
+      "jobName": "paragraph_1634160296179_850447802",
       "id": "20171013-124120_1151991544",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19935"
+      "$$hashKey": "object:6470"
     },
     {
       "text": "%md\n\n<br>\n### Veremos conceptos básicos  aplicables a otras librerías de [Spark](http://spark.apache.org):\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -117,16 +117,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253550_514510036",
+      "jobName": "paragraph_1634160296179_2094128942",
       "id": "20171013-125344_626244712",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19936"
+      "$$hashKey": "object:6471"
     },
     {
       "text": "print(s\"\"\"%html\n&nbsp;\n<img src=\"$baseDir/02_spark_core/core_stack.png\" alt=\"Drawing\" style=\"width: 100%;\"/>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -159,16 +159,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253550_262132582",
+      "jobName": "paragraph_1634160296179_1455316303",
       "id": "20171013-125319_1987010321",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19937"
+      "$$hashKey": "object:6472"
     },
     {
       "text": "%md\n\n## ~.- Conceptos básicos\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:52:19+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -200,16 +200,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253550_297227234",
+      "jobName": "paragraph_1634160296179_1046757176",
       "id": "20171013-125336_1933366904",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19938"
+      "$$hashKey": "object:6473"
     },
     {
       "text": "%md\n\n### Driver\n\nToda aplicación Spark tiene un programa **driver**:\n\n* lanza las operaciones en el cluster,\n* contiene nuestro **programa**\n    - define datos distribuidos y les aplica operaciones.\n\n> En Zeppelin escribimos un *programa driver* que de forma interactiva ejecuta las operaciones que queremos correr.\n\n### Executors\n\nEl driver maneja y envía tareas a **executors** en los nodos del cluster (o threads en modo local).\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -241,16 +241,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253550_871728438",
+      "jobName": "paragraph_1634160296179_658852798",
       "id": "20171013-130405_1538728027",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19939"
+      "$$hashKey": "object:6474"
     },
     {
       "text": "println(s\"\"\"%html\n<img src=\"$baseDir/01_intro_spark/driver_exec.png\" alt=\"Drawing\" style=\"width: 60%;\"/>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -282,16 +282,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253550_1316785172",
+      "jobName": "paragraph_1634160296179_1258495181",
       "id": "20171013-123200_262582034",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19940"
+      "$$hashKey": "object:6475"
     },
     {
       "text": "%md\n### SparkContext\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -323,16 +323,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253550_299502505",
+      "jobName": "paragraph_1634160296179_698147320",
       "id": "20171013-130511_1848331242",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19941"
+      "$$hashKey": "object:6476"
     },
     {
       "text": "%md\n\n&nbsp;\n\n* Los programas en el driver se conectan al cluster Spark a través de un objeto `SparkContext`\n* Le dice a Spark como conectarce con el cluster (o a los distintos threads en modo local)\n    - (representa la conección al cluster) \n* En Zeppelin (y shell) está predefinida la variable `sc` de tipo `SparkContext`\n    - otros programas deben crearla con `new`\n\n![](https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/cluster-overview.png)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -364,16 +364,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_1817511446",
+      "jobName": "paragraph_1634160296179_1075673394",
       "id": "20171013-160636_1142900877",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19942"
+      "$$hashKey": "object:6477"
     },
     {
       "text": "%pyspark\n\nprint(sc.defaultParallelism)\nprint(sc.master)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:25:47+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -387,7 +387,7 @@
         "fontSize": 14,
         "editorHide": false,
         "results": {},
-        "enabled": true
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -396,17 +396,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_1303332478",
+      "jobName": "paragraph_1634160296179_900550496",
       "id": "20171013-131916_230493933",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19943"
+      "$$hashKey": "object:6478"
     },
     {
       "title": "sc.master",
       "text": "%md\n|master            |descripción                                               |\n|------------------|----------------------------------------------------------|\n|local             |Spark corre localmente con un solo worker (no paralelismo)|\n|local[K]          |Spark corre localmente con K threads                      |\n|spark://HOST:PORT |se conecta a un cluster Spark                             |\n|mesos://HOST:PORT |se conecta a un cluster Mesos                             |\n|yarn              |se conecta a un cluster Hadoop Yarn                       |\n|...               |...                                                       |\n\n\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:25:52+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -451,7 +451,7 @@
             }
           }
         },
-        "enabled": true
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -469,16 +469,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_77424228",
+      "jobName": "paragraph_1634160296179_1639705433",
       "id": "20191123-192357_508683745",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19944"
+      "$$hashKey": "object:6479"
     },
     {
       "text": "%md\n\n## ~.- Resilient Distributed Dataset (RDD)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -489,9 +489,9 @@
         "colWidth": 12,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
+        "fontSize": 9,
         "results": {},
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -509,16 +509,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_1535706891",
+      "jobName": "paragraph_1634160296180_2032854942",
       "id": "20171013-130245_542901367",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19945"
+      "$$hashKey": "object:6480"
     },
     {
       "text": "%md\n* **Contenedores** de objetos **inmutables**, distribuidos en el cluster (contiene los datos)\n\n* Creados con el SparkContext `sc`.\n    - al cargar datasets a Spark\n    - por transformaciones comunes (`map`, `filter`, ...) o binarias (`union`, `intersection`, ...).\n\n* Ante fallas se reconstruyen (resilencia).\n* **Importante**: todo lo que no derive del `SparkContext` corre solo en el **driver**.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -529,9 +529,9 @@
         "colWidth": 12,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
+        "fontSize": 9,
         "results": {},
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -549,17 +549,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_1456956395",
+      "jobName": "paragraph_1634160296180_998956901",
       "id": "20171013-161530_19251643",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19946"
+      "$$hashKey": "object:6481"
     },
     {
       "title": "Ejemplo log analysis",
-      "text": "%pyspark\n\ninputRDD = sc.textFile(\"./logs/\") # RDD de entrada\n\n# se crea un nuevo RDD:\nerrorRDD = inputRDD.filter(lambda line: \"ERROR\" in line) \n\n# se crea otro nuevo RDD\nconfigRDD = inputRDD.filter(lambda line: \"config\" in line) \n\nerrOrConfRDD = errorRDD.union(configRDD) \n\nfor ln, l in enumerate(errOrConfRDD.collect()):\n    print(\"Linea {}:\".format(ln), l)\n",
+      "text": "%pyspark\n\ninputRDD = sc.textFile(\"/logs/\") # RDD de entrada\n\n# se crea un nuevo RDD:\nerrorRDD = inputRDD.filter(lambda line: \"ERROR\" in line) \n\n# se crea otro nuevo RDD\nconfigRDD = inputRDD.filter(lambda line: \"config\" in line) \n\nerrOrConfRDD = errorRDD.union(configRDD) \n\nfor ln, l in enumerate(errOrConfRDD.collect()):\n    print(\"Linea {}:\".format(ln), l)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:26:15+0000",
       "progress": 0,
       "config": {
         "lineNumbers": true,
@@ -584,16 +584,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_384808801",
+      "jobName": "paragraph_1634160296180_1004784417",
       "id": "20201023-002107_2147167260",
-      "dateCreated": "2021-10-13T20:50:53+0000",
-      "status": "READY",
-      "$$hashKey": "object:19947"
+      "dateCreated": "2021-10-13T21:24:56+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6482",
+      "dateFinished": "2021-10-13T21:26:16+0000",
+      "dateStarted": "2021-10-13T21:26:15+0000"
     },
     {
       "text": "print(s\"\"\"%html\n<img src=\"$baseDir/02_spark_core/log_linage.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -625,16 +627,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_701761444",
+      "jobName": "paragraph_1634160296180_1876216824",
       "id": "20171013-164802_1824704614",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19948"
+      "$$hashKey": "object:6483"
     },
     {
       "text": "%pyspark\n\nuiHost = sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort = sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco = \"\"\"%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a><br>\nRecordar hacer el tunel ssh:<br>\nssh -vCN -L 4040:localhost:{} -l &lt;tu login&gt; nabucodonosor.ccad.unc.edu.ar\n\"\"\".format(uiPort)\n\ntextLocal = \"\"\"%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n<a href=\"http://{}:{}\">http://{}(host):{}(port)</a>\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost == \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:52:38+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -666,19 +668,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_781990309",
+      "jobName": "paragraph_1634160296180_289250655",
       "id": "20171013-163432_1466279672",
-      "dateCreated": "2021-10-13T20:50:53+0000",
-      "dateStarted": "2021-10-13T20:52:38+0000",
-      "dateFinished": "2021-10-13T20:52:50+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:19949"
+      "dateCreated": "2021-10-13T21:24:56+0000",
+      "status": "READY",
+      "$$hashKey": "object:6484"
     },
     {
       "title": "Implementación",
       "text": "%md\n\n* El RDD se distribuye en **particiones** en nodos del cluster (o fs local).\n* Se construye el **grafo de operaciones**.\n* Las operaciones de dividen en **tasks** (tareas).\n* A cada **partición** se le aplica una **task**.\n* Las tareas son ejecutadas por los executors en nodos (o threads locales).\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -711,17 +711,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_1187289501",
+      "jobName": "paragraph_1634160296180_1606317103",
       "id": "20171013-123100_1037283294",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19950"
+      "$$hashKey": "object:6485"
     },
     {
       "title": "Ejercicio",
       "text": "%md\n\n* Cree una celda nueva y copie en ella el último programa sin las líneas 13 en adelante.\n* Observe en Spark UI las tareas ejecutadas.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -754,16 +754,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_479832763",
+      "jobName": "paragraph_1634160296180_668329563",
       "id": "20171013-165833_179635135",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19951"
+      "$$hashKey": "object:6486"
     },
     {
       "text": "%md\n## ~.- Evaluación Lazy\n\nEn Spark todas las **transformaciones** (`map`, `filter`, `union`, etc.) son evaluadas de forma **lazy**:\n\n* son acumuladas como *grafo de operaciones*\n* se ejecutan al momento de traer los datos al driver (`collect`, `take`, etc.)\n    - se llama a una **acción**.\n\nEsto permite:\n\n* hacer **optimizaciones**\n    - se computa solo lo que hace falta (tiene mucho sentido en Big Data)\n    - se hace un *pipeling* de transformaciones sin guardar resultados intermedios \n* recalcular las dependencias si hay algún fallo (resilencia)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:53:04+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -795,17 +795,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_1329076768",
+      "jobName": "paragraph_1634160296180_1206967415",
       "id": "20171013-171238_638394270",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19952"
+      "$$hashKey": "object:6487"
     },
     {
       "title": "Logs análisis (muestra solo 2 lineas)",
-      "text": "%pyspark\n\ninputRDD = sc.textFile(\"./logs/\") # RDD de entrada\nerrorRDD = inputRDD.filter(lambda line: \"ERROR\" in line) #  se crea un nuevo RDD\nconfigRDD = inputRDD.filter(lambda line: \"config\" in line) # se crea un nuevo RDD\n\nerrOrConfRDD = errorRDD.union(configRDD) \n\nfor ln, l in enumerate(errOrConfRDD.take(2)): # take(2) en vez de collect\n    print(\"Linea {}:\".format(ln), l)\n\n# Compara con primer programa en Spark UI\n",
+      "text": "%pyspark\n\ninputRDD = sc.textFile(\"/logs/\") # RDD de entrada\nerrorRDD = inputRDD.filter(lambda line: \"ERROR\" in line) #  se crea un nuevo RDD\nconfigRDD = inputRDD.filter(lambda line: \"config\" in line) # se crea un nuevo RDD\n\nerrOrConfRDD = errorRDD.union(configRDD) \n\nfor ln, l in enumerate(errOrConfRDD.take(2)): # take(2) en vez de collect\n    print(\"Linea {}:\".format(ln), l)\n\n# Compara con primer programa en Spark UI\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:26:41+0000",
       "progress": 0,
       "config": {
         "lineNumbers": true,
@@ -830,23 +830,26 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_1180958614",
+      "jobName": "paragraph_1634160296180_390071682",
       "id": "20201023-002121_604229819",
-      "dateCreated": "2021-10-13T20:50:53+0000",
-      "status": "READY",
-      "$$hashKey": "object:19953"
+      "dateCreated": "2021-10-13T21:24:56+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6488",
+      "dateFinished": "2021-10-13T21:26:41+0000",
+      "dateStarted": "2021-10-13T21:26:41+0000"
     },
     {
       "title": "Ejercicio",
-      "text": "%md\n\nComplete los `...` en el siguiente programa para contar la cantidad de veces que aparece la letra 'c' en los archivos en `./logs/`.\n\n#### Ayuda\n\n\n* Se puede usar el método `.filter` (ya visto en ejemplos anteriores) para crear un RDD solo con la letra C.\n* El método `count` de RDD cuenta la cantidad de elementos.\n* La letra 'c' se escribe `'c'` en Scala.\n",
+      "text": "%md\n\nComplete los `...` en el siguiente programa para contar la cantidad de veces que aparece la letra 'c' en los archivos en `./logs/`.\n\n#### Ayuda\n\n\n* Se puede usar el método `.filter` (ya visto en ejemplos anteriores) para crear un RDD solo con la letra C.\n* El método `count` de RDD cuenta la cantidad de elementos.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:53:12+0000",
+      "dateUpdated": "2021-10-13T21:27:45+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12,
         "editorMode": "ace/mode/markdown",
@@ -865,23 +868,25 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "<div class=\"markdown-body\">\n<p>Complete los <code>...</code> en el siguiente programa para contar la cantidad de veces que aparece la letra &lsquo;c&rsquo; en los archivos en <code>./logs/</code>.</p>\n<h4>Ayuda</h4>\n<ul>\n  <li>Se puede usar el método <code>.filter</code> (ya visto en ejemplos anteriores) para crear un RDD solo con la letra C.</li>\n  <li>El método <code>count</code> de RDD cuenta la cantidad de elementos.</li>\n  <li>La letra &lsquo;c&rsquo; se escribe <code>&#39;c&#39;</code> en Scala.</li>\n</ul>\n</div>"
+            "data": "<div class=\"markdown-body\">\n<p>Complete los <code>...</code> en el siguiente programa para contar la cantidad de veces que aparece la letra &lsquo;c&rsquo; en los archivos en <code>./logs/</code>.</p>\n<h4>Ayuda</h4>\n<ul>\n<li>Se puede usar el método <code>.filter</code> (ya visto en ejemplos anteriores) para crear un RDD solo con la letra C.</li>\n<li>El método <code>count</code> de RDD cuenta la cantidad de elementos.</li>\n</ul>\n\n</div>"
           }
         ]
       },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_658134947",
+      "jobName": "paragraph_1634160296181_1693812894",
       "id": "20171013-174042_1672649057",
-      "dateCreated": "2021-10-13T20:50:53+0000",
-      "status": "READY",
-      "$$hashKey": "object:19954"
+      "dateCreated": "2021-10-13T21:24:56+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6489",
+      "dateFinished": "2021-10-13T21:27:37+0000",
+      "dateStarted": "2021-10-13T21:27:35+0000"
     },
     {
-      "text": "%pyspark\n\nlinesRDD = sc.textFile(\"./logs/\")\n\ncharsRDD = linesRDD \\\n            .flatMap(lambda l: l)\n\nonlyCRDD = charsRDD \\\n            ....(lambda car: ...==...)\n\nprint(\"Aparecen {} letras c en los logs.\".format(onlyCRDD.count()))\n",
+      "text": "%pyspark\n\nlinesRDD = sc.textFile(\"/logs/\")\n\ncharsRDD = linesRDD \\\n            .flatMap(lambda l: l)\n\nonlyCRDD = charsRDD \\\n            ....(lambda car: ...==...)\n\nprint(\"Aparecen {} letras c en los logs.\".format(onlyCRDD.count()))\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:27:06+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -903,16 +908,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_1650841122",
+      "jobName": "paragraph_1634160296181_561275960",
       "id": "20171013-175507_696892344",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19955"
+      "$$hashKey": "object:6490"
     },
     {
       "text": "%md\n## ~.- Persistencia\n\nSpark **recomputa** el grafo de dependencias cuando se llama una **acción**:",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -944,16 +949,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253551_2044682880",
+      "jobName": "paragraph_1634160296181_2092443092",
       "id": "20171016-174448_43219511",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19956"
+      "$$hashKey": "object:6491"
     },
     {
       "text": "%pyspark\n\ninput = sc.parallelize(range(30)) # Se crea la lista [0,...,29] y se lo convierte en RDD \n\nresult = input.map(lambda x: x*x)\n\nprint(\"La media es \", result.mean()) # computa los cuadrados\n\nfor r in result.collect():\n     print(r) # recomputa los cuadrados :(",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:27:52+0000",
       "progress": 0,
       "config": {
         "lineNumbers": true,
@@ -977,16 +982,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_1136373113",
+      "jobName": "paragraph_1634160296181_866648036",
       "id": "20201029-125345_2132006733",
-      "dateCreated": "2021-10-13T20:50:53+0000",
-      "status": "READY",
-      "$$hashKey": "object:19957"
+      "dateCreated": "2021-10-13T21:24:56+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:6492",
+      "dateFinished": "2021-10-13T21:27:52+0000",
+      "dateStarted": "2021-10-13T21:27:52+0000"
     },
     {
       "text": "%pyspark\n\nuiHost = sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort = sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco = \"\"\"%html\n(ver resultado en Spark UI\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a>)\n<br>\n<br>\nPara evitarlo Spark puede cachear los datos:\n\"\"\"\n\ntextLocal = \"\"\"%html\n(ver resultado en Spark UI\n<a href=\"http://{}:{}\">http://{}(host):{}(port)</a>)\n<br>\n<br>\nPara evitarlo Spark puede cachear los datos:\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost == \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:53:20+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1018,18 +1025,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_489471691",
+      "jobName": "paragraph_1634160296181_819975010",
       "id": "20171016-175252_2114983095",
-      "dateCreated": "2021-10-13T20:50:53+0000",
-      "dateStarted": "2021-10-13T20:53:20+0000",
-      "dateFinished": "2021-10-13T20:53:20+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:19958"
+      "dateCreated": "2021-10-13T21:24:56+0000",
+      "status": "READY",
+      "$$hashKey": "object:6493"
     },
     {
       "text": "%pyspark\n\ninput = sc.parallelize(range(30)) # Se crea la lista [0,...,29] y se lo convierte en RDD \n\nresult = input.map(lambda x: x*x) \\\n              .setName(\"cuadrados\").cache() # cache de datos\n\nprint(\"La media es \", result.mean()) # computa los cuadrados\n\nfor r in result.collect():\n     print(r) # no recomputa el map :)",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1052,16 +1057,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_2115520313",
+      "jobName": "paragraph_1634160296181_1023025913",
       "id": "20201023-002155_1881617494",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19959"
+      "$$hashKey": "object:6494"
     },
     {
       "text": "%pyspark\n\nuiHost = sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort = sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco = \"\"\"%html\n%html\nVer resultado en Spark UI\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a>\n<br>\nObservar tambien green dots en Dag Visualization.\n\"\"\"\n\ntextLocal = \"\"\"%html\nVer resultado en Spark UI\n<a href=\"http://{}:{}\">http://{}(host):{}(port)</a>\n<br>\nObservar tambien green dots en Dag Visualization.\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost == \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:53:25+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1093,18 +1098,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_721497236",
+      "jobName": "paragraph_1634160296181_1796085836",
       "id": "20171016-180034_191267646",
-      "dateCreated": "2021-10-13T20:50:53+0000",
-      "dateStarted": "2021-10-13T20:53:25+0000",
-      "dateFinished": "2021-10-13T20:53:25+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:19960"
+      "dateCreated": "2021-10-13T21:24:56+0000",
+      "status": "READY",
+      "$$hashKey": "object:6495"
     },
     {
       "text": "%md\n\n## ~.- Implementación API Python\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1137,16 +1140,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_737875797",
+      "jobName": "paragraph_1634160296181_1191521233",
       "id": "20191128-173809_1077146591",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19961"
+      "$$hashKey": "object:6496"
     },
     {
       "text": "%md\n\n* Spark esta originalmente implementado en Scala/Java.\n* `SparkContext` de Python usa [Py4J](https://www.py4j.org/), lanza JVM local y crea `JavaSparkContext`.\n* [Py4J](https://www.py4j.org/) solo se usa en driver.\n* En máquinas remotas los executors corren en JVM asegurando resilencia.\n* Estas JVM lanzan procesos Python.\n* [Mas info](https://medium.com/@ketanvatsalya/a-scenic-route-through-pyspark-internals-feaf74ed660d).\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1179,16 +1182,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_142847214",
+      "jobName": "paragraph_1634160296181_1394095437",
       "id": "20191128-175341_672335059",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19962"
+      "$$hashKey": "object:6497"
     },
     {
       "text": "print(s\"\"\"%html\n<img src=\"$baseDir/02_spark_core/python-spark.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1221,17 +1224,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_382939478",
+      "jobName": "paragraph_1634160296182_1146486619",
       "id": "20191128-175407_1271062039",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19963"
+      "$$hashKey": "object:6498"
     },
     {
       "title": "Ejercicio",
       "text": "%md\nComplete el siguiente programa para que cuente la cantidad de lineas que comienzan con la palabra `INFO`, `WARN` y `ERROR`.\n\nTambién, haga cache de los RDD para hacer el programa más eficiente. \n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1264,16 +1267,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_1947474241",
+      "jobName": "paragraph_1634160296182_1048479418",
       "id": "20171016-193030_671507369",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19964"
+      "$$hashKey": "object:6499"
     },
     {
       "text": "%pyspark\n\nlinesRDD = sc.textFile(\"./logs/\") # RDD de entrada\n\nlinesStrip = linesRDD.map(lambda l: l.strip()).cache() # Borro espacios en borde\n\nlinesInfo = linesStrip.filter(lambda l: l.startswith(\"INFO\"))\n\nlinesWarn = ... # Completar\n\nlinesError = ... # Completar\n\nprint(\"Cantidad de lineas INFO: \", linesInfo.count())\n\nprint(\"Cantidad de lineas WARN: \", ...) #Completar\n\nprint(\"Cantidad de lineas ERROR: \", ...)  #Completar\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1296,17 +1299,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_186894892",
+      "jobName": "paragraph_1634160296182_1195305379",
       "id": "20191123-214023_2104486544",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19965"
+      "$$hashKey": "object:6500"
     },
     {
       "title": "Ejercicio",
       "text": "%md\nEl archivo en `~/diplodatos_bigdata/ds/flights.csv` contiene información de vuelos realizados en 2008 (solo 100.000), uno por línea.\n\nLos datos estan separados por coma y la columna `Cancelled` (la 22) tiene un `1` si el vuelo fue cancelado. Además si el vuelo fue redirigido se indica con '1' en la columna `Diverted` (la 24).\n\nCompletar el siguiente programa que devuelve el porcentaje de vuelos cancelados y el porcentaje de redirigidos.\n\nUtilizar cache si lo cree conveniente.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1340,16 +1343,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_816918293",
+      "jobName": "paragraph_1634160296182_1910422385",
       "id": "20171016-224717_280061616",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19966"
+      "$$hashKey": "object:6501"
     },
     {
       "text": "{val input = spark.read.format(\"csv\").option(\"header\", \"true\").load(s\"${homeDir}/diplodatos_bigdata/ds/flights.csv\").sample(false,0.0005)\nz.show(input,10)}",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1750,17 +1753,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_189193059",
+      "jobName": "paragraph_1634160296183_440462243",
       "id": "20191123-214248_1978352340",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19967"
+      "$$hashKey": "object:6502"
     },
     {
       "title": "",
       "text": "%pyspark\n\ninput = sc.textFile(\"... /diplodatos_bigdata/ds/flights.csv\") # Completar el path\n\nnTotal = input.count() - 1 # la primer fila tiene el nombre de las columnas\n\nparsed = input.map(lambda l: l.split(\",\")).cache()\n\ncancel = parsed.filter(lambda l: l[21] == ...) # Completar\n\nredir = ... # Completar\n\nnCancel = cancel.count()\nnRedir = redir.count()\n\nprint(\"cancelados = {}%\".format(float(nCancel) * 100 / nTotal))\nprint(\"redireccionados = {}%\".format(...)) # Completar\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1784,17 +1787,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_1862521941",
+      "jobName": "paragraph_1634160296183_1946932079",
       "id": "20191124-133441_1910745321",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19968"
+      "$$hashKey": "object:6503"
     },
     {
       "title": "Ejercicio",
       "text": "%md\nLa columna 14 del mismo archivo tiene el tiempo del vuelo en minutos. Calcular el máximo.\n\n#### Ayuda\n\n* Busque en la documentacion de la [API RDD](http://spark.apache.org/docs/2.2.1/api/python/pyspark.html#pyspark.RDD) una acción para calcular el máximo.\n* Ojo que puede haber valores no definidos.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:54:19+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1827,17 +1830,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_127154007",
+      "jobName": "paragraph_1634160296183_2146563516",
       "id": "20171016-232257_285172371",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19969"
+      "$$hashKey": "object:6504"
     },
     {
       "title": "FIN",
       "text": "//val baseDir=\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\nval baseDir=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\nval homeDir=\"/home/damian\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n<script>\n    var heads = document.getElementsByTagName('h2');\n    var numHeads = heads.length;\n    var inner = \"\";\n    var i = 1;\n    var j = 0;\n    while (i < numHeads){\n        inner = heads[i].innerHTML;\n        if (inner.match(\"(~|\\d+)\\.-\") != -1 ) {\n            console.log(inner)\n            j++;\n            heads[i].innerHTML = inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n</script>\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "2021-10-13T20:50:53+0000",
+      "dateUpdated": "2021-10-13T21:24:56+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -1871,15 +1874,15 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634158253552_1051780901",
+      "jobName": "paragraph_1634160296183_1033985601",
       "id": "20171010-191336_1667301043",
-      "dateCreated": "2021-10-13T20:50:53+0000",
+      "dateCreated": "2021-10-13T21:24:56+0000",
       "status": "READY",
-      "$$hashKey": "object:19970"
+      "$$hashKey": "object:6505"
     }
   ],
   "name": "Clase 02 - Spark Core",
-  "id": "2GK5BBPRT",
+  "id": "2GJJDRW2N",
   "defaultInterpreterGroup": "spark",
   "version": "0.10.0",
   "noteParams": {},
@@ -1891,5 +1894,5 @@
     "personalizedMode": "false"
   },
   "info": {},
-  "path": "/Diplodatos/Clase 02 - Spark Core"
+  "path": "/Clase 02 - Spark Core"
 }
