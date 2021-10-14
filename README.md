@@ -52,12 +52,12 @@ docker run -u id -u -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
 
 * Ejecutar desde el directorio `spark` recién creado y en el environment de anaconda:
 ```sh
-        cd zeppelin-0.8.2-bin-all
+        cd zeppelin-0.10.0-bin-all
         bin/zeppelin.sh
 ```
 
 * En navegador abrir http://localhost:8080.
-  Se tiene que ver la interfaz inicial a [Zepelin](https://zeppelin.apache.org/docs/0.8.2/quickstart/explore_ui.html).
+  Se tiene que ver la interfaz inicial a [Zepelin](https://zeppelin.apache.org/docs/0.10.0/quickstart/explore_ui.html).
 
 * Hay que instalar también [git](https://git-scm.com).
   La versión para Windows está en [https://git-scm.com/download/win](https://git-scm.com/download/win).
@@ -97,7 +97,7 @@ docker run -u id -u -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
 * Ejecutar desde el directorio `spark` recién creado los siguientes comandos (cambiar puerto para que cada usuario use uno distinto):
 ```sh
         echo $[$UID+8080] # recordar <nuevo puerto> (anotarlo)
-        cd spark/zeppelin-0.8.2-bin-all/conf
+        cd spark/zeppelin-0.10.0-bin-all/conf
         sed "s/<value>8080/<value>$[$UID+8080]/" zeppelin-site.xml.template > zeppelin-site.xml
 ```
 
@@ -115,7 +115,7 @@ docker run -u id -u -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
 ```
 
 * En navegador abrir http://localhost:8080.
-  Se tiene que ver la interfaz inicial a [Zepelin](https://zeppelin.apache.org/docs/0.8.2/quickstart/explore_ui.html).
+  Se tiene que ver la interfaz inicial a [Zepelin](https://zeppelin.apache.org/docs/0.10.0/quickstart/explore_ui.html).
 
 ##### Nota: 
 Para hacer port forwarding de ssh en windows ver [https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-linux-ambari-ssh-tunnel](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-linux-ambari-ssh-tunnel).
