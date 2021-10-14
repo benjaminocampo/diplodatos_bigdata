@@ -33,8 +33,8 @@ set -x
 
 exec docker run -u $UID -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
     -v "$CONF_DIR":/opt/zeppelin/conf \
-    -v "$LOGS_DIR":/logs \
+    -v "$LOGS_DIR":/opt/zeppelin/logs \
     -v "$NOTEBOOK_DIR":/notebook \
     -v "$GIT_DIR":/diplodatos_bigdata \
-    -e ZEPPELIN_LOG_DIR='/logs' -e ZEPPELIN_NOTEBOOK_DIR='/notebook' \
+    -e ZEPPELIN_LOG_DIR='/opt/zeppelin/logs' -e ZEPPELIN_NOTEBOOK_DIR='/notebook' \
     --name diplodatos_bigdata diplodatos/bigdata:1.0

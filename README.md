@@ -37,7 +37,7 @@ docker run -u id -u -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
 
 * Crear un environment anaconda:  
 ```
-        conda create -n python-zeppelin python=3.6
+        conda create -n python-zeppelin python=3.7
 ```
 
 * Instalar los paquetes:
@@ -68,15 +68,15 @@ docker run -u id -u -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
 
 * Instalar [Anaconda](https://www.anaconda.com).
 ```sh
-        wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
-        chmod 755 Anaconda3-2020.07-Linux-x86_64.sh
-        ./Anaconda3-2020.07-Linux-x86_64.sh
+        wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+        chmod 755 Anaconda3-2021.05-Linux-x86_64.sh
+        ./Anaconda3-2021.05-Linux-x86_64.sh
         . .bashrc
 ```
 
 * Crear un environment anaconda:  
 ```
-        conda create -n python-zeppelin python=3.6
+        conda create -n python-zeppelin python=3.7
 ```
 
 * Instalar los paquetes:
