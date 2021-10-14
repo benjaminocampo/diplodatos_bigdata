@@ -1297,6 +1297,11 @@
           "value": true,
           "type": "checkbox",
           "description": "Show short types instead of full, e.g. List\u003cString\u003e or kotlin.collections.List\u003ckotlin.String\u003e"
+        },
+        "spark.sql.catalogImplementation": {
+          "name": "spark.sql.catalogImplementation",
+          "value": "hive",
+          "type": "textarea"
         }
       },
       "status": "READY",
