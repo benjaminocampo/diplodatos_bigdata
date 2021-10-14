@@ -30,7 +30,8 @@ RUN echo "Download Spark binary" && \
     wget -nv -O /tmp/spark-${S_VERSION}-bin-hadoop2.7.tgz https://archive.apache.org/dist/spark/spark-${S_VERSION}/spark-${S_VERSION}-bin-hadoop2.7.tgz && \
     tar --strip-components=1 -zxvf /tmp/spark-${S_VERSION}-bin-hadoop2.7.tgz -C ${SPARK_HOME} && \
     rm -f /tmp/spark-${S_VERSION}-bin-hadoop2.7.tgz && \
-    chown -R root:root ${SPARK_HOME}
+    chown -R root:root ${SPARK_HOME} && \
+    chmod 775 ${SPARK_HOME}
 
 #CMD ["/usr/bin/screen", "-s", "/bin/bash", "bin/zeppelin.sh" ]
 
