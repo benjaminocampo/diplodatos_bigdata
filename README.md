@@ -111,7 +111,7 @@ docker run -u id -u -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
 
 * En terminal hacer port forwarding de ssh:
 ```sh
-        ssh -vCN -L 8080:localhost:<nuevo puerto> -l <login en nabuco> nabucodonosor.ccad.unc.edu.ar
+        ssh -vCN -L 8080:localhost:<nuevo puerto> -l <login en nabuco> nabucodonosor2.ccad.unc.edu.ar
 ```
 
 * En navegador abrir http://localhost:8080.
