@@ -1156,7 +1156,7 @@
         },
         "spark.jars.packages": {
           "name": "spark.jars.packages",
-          "value": "",
+          "value": "graphframes:graphframes:0.6.0-spark2.2-s_2.11",
           "type": "string",
           "description": "Comma-separated list of Maven coordinates of jars to include on the driver and executor classpaths. The coordinates should be groupId:artifactId:version. If spark.jars.ivySettings is given artifacts will be resolved according to the configuration in the file, otherwise artifacts will be searched for in the local maven repo, then maven central and finally any additional remote repositories given by the command-line option --repositories."
         },
