@@ -497,7 +497,7 @@
       "title": "Lectura",
       "text": "%pyspark\n\nprofiles = spark.read.load(\"../../diplodatos_bigdata/ds/userid-profile.tsv\",\n                    format=\"csv\", delimiter=\"\\t\", header=True, inferSchema=True)\n                    \n# Ver en schema siguiente si inferSchema=False\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-15T16:22:22+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -523,8 +523,10 @@
       "jobName": "paragraph_1634314728309_1725547275",
       "id": "20171019-160931_1102056402",
       "dateCreated": "2021-10-15T16:18:48+0000",
-      "status": "READY",
-      "$$hashKey": "object:29250"
+      "status": "FINISHED",
+      "$$hashKey": "object:29250",
+      "dateFinished": "2021-10-15T16:22:23+0000",
+      "dateStarted": "2021-10-15T16:22:22+0000"
     },
     {
       "title": "Esquema",
@@ -662,7 +664,7 @@
       "title": "Query SQL plano",
       "text": "%pyspark\n\nprofiles.createOrReplaceTempView(\"users\")\n\n#Cantidad de usuarios por país\nnUsr4Ctry = spark.sql(\"SELECT country, count(*) AS cantidad FROM users GROUP BY country ORDER BY cantidad DESC\")\n\nnUsr4Ctry.show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-15T16:22:35+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -688,14 +690,16 @@
       "jobName": "paragraph_1634314728309_1261974080",
       "id": "20171020-195004_405222821",
       "dateCreated": "2021-10-15T16:18:48+0000",
-      "status": "READY",
-      "$$hashKey": "object:29254"
+      "status": "FINISHED",
+      "$$hashKey": "object:29254",
+      "dateFinished": "2021-10-15T16:22:40+0000",
+      "dateStarted": "2021-10-15T16:22:35+0000"
     },
     {
       "title": "Query SQL programático",
       "text": "%pyspark\n\nfrom pyspark.sql.functions import count\n\nnUsr4Ctry2 = profiles \\\n                .groupBy(\"country\").agg(count(\"*\").alias(\"cantidad\")) \\\n                .orderBy(\"cantidad\", ascending=False)\n# Cada operación SQL es un método\n\nnUsr4Ctry2.show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-15T16:23:06+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -721,8 +725,10 @@
       "jobName": "paragraph_1634314728309_2077673820",
       "id": "20171020-181216_461915575",
       "dateCreated": "2021-10-15T16:18:48+0000",
-      "status": "READY",
-      "$$hashKey": "object:29256"
+      "status": "FINISHED",
+      "$$hashKey": "object:29256",
+      "dateFinished": "2021-10-15T16:23:06+0000",
+      "dateStarted": "2021-10-15T16:23:06+0000"
     },
     {
       "title": "Ejercicio",
@@ -1206,10 +1212,44 @@
       "$$hashKey": "object:29269"
     },
     {
+      "text": "%sh\n\ncat ../../diplodatos_bigdata/ds/people.json",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-15T16:36:20+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 14,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634315423702_324581589",
+      "id": "paragraph_1634315423702_324581589",
+      "dateCreated": "2021-10-15T16:30:23+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:33618",
+      "dateFinished": "2021-10-15T16:34:43+0000",
+      "dateStarted": "2021-10-15T16:34:43+0000"
+    },
+    {
       "title": "Ejemplo",
       "text": "%pyspark\n\ndf = spark.read.json(\"../../diplodatos_bigdata/ds/people.json\")\n\n# Displays the content of the DataFrame to stdout\ndf.show()\n\n# Selecciona todo incrementando la edad\ndf.selectExpr(\"name\", \"age + 1\").show()\n\n# O tambien\ndf.select(\"name\", df.age + 1).show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-15T16:30:05+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1247,13 +1287,15 @@
       "jobName": "paragraph_1634314728310_452464254",
       "id": "20161011-151030_1991021842",
       "dateCreated": "2021-10-15T16:18:48+0000",
-      "status": "READY",
-      "$$hashKey": "object:29270"
+      "status": "FINISHED",
+      "$$hashKey": "object:29270",
+      "dateFinished": "2021-10-15T16:30:06+0000",
+      "dateStarted": "2021-10-15T16:30:05+0000"
     },
     {
       "text": "%pyspark\n\n# Selecciona personas con mas de 21 años\ndf.filter(\"age > 21\").show()\n\n# Cuenta personas por edad\ndf.groupBy(\"age\").count().show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-15T16:34:53+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1291,8 +1333,10 @@
       "jobName": "paragraph_1634314728310_1688674126",
       "id": "20171024-102324_940444908",
       "dateCreated": "2021-10-15T16:18:48+0000",
-      "status": "READY",
-      "$$hashKey": "object:29271"
+      "status": "FINISHED",
+      "$$hashKey": "object:29271",
+      "dateFinished": "2021-10-15T16:34:54+0000",
+      "dateStarted": "2021-10-15T16:34:53+0000"
     },
     {
       "title": "Mas Información en",
