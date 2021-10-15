@@ -40,7 +40,7 @@
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
       "focus": true,
-      "$$hashKey": "object:42993"
+      "$$hashKey": "object:21254"
     },
     {
       "text": "%md\n\n# Spark Core\n",
@@ -80,7 +80,7 @@
       "id": "20171013-124120_1151991544",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:42994"
+      "$$hashKey": "object:21255"
     },
     {
       "text": "%md\n\n<br>\n### Veremos conceptos básicos  aplicables a otras librerías de [Spark](http://spark.apache.org):\n",
@@ -121,7 +121,7 @@
       "id": "20171013-125344_626244712",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:42995"
+      "$$hashKey": "object:21256"
     },
     {
       "text": "print(s\"\"\"%html\n&nbsp;\n<img src=\"$baseDir/02_spark_core/core_stack.png\" alt=\"Drawing\" style=\"width: 100%;\"/>\n\"\"\")\n",
@@ -163,7 +163,7 @@
       "id": "20171013-125319_1987010321",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:42996"
+      "$$hashKey": "object:21257"
     },
     {
       "text": "%md\n\n## ~.- Conceptos básicos\n",
@@ -204,7 +204,7 @@
       "id": "20171013-125336_1933366904",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:42997"
+      "$$hashKey": "object:21258"
     },
     {
       "text": "%md\n\n### Driver\n\nToda aplicación Spark tiene un programa **driver**:\n\n* lanza las operaciones en el cluster,\n* contiene nuestro **programa**\n    - define datos distribuidos y les aplica operaciones.\n\n> En Zeppelin escribimos un *programa driver* que de forma interactiva ejecuta las operaciones que queremos correr.\n\n### Executors\n\nEl driver maneja y envía tareas a **executors** en los **worker nodes** (computadoras del cluster o threads en modo local).\n",
@@ -247,7 +247,7 @@
       "dateStarted": "2021-10-15T16:10:26+0000",
       "dateFinished": "2021-10-15T16:10:26+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:42998"
+      "$$hashKey": "object:21259"
     },
     {
       "text": "println(s\"\"\"%html\n<img src=\"$baseDir/01_intro_spark/driver_exec.png\" alt=\"Drawing\" style=\"width: 60%;\"/>\n\"\"\")\n",
@@ -288,7 +288,7 @@
       "id": "20171013-123200_262582034",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:42999"
+      "$$hashKey": "object:21260"
     },
     {
       "text": "%md\n### SparkContext\n\n",
@@ -329,7 +329,7 @@
       "id": "20171013-130511_1848331242",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43000"
+      "$$hashKey": "object:21261"
     },
     {
       "text": "%md\n\n&nbsp;\n\n* Los programas en el driver se conectan al cluster Spark a través de un objeto `SparkContext`\n* Le dice a Spark como conectarce con el cluster (o a los distintos threads en modo local)\n    - (representa la conección al cluster) \n* En Zeppelin (y shell) está predefinida la variable `sc` de tipo `SparkContext`\n    - otros programas deben crearla con `new`\n\n![](https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/cluster-overview.png)\n",
@@ -370,7 +370,7 @@
       "id": "20171013-160636_1142900877",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43001"
+      "$$hashKey": "object:21262"
     },
     {
       "text": "%pyspark\n\nprint(sc.defaultParallelism)\nprint(sc.master)\n",
@@ -402,7 +402,7 @@
       "id": "20171013-131916_230493933",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43002"
+      "$$hashKey": "object:21263"
     },
     {
       "title": "sc.master",
@@ -475,7 +475,7 @@
       "id": "20191123-192357_508683745",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43003"
+      "$$hashKey": "object:21264"
     },
     {
       "text": "%md\n\n## ~.- Resilient Distributed Dataset (RDD)\n",
@@ -515,7 +515,7 @@
       "id": "20171013-130245_542901367",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43004"
+      "$$hashKey": "object:21265"
     },
     {
       "text": "%md\n* **Contenedores** de objetos **inmutables**, distribuidos en el cluster (contiene los datos)\n\n* Creados con el SparkContext `sc`.\n    - al cargar datasets a Spark\n    - por transformaciones comunes (`map`, `filter`, ...) o binarias (`union`, `intersection`, ...).\n\n* Ante fallas se reconstruyen (resilencia).\n* **Importante**: todo lo que no derive del `SparkContext` corre solo en el **driver**.\n",
@@ -555,7 +555,7 @@
       "id": "20171013-161530_19251643",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43005"
+      "$$hashKey": "object:21266"
     },
     {
       "title": "Ejemplo log analysis",
@@ -592,7 +592,7 @@
       "dateStarted": "2021-10-15T17:11:19+0000",
       "dateFinished": "2021-10-15T17:11:19+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:43006"
+      "$$hashKey": "object:21267"
     },
     {
       "text": "print(s\"\"\"%html\n<img src=\"$baseDir/02_spark_core/log_linage.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")\n",
@@ -633,7 +633,7 @@
       "id": "20171013-164802_1824704614",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43007"
+      "$$hashKey": "object:21268"
     },
     {
       "text": "%pyspark\n\nuiHost = sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort = sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco = \"\"\"%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a><br>\nRecordar hacer el tunel ssh:<br>\nssh -vCN -L 4040:localhost:{} -l &lt;tu login&gt; nabucodonosor.ccad.unc.edu.ar\n\"\"\".format(uiPort)\n\ntextLocal = \"\"\"%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n<a href=\"http://{}:{}\">http://{}(host):{}(port)</a>\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost == \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n",
@@ -674,7 +674,7 @@
       "id": "20171013-163432_1466279672",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43008"
+      "$$hashKey": "object:21269"
     },
     {
       "title": "Implementación",
@@ -716,15 +716,16 @@
       "jobName": "paragraph_1634313399124_16725834",
       "id": "20171013-123100_1037283294",
       "dateCreated": "2021-10-15T15:56:39+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:43009",
+      "dateStarted": "2021-10-15T17:14:36+0000",
       "dateFinished": "2021-10-15T17:14:36+0000",
-      "dateStarted": "2021-10-15T17:14:36+0000"
+      "status": "FINISHED",
+      "$$hashKey": "object:21270"
     },
     {
-      "text": "%md\n* El **grafo de operaciones** se subdivide en **stages**\n    - el limite de entre las stages son las operaciones con shuffle.",
+      "title": "Stages",
+      "text": "%md\n* El **grafo de operaciones** se subdivide en **stages**\n    - el limite entre las stages son las operaciones con shuffle.\n\n* Mas info en este [artículo](https://medium.com/@goyalsaurabh66/spark-basics-rdds-stages-tasks-and-dag-8da0f52f0454).",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T17:42:36+0000",
+      "dateUpdated": "2021-10-15T17:57:03+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -746,27 +747,25 @@
         "params": {},
         "forms": {}
       },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<ul>\n<li>\n<p>El <strong>grafo de operaciones</strong> se subdivide en <strong>stages</strong></p>\n<ul>\n<li>el limite entre las stages son las operaciones con shuffle.</li>\n</ul>\n</li>\n<li>\n<p>Mas info en este <a href=\"https://medium.com/@goyalsaurabh66/spark-basics-rdds-stages-tasks-and-dag-8da0f52f0454\">artículo</a>.</p>\n</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
       "jobName": "paragraph_1634317918136_1777236417",
       "id": "paragraph_1634317918136_1777236417",
       "dateCreated": "2021-10-15T17:11:58+0000",
+      "dateStarted": "2021-10-15T17:56:57+0000",
+      "dateFinished": "2021-10-15T17:56:57+0000",
       "status": "FINISHED",
-      "focus": true,
-      "$$hashKey": "object:48776",
-      "dateFinished": "2021-10-15T17:13:34+0000",
-      "dateStarted": "2021-10-15T17:13:34+0000",
-      "title": "Stages",
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "HTML",
-            "data": "<div class=\"markdown-body\">\n<ul>\n<li>El <strong>grafo de operaciones</strong> se subdivide en <strong>stages</strong>\n<ul>\n<li>el limite de entre las stages son las operaciones con shuffle.</li>\n</ul>\n</li>\n</ul>\n\n</div>"
-          }
-        ]
-      }
+      "$$hashKey": "object:21271"
     },
     {
       "text": "%pyspark\nlines = sc.textFile(\"README.md\")\n\nwords = lines \\\n    .flatMap(lambda line: line.split(\" \")) \\\n    .filter(lambda word: word)\n\n#MapReduce\nwordCount = words \\\n    .map(lambda word: (word,1)) \\\n    .reduceByKey(lambda n,m: n+m)\n\nprint(wordCount.take(1))\n\n# Ver en SparkUI",
@@ -800,11 +799,10 @@
       "jobName": "paragraph_1634318082132_1416467574",
       "id": "paragraph_1634318082132_1416467574",
       "dateCreated": "2021-10-15T17:14:42+0000",
-      "status": "FINISHED",
-      "focus": true,
-      "$$hashKey": "object:48926",
+      "dateStarted": "2021-10-15T17:18:22+0000",
       "dateFinished": "2021-10-15T17:18:23+0000",
-      "dateStarted": "2021-10-15T17:18:22+0000"
+      "status": "FINISHED",
+      "$$hashKey": "object:21272"
     },
     {
       "title": "Ejercicio",
@@ -846,10 +844,10 @@
       "jobName": "paragraph_1634313399124_200667928",
       "id": "20171013-165833_179635135",
       "dateCreated": "2021-10-15T15:56:39+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:43010",
+      "dateStarted": "2021-10-15T17:44:11+0000",
       "dateFinished": "2021-10-15T17:44:11+0000",
-      "dateStarted": "2021-10-15T17:44:11+0000"
+      "status": "FINISHED",
+      "$$hashKey": "object:21273"
     },
     {
       "text": "%md\n## ~.- Evaluación Lazy\n\nEn Spark todas las **transformaciones** (`map`, `filter`, `union`, etc.) son evaluadas de forma **lazy**:\n\n* son acumuladas como *grafo de operaciones*\n* se ejecutan al momento de traer los datos al driver (`collect`, `take`, etc.)\n    - se llama a una **acción**.\n\nEsto permite:\n\n* hacer **optimizaciones**\n    - se computa solo lo que hace falta (tiene mucho sentido en Big Data)\n    - se hace un *pipeling* de transformaciones sin guardar resultados intermedios \n* recalcular las dependencias si hay algún fallo (resilencia)\n",
@@ -890,7 +888,7 @@
       "id": "20171013-171238_638394270",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43011"
+      "$$hashKey": "object:21274"
     },
     {
       "title": "Logs análisis (muestra solo 2 lineas)",
@@ -925,7 +923,7 @@
       "id": "20201023-002121_604229819",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43012"
+      "$$hashKey": "object:21275"
     },
     {
       "title": "Ejercicio",
@@ -968,7 +966,7 @@
       "id": "20171013-174042_1672649057",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43013"
+      "$$hashKey": "object:21276"
     },
     {
       "text": "%pyspark\n\nlinesRDD = sc.textFile(\"./logs/\")\n\ncharsRDD = linesRDD \\\n            .flatMap(lambda l: l)\n\nonlyCRDD = charsRDD \\\n            ....(lambda car: ...==...)\n\nprint(\"Aparecen {} letras c en los logs.\".format(onlyCRDD.count()))\n",
@@ -999,7 +997,7 @@
       "id": "20171013-175507_696892344",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43014"
+      "$$hashKey": "object:21277"
     },
     {
       "text": "%md\n## ~.- Persistencia\n\nSpark **recomputa** el grafo de dependencias cuando se llama una **acción**:",
@@ -1040,7 +1038,7 @@
       "id": "20171016-174448_43219511",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43015"
+      "$$hashKey": "object:21278"
     },
     {
       "text": "%pyspark\n\ninput = sc.parallelize(range(30)) # Se crea la lista [0,...,29] y se lo convierte en RDD \n\nresult = input.map(lambda x: x*x)\n\nprint(\"La media es \", result.mean()) # computa los cuadrados\n\nfor r in result.collect():\n     print(r) # recomputa los cuadrados :(",
@@ -1073,7 +1071,7 @@
       "id": "20201029-125345_2132006733",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43016"
+      "$$hashKey": "object:21279"
     },
     {
       "text": "%pyspark\n\nuiHost = sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort = sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco = \"\"\"%html\n(ver resultado en Spark UI\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a>)\n<br>\n<br>\nPara evitarlo Spark puede cachear los datos:\n\"\"\"\n\ntextLocal = \"\"\"%html\n(ver resultado en Spark UI\n<a href=\"http://{}:{}\">http://{}(host):{}(port)</a>)\n<br>\n<br>\nPara evitarlo Spark puede cachear los datos:\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost == \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n\n",
@@ -1114,7 +1112,7 @@
       "id": "20171016-175252_2114983095",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43017"
+      "$$hashKey": "object:21280"
     },
     {
       "text": "%pyspark\n\ninput = sc.parallelize(range(30)) # Se crea la lista [0,...,29] y se lo convierte en RDD \n\nresult = input.map(lambda x: x*x) \\\n              .setName(\"cuadrados\").cache() # cache de datos\n\nprint(\"La media es \", result.mean()) # computa los cuadrados\n\nfor r in result.collect():\n     print(r) # no recomputa el map :)",
@@ -1146,7 +1144,7 @@
       "id": "20201023-002155_1881617494",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43018"
+      "$$hashKey": "object:21281"
     },
     {
       "text": "%pyspark\n\nuiHost = sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort = sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco = \"\"\"%html\n%html\nVer resultado en Spark UI\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a>\n<br>\nObservar tambien green dots en Dag Visualization.\n\"\"\"\n\ntextLocal = \"\"\"%html\nVer resultado en Spark UI\n<a href=\"http://{}:{}\">http://{}(host):{}(port)</a>\n<br>\nObservar tambien green dots en Dag Visualization.\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost == \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n",
@@ -1187,7 +1185,7 @@
       "id": "20171016-180034_191267646",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43019"
+      "$$hashKey": "object:21282"
     },
     {
       "text": "%md\n\n## ~.- Implementación API Python\n",
@@ -1229,7 +1227,7 @@
       "id": "20191128-173809_1077146591",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43020"
+      "$$hashKey": "object:21283"
     },
     {
       "text": "%md\n\n* Spark esta originalmente implementado en Scala/Java.\n* `SparkContext` de Python usa [Py4J](https://www.py4j.org/), lanza JVM local y crea `JavaSparkContext`.\n* [Py4J](https://www.py4j.org/) solo se usa en driver.\n* En máquinas remotas los executors (Spark Workers en figura) corren en JVM asegurando resilencia.\n* Estas JVM lanzan procesos Python.\n* [Mas info](https://medium.com/@ketanvatsalya/a-scenic-route-through-pyspark-internals-feaf74ed660d).\n",
@@ -1273,7 +1271,7 @@
       "dateStarted": "2021-10-15T16:14:57+0000",
       "dateFinished": "2021-10-15T16:14:57+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:43021"
+      "$$hashKey": "object:21284"
     },
     {
       "text": "print(s\"\"\"%html\n<img src=\"$baseDir/02_spark_core/python-spark.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")\n",
@@ -1315,7 +1313,7 @@
       "id": "20191128-175407_1271062039",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43022"
+      "$$hashKey": "object:21285"
     },
     {
       "title": "Ejercicio",
@@ -1358,7 +1356,7 @@
       "id": "20171016-193030_671507369",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43023"
+      "$$hashKey": "object:21286"
     },
     {
       "text": "%pyspark\n\nlinesRDD = sc.textFile(\"./logs/\") # RDD de entrada\n\nlinesStrip = linesRDD.map(lambda l: l.strip()).cache() # Borro espacios en borde\n\nlinesInfo = linesStrip.filter(lambda l: l.startswith(\"INFO\"))\n\nlinesWarn = ... # Completar\n\nlinesError = ... # Completar\n\nprint(\"Cantidad de lineas INFO: \", linesInfo.count())\n\nprint(\"Cantidad de lineas WARN: \", ...) #Completar\n\nprint(\"Cantidad de lineas ERROR: \", ...)  #Completar\n",
@@ -1390,7 +1388,7 @@
       "id": "20191123-214023_2104486544",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43024"
+      "$$hashKey": "object:21287"
     },
     {
       "title": "Ejercicio",
@@ -1434,7 +1432,7 @@
       "id": "20171016-224717_280061616",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43025"
+      "$$hashKey": "object:21288"
     },
     {
       "text": "{val input = spark.read.format(\"csv\").option(\"header\", \"true\").load(s\"${homeDir}/diplodatos_bigdata/ds/flights.csv\").sample(false,0.0005)\nz.show(input,10)}",
@@ -1844,7 +1842,7 @@
       "id": "20191123-214248_1978352340",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43026"
+      "$$hashKey": "object:21289"
     },
     {
       "title": "",
@@ -1878,7 +1876,7 @@
       "id": "20191124-133441_1910745321",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43027"
+      "$$hashKey": "object:21290"
     },
     {
       "title": "Ejercicio",
@@ -1921,7 +1919,7 @@
       "id": "20171016-232257_285172371",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43028"
+      "$$hashKey": "object:21291"
     },
     {
       "title": "FIN",
@@ -1965,7 +1963,7 @@
       "id": "20171010-191336_1667301043",
       "dateCreated": "2021-10-15T15:56:39+0000",
       "status": "READY",
-      "$$hashKey": "object:43029"
+      "$$hashKey": "object:21292"
     }
   ],
   "name": "Clase 02 - Spark Core",
