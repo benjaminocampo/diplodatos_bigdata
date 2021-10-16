@@ -21,7 +21,7 @@
 
 * Para arrancar el container con [Zeppelin](https://zeppelin.apache.org/) ejecutar:
 ```
-docker run -u id -u -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
+docker run -u $(id -u) -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
     -v vols/conf:/opt/zeppelin/conf \
     -v vols/logs:/logs \
     -v vols/notebook:/notebook \
