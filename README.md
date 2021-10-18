@@ -9,7 +9,7 @@ Para tener disponible este repositorio en tu maquina de trabajo e instalar el so
 Despues ejecutar en la terminal:
 
 1. `git config --global core.autocrlf false`
-1. `git clone https://bigdata_famaf@bitbucket.org/bigdata_famaf/diplodatos_bigdata_private.git`
+1. `git clone https://bigdata_famaf@bitbucket.org/bigdata_famaf/diplodatos_bigdata.git`
 
 ## Como instalar el software necesario para la materia
 
