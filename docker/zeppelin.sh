@@ -26,12 +26,12 @@ LOGS_DIR="$DOCKER_VOLS_DIR"/logs
 NOTEBOOK_DIR="$DOCKER_VOLS_DIR"/notebook
 
 
-UID=$(id -u)
-GID=$(id -g)
+MYUID=$(id -u)
+MYGID=$(id -g)
 
 set -x
 
-exec docker run -u $UID -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
+exec docker run -u $MYUID -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
     -v "$CONF_DIR":/opt/zeppelin/conf \
     -v "$LOGS_DIR":/opt/zeppelin/logs \
     -v "$NOTEBOOK_DIR":/notebook \
