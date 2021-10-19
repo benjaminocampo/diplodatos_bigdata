@@ -30,7 +30,8 @@ Despues ejecutar en la terminal:
 ```
 **Nota:** Si tiene Linux puede ejecutar el script `./diplodatos_bigdata/build.sh` en vez del comando anterior.
 
-* Para arrancar el container con [Zeppelin](https://zeppelin.apache.org/) ejecutar:
+* Para arrancar el container con [Zeppelin](https://zeppelin.apache.org/) ejecutar
+    - en **Linux**:
 ```
 docker run -u $(id -u) -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
     -v vols/conf:/opt/zeppelin/conf \
@@ -39,7 +40,19 @@ docker run -u $(id -u) -it --rm --hostname localhost -p 8080:8080 -p 4040:4040 \
     -e ZEPPELIN_LOG_DIR='/logs' -e ZEPPELIN_NOTEBOOK_DIR='/notebook' \
     --name diplodatos_bigdata diplodatos/bigdata:1.0
 ```
-**Nota:** Si tiene Linux puede ejecutar el script `./zeppelin.sh` en vez del comando anterior.
+**o** puede ejecutar el script `./zeppelin.sh` en vez del comando anterior.
+
+    - en **Windows**:
+```
+docker run -u 1000 -it --rm --hostname localhost -p 8080:8080 -p 4040:4040^
+        -v "%CD%\vols\conf:/opt/zeppelin/conf"^
+        -v "%CD%\vols\logs:/logs"^
+        -v "%CD%\vols\notebook:/notebook"^
+        -v "%CD%\..:/diplodatos_bigdata"^
+        -e ZEPPELIN_LOG_DIR=/logs -e ZEPPELIN_NOTEBOOK_DIR=/notebook^
+        --name diplodatos_bigdata diplodatos/bigdata:1.0
+```
+**o** puede ejecutar el script `zeppelin.cmd` en vez del comando anterior.
 
 * Para utilizar [Zeppelin](https://zeppelin.apache.org/) en un navegador ir a [http://localhost:8080]().
 #### Instalación directa
