@@ -13,7 +13,7 @@ Despues ejecutar en la terminal:
 
 ## Como instalar el software necesario para la materia
 
-### En tu computadora (>4GB ram)
+### En tu computadora (>=8GB ram)
 
 #### Instalación [docker](https://www.docker.com/)
 
