@@ -10,7 +10,7 @@ prog_exists() {
     fi
 }
 
-for prg in realpath docker id grep
+for prg in realpath docker id dirname
 do
     prog_exists $prg
 done
