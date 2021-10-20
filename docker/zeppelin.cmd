@@ -10,7 +10,7 @@ SET UID=1000
 
 docker run -u %UID% -it --rm --hostname localhost -p 8080:8080 -p 4040:4040^
 	-v "%DIRNAME%vols\conf:/opt/zeppelin/conf"^
-	-v "%DIRNAME%vols\logs:/logs"^
+	-v "%DIRNAME%vols\logs:/opt/zeppelin/logs"^
 	-v "%DIRNAME%vols\notebook:/notebook"^
 	-v "%GITDIR%:/diplodatos_bigdata"^
 	-e ZEPPELIN_LOG_DIR=/logs -e ZEPPELIN_NOTEBOOK_DIR=/notebook^
