@@ -1,7 +1,7 @@
 @echo off
 
 SET DIRNAME=%~dp0
-SET GITDIR="%DIRNAME%../"
+SET GITDIR=%DIRNAME%../
 REM echo %DIRNAME%
 
 SET IM=diplodatos/bigdata:1.0
