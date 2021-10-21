@@ -1,0 +1,1310 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "print(s\"\"\"%html\n<center>\n    <h1><a href=\"http://diplodatos.famaf.unc.edu.ar/\">Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones</a></h1>\n    <h2>Curso <a href=\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\">Programación Distribuida sobre Grandes Volúmenes de Datos</a></h2>\n</center>\n\n<br>\n\n<h3 style=\"text-align:center;\"> Damián Barsotti  </h3>\n\n<h3 style=\"text-align:center;\">\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    Facultad de Matemática Astronomía Física y Computación\n    </a>\n<br/>\n    <a href=\"http://www.unc.edu.ar\">\n    Universidad Nacional de Córdoba\n    </a>\n<br/>\n    <center>\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    <img src=\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt=\"Drawing\" style=\"width:50%;\"/>\n    </a>\n    </center>\n</h3>\n\n<p style=\"font-size:15px;\">\n    <br />\n        This work is licensed under a\n        <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n    <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">\n        <img alt=\"Creative Commons License\" style=\"border-width:0;vertical-align:middle;float:right\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" />\n    </a>\n</p>\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false,
+        "fontSize": 9
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<center>\n    <h1><a href=\"http://diplodatos.famaf.unc.edu.ar/\">Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones</a></h1>\n    <h2>Curso <a href=\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\">Programación Distribuida sobre Grandes Volúmenes de Datos</a></h2>\n</center>\n\n<br>\n\n<h3 style=\"text-align:center;\"> Damián Barsotti  </h3>\n\n<h3 style=\"text-align:center;\">\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    Facultad de Matemática Astronomía Física y Computación\n    </a>\n<br/>\n    <a href=\"http://www.unc.edu.ar\">\n    Universidad Nacional de Córdoba\n    </a>\n<br/>\n    <center>\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    <img src=\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/comun/logo%20UNC%20FAMAF%202016.png\" alt=\"Drawing\" style=\"width:50%;\"/>\n    </a>\n    </center>\n</h3>\n\n<p style=\"font-size:15px;\">\n    <br />\n        This work is licensed under a\n        <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n    <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">\n        <img alt=\"Creative Commons License\" style=\"border-width:0;vertical-align:middle;float:right\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" />\n    </a>\n</p>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_980559397",
+      "id": "20161027-185750_417030348",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:21297"
+    },
+    {
+      "text": "%md\n## Abstracciones Básicas\n\n### Transformer\n\n* Toma un `DataFrame` y devuelven un `DataFrame` transformado.\n    - método `transform(<DataFrame>)`\n* Ejemplos:\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Abstracciones Básicas</h2>\n<h3>Transformer</h3>\n<ul>\n  <li>Toma un <code>DataFrame</code> y devuelven un <code>DataFrame</code> transformado.\n    <ul>\n      <li>método <code>transform(&lt;DataFrame&gt;)</code></li>\n    </ul>\n  </li>\n  <li>Ejemplos:</li>\n</ul>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_74211227",
+      "id": "20161027-185927_1249905112",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21298"
+    },
+    {
+      "title": "Transformador de features",
+      "text": "println(s\"\"\"%html\n<center>\n<img src=\"$baseDir/05_ml/06-transformador-features.svg\" alt=\"Drawing\" style=\"width: 80%;\"/>\n</center>\n\"\"\")\n/*\n%md\n\n    - Transformador de features\n\n        %%% yuml type=class style=plain format=svg\n          [note:Dataframe;Entrada{bg:cornsilk}]->[Transformer;(featurizer)|transform(){bg:orange}]\n          [Transformer;(featurizer)|transform(){bg:orange}]->[note:Dataframe; features{bg:cornsilk}]\n        %%%\n*/\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<center>\n<img src=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/05_ml/06-transformador-features.svg\" alt=\"Drawing\" style=\"width: 80%;\"/>\n</center>\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_563896215",
+      "id": "20201029-111103_1838666173",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21299"
+    },
+    {
+      "title": "Modelo",
+      "text": "println(s\"\"\"%html\n<center>\n<img src=\"$baseDir/05_ml/05-uso.svg\" alt=\"Drawing\" style=\"width: 75%;\"/>\n</center>\n\"\"\")\n/*\n%md\n\n    - Modelo\n\n        %%% yuml type=class style=plain format=svg\n          [note:Dataframe; features{bg:cornsilk}]->[Transformer;(modelo)|transform(){bg:orange}]\n          [Transformer;(modelo)|transform(){bg:orange}]->[note:Dataframe; predicción{bg:cornsilk}]\n        %%%\n*/",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<center>\n<img src=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/05_ml/05-uso.svg\" alt=\"Drawing\" style=\"width: 75%;\"/>\n</center>\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_1415317961",
+      "id": "20201029-111212_842896971",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21300"
+    },
+    {
+      "text": "%md\n### Estimator\n\n* Encapsula un algoritmo ML.\n* Toma un `DataFrame` de entrenamiento y devuelve un `Transformer`\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Estimator</h3>\n<ul>\n  <li>Encapsula un algoritmo ML.</li>\n  <li>Toma un <code>DataFrame</code> de entrenamiento y devuelve un <code>Transformer</code></li>\n</ul>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_1006405929",
+      "id": "20201029-110945_2080913668",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21301"
+    },
+    {
+      "text": "println(s\"\"\"%html\n<center>\n<img src=\"$baseDir/05_ml/04-entrenamiento.svg\" alt=\"Drawing\" style=\"width: 90%;\"/>\n</center>\n\"\"\")\n/*\n%md\n\n    - método `fit(<DataFrame>)`\n\n      %%% yuml type=class style=plain format=svg\n         [note:Dataframe; features;(entrenamiento){bg:cornsilk}]->[Estimator;(algoritmo ML)|fit()]\n         [Estimator;(algoritmo ML)|fit(){bg:red}]->[note:Transformer;(modelo){bg:orange}]\n      %%%\n*/\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<center>\n<img src=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/05_ml/04-entrenamiento.svg\" alt=\"Drawing\" style=\"width: 90%;\"/>\n</center>\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_1690790214",
+      "id": "20201029-111909_2094645311",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21302"
+    },
+    {
+      "text": "%md\n\n## Ejemplo flujo de trabajo clásico ML.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Ejemplo flujo de trabajo clásico ML.</h2>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_1788852653",
+      "id": "20201029-112000_2031171035",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21303"
+    },
+    {
+      "title": "Datos de entrenamiento",
+      "text": "%pyspark\n\ntraining = spark.createDataFrame([\n        (0, \"a b c d e spark a\", 1.0),\n        (1, \"b d\", 0.0),\n        (2, \"spark f g h\", 1.0),\n        (3, \"hadoop a mapreduce\", 0.0)\n    ], [\"id\", \"text\", \"label\"])\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:47:47+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_886347390",
+      "id": "20161027-192753_1880015042",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:21304",
+      "dateFinished": "2021-10-21T15:47:47+0000",
+      "dateStarted": "2021-10-21T15:47:47+0000"
+    },
+    {
+      "text": "%md\n\n### Featurization\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Featurization</h3>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_1667588161",
+      "id": "20191205-181810_1376282739",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21305"
+    },
+    {
+      "title": "Tokenizer",
+      "text": "%pyspark\n\nfrom pyspark.ml.feature import HashingTF, Tokenizer\n\n# Creo Tokenizer Transformer\ntokenizer = Tokenizer(\n    inputCol=\"text\",\n    outputCol=\"words\")\n\n# Aplico la transformación devolviendo un nuevo dataframe\ntokenizerOut = tokenizer.transform(training)\n\nz.show(tokenizerOut)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:47:52+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "title": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "text": "string",
+                      "label": "string",
+                      "words": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_68612037",
+      "id": "20161027-193120_515869320",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:21306",
+      "dateFinished": "2021-10-21T15:47:52+0000",
+      "dateStarted": "2021-10-21T15:47:52+0000"
+    },
+    {
+      "title": "Feature vectors",
+      "text": "%pyspark\n# Creo un Term Frecuency Transformer con hash\nhashingTF = HashingTF(\n    numFeatures=1000,\n    inputCol = tokenizer.getOutputCol(), \n    outputCol=\"features\")\n\n# Aplico la transformación al resultado de la transformación previa\nhashingTFOut = hashingTF.transform(tokenizerOut)\n\nhashingTFOut.printSchema() \n# Notar tipo de la columna \"features\"\n# El primer elemento de la tupla es el tamaño\n\nz.show(hashingTFOut)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:48:14+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "title": true,
+        "results": {
+          "1": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "text": "string",
+                      "label": "string",
+                      "words": "string",
+                      "features": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_1917211795",
+      "id": "20171115-095457_1156237442",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:21307",
+      "dateFinished": "2021-10-21T15:48:14+0000",
+      "dateStarted": "2021-10-21T15:48:14+0000"
+    },
+    {
+      "text": "%md\n\n### Modelo\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Modelo</h3>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191039_1808924482",
+      "id": "20191205-182631_90559665",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21308"
+    },
+    {
+      "title": "Creación",
+      "text": "%pyspark\n\nfrom pyspark.ml.classification import LogisticRegression\n\n# Creo el Estimator\nlr = LogisticRegression(\n    maxIter=10,\n    regParam=0.01)\n  \n# Entreno el Estimador obteniendo un modelo\nmodel = lr.fit(hashingTFOut)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:48:41+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_1906970604",
+      "id": "20161027-194846_129661804",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:21309",
+      "dateFinished": "2021-10-21T15:48:41+0000",
+      "dateStarted": "2021-10-21T15:48:41+0000"
+    },
+    {
+      "title": "Predicción",
+      "text": "%pyspark\n\n# Creo un DF para testearel modelo\ntest = spark.createDataFrame([\n  (4, \"spark i j k a\"),\n  (5, \"l m n\"),\n  (6, \"mapreduce spark\"),\n  (7, \"apache hadoop\"),\n  (8, \"spark f j k\")\n], [\"id\", \"text\"])\n\n\n# Featurizo el test\ntestTokens = tokenizer.transform(test)\n\ntestFeatures = hashingTF.transform(testTokens)\n\npredictions = model.transform(testFeatures)\n\nz.show(predictions.select(\"id\", \"text\", \"probability\", \"prediction\"))\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:48:46+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "title": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "text": "string",
+                      "probability": "string",
+                      "prediction": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_1764188627",
+      "id": "20161027-195542_1318506384",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:21310",
+      "dateFinished": "2021-10-21T15:48:46+0000",
+      "dateStarted": "2021-10-21T15:48:46+0000"
+    },
+    {
+      "text": "%md\n\n## Pipelines\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Pipelines</h2>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_680648326",
+      "id": "20161028-141905_1713895534",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21311"
+    },
+    {
+      "text": "println(s\"\"\"%html\n<center>\n<img src=\"$baseDir/06_ml_pipelines/pipeline.svg\" alt=\"Drawing\" style=\"width: 90%;\"/>\n</center>\n\"\"\")\n\n/*\n%md\n* Abstracción del flujo de trabajo en ML:\n\n      %%% yuml style=plain scale=80 dir=LR format=svg\n        [Featurization]->[Entrenamiento]\n        [Entrenamiento]->[Modelo]\n        [Modelo]->[Predicción]\n        [Modelo]->[Evaluación]\n      %%%\n*/",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<center>\n<img src=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/06_ml_pipelines/pipeline.svg\" alt=\"Drawing\" style=\"width: 90%;\"/>\n</center>\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_2086600076",
+      "id": "20201029-114011_107220819",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21312"
+    },
+    {
+      "text": "%md\n\n* Para su construcción se usan **Transformers** y **Estimators** (llamados Stages)\n    - los concatena\n\n* Un pipeline es un **Estimator**\n    - método `fit(<DataFramee>)` devuelve un `PipelineModel` (Transformer)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<ul>\n  <li>\n    <p>Para su construcción se usan <strong>Transformers</strong> y <strong>Estimators</strong> (llamados Stages)</p>\n    <ul>\n      <li>los concatena</li>\n    </ul>\n  </li>\n  <li>\n    <p>Un pipeline es un <strong>Estimator</strong></p>\n    <ul>\n      <li>método <code>fit(&lt;DataFramee&gt;)</code> devuelve un <code>PipelineModel</code> (Transformer)</li>\n    </ul>\n  </li>\n</ul>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_1629338097",
+      "id": "20201029-114054_1255735097",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21313"
+    },
+    {
+      "text": "%pyspark\n\nfrom pyspark.ml import Pipeline\n\n# Creo el pipeline con los Transformers y el Estimator\npipeline = Pipeline(stages=[tokenizer, hashingTF, lr])\n\n# Con fit el pipeline genera los fetures y entrena.\npipModel = pipeline.fit(training)\n\nprint(\"%table\\nStage\")\nfor stage in pipModel.stages:\n    print(stage)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:55:25+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Stage": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_74003303",
+      "id": "20161028-160715_1700211199",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:21314",
+      "dateFinished": "2021-10-21T15:55:25+0000",
+      "dateStarted": "2021-10-21T15:55:24+0000"
+    },
+    {
+      "title": "Pipeline de entrenamiento",
+      "text": "print(s\"\"\"%html\n<img src=\"$baseDir/06_ml_pipelines/ml-Pipeline.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "title": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false,
+        "fontSize": 9
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<img src=\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/06_ml_pipelines/ml-Pipeline.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_1531865121",
+      "id": "20161028-155205_837419355",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21315"
+    },
+    {
+      "text": "%md\n### PipelineModel\n\n* El resultado anterior es un modelo (Transformer) que se puede usar para predecir\n    - método `transform(<DataFrame>)`\n* Usa los mismos Transformers de *featurizacion* que para el entrenamiento\n    - ahorra código\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>PipelineModel</h3>\n<ul>\n  <li>El resultado anterior es un modelo (Transformer) que se puede usar para predecir\n    <ul>\n      <li>método <code>transform(&lt;DataFrame&gt;)</code></li>\n    </ul>\n  </li>\n  <li>Usa los mismos Transformers de <em>featurizacion</em> que para el entrenamiento\n    <ul>\n      <li>ahorra código</li>\n    </ul>\n  </li>\n</ul>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_740730064",
+      "id": "20161028-160002_1792875570",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21316"
+    },
+    {
+      "text": "%pyspark\n# El modelo en el pipeline solo necesita el Raw Test:\n# automaticamente aplica los transformadores de features\n# y hace predicciones.\n\npredictions = pipModel.transform(test)\n\nz.show(predictions.select(\"id\", \"text\", \"probability\", \"prediction\"))\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:55:46+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "editorHide": false,
+        "fontSize": 14,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "text": "string",
+                      "probability": "string",
+                      "prediction": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_1932319720",
+      "id": "20171115-101137_579818646",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:21317",
+      "dateFinished": "2021-10-21T15:55:46+0000",
+      "dateStarted": "2021-10-21T15:55:46+0000"
+    },
+    {
+      "text": "print(s\"\"\"%html\n<img src=\"$baseDir/06_ml_pipelines/ml-PipelineModel.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala"
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": false,
+        "fontSize": 9
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<img src=\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases/06_ml_pipelines/ml-PipelineModel.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_836833687",
+      "id": "20161028-160514_1612337572",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21318"
+    },
+    {
+      "title": "Persistencia",
+      "text": "%pyspark\n\nfrom pyspark.ml import PipelineModel\n\n# El pipeline entrenado se puede guardar\npipModel.write().overwrite().save(\"/tmp/spark-logistic-regression-model\")\n\n# Y cargarlo para la etapa de uso\nsamePipModel = PipelineModel.load(\"/tmp/spark-logistic-regression-model\")\n\n# Tambien el pipeline sin entrenar\npipeline.write().overwrite().save(\"/tmp/unfit-lr-model\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "editorHide": false,
+        "fontSize": 14,
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_87627970",
+      "id": "20171115-101044_1013070913",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21319"
+    },
+    {
+      "text": "%md\n\n### Ejercicio\n\nHacer con pipelines uno de los ejemplos de clasificacionde clase anterior. Plotear el resultado.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Ejercicio</h3>\n<p>Hacer con pipelines uno de los ejemplos de clasificacionde clase anterior. Plotear el resultado.</p>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_2045184212",
+      "id": "20191205-195354_363578557",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21320"
+    },
+    {
+      "title": "Fin",
+      "text": "val baseDir=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\n//val baseDir=\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n<script>\n    var heads = document.getElementsByTagName('h2');\n    var numHeads = heads.length;\n    var inner = \"\";\n    var i = 0;\n    var j = 0;\n    while (i < numHeads){\n        inner = heads[i].innerHTML;\n        if (inner.search(\".-\") != -1 ) {\n            j++;\n            heads[i].innerHTML = inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n</script>\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9,
+        "title": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<script>\n    var heads = document.getElementsByTagName('h2');\n    var numHeads = heads.length;\n    var inner = \"\";\n    var i = 0;\n    var j = 0;\n    while (i < numHeads){\n        inner = heads[i].innerHTML;\n        if (inner.search(\".-\") != -1 ) {\n            j++;\n            heads[i].innerHTML = inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n</script>\nbaseDir: String = https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634831191040_1206856449",
+      "id": "20161027-191821_1441900429",
+      "dateCreated": "2021-10-21T15:46:31+0000",
+      "status": "READY",
+      "$$hashKey": "object:21321"
+    }
+  ],
+  "name": "Clase 06 - ML Pipelines",
+  "id": "2GJKQJSWB",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/Diplodatos/Clase 06 - ML Pipelines"
+}
