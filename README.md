@@ -114,7 +114,7 @@ docker run -u 1000 -it --rm --hostname localhost -p 8080:8080 -p 4040:4040^
 ```sh
         cd
         wget http://cs.famaf.unc.edu.ar/~damian/tmp/bigdatasoft.zip
-        unzip bigdatasoft.tgz
+        unzip bigdatasoft.zip
 ``` 
 > (debe haberse creado un directorio `spark`)
 
