@@ -141,5 +141,16 @@ docker run -u 1000 -it --rm --hostname localhost -p 8080:8080 -p 4040:4040^
 * En navegador abrir http://localhost:8080.
   Se tiene que ver la interfaz inicial a [Zepelin](https://zeppelin.apache.org/docs/0.10.0/quickstart/explore_ui.html).
 
+* Si se quiere ver el SparkUI hay que hacer port forwarding tambien.
+    - Despues de ejecutar alguna celda en zeppelin (asi levanta spark) imprimir en otra el puerto que usa SparkUI:
+```python
+        print(sc.uiWebUrl.split(":")[-1])
+```
+
+    - En terminal hacer otro port forwarding de ssh:
+```sh
+        ssh -vCN -L 4040:localhost:<puerto SparkUI> -l <login en nabuco> nabucodonosor2.ccad.unc.edu.ar
+```
+
 ##### Nota: 
 Para hacer port forwarding de ssh en windows ver [https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-linux-ambari-ssh-tunnel](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-linux-ambari-ssh-tunnel).
