@@ -3,7 +3,7 @@
     {
       "text": "print(s\"\"\"%html\n<center>\n    <h1><a href=\"http://diplodatos.famaf.unc.edu.ar/\">Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones</a></h1>\n    <h2>Curso <a href=\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\">Programación Distribuida sobre Grandes Volúmenes de Datos</a></h2>\n</center>\n\n<br>\n\n<h3 style=\"text-align:center;\"> Damián Barsotti  </h3>\n\n<h3 style=\"text-align:center;\">\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    Facultad de Matemática Astronomía Física y Computación\n    </a>\n<br/>\n    <a href=\"http://www.unc.edu.ar\">\n    Universidad Nacional de Córdoba\n    </a>\n<br/>\n    <center>\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    <img src=\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt=\"Drawing\" style=\"width:50%;\"/>\n    </a>\n    </center>\n</h3>\n\n<p style=\"font-size:15px;\">\n    <br />\n        This work is licensed under a\n        <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n    <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">\n        <img alt=\"Creative Commons License\" style=\"border-width:0;vertical-align:middle;float:right\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" />\n    </a>\n</p>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -44,18 +44,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728308_732131263",
+      "jobName": "paragraph_1634909527380_1435488060",
       "id": "20161011-125025_834797080",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
       "focus": true,
-      "$$hashKey": "object:415"
+      "$$hashKey": "object:494"
     },
     {
       "title": "",
       "text": "%md\n### Antes de comenzar\n#### En máquina virtual\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd diplodatos_bigdata\ngit pull\n```\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/) en docker:\n```sh\n./docker/zeppelin.sh\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080)\n1. Seleccionar `Import note`\n1. Elegir json en `diplodatos_bigdata/clases/03_sql/note.zpln`\n2. Seleccionar `Clase 03 - SQL`\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -88,16 +88,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728308_1495018962",
+      "jobName": "paragraph_1634909527380_2110170295",
       "id": "20171024-161854_528178880",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:416"
+      "$$hashKey": "object:495"
     },
     {
       "text": "%md\n# Datasets/Dataframes\n\n* Spark permite interactuar con datos estructurados (Bases de Datos tabulares) o semiestructurados (JSON) con su componente **Spark SQL**.\n* Sus interfaces son **SQL** y **Dataframe/Dataset** API .\n    - Programática, parecida a [Python Pandas dataframes](http://pandas.pydata.org/pandas-docs/stable/dsintro.html).\n    - Demasiado parecida. Ver [Koalas](https://github.com/databricks/koalas).\n* La API Dataset es tipada y solo existe para Scala y Java.\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -141,16 +141,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728308_345278355",
+      "jobName": "paragraph_1634909527380_505889379",
       "id": "20161011-125142_1705237118",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:417"
+      "$$hashKey": "object:496"
     },
     {
       "text": "print(s\"\"\"%html\n&nbsp;\n<img src=\"$baseDir/03_sql/unified_stack.png\" alt=\"Drawing\" style=\"width: 100%;\"/>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -191,17 +191,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728308_121065225",
+      "jobName": "paragraph_1634909527380_1596213338",
       "id": "20161011-132101_236091967",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:418"
+      "$$hashKey": "object:497"
     },
     {
       "title": "API 2.x.x unificada",
       "text": "print(s\"\"\"%html\n&nbsp;\n<img src=\"$baseDir/03_sql/dataset_dataframe_unificado.png\" alt=\"Drawing\" style=\"width: 100%;\"/>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -243,16 +243,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728308_1719717703",
+      "jobName": "paragraph_1634909527380_358418016",
       "id": "20161011-134614_1124280099",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:419"
+      "$$hashKey": "object:498"
     },
     {
       "text": "%md\n### SparkSession\n\n* Para acceder al cluster desde la API se utiliza `SparkSession`.\n* El `SparkContext` deriva de él.\n\n```python\nfrom pyspark.sql import SparkSession\n\nspark = SparkSession \\\n    .builder \\\n    .appName(\"Python Spark ejemplo\") \\\n    .config(\"spark.some.config.option\", \"algun-valor\") \\\n    .getOrCreate()\n    \nsc = spark.sparkContext\n\n```\n\n* En Zeppelin ya están predefinidos: \n  - `SparkSession` objeto `spark` \n  - `SparkContext` objeto `sc`\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -296,16 +296,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728308_1108081321",
+      "jobName": "paragraph_1634909527381_724896518",
       "id": "20161011-174856_51715674",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:420"
+      "$$hashKey": "object:499"
     },
     {
       "text": "%md\n### Lectura de datos\n\n#### Estructurados y semiestructurados\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -336,16 +336,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728308_1213644851",
+      "jobName": "paragraph_1634909527381_1303404695",
       "id": "20171020-102828_1480663464",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:421"
+      "$$hashKey": "object:500"
     },
     {
       "text": "%md\n\n#### Formatos:\n\n* json\n* csv\n* parquet\n* orc\n* libsvm\n* text\n* ...\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -376,16 +376,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728308_1076617323",
+      "jobName": "paragraph_1634909527381_856142408",
       "id": "20171019-163121_1592075078",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:422"
+      "$$hashKey": "object:501"
     },
     {
       "text": "%md\n#### Fuentes de datos:\n\n* Archivos en fs local o distribuid (ej hdfs)\n* jdbc (posgress, oracle, mysql,...)\n* Apache Hive (se usa execution backend Spark en ves de MR)\n* Amazon Redshift, S3\n* Azure Storage Services\n* Cassandra\n* MongoDB\n* Neo4j\n* ...",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -417,16 +417,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_1647327927",
+      "jobName": "paragraph_1634909527381_985083883",
       "id": "20171020-102923_1888981134",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:423"
+      "$$hashKey": "object:502"
     },
     {
       "text": "%md\n### Ejemplo\n\n#### Tabla de perfiles [last.fm](last.fm)\n\nFormato:\n\n    id \\t gender ('m'|'f'|empty) \\t age (int|empty) \\t country (str|empty) \\t registered (date|empty)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -457,16 +457,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_750982236",
+      "jobName": "paragraph_1634909527381_908326624",
       "id": "20171020-170028_1956391103",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:424"
+      "$$hashKey": "object:503"
     },
     {
       "text": "%sh\nhead ../../diplodatos_bigdata/ds/userid-profile.tsv\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -487,17 +487,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_1871262711",
+      "jobName": "paragraph_1634909527381_1615231153",
       "id": "20181011-192611_2092112872",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:425"
+      "$$hashKey": "object:504"
     },
     {
       "title": "Lectura",
       "text": "%pyspark\n\nprofiles = spark.read.load(\"../../diplodatos_bigdata/ds/userid-profile.tsv\",\n                    format=\"csv\", delimiter=\"\\t\", header=True, inferSchema=True)\n                    \n# Ver en schema siguiente si inferSchema=False\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T18:10:23+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -520,19 +520,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_1725547275",
+      "jobName": "paragraph_1634909527381_988589537",
       "id": "20171019-160931_1102056402",
-      "dateCreated": "2021-10-15T16:18:48+0000",
-      "dateStarted": "2021-10-15T18:10:23+0000",
-      "dateFinished": "2021-10-15T18:10:24+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:426"
+      "dateCreated": "2021-10-22T13:32:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:505"
     },
     {
       "title": "Esquema",
       "text": "%pyspark\n\nprofiles.printSchema()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -556,17 +554,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_141689309",
+      "jobName": "paragraph_1634909527381_8565007",
       "id": "20171020-165528_926197483",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:427"
+      "$$hashKey": "object:506"
     },
     {
       "title": "Ver el contenido",
       "text": "%pyspark\n\nprofiles.show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -589,17 +587,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_240577856",
+      "jobName": "paragraph_1634909527381_48481867",
       "id": "20191126-024041_1950604952",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:428"
+      "$$hashKey": "object:507"
     },
     {
       "title": "Tambien se puede ver con Zeppelin",
       "text": "%pyspark\n\nz.show(profiles.limit(20)) # limit(n) devuelve solo las primeras n filas \n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -654,18 +652,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_385143618",
+      "jobName": "paragraph_1634909527381_946627501",
       "id": "20191126-023810_382641811",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:429"
+      "$$hashKey": "object:508"
     },
     {
       "title": "Query SQL plano",
       "text": "%pyspark\n\nprofiles.createOrReplaceTempView(\"users\")\n\n#Cantidad de usuarios por país\nnUsr4Ctry = spark.sql(\"SELECT country, count(*) AS cantidad FROM users GROUP BY country ORDER BY cantidad DESC\")\n\nnUsr4Ctry.show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T18:10:32+0000",
-      "progress": 2,
+      "dateUpdated": "2021-10-22T13:32:07+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -687,20 +685,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_1261974080",
+      "jobName": "paragraph_1634909527381_805621048",
       "id": "20171020-195004_405222821",
-      "dateCreated": "2021-10-15T16:18:48+0000",
-      "dateStarted": "2021-10-15T18:10:32+0000",
-      "dateFinished": "2021-10-15T18:10:32+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:430"
+      "dateCreated": "2021-10-22T13:32:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:509"
     },
     {
       "title": "Query SQL programático",
       "text": "%pyspark\n\nfrom pyspark.sql.functions import count\n\nnUsr4Ctry2 = profiles \\\n                .groupBy(\"country\").agg(count(\"*\").alias(\"cantidad\")) \\\n                .orderBy(\"cantidad\", ascending=False)\n# Cada operación SQL es un método\n\nnUsr4Ctry2.show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:23:06+0000",
-      "progress": 21,
+      "dateUpdated": "2021-10-22T13:32:07+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -722,19 +718,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_2077673820",
+      "jobName": "paragraph_1634909527381_45744389",
       "id": "20171020-181216_461915575",
-      "dateCreated": "2021-10-15T16:18:48+0000",
-      "dateStarted": "2021-10-15T16:23:06+0000",
-      "dateFinished": "2021-10-15T16:23:06+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:431"
+      "dateCreated": "2021-10-22T13:32:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:510"
     },
     {
       "title": "Ejercicio",
       "text": "%md\nComplete los siguientes programas que calculan en un Dataframe la cantidad de usuarios por pais desagregando por sexo y ordenando por la cantidad de mayor a menor, usando **SQL plano y programático**.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -767,16 +761,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_742844594",
+      "jobName": "paragraph_1634909527381_297428300",
       "id": "20171023-114452_748688701",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:432"
+      "$$hashKey": "object:511"
     },
     {
       "text": "%pyspark\n\n# Con SQL plano\n\nnUsr4CtryGen = spark.sql(\"SELECT country, gender, count(*) AS cantidad FROM users GROUP BY ... ORDER BY ...\")\n\nnUsr4CtryGen.show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -799,16 +793,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_1975670736",
+      "jobName": "paragraph_1634909527381_556106848",
       "id": "20191126-025015_908338399",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:433"
+      "$$hashKey": "object:512"
     },
     {
       "text": "%pyspark\n\n# Con SQL porgramático\n\nnUsr4CtryGen2 = profiles \\\n                .groupBy(\"country\", ...).agg(count(\"*\").alias(\"cantidad\")) \\\n                .orderBy(\"cantidad\", ...)\n\nnUsr4CtryGen2.show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -832,17 +826,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_224657464",
+      "jobName": "paragraph_1634909527381_1921450897",
       "id": "20191126-030740_538459228",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:434"
+      "$$hashKey": "object:513"
     },
     {
       "title": "Lectura desde JDBC",
       "text": "%md\n```python\ndf = spark.read \\\n    .format(\"jdbc\") \\\n    .option(\"url\", \"jdbc:postgresql://localhost/test\") \\\n    .option(\"dbtable\", \"projects\") \\\n    .option(\"user\", \"username\") \\\n    .option(\"password\", \"password\") \\\n    .load()\n```\nMás información en:\n\n* [Spark SQL](http://spark.apache.org/docs/latest/sql-programming-guide.html#jdbc-to-other-databases).\n* [Ejemplo](https://supergloo.com/spark-sql/spark-sql-mysql-python-example-jdbc/).\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -875,17 +869,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_832396664",
+      "jobName": "paragraph_1634909527381_867945544",
       "id": "20171023-092655_178501000",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:435"
+      "$$hashKey": "object:514"
     },
     {
       "title": "Lectura desde HIVE",
       "text": "%md\n\n```scala\nwarehouse_location = abspath('spark-warehouse')\n\nspark = SparkSession \\\n    .builder \\\n    .appName(\"Ejemplo Spark Hive\") \\\n    .config(\"spark.sql.warehouse.dir\", warehouse_location) \\\n    .enableHiveSupport() \\\n    .getOrCreate()\n\nsqlDF = spark.sql(\"SELECT key, value FROM src WHERE key < 10 ORDER BY key\")\n```\nMás información en:\n\n* [Spark SQL](https://spark.apache.org/docs/latest/sql-programming-guide.html#hive-tables).\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -918,16 +912,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_1023561906",
+      "jobName": "paragraph_1634909527381_260952637",
       "id": "20171023-093701_2112740736",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:436"
+      "$$hashKey": "object:515"
     },
     {
       "text": "%md\n### Escritura de tablas",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -959,17 +953,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_1540016277",
+      "jobName": "paragraph_1634909527382_732864955",
       "id": "20171023-115539_2069683705",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:437"
+      "$$hashKey": "object:516"
     },
     {
       "title": "SQL",
       "text": "%pyspark\n\nspark.sql(\"drop table if exists mytable\") # borro la tabla si existe\n\nspark.sql(\"create table mytable as select * from users\") # users ya fue creado\n# Simula Hive Data Warehouse local\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T18:10:53+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -992,19 +986,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728309_1650286258",
+      "jobName": "paragraph_1634909527382_1046581196",
       "id": "20171023-115517_1163412651",
-      "dateCreated": "2021-10-15T16:18:48+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:438",
-      "dateFinished": "2021-10-15T18:10:54+0000",
-      "dateStarted": "2021-10-15T18:10:53+0000"
+      "dateCreated": "2021-10-22T13:32:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:517"
     },
     {
       "title": "Dataframe",
       "text": "%pyspark\n\nprofiles.write.mode(\"overwrite\").save(\"./profiles.parquet\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1027,16 +1019,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1165413353",
+      "jobName": "paragraph_1634909527382_1544039573",
       "id": "20171023-115718_1445962443",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:439"
+      "$$hashKey": "object:518"
     },
     {
       "text": "%sh\nls -ld ./spark-warehouse\nls -l ./spark-warehouse\n\nls -ld ./*.parquet",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1057,16 +1049,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_683295064",
+      "jobName": "paragraph_1634909527382_224319067",
       "id": "20171023-165238_672281439",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:440"
+      "$$hashKey": "object:519"
     },
     {
       "text": "%pyspark\nspark.sql(\"SHOW Tables\").show()",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T18:13:10+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1118,20 +1110,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634321466906_1716543956",
+      "jobName": "paragraph_1634909527382_2099205470",
       "id": "paragraph_1634321466906_1716543956",
-      "dateCreated": "2021-10-15T18:11:06+0000",
-      "status": "FINISHED",
-      "focus": true,
-      "$$hashKey": "object:4678",
-      "dateFinished": "2021-10-15T18:12:46+0000",
-      "dateStarted": "2021-10-15T18:12:46+0000"
+      "dateCreated": "2021-10-22T13:32:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:520"
     },
     {
       "title": "Ejercicio",
       "text": "%md\nComplete el siguiente programa par calcular la edad promedio por género y guarde el resultado como tabla SQL y como archivo parquet.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1163,17 +1152,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1863224859",
+      "jobName": "paragraph_1634909527382_601716407",
       "id": "20171023-164954_326955331",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:441"
+      "$$hashKey": "object:521"
     },
     {
       "title": "",
       "text": "%pyspark\n\n# Como tabla SQL\n\nspark.sql(\"drop table if exists gen_prom\") # borro la tabla si existe\n\nspark.sql(\"create table gen_prom as SELECT gender, avg(...) AS age_avg FROM users GROUP BY ...\")\n\n#Cargo tabla y muestro su contenido\n\nspark.sql(\"select * from gen_prom\").show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1197,16 +1186,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1903934198",
+      "jobName": "paragraph_1634909527382_1611080504",
       "id": "20201023-123443_40437356",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:442"
+      "$$hashKey": "object:522"
     },
     {
       "text": "%pyspark\n\n# Como parquet\n\nfrom pyspark.sql.functions import ...\n\ngenProm = profiles \\\n            .groupBy(...).agg(avg(...).alias(\"age_avg\"))\n\ngenProm.write.mode(\"overwrite\").save(\"./gen_prom.parquet\")\n\n# Cargo parquet y muestro su contenido\nspark.read.load(\"./gen_prom.parquet\").show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1229,16 +1218,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1434123110",
+      "jobName": "paragraph_1634909527382_1658563416",
       "id": "20191128-172216_319223823",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:443"
+      "$$hashKey": "object:523"
     },
     {
       "text": "%md\n### Otro ejemplo de query programático SQL programático",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1271,16 +1260,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1404670726",
+      "jobName": "paragraph_1634909527382_1400720052",
       "id": "paragraph_1634183154525_2053567181",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:444"
+      "$$hashKey": "object:524"
     },
     {
       "text": "%sh\n\ncat ../../diplodatos_bigdata/ds/people.json",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:36:20+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1302,20 +1291,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634315423702_324581589",
+      "jobName": "paragraph_1634909527382_1111370745",
       "id": "paragraph_1634315423702_324581589",
-      "dateCreated": "2021-10-15T16:30:23+0000",
-      "dateStarted": "2021-10-15T16:34:43+0000",
-      "dateFinished": "2021-10-15T16:34:43+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:445"
+      "dateCreated": "2021-10-22T13:32:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:525"
     },
     {
       "title": "Ejemplo",
       "text": "%pyspark\n\ndf = spark.read.json(\"../../diplodatos_bigdata/ds/people.json\")\n\n# Displays the content of the DataFrame to stdout\ndf.show()\n\n# Selecciona todo incrementando la edad\ndf.selectExpr(\"name\", \"age + 1\").show()\n\n# O tambien\ndf.select(\"name\", df.age + 1).show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:30:05+0000",
-      "progress": 100,
+      "dateUpdated": "2021-10-22T13:32:07+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1349,18 +1336,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_452464254",
+      "jobName": "paragraph_1634909527382_455027529",
       "id": "20161011-151030_1991021842",
-      "dateCreated": "2021-10-15T16:18:48+0000",
-      "dateStarted": "2021-10-15T16:30:05+0000",
-      "dateFinished": "2021-10-15T16:30:06+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:446"
+      "dateCreated": "2021-10-22T13:32:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:526"
     },
     {
       "text": "%pyspark\n\n# Selecciona personas con mas de 21 años\ndf.filter(\"age > 21\").show()\n\n# Cuenta personas por edad\ndf.groupBy(\"age\").count().show()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:34:53+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1395,19 +1380,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1688674126",
+      "jobName": "paragraph_1634909527382_1545569916",
       "id": "20171024-102324_940444908",
-      "dateCreated": "2021-10-15T16:18:48+0000",
-      "dateStarted": "2021-10-15T16:34:53+0000",
-      "dateFinished": "2021-10-15T16:34:54+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:447"
+      "dateCreated": "2021-10-22T13:32:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:527"
     },
     {
       "title": "Mas Información en",
       "text": "%md\n\n* [API Python SQL](http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html)\n* [Function Reference](http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html#module-pyspark.sql.functions)\n* [Doc Spark SQL](http://spark.apache.org/docs/2.2.1/sql-programming-guide.html)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1452,16 +1435,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_470115802",
+      "jobName": "paragraph_1634909527382_1631072804",
       "id": "20161012-103356_1938807399",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:448"
+      "$$hashKey": "object:528"
     },
     {
       "text": "%md\n### Eficiencia\n\nLos **RDD** tienen el overhead de la *serialización*:\n\n* cuando los objetos se transfieren (por red) y guardan (disco)\n* overhead de garbage collector\n\nLos **Datasets** solucionan estos problemas:\n\n* Serializa a binario usando **encoders**\n    - parte del proyecto Tungsten\n    - permite operaciones sin deserializar\n    - corre *off-heap* (sin garbage collection)\n    - código para serialización generado en forma dinámica\n* Con la información de la estructura (*schema*) Spark hace optimizaciones.\n    - Usa *Catalyst optimizer*.\n    - Transfiere solo columnas usadas, no objetos enteros (relational query plan).\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1505,17 +1488,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1563693457",
+      "jobName": "paragraph_1634909527382_1575643626",
       "id": "20161011-174737_215333010",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:449"
+      "$$hashKey": "object:529"
     },
     {
       "title": "WordCount con RDD",
       "text": "%pyspark\n\nlinesRDD = sc.textFile(\"README.md\")\n\nwordsRDD = linesRDD \\\n            .flatMap(lambda l: l.split(\" \")) \\\n            .filter(lambda w:  w)\n#MapReduce:\nwordCountRDD = wordsRDD.map(lambda w: (w,1)) \\\n                .reduceByKey(lambda nx,ny:  nx+ny)\n\nresultRDD = wordCountRDD \\\n                .sortBy((lambda p: p[1]), ascending = False)\n                # ordena por cantidad\n\nprint(\"Resultado:\")\n\nfor w, c in resultRDD.collect()[:5]: #  traigo resultados\n    print(w, c)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "lineNumbers": true,
@@ -1549,17 +1532,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_945912234",
+      "jobName": "paragraph_1634909527382_1041388451",
       "id": "20201023-123509_121589787",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:450"
+      "$$hashKey": "object:530"
     },
     {
       "title": "WordCount con DataFrames",
       "text": "%pyspark\n\nfrom pyspark.sql.functions import split, explode\n\nlinesDF = spark.read.text(\"README.md\").toDF(\"lineas\")\n\nwordsDF = linesDF \\\n            .select(explode(split(\"lineas\", ' ')).alias(\"words\")) \\\n            .filter(\"words != ''\")\n\nwordCountDF = wordsDF \\\n                .groupBy(\"words\").count()\n\nresultDF = wordCountDF \\\n                .orderBy(\"count\", ascending=False)\n#                // ordena por cantidad\n\nprint(\"Resultado:\")\n\nresultDF.show(n=5, truncate=False)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "lineNumbers": true,
@@ -1593,16 +1576,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1582640218",
+      "jobName": "paragraph_1634909527382_120467981",
       "id": "20201023-123527_1290957379",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:451"
+      "$$hashKey": "object:531"
     },
     {
       "text": "print(s\"\"\"%html\n&nbsp;\n<img src=\"$baseDir/03_sql/Distributed-Wordcount-Chart.png\" alt=\"Drawing\" style=\"width: 100%;\"/>\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1643,16 +1626,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_973294344",
+      "jobName": "paragraph_1634909527382_143586666",
       "id": "20161011-201107_202795512",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:452"
+      "$$hashKey": "object:532"
     },
     {
       "text": "print(s\"\"\"%html\n&nbsp;\n<img src=\"$baseDir/03_sql/Memory-Usage-when-Caching-Chart.png\" alt=\"Drawing\" style=\"width: 100%;\"/>\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1693,16 +1676,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1595217238",
+      "jobName": "paragraph_1634909527382_732025994",
       "id": "20161011-201419_1048673058",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:453"
+      "$$hashKey": "object:533"
     },
     {
       "text": "%md\n#### Tungsten en acción",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1735,17 +1718,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1246993411",
+      "jobName": "paragraph_1634909527382_1792289213",
       "id": "paragraph_1634182605221_1380886083",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:454"
+      "$$hashKey": "object:534"
     },
     {
       "title": "Tungsten en acción",
       "text": "%pyspark\n\nints = range(pow(10, 6))\nprint(ints[:10])\nintsRDD = sc.parallelize(ints).setName(\"intsRDD\").cache()\n\n# Fuerzo evaluacion\nprint(intsRDD.count())\n\n# Ver sparkui storage.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1778,17 +1761,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_684437148",
+      "jobName": "paragraph_1634909527382_913370961",
       "id": "20161017-104100_1861019655",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:455"
+      "$$hashKey": "object:535"
     },
     {
       "title": "Tungsten en acción",
       "text": "%pyspark\n\nints = range(pow(10, 6))\n\nfrom pyspark.sql.types import IntegerType\n\nintsDF = spark.createDataFrame(ints, IntegerType()).cache()\nintsDF.cache()\n\nprint(intsDF.count())\n\n# Ver sparkui ahora.",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1821,16 +1804,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_1143421780",
+      "jobName": "paragraph_1634909527382_1995252008",
       "id": "paragraph_1634182688863_1554058947",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:456"
+      "$$hashKey": "object:536"
     },
     {
       "text": "%pyspark\n\nuiHost = sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort = sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco = \"\"\"%html\n%html\nVer resultado en Spark UI Storage\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a><br>\n\"\"\"\n\ntextLocal = \"\"\"%html\nVer resultado en Spark UI Storage\n<a href=\"http://{}:{}\">http://{}(host):{}(port)</a>\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost == \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1875,16 +1858,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_796723158",
+      "jobName": "paragraph_1634909527382_184154263",
       "id": "20161017-104452_771251326",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:457"
+      "$$hashKey": "object:537"
     },
     {
       "text": "%md\n## Ventajas/desventajas de las diferentes APIs",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1927,17 +1910,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728310_881405277",
+      "jobName": "paragraph_1634909527382_940966876",
       "id": "20161017-123303_1620980443",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:458"
+      "$$hashKey": "object:538"
     },
     {
       "title": "APIs tipadas y no tipadas",
       "text": "print(s\"\"\"\n%table\nLenguaje\\t Abstracción Principal\nScala \\t Dataset[T] y Dataframe (Datset[Row])\nJava  \\t Dataset[T]\nPython \\t Dataframe\nR \\t Dataframe\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {},
@@ -2021,17 +2004,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728311_575789661",
+      "jobName": "paragraph_1634909527382_667403302",
       "id": "20161017-123522_72698600",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:459"
+      "$$hashKey": "object:539"
     },
     {
       "title": "Detección de errores",
       "text": "print(s\"\"\"%html\n&nbsp;\n<img src=\"$baseDir/03_sql/type-safety-spectrum.png\" alt=\"Drawing\" style=\"width: 100%;\"/>\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -2073,17 +2056,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728311_548906691",
+      "jobName": "paragraph_1634909527382_1875060985",
       "id": "20161017-124430_789707578",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:460"
+      "$$hashKey": "object:540"
     },
     {
       "title": "Cuando usar Datasets Dataframes o RDD",
       "text": "%md\n* Si se necesita expresiones de alto nivel, filters, maps, aggregations, promedios, sumatorias, queries SQL, acceso por columna y funciones lambda sobre datos semiestructurados\n    - para desarrollar aplicaciones finales (Data Ingeeniering) usar **Datasets**.\n    - para análisis interactivo (Data Scientist) usar **Dataframes**. \n* Si se necesita mayor seguridad de tipos chequeandolos a tiempo de compilación, objetos JVM, beneficios de optimización Catalyst y código eficiente con Tungsten usar **Datasets**.\n* Si se quiere una API unificada a traves de la la librerías Spark usar **DataFrames** o **Datasets**.\n* Si se quiere trabajar en R no queda otra que usar **DataFrames**.\n* Si se quiere trabajar en Python no queda otra que usar **DataFrames** y recurrir a **RDDs** si se necesita mayor control.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -2128,17 +2111,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728311_1549405659",
+      "jobName": "paragraph_1634909527382_37435619",
       "id": "20161017-124933_322133526",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:461"
+      "$$hashKey": "object:541"
     },
     {
       "title": "Ejercicio",
-      "text": "%md\nCon el dataset `profiles` complete el siguiente código para calcular la cantidad de registraciones por día de la semana.\n\n#### Ayuda:\n\nEn [SQL API Function Reference](http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html#module-pyspark.sql.functions) en la sección \"Date time functions\" hay métodos para manipular fechas.\n",
+      "text": "%md\nCon el dataset `profiles` complete el siguiente código para calcular la cantidad de registraciones por día de la semana.\n\n#### Ayuda:\n\n* En [SQL API Function Reference](http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html#module-pyspark.sql.functions) en la sección \"Date time functions\" hay métodos para manipular fechas.\n* [Date and Time Patterns](https://docs.oracle.com/javase/10/docs/api/java/text/SimpleDateFormat.html).\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:34:13+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -2150,7 +2133,7 @@
         "colWidth": 12,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
-        "fontSize": 9,
+        "fontSize": 14,
         "title": true,
         "results": {},
         "enabled": false
@@ -2164,23 +2147,25 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "<div class=\"markdown-body\">\n<p>Con el dataset <code>profiles</code> complete el siguiente código para calcular la cantidad de registraciones por día de la semana.</p>\n<h4>Ayuda:</h4>\n<p>En <a href=\"http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html#module-pyspark.sql.functions\">SQL API Function Reference</a> en la sección &ldquo;Date time functions&rdquo; hay métodos para manipular fechas.</p>\n</div>"
+            "data": "<div class=\"markdown-body\">\n<p>Con el dataset <code>profiles</code> complete el siguiente código para calcular la cantidad de registraciones por día de la semana.</p>\n<h4>Ayuda:</h4>\n<ul>\n<li>En <a href=\"http://spark.apache.org/docs/2.2.1/api/python/pyspark.sql.html#module-pyspark.sql.functions\">SQL API Function Reference</a> en la sección &ldquo;Date time functions&rdquo; hay métodos para manipular fechas.</li>\n<li><a href=\"https://docs.oracle.com/javase/10/docs/api/java/text/SimpleDateFormat.html\">Date and Time Patterns</a>.</li>\n</ul>\n\n</div>"
           }
         ]
       },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728311_1286011552",
+      "jobName": "paragraph_1634909527382_1651122452",
       "id": "20171023-182043_62941752",
-      "dateCreated": "2021-10-15T16:18:48+0000",
-      "status": "READY",
-      "$$hashKey": "object:462"
+      "dateCreated": "2021-10-22T13:32:07+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:542",
+      "dateFinished": "2021-10-22T13:34:00+0000",
+      "dateStarted": "2021-10-22T13:34:00+0000"
     },
     {
       "text": "%pyspark\n\nfrom pyspark.sql.functions import unix_timestamp, from_unixtime\n\nprofiles = spark.read.load(\"../../diplodatos_bigdata/ds/userid-profile.tsv\",\n                    format=\"csv\", delimiter=\"\\t\", header=True, inferSchema=True)\n\nregByDayOfWeek = profiles.select(\"registered\", unix_timestamp(\"registered\", ...).alias(\"reg_sec\")) \\\n                    .select(\"*\", from_unixtime(...,\"E\").alias(\"day_week\"))\n\n\nz.show(regByDayOfWeek.groupBy(\"day_week\").count())\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -2254,17 +2239,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728311_19146538",
+      "jobName": "paragraph_1634909527382_1257002115",
       "id": "20191128-193328_151154793",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:463"
+      "$$hashKey": "object:543"
     },
     {
       "title": "Fin",
       "text": "//val baseDir=\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\nval baseDir=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n<script>\n    var heads = document.getElementsByTagName('h2');\n    var numHeads = heads.length;\n    var inner = \"\";\n    var i = 0;\n    var j = 0;\n    while (i < numHeads){\n        inner = heads[i].innerHTML;\n        if (inner.search(\".-\") != -1 ) {\n            j++;\n            heads[i].innerHTML = inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n</script>\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "2021-10-15T16:18:48+0000",
+      "dateUpdated": "2021-10-22T13:32:07+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -2310,15 +2295,15 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634314728311_652284162",
+      "jobName": "paragraph_1634909527382_545656437",
       "id": "20161011-125733_1279366716",
-      "dateCreated": "2021-10-15T16:18:48+0000",
+      "dateCreated": "2021-10-22T13:32:07+0000",
       "status": "READY",
-      "$$hashKey": "object:464"
+      "$$hashKey": "object:544"
     }
   ],
   "name": "Clase 03 - SQL",
-  "id": "2GJC2RBNB",
+  "id": "2GJWK1E88",
   "defaultInterpreterGroup": "spark",
   "version": "0.10.0",
   "noteParams": {},
