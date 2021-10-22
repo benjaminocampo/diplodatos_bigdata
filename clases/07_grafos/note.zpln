@@ -3,7 +3,7 @@
     {
       "text": "print(s\"\"\"%html\n<center>\n    <h1><a href=\"http://diplodatos.famaf.unc.edu.ar/\">Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones</a></h1>\n    <h2>Curso <a href=\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\">Programación Distribuida sobre Grandes Volúmenes de Datos</a></h2>\n</center>\n\n<br>\n\n<h3 style=\"text-align:center;\"> Damián Barsotti  </h3>\n\n<h3 style=\"text-align:center;\">\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    Facultad de Matemática Astronomía Física y Computación\n    </a>\n<br/>\n    <a href=\"http://www.unc.edu.ar\">\n    Universidad Nacional de Córdoba\n    </a>\n<br/>\n    <center>\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    <img src=\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt=\"Drawing\" style=\"width:50%;\"/>\n    </a>\n    </center>\n</h3>\n\n<p style=\"font-size:15px;\">\n    <br />\n        This work is licensed under a\n        <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n    <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">\n        <img alt=\"Creative Commons License\" style=\"border-width:0;vertical-align:middle;float:right\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" />\n    </a>\n</p>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -12,9 +12,9 @@
         "colWidth": 12,
         "editorMode": "ace/mode/scala",
         "editorHide": true,
+        "fontSize": 9,
         "results": {},
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -32,18 +32,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_1076895711",
+      "jobName": "paragraph_1634918013171_1616262556",
       "id": "20171010-191319_1407757246",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
       "focus": true,
-      "$$hashKey": "object:164"
+      "$$hashKey": "object:7622"
     },
     {
       "title": "Antes de comenzar",
       "text": "%md\n### Antes de comenzar\n1. Lanzar terminal\n1. Actualizar repo:\n```sh\ncd diplodatos_bigdata\ngit pull\n```\n1. Lanzar [Zeppelin](http://zeppelin.apache.org/) en docker:\n```sh\n./docker/zeppelin.sh\n```\n1. En navegador abrir [http://localhost:8080](http://localhost:8080)\n1. Seleccionar `Import note`\n1. Elegir json en `diplodatos_bigdata/clases/07_grafos/note.zpln`\n2. Seleccionar `Clase 07 - Grandes Grafos Sociales`\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T20:08:25+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -76,18 +76,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_1364697127",
+      "jobName": "paragraph_1634918013172_1060331590",
       "id": "20171026-104737_1316799732",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:165",
-      "dateFinished": "2021-10-21T20:08:20+0000",
-      "dateStarted": "2021-10-21T20:08:20+0000"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:7623"
     },
     {
       "text": "%md\n# Grandes Grafos Sociales",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -97,9 +95,9 @@
         "colWidth": 12,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
+        "fontSize": 9,
         "results": {},
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -117,16 +115,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_1448546728",
+      "jobName": "paragraph_1634918013172_256358869",
       "id": "20171101-121050_1177283744",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:166"
+      "$$hashKey": "object:7624"
     },
     {
       "text": "%md\n## GraphFrames\n\n* Utiliza la interface Spark SQL (Dataframes).\n* Creada por [Databricks](https://databricks.com/).\n* Por ahora no viene en la distribución estandard de Spark (solo [GraphX](http://spark.apache.org/graphx/) sobre RDD's).\n* Algoritmos ya implementados como: \n    - Breadth-first search (BFS)\n    - Componentes (fuertemente) conexas\n    - Label Propagation Algorithm (para detectar comunidades)\n    - PageRank\n    - Shortest paths\n    - Triangle count.\n* **Agregación de mensajes** para hacer algoritmos.\n* **Motif finding** para queries. \n\n### Documentación:\n\n* [User Guide](https://graphframes.github.io/graphframes/docs/_site/user-guide.html).\n* [User Guide - Python](https://docs.databricks.com/spark/latest/graph-analysis/graphframes/user-guide-python.html).\n* [Documentación de la API](https://graphframes.github.io/graphframes/docs/_site/api/python/index.html).\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -158,16 +156,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_1799822713",
+      "jobName": "paragraph_1634918013172_1714219461",
       "id": "20171102-112550_410534992",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:167"
+      "$$hashKey": "object:7625"
     },
     {
       "text": "%md\n### Creación de grafo\n\n* Se crean a partir de `DataFrame` de aristas y/o vértices.\n* DataFrame de aristas debe tener las columnas `src` y `dst` (por lo menos).\n* DataFrame de vértices debe tener la columna `id` (por lo menos).\n* Los grafos son dirigidos.\n* Se almacenan con redundancia (vertex cut):\n  ![](http://spark.apache.org/docs/latest/img/edge_cut_vs_vertex_cut.png)\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -199,16 +197,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_1380926996",
+      "jobName": "paragraph_1634918013172_1473511185",
       "id": "20181027-002925_1222103561",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:168"
+      "$$hashKey": "object:7626"
     },
     {
       "text": "%md\n### Veamos un ejemplo:\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:10:23+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -241,18 +239,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_697752156",
+      "jobName": "paragraph_1634918013172_930380540",
       "id": "20201030-111511_962191836",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:10:16+0000",
-      "dateFinished": "2021-10-21T19:10:16+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:169"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:7627"
     },
     {
       "text": "%pyspark\n\nfrom graphframes import *\n\n# DataFrame de vértices\nv = spark.createDataFrame([\n  (\"a\", \"Alice\", 34),\n  (\"b\", \"Bob\", 36),\n  (\"c\", \"Charlie\", 30),\n  (\"d\", \"David\", 29),\n  (\"e\", \"Esther\", 32),\n  (\"f\", \"Fanny\", 36),\n  (\"g\", \"Gabby\", 60)\n],[\"id\", \"name\", \"age\"])\n\n# DataFrame de aristas\ne = spark.createDataFrame([\n  (\"a\", \"b\", \"amigo\"),\n  (\"b\", \"c\", \"sigue\"),\n  (\"c\", \"b\", \"sigue\"),\n  (\"f\", \"c\", \"sigue\"),\n  (\"e\", \"f\", \"sigue\"),\n  (\"e\", \"d\", \"amigo\"),\n  (\"d\", \"a\", \"amigo\"),\n  (\"a\", \"e\", \"amigo\"),\n  (\"a\", \"h\", \"amigo\")\n], [\"src\", \"dst\", \"relationship\"])\n\n# Creacion de GraphFrame\ng = GraphFrame(v, e)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:10:27+0000",
+      "dateUpdated": "2021-10-22T20:23:26+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -279,18 +275,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_473689954",
+      "jobName": "paragraph_1634918013172_1155463100",
       "id": "20181027-003337_2137373030",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:10:27+0000",
-      "dateFinished": "2021-10-21T19:10:41+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:170"
+      "$$hashKey": "object:7628",
+      "dateFinished": "2021-10-22T20:23:26+0000",
+      "dateStarted": "2021-10-22T20:23:26+0000"
     },
     {
       "text": "%pyspark\n\nz.show(g.vertices)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:19:10+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -343,18 +339,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_1935792141",
+      "jobName": "paragraph_1634918013172_1504335287",
       "id": "20181027-004033_1700498403",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:19:10+0000",
-      "dateFinished": "2021-10-21T19:19:10+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:171"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:7629"
     },
     {
       "text": "%pyspark\n\nz.show(g.edges)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:17:57+0000",
+      "dateUpdated": "2021-10-22T20:23:48+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -407,19 +401,19 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_669780405",
+      "jobName": "paragraph_1634918013172_318504999",
       "id": "20181027-004041_1915960464",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:17:57+0000",
-      "dateFinished": "2021-10-21T19:17:57+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:172"
+      "$$hashKey": "object:7630",
+      "dateFinished": "2021-10-22T20:23:48+0000",
+      "dateStarted": "2021-10-22T20:23:48+0000"
     },
     {
       "text": "%pyspark\n\n# Query: Get in-degree of each vertex.\nz.show(g.inDegrees)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:18:02+0000",
-      "progress": 48,
+      "dateUpdated": "2021-10-22T15:53:33+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -469,18 +463,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_384472686",
+      "jobName": "paragraph_1634918013172_466066135",
       "id": "20191205-202553_1454342767",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:18:02+0000",
-      "dateFinished": "2021-10-21T19:18:05+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:173"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:7631"
     },
     {
       "text": "%pyspark\n\n\n# Query: Count the number of \"follow\" connections in the graph.\n\nprint(\"Cantidad de amistades:\", \n        g.edges.filter(\"relationship = 'amigo'\").count())\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:19:10+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -502,18 +494,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_1200305915",
+      "jobName": "paragraph_1634918013172_1913845364",
       "id": "20191205-202527_215305701",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:18:42+0000",
-      "dateFinished": "2021-10-21T19:18:43+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:174"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:7632"
     },
     {
       "text": "%md\n### PageRank\n\n#### Se calcula: $$PR(p_i) = \\frac{\\epsilon}{N} + (1-\\epsilon) \\sum_{p_j \\in M(p_i)} \\frac{PR (p_j)}{L(p_j)}$$\n* donde \\\\(N\\\\) es la cantidad de paginas, \n* \\\\(\\epsilon\\\\) es la probabilidad de quedarse en la pagina (*reset probability*), \n* \\\\(M(p_i)\\\\) son las páginas a las que apunta \\\\(p_i\\\\) y \n* \\\\(L(p_j)\\\\) es la cantidad e links de la página \\\\(p_j\\\\).\n\n\n![](https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/00_introduccion/page_rank.png)\n\n\nMás info en [PageRank](https://es.wikipedia.org/wiki/PageRank).",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:59:49+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -546,19 +536,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634844119648_1955861883",
+      "jobName": "paragraph_1634918013172_2033324657",
       "id": "paragraph_1634844119648_1955861883",
-      "dateCreated": "2021-10-21T19:21:59+0000",
-      "dateStarted": "2021-10-21T19:59:40+0000",
-      "dateFinished": "2021-10-21T19:59:40+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:175"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:7633"
     },
     {
       "title": "PageRank",
       "text": "%pyspark\n\n# Run PageRank algorithm, and show results.\nresults = g.pageRank(resetProbability=0.01, maxIter=10)\n\nz.show(results.vertices.select(\"id\", \"pagerank\"))\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:22:33+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -648,19 +636,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_183053286",
+      "jobName": "paragraph_1634918013172_2026469343",
       "id": "20191205-202719_809801770",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:19:41+0000",
-      "dateFinished": "2021-10-21T19:20:33+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:176"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:7634"
     },
     {
       "title": "Guardemos el grafo",
       "text": "%pyspark\nfrom pyspark.sql.functions import col\n\ng.edges.printSchema()\n\ng.edges \\\n        .select(col(\"src\").alias(\"Source\"), \n                col(\"dst\").alias(\"Target\"), \n                \"relationship\") \\\n        .coalesce(1) \\\n        .write \\\n        .csv(\"g_edges.csv\", mode=\"overwrite\", header=True)\n\n# Ver que pasa sin coalesce",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:49:49+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -683,18 +669,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_1250793388",
+      "jobName": "paragraph_1634918013172_2034408352",
       "id": "20201029-163912_1652236873",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:49:49+0000",
-      "dateFinished": "2021-10-21T19:49:50+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:177"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:7635"
     },
     {
       "text": "%md\n## Ejemplo Red de Usuarios Twitter",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:02:54+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -726,20 +710,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_673739217",
+      "jobName": "paragraph_1634918013172_299673744",
       "id": "20181024-105040_178046617",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:02:48+0000",
-      "dateFinished": "2021-10-21T19:02:48+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:178"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:7636"
     },
     {
       "title": "Load Tweets",
       "text": "%pyspark\n\ntweets = spark.read.parquet(\"../../diplodatos_bigdata/ds/tweets.pqt\")\n\nprint(\"Cantidad de tweets:\", tweets.count())\n\nz.show(tweets.limit(10))\n# RT_times es la cantidad de veces que el usuario retweeteo el tweet\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:50:15+0000",
-      "progress": 100,
+      "dateUpdated": "2021-10-22T19:51:53+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -793,31 +775,32 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_941820493",
+      "jobName": "paragraph_1634918013172_72873280",
       "id": "20171101-124010_495006264",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:50:15+0000",
-      "dateFinished": "2021-10-21T19:50:16+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:179"
+      "$$hashKey": "object:7637",
+      "dateFinished": "2021-10-22T19:51:54+0000",
+      "dateStarted": "2021-10-22T19:51:53+0000"
     },
     {
-      "text": "%md\n### Definición de la red de usuarios:\n\n* **Usuario A está conectado con usuario B** si B retweeteó un mensaje de A.\n* Queremos también la cantidad de retweets que hizo B de mensajes de A **distintos o no**.",
+      "text": "%md\n### Definición de la red de usuarios:\n\n* Queremos que un **usuario A esté conectado con usuario B** si B retweeteó un mensaje de A.\n* Queremos también la cantidad de retweets que hizo B de mensajes de A **distintos o no**.",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T19:53:59+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
+        "fontSize": 9,
         "results": {},
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -828,25 +811,27 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "<div class=\"markdown-body\">\n<h3>Definición de la red de usuarios:</h3>\n<ul>\n  <li><strong>Usuario A está conectado con usuario B</strong> si B retweeteó un mensaje de A.</li>\n  <li>Queremos también la cantidad de retweets que hizo B de mensajes de A <strong>distintos o no</strong>.</li>\n</ul>\n</div>"
+            "data": "<div class=\"markdown-body\">\n<h3>Definición de la red de usuarios:</h3>\n<ul>\n<li>Queremos que un <strong>usuario A esté conectado con usuario B</strong> si B retweeteó un mensaje de A.</li>\n<li>Queremos también la cantidad de retweets que hizo B de mensajes de A <strong>distintos o no</strong>.</li>\n</ul>\n\n</div>"
           }
         ]
       },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_1179252985",
+      "jobName": "paragraph_1634918013172_1140049593",
       "id": "20181024-111922_1953182558",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "status": "READY",
-      "$$hashKey": "object:180"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7638",
+      "dateFinished": "2021-10-22T19:53:31+0000",
+      "dateStarted": "2021-10-22T19:53:31+0000"
     },
     {
       "title": "Generamos las conecciones por usuarios",
       "text": "%pyspark\n\nfrom pyspark.sql.functions import sum, count\n\ntwitterConnections = tweets \\\n                        .groupBy(\"user\", \"RT_by\") \\\n                        .agg(sum(\"RT_times\").alias(\"count_RT\"), count(\"*\").alias(\"count_distinct_RT\"))\n\nprint(\"Cantidad de conecciones:\", twitterConnections.count())\n\nz.show(twitterConnections.limit(20))\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:50:28+0000",
-      "progress": 87,
+      "dateUpdated": "2021-10-22T19:55:59+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -929,20 +914,20 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242748_347748126",
+      "jobName": "paragraph_1634918013172_35344269",
       "id": "20171101-121958_1394663112",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:50:28+0000",
-      "dateFinished": "2021-10-21T19:50:30+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:181"
+      "$$hashKey": "object:7639",
+      "dateFinished": "2021-10-22T19:56:01+0000",
+      "dateStarted": "2021-10-22T19:55:59+0000"
     },
     {
       "title": "Hay que renombrar las conexiones de tweeter:",
       "text": "%pyspark\n\nfrom pyspark.sql.functions import col\n\nedgesDF = twitterConnections \\\n    .select(col(\"user\").alias(\"src\"), \n            col(\"RT_by\").alias(\"dst\"),\n            \"count_RT\", \"count_distinct_RT\")\n                                       \nz.show(edgesDF.limit(10))\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:50:41+0000",
-      "progress": 25,
+      "dateUpdated": "2021-10-22T19:57:54+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -996,20 +981,20 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_1314545670",
+      "jobName": "paragraph_1634918013172_1486881909",
       "id": "20171101-124136_101875926",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:50:41+0000",
-      "dateFinished": "2021-10-21T19:50:41+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:182"
+      "$$hashKey": "object:7640",
+      "dateFinished": "2021-10-22T19:57:54+0000",
+      "dateStarted": "2021-10-22T19:57:54+0000"
     },
     {
       "title": "Hay que crear el DF de vértices",
       "text": "%pyspark\n\nsrcs = edgesDF.select(col(\"src\").alias(\"id\"))\n\ndsts = edgesDF.select(col(\"dst\").alias(\"id\"))\n    \nvertexDF = srcs.unionAll(dsts).distinct()\n\nz.show(vertexDF.limit(10))\n    ",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:50:49+0000",
-      "progress": 91,
+      "dateUpdated": "2021-10-22T19:57:59+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1059,19 +1044,19 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_303415474",
+      "jobName": "paragraph_1634918013172_724822530",
       "id": "20191206-163757_2138250663",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:50:49+0000",
-      "dateFinished": "2021-10-21T19:50:54+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:183"
+      "$$hashKey": "object:7641",
+      "dateFinished": "2021-10-22T19:58:04+0000",
+      "dateStarted": "2021-10-22T19:57:59+0000"
     },
     {
       "title": "Creación de GraphFrame:",
       "text": "%pyspark\n\nfrom graphframes import *\n\ngraph = GraphFrame(vertexDF, edgesDF).cache()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:51:21+0000",
+      "dateUpdated": "2021-10-22T19:58:25+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1098,18 +1083,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_676430607",
+      "jobName": "paragraph_1634918013172_1312756922",
       "id": "20171101-124739_82230555",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:51:21+0000",
-      "dateFinished": "2021-10-21T19:51:21+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:184"
+      "$$hashKey": "object:7642",
+      "dateFinished": "2021-10-22T19:58:26+0000",
+      "dateStarted": "2021-10-22T19:58:25+0000"
     },
     {
       "text": "%md\n### Operaciones básicas sobre grafos\n\n#### A continuación veremos como calcular: \n* la cantidad de vértices (usuarios)\n* la cantidad de arístas (conexiones)\n* el grado de cada vértice (cantidad de conexiones por usuario)",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1141,18 +1126,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_399218889",
+      "jobName": "paragraph_1634918013172_212485776",
       "id": "20171102-153102_880120870",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:185"
+      "$$hashKey": "object:7643"
     },
     {
       "title": "Tamaño del grafo",
-      "text": "%pyspark\n\nverticesCount = graph.vertices.count()\n\nedgesCount = graph.edges.count()\n\nprint(\"%table\\n Cantidad de nodos \\t Cantidad de conecciones\")\nprint(f\"{verticesCount} \\t {edgesCount}\")\n\n",
+      "text": "%pyspark\n\nverticesCount = graph.vertices.count()\n\nedgesCount = graph.edges.count()\n\nprint(f\"\"\"%table\nCantidad de usuarios \\t Cantidad de conecciones\n{verticesCount} \\t {edgesCount}\"\"\")\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:58:12+0000",
-      "progress": 96,
+      "dateUpdated": "2021-10-22T20:00:20+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1175,7 +1160,7 @@
                   "tableGridState": {},
                   "tableColumnTypeState": {
                     "names": {
-                      " Cantidad de nodos ": "string",
+                      "Cantidad de usuarios ": "string",
                       " Cantidad de conecciones": "string"
                     },
                     "updated": false
@@ -1203,20 +1188,20 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_1307273914",
+      "jobName": "paragraph_1634918013172_504353021",
       "id": "20171101-124845_773490911",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:57:55+0000",
-      "dateFinished": "2021-10-21T19:57:55+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:186"
+      "$$hashKey": "object:7644",
+      "dateFinished": "2021-10-22T20:00:20+0000",
+      "dateStarted": "2021-10-22T20:00:19+0000"
     },
     {
       "title": "Cantidad de conecciones por usuario",
       "text": "%pyspark\n\nnodesDegree = graph.degrees\n\nsortedByDegree = nodesDegree.orderBy(\"degree\", ascending=False)\n\nz.show(sortedByDegree.limit(10))\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:58:34+0000",
-      "progress": 84,
+      "dateUpdated": "2021-10-22T20:01:21+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1267,18 +1252,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_1159809057",
+      "jobName": "paragraph_1634918013172_621232668",
       "id": "20171102-131720_1147432214",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:58:34+0000",
-      "dateFinished": "2021-10-21T19:58:38+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:187"
+      "$$hashKey": "object:7645",
+      "dateFinished": "2021-10-22T20:01:24+0000",
+      "dateStarted": "2021-10-22T20:01:21+0000"
     },
     {
       "text": "%md\n\n## Ejemplo Agregación de Mensajes\n\n### Influencia Colectiva\n\n#### Aplicaciones: \n* Marketing viral (influencia de opinión)\n* Detección de focos de dispersión de enfermedades\n* ...\n\n#### Cómo funciona:\n* Primero se calcula la **Influencia Colectiva (CI)**\n* En cada iteración elimina del grafo el nodo de mayor CI y recalcula el CI de los nodos restantes\n* Termina cuando la componente gigante se destruye\n* Solución básica: \\\\(O(N2)\\\\). Optimizada: \\\\(O(NlogN)\\\\)\n\n> Influence maximization in complex networks through optimal percolation” (Flaviano Morone, Hernán A. Makse, 27 Jun 2015) https://arxiv.org/abs/1506.08326\n\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1310,16 +1295,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_1053213530",
+      "jobName": "paragraph_1634918013172_1449394276",
       "id": "20171102-132006_1774167041",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:188"
+      "$$hashKey": "object:7646"
     },
     {
       "text": "%md\n### Fórmula de CI\n\nLa formula de collective influence para un vértice \\\\(i\\\\) es:\n\n$$ CI(i) = (degree_i -  1) \\times \\sum\\limits_{j \\in vecinos(i)} (degree_j -  1)$$\n\nSe supone un grafo **no dirigido**.\n\n### Pasos para calcular collective influence son:\n\n* agregar el grado (degree) de cada nodo al grafo.\n* importar `AggregateMessages`.\n* calcular collective influence de cada individuo usando `AggregateMessages` de `GraphFrame`\n* ordenar los individuos por su collective influence de mayor a menor\n* imprimir el listado de individuos\n\n\n#### Documentación para implementar con GraphFrames:\n\n* Documentación sobre [AggregateMessages](https://graphframes.github.io/graphframes/docs/_site/user-guide.html#message-passing-via-aggregatemessages) con ejemplo.\n* Documentación de [API AggregateMessages](https://graphframes.github.io/graphframes/docs/_site/api/python/graphframes.html).\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T19:58:57+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1351,17 +1336,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_163033322",
+      "jobName": "paragraph_1634918013172_2008192833",
       "id": "20171102-131904_821311339",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:189"
+      "$$hashKey": "object:7647"
     },
     {
-      "text": "%pyspark\n\nfrom pyspark.sql.functions import sum\nfrom graphframes.lib import AggregateMessages as AM\n\n#Cree un nuevo grafo usando los nodos con su degree disponible en nodesDegree y las aristas originales\ndegreeGraph = GraphFrame(nodesDegree, graph.edges )\n# Aristas y vértices están bien particionadas\n\n\n# Comenzamos a calcular CI: Por cada nodo calcula la sumatoria del degree-1 de sus vecinos.\n# El DataFrame sumNeighborDegrees debe tener 2 columnas: id, sum_neighbor_degree \n\nmsgToSrc = AM.dst[\"degree\"] - 1\nmsgToDst = AM.src[\"degree\"] - 1\n\nsumNeighborDegrees = degreeGraph.aggregateMessages(\n    sum(AM.msg).alias(\"sum_neighbor_degree\"), # Hacer aggregation sobre el valor de AM.msg\n    sendToSrc=msgToSrc, #  send destination user's age to source\n    sendToDst=msgToDst) # send source user's age to destination\n\n\n# Join de sumNeighborDegrees con degrees para tener todas las columnas necesarias para calcular CI.\n\nnodesDegreeJoin = nodesDegree.join(sumNeighborDegrees,\"id\")\n\n# Calculamos CI: para terminar de calcularlo debemos multiplicar la sumatoria del paso anterior por degree - 1 de cada nodo.\n# El DataFrame collectiveInfluence debe tener 2 columnas: id, ci y degree\n# Por ultimo ordena descendentemente por ci \n\ncollectiveInfluence = nodesDegreeJoin \\\n                          .select( ((col(\"degree\") - 1) * col(\"sum_neighbor_degree\")).alias(\"ci\"), \n                                    \"id\", \n                                    \"degree\") \\\n                          .orderBy(\"ci\", ascending=False) \\\n                          .cache()\n\nz.show(collectiveInfluence.limit(20))\n",
+      "text": "%pyspark\n\nfrom pyspark.sql.functions import sum\nfrom graphframes.lib import AggregateMessages as AM\n\n#Creo un nuevo grafo con los nodos y su degree (disponible en nodesDegree) y las aristas originales\ndegreeGraph = GraphFrame(nodesDegree, graph.edges )\n# Aristas y vértices están bien particionadas\n\n\n# Comenzamos a calcular CI \n\n# Cada nodo envia su degree-1 a sus vecinos a traves de sus conecciones salientes y entrantes\nmsgToDst = AM.src[\"degree\"] - 1\nmsgToSrc = AM.dst[\"degree\"] - 1\n\n# El DataFrame sumNeighborDegrees debe tener 2 columnas: id del nodo y sum_neighbor_degree \nsumNeighborDegrees = degreeGraph.aggregateMessages(\n    sum(AM.msg).alias(\"sum_neighbor_degree\"), # Hace aggregation en cada nodo sobre los mensages recibidos \n    sendToDst=msgToDst, # Envia a vecino por coneccion saliente\n    sendToSrc=msgToSrc) # Envia a vecino por coneccion entrante\n\n\n# Join de sumNeighborDegrees con degrees para tener todas las columnas necesarias para calcular CI.\n\nnodesDegreeJoin = nodesDegree.join(sumNeighborDegrees,\"id\")\n\n# Calculamos CI: para terminar de calcularlo debemos multiplicar la sumatoria del paso anterior por degree - 1 de cada nodo.\n# El DataFrame collectiveInfluence debe tener 2 columnas: id, ci y degree\n# Por ultimo ordena descendentemente por ci \n\ncollectiveInfluence = nodesDegreeJoin \\\n                          .select( ((col(\"degree\") - 1) * col(\"sum_neighbor_degree\")).alias(\"ci\"), \n                                    \"id\", \n                                    \"degree\") \\\n                          .orderBy(\"ci\", ascending=False) \\\n                          .cache()\n\nz.show(collectiveInfluence.limit(20))\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T20:02:31+0000",
-      "progress": 31,
+      "dateUpdated": "2021-10-22T20:20:22+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1403,7 +1388,7 @@
             }
           }
         },
-        "enabled": false
+        "enabled": true
       },
       "settings": {
         "params": {},
@@ -1412,18 +1397,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_1468003709",
+      "jobName": "paragraph_1634918013172_1114773337",
       "id": "20171101-125025_1054455316",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T19:59:58+0000",
-      "dateFinished": "2021-10-21T20:00:25+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:190"
+      "$$hashKey": "object:7648",
+      "dateFinished": "2021-10-22T20:12:29+0000",
+      "dateStarted": "2021-10-22T20:12:08+0000"
     },
     {
       "text": "%md\n## Motif Finding\n\n* Es un Domain-Specific Language (DSL) para expresar queries.\n* La unidad básica es la expresión de una arista\n\n### Ejemplos\n\n* `graph.find(\"(a)-[e]->(b); (b)-[e2]->(a)\")` expresa vértices unidos en ambas direcciones.\n    - Devuelve un DataFrame con columnas `\"a\"`, `\"b\"`, `\"e\"` y `\"e2\"`.\n* `graph.find(\"(a)-[e]->(b); (b)-[e2]->(c)\")` expresa dos aristas pegadas con un vértice común `b`. \n\n### Documentacion y ejemplo\n\n* [GraphFrame User Guide](https://graphframes.github.io/graphframes/docs/_site/user-guide.html#motif-finding).\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1455,16 +1440,61 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_877412580",
+      "jobName": "paragraph_1634918013172_172500599",
       "id": "20181027-013740_419047675",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:191"
+      "$$hashKey": "object:7649"
     },
     {
-      "text": "%pyspark\n\nz.show(g.find(\"(a)-[e]->(b); (b)-[e2]->(a)\"))\n",
+      "text": "%md\n### Recordemos el grafo",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T20:03:30+0000",
+      "dateUpdated": "2021-10-22T20:35:26+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634934672760_445886262",
+      "id": "paragraph_1634934672760_445886262",
+      "dateCreated": "2021-10-22T20:31:12+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:21988",
+      "dateFinished": "2021-10-22T20:31:20+0000",
+      "dateStarted": "2021-10-22T20:31:20+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Recordemos el grafo</h3>\n\n</div>"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%pyspark\nz.show(g.vertices)",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T20:26:38+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1473,7 +1503,7 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "colWidth": 12,
+        "colWidth": 6,
         "editorMode": "ace/mode/python",
         "fontSize": 14,
         "results": {
@@ -1487,10 +1517,9 @@
                   "tableGridState": {},
                   "tableColumnTypeState": {
                     "names": {
-                      "a": "string",
-                      "e": "string",
-                      "b": "string",
-                      "e2": "string"
+                      "id": "string",
+                      "name": "string",
+                      "age": "string"
                     },
                     "updated": false
                   },
@@ -1517,18 +1546,128 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_627665293",
-      "id": "20181027-015215_1027188878",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T20:03:30+0000",
-      "dateFinished": "2021-10-21T20:03:32+0000",
+      "jobName": "paragraph_1634934258381_857174466",
+      "id": "paragraph_1634934258381_857174466",
+      "dateCreated": "2021-10-22T20:24:18+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:192"
+      "focus": true,
+      "$$hashKey": "object:18183",
+      "dateFinished": "2021-10-22T20:26:38+0000",
+      "dateStarted": "2021-10-22T20:26:37+0000"
+    },
+    {
+      "text": "%pyspark\nz.show(g.edges)",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T20:26:22+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "src": "string",
+                      "dst": "string",
+                      "relationship": "string"
+                    },
+                    "updated": true
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634934349934_2020230166",
+      "id": "paragraph_1634934349934_2020230166",
+      "dateCreated": "2021-10-22T20:25:49+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:19683",
+      "dateFinished": "2021-10-22T20:26:21+0000",
+      "dateStarted": "2021-10-22T20:26:21+0000"
+    },
+    {
+      "text": "%md\n### Hagamos algunos queries",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T20:35:21+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634934687488_918172403",
+      "id": "paragraph_1634934687488_918172403",
+      "dateCreated": "2021-10-22T20:31:27+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:22075",
+      "dateFinished": "2021-10-22T20:31:51+0000",
+      "dateStarted": "2021-10-22T20:31:51+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Hagamos algunos queries</h3>\n\n</div>"
+          }
+        ]
+      }
     },
     {
       "text": "%pyspark\n\n# Buscar pares de vértices en ambas direccione:\nmotifs = g.find(\"(a)-[e1]->(b); (b)-[e2]->(a)\")\n\nmotifs.printSchema()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T20:03:51+0000",
+      "dateUpdated": "2021-10-22T20:29:06+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1551,18 +1690,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_2075064863",
+      "jobName": "paragraph_1634918013172_1855921080",
       "id": "20181027-015100_1394496292",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T20:03:51+0000",
-      "dateFinished": "2021-10-21T20:03:51+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:193"
+      "$$hashKey": "object:7651",
+      "dateFinished": "2021-10-22T20:29:06+0000",
+      "dateStarted": "2021-10-22T20:29:06+0000"
     },
     {
       "text": "%pyspark\n\nz.show(motifs)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T20:04:11+0000",
+      "dateUpdated": "2021-10-22T20:29:32+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1615,18 +1754,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_1723390049",
+      "jobName": "paragraph_1634918013172_1330380404",
       "id": "20181027-015533_344573808",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T20:04:11+0000",
-      "dateFinished": "2021-10-21T20:04:13+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:194"
+      "$$hashKey": "object:7652",
+      "dateFinished": "2021-10-22T20:29:34+0000",
+      "dateStarted": "2021-10-22T20:29:32+0000"
     },
     {
       "text": "%pyspark\n# Despues se pueden aplicar filtros para queries mas complejos.\nz.show(motifs.filter(\"b.age > 30\"))\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T20:04:25+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1679,18 +1818,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_304760409",
+      "jobName": "paragraph_1634918013172_223208533",
       "id": "20201030-112416_1681452862",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T20:04:22+0000",
-      "dateFinished": "2021-10-21T20:04:24+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:195"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "READY",
+      "$$hashKey": "object:7653"
     },
     {
       "text": "%md\n## Visualización\n\nA continuación visualizaremos con [Gephi](https://gephi.org/) la parte del grafo (subgrafo) que contiene los mayores influencers.\n\nPara ello generaremos archivos *csv* como entrada de esta herramienta ",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1701,9 +1838,9 @@
         "colWidth": 12,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
+        "fontSize": 9,
         "results": {},
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -1721,17 +1858,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_1633719809",
+      "jobName": "paragraph_1634918013172_908860066",
       "id": "20171102-160936_360694508",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:196"
+      "$$hashKey": "object:7654"
     },
     {
       "text": "%pyspark\n\nminCI = 29000000\nminDegree = 600\n\n# tomo los usarios con mayor influencia o con más conecciones\nciTops = collectiveInfluence \\\n    .filter((col(\"ci\") >= minCI) | (col(\"degree\") >= minDegree))\n\ngInfluencers = GraphFrame(ciTops, graph.edges)\n\n# Tomo solo las aristas que tengan vértices\nveTops = gInfluencers.find(\"(a)-[e]->(b)\") \\\n                .cache()\n      \n                \nprint(\"Cantidad de top influencers:\", veTops.count())\n\nveTops.printSchema()\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T20:04:54+0000",
-      "progress": 71,
+      "dateUpdated": "2021-10-22T20:36:08+0000",
+      "progress": 0,
       "config": {
         "editorSetting": {
           "language": "python",
@@ -1782,18 +1919,18 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_2009447495",
+      "jobName": "paragraph_1634918013172_570240425",
       "id": "20171102-000354_1806019706",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "dateStarted": "2021-10-21T20:04:54+0000",
-      "dateFinished": "2021-10-21T20:04:55+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "FINISHED",
-      "$$hashKey": "object:197"
+      "$$hashKey": "object:7655",
+      "dateFinished": "2021-10-22T20:36:08+0000",
+      "dateStarted": "2021-10-22T20:36:08+0000"
     },
     {
-      "text": "%pyspark\n\neTops = veTops.select(\"e.*\")\n\neTops.printSchema()\n\n# Grafo de los tops\ngTops = GraphFrame(ciTops, eTops)\n\n\n# guardo un csv con los vertices para Gephi \ngTops.vertices \\\n        .select(\"*\", col(\"id\").alias(\"Label\")) \\\n        .coalesce(1) \\\n        .write \\\n        .csv(\"top_influencers.csv\", mode=\"overwrite\", header=True)\n\n# guardo un csv con las aristas para Gephi\ngTops.edges \\\n        .select(col(\"src\").alias(\"Source\"), \n                col(\"dst\").alias(\"Target\"), \n                \"count_RT\",\"count_distinct_RT\") \\\n        .coalesce(1) \\\n        .write \\\n        .csv(\"top_edges.csv\", mode=\"overwrite\", header=True)\n",
+      "text": "%pyspark\n\neTops = veTops.select(\"e.*\")\n\neTops.printSchema()\n\n# Grafo de los tops\ngTops = GraphFrame(ciTops, eTops)\n\n\n# guardo un csv con los vertices para Gephi \ngTops.vertices \\\n        .select(\"*\", col(\"id\").alias(\"Label\")) \\\n        .coalesce(1) \\\n        .write \\\n        .csv(\"logs/top_influencers.csv\", mode=\"overwrite\", header=True)\n\n# guardo un csv con las aristas para Gephi\ngTops.edges \\\n        .select(col(\"src\").alias(\"Source\"), \n                col(\"dst\").alias(\"Target\"), \n                \"count_RT\",\"count_distinct_RT\") \\\n        .coalesce(1) \\\n        .write \\\n        .csv(\"logs/top_edges.csv\", mode=\"overwrite\", header=True)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T20:38:48+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1815,29 +1952,32 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_47365923",
+      "jobName": "paragraph_1634918013172_13362281",
       "id": "20181027-020144_852191582",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "status": "READY",
-      "$$hashKey": "object:198"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7656",
+      "dateFinished": "2021-10-22T20:38:49+0000",
+      "dateStarted": "2021-10-22T20:38:48+0000"
     },
     {
-      "text": "%md\n### Gephi\n\nLanzar el programa desde una terminal ejecutando:\n\n```sh\ncd\nspark/gephi-0.9.2/bin/gephi\n```\n\nSeguir las instrucciones del profesor.",
+      "text": "%md\n### Gephi\n\nLanzar el programa desde una terminal ejecutando:\n\n```sh\ngephi-0.9.2/bin/gephi\n```\n\nSeguir las instrucciones del profesor.",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T20:34:55+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
         "editorSetting": {
           "language": "markdown",
-          "editOnDblClick": true
+          "editOnDblClick": true,
+          "completionSupport": false
         },
         "colWidth": 12,
         "editorMode": "ace/mode/markdown",
         "editorHide": true,
+        "fontSize": 9,
         "results": {},
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -1848,23 +1988,25 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "<div class=\"markdown-body\">\n<h3>Gephi</h3>\n<p>Lanzar el programa desde una terminal ejecutando:</p>\n<pre><code class=\"sh\">cd\nspark/gephi-0.9.2/bin/gephi\n</code></pre>\n<p>Seguir las instrucciones del profesor.</p>\n</div>"
+            "data": "<div class=\"markdown-body\">\n<h3>Gephi</h3>\n<p>Lanzar el programa desde una terminal ejecutando:</p>\n<pre><code class=\"language-sh\">gephi-0.9.2/bin/gephi\n</code></pre>\n<p>Seguir las instrucciones del profesor.</p>\n\n</div>"
           }
         ]
       },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242749_1333571199",
+      "jobName": "paragraph_1634918013172_285463934",
       "id": "20171102-161414_1207858851",
-      "dateCreated": "2021-10-21T18:50:42+0000",
-      "status": "READY",
-      "$$hashKey": "object:199"
+      "dateCreated": "2021-10-22T15:53:33+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:7657",
+      "dateFinished": "2021-10-22T20:34:48+0000",
+      "dateStarted": "2021-10-22T20:34:48+0000"
     },
     {
       "text": "%md\n### Ejercicio\n\nComplete el siguiente programa para calcular el grafo de todas las posibles conexiones a los 5 mayores influenciadores y graficar el resultado con Gephi. \n\n#### Ayuda\n* Busque en la documentación [Api Datasets](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.Dataset) algún método que devuelva las *n* primeras files de un Dataset equivalente a la directiva SQL `LIMIT`. \n* Para llenar el comando `find` busque la documentación de [Motif finding](https://graphframes.github.io/graphframes/docs/_site/user-guide.html#motif-finding).",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1896,16 +2038,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242750_1561393772",
+      "jobName": "paragraph_1634918013172_981043180",
       "id": "20171102-110542_600666434",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:200"
+      "$$hashKey": "object:7658"
     },
     {
       "text": "%pyspark\n\n#take top n\ntopInfluencers = collectiveInfluence... # solo los 5 primeros\n\n# Guardo Vértices\ntopInfluencers.select(\"*\", col(\"id\").alias(\"Label\")).coalesce(1) \\\n        .write \\\n        .csv(\"top_influencers2.csv\", mode=\"overwrite\", header=True)\n\ngTops2 = GraphFrame(topInfluencers, graph.edges)\n\neTops2 = gTops2.find(\"...\") # Encuentre las aristas que tienen vertices\n    .select(col(\"e.src\").alias(\"Source\"),col(\"e.dst\").alias(\"Target\"), \"e.count_RT\", \"e.count_distinct_RT\")\n\neTops2.coalesce(1)\n        .write \\\n        .csv(\"top_edges2.csv\", mode=\"overwrite\", header=True)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1928,16 +2070,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242750_441510924",
+      "jobName": "paragraph_1634918013172_956320754",
       "id": "20171101-170622_751215254",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:201"
+      "$$hashKey": "object:7659"
     },
     {
       "text": "%md\n### Ejercicio\n\n0. Tomar el grafo de tweets y crear un dataframe con todas las aristas y vértices que forman triángulos dirigidos. O sea, todos los casos donde un usuario *A* retuitea a *B* que retuitea a *C* que retuitea a *A*.\n\n0. Hay casos donde los tres usuarios sean distintos?\n\n0. Graficar con Gephi el resultado.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1970,17 +2112,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242750_1878944353",
+      "jobName": "paragraph_1634918013172_532175947",
       "id": "20201030-122513_420199213",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:202"
+      "$$hashKey": "object:7660"
     },
     {
       "title": "FIN",
       "text": "val baseDir=\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n<script>\n    var heads = document.getElementsByTagName('h2');\n    var numHeads = heads.length;\n    var inner = \"\";\n    var i = 0;\n    var j = 0;\n    while (i < numHeads){\n        inner = heads[i].innerHTML;\n        if (inner.search(\".-\") != -1 ) {\n            j++;\n            heads[i].innerHTML = inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n</script>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T18:50:42+0000",
+      "dateUpdated": "2021-10-22T15:53:33+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -1990,10 +2132,10 @@
         "colWidth": 12,
         "editorMode": "ace/mode/scala",
         "editorHide": true,
+        "fontSize": 9,
         "title": true,
         "results": {},
-        "enabled": true,
-        "fontSize": 9
+        "enabled": true
       },
       "settings": {
         "params": {},
@@ -2015,15 +2157,15 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634842242750_1053859987",
+      "jobName": "paragraph_1634918013172_1048171285",
       "id": "20171010-191336_1667301043",
-      "dateCreated": "2021-10-21T18:50:42+0000",
+      "dateCreated": "2021-10-22T15:53:33+0000",
       "status": "READY",
-      "$$hashKey": "object:203"
+      "$$hashKey": "object:7661"
     }
   ],
   "name": "Clase 07 - Grandes Grafos Sociales",
-  "id": "2GKFZNF6F",
+  "id": "2GKMCHN8E",
   "defaultInterpreterGroup": "spark",
   "version": "0.10.0",
   "noteParams": {},
