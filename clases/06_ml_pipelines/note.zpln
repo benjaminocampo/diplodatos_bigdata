@@ -3,7 +3,7 @@
     {
       "text": "print(s\"\"\"%html\n<center>\n    <h1><a href=\"http://diplodatos.famaf.unc.edu.ar/\">Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones</a></h1>\n    <h2>Curso <a href=\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\">Programación Distribuida sobre Grandes Volúmenes de Datos</a></h2>\n</center>\n\n<br>\n\n<h3 style=\"text-align:center;\"> Damián Barsotti  </h3>\n\n<h3 style=\"text-align:center;\">\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    Facultad de Matemática Astronomía Física y Computación\n    </a>\n<br/>\n    <a href=\"http://www.unc.edu.ar\">\n    Universidad Nacional de Córdoba\n    </a>\n<br/>\n    <center>\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    <img src=\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt=\"Drawing\" style=\"width:50%;\"/>\n    </a>\n    </center>\n</h3>\n\n<p style=\"font-size:15px;\">\n    <br />\n        This work is licensed under a\n        <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n    <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">\n        <img alt=\"Creative Commons License\" style=\"border-width:0;vertical-align:middle;float:right\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" />\n    </a>\n</p>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -12,6 +12,7 @@
         "colWidth": 12,
         "editorMode": "ace/mode/scala",
         "editorHide": true,
+        "fontSize": 9,
         "results": [
           {
             "graph": {
@@ -25,8 +26,7 @@
             }
           }
         ],
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -44,17 +44,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_980559397",
+      "jobName": "paragraph_1634911629024_614523685",
       "id": "20161027-185750_417030348",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
       "focus": true,
-      "$$hashKey": "object:21297"
+      "$$hashKey": "object:43097"
     },
     {
       "text": "%md\n## Abstracciones Básicas\n\n### Transformer\n\n* Toma un `DataFrame` y devuelven un `DataFrame` transformado.\n    - método `transform(<DataFrame>)`\n* Ejemplos:\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -98,17 +98,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_74211227",
+      "jobName": "paragraph_1634911629024_459922208",
       "id": "20161027-185927_1249905112",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21298"
+      "$$hashKey": "object:43098"
     },
     {
       "title": "Transformador de features",
       "text": "println(s\"\"\"%html\n<center>\n<img src=\"$baseDir/05_ml/06-transformador-features.svg\" alt=\"Drawing\" style=\"width: 80%;\"/>\n</center>\n\"\"\")\n/*\n%md\n\n    - Transformador de features\n\n        %%% yuml type=class style=plain format=svg\n          [note:Dataframe;Entrada{bg:cornsilk}]->[Transformer;(featurizer)|transform(){bg:orange}]\n          [Transformer;(featurizer)|transform(){bg:orange}]->[note:Dataframe; features{bg:cornsilk}]\n        %%%\n*/\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -142,17 +142,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_563896215",
+      "jobName": "paragraph_1634911629024_1375491990",
       "id": "20201029-111103_1838666173",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21299"
+      "$$hashKey": "object:43099"
     },
     {
       "title": "Modelo",
       "text": "println(s\"\"\"%html\n<center>\n<img src=\"$baseDir/05_ml/05-uso.svg\" alt=\"Drawing\" style=\"width: 75%;\"/>\n</center>\n\"\"\")\n/*\n%md\n\n    - Modelo\n\n        %%% yuml type=class style=plain format=svg\n          [note:Dataframe; features{bg:cornsilk}]->[Transformer;(modelo)|transform(){bg:orange}]\n          [Transformer;(modelo)|transform(){bg:orange}]->[note:Dataframe; predicción{bg:cornsilk}]\n        %%%\n*/",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -186,16 +186,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_1415317961",
+      "jobName": "paragraph_1634911629024_610618431",
       "id": "20201029-111212_842896971",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21300"
+      "$$hashKey": "object:43100"
     },
     {
       "text": "%md\n### Estimator\n\n* Encapsula un algoritmo ML.\n* Toma un `DataFrame` de entrenamiento y devuelve un `Transformer`\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -228,16 +228,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_1006405929",
+      "jobName": "paragraph_1634911629024_1670990685",
       "id": "20201029-110945_2080913668",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21301"
+      "$$hashKey": "object:43101"
     },
     {
       "text": "println(s\"\"\"%html\n<center>\n<img src=\"$baseDir/05_ml/04-entrenamiento.svg\" alt=\"Drawing\" style=\"width: 90%;\"/>\n</center>\n\"\"\")\n/*\n%md\n\n    - método `fit(<DataFrame>)`\n\n      %%% yuml type=class style=plain format=svg\n         [note:Dataframe; features;(entrenamiento){bg:cornsilk}]->[Estimator;(algoritmo ML)|fit()]\n         [Estimator;(algoritmo ML)|fit(){bg:red}]->[note:Transformer;(modelo){bg:orange}]\n      %%%\n*/\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -270,16 +270,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_1690790214",
+      "jobName": "paragraph_1634911629024_448228439",
       "id": "20201029-111909_2094645311",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21302"
+      "$$hashKey": "object:43102"
     },
     {
       "text": "%md\n\n## Ejemplo flujo de trabajo clásico ML.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -312,17 +312,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_1788852653",
+      "jobName": "paragraph_1634911629024_951192749",
       "id": "20201029-112000_2031171035",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21303"
+      "$$hashKey": "object:43103"
     },
     {
       "title": "Datos de entrenamiento",
       "text": "%pyspark\n\ntraining = spark.createDataFrame([\n        (0, \"a b c d e spark a\", 1.0),\n        (1, \"b d\", 0.0),\n        (2, \"spark f g h\", 1.0),\n        (3, \"hadoop a mapreduce\", 0.0)\n    ], [\"id\", \"text\", \"label\"])\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:47:47+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -358,18 +358,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_886347390",
+      "jobName": "paragraph_1634911629024_1026505976",
       "id": "20161027-192753_1880015042",
-      "dateCreated": "2021-10-21T15:46:31+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:21304",
-      "dateFinished": "2021-10-21T15:47:47+0000",
-      "dateStarted": "2021-10-21T15:47:47+0000"
+      "dateCreated": "2021-10-22T14:07:09+0000",
+      "status": "READY",
+      "$$hashKey": "object:43104"
     },
     {
       "text": "%md\n\n### Featurization\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -402,17 +400,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_1667588161",
+      "jobName": "paragraph_1634911629024_1352493507",
       "id": "20191205-181810_1376282739",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21305"
+      "$$hashKey": "object:43105"
     },
     {
       "title": "Tokenizer",
       "text": "%pyspark\n\nfrom pyspark.ml.feature import HashingTF, Tokenizer\n\n# Creo Tokenizer Transformer\ntokenizer = Tokenizer(\n    inputCol=\"text\",\n    outputCol=\"words\")\n\n# Aplico la transformación devolviendo un nuevo dataframe\ntokenizerOut = tokenizer.transform(training)\n\nz.show(tokenizerOut)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:47:52+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -475,19 +473,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_68612037",
+      "jobName": "paragraph_1634911629024_229239937",
       "id": "20161027-193120_515869320",
-      "dateCreated": "2021-10-21T15:46:31+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:21306",
-      "dateFinished": "2021-10-21T15:47:52+0000",
-      "dateStarted": "2021-10-21T15:47:52+0000"
+      "dateCreated": "2021-10-22T14:07:09+0000",
+      "status": "READY",
+      "$$hashKey": "object:43106"
     },
     {
       "title": "Feature vectors",
       "text": "%pyspark\n# Creo un Term Frecuency Transformer con hash\nhashingTF = HashingTF(\n    numFeatures=1000,\n    inputCol = tokenizer.getOutputCol(), \n    outputCol=\"features\")\n\n# Aplico la transformación al resultado de la transformación previa\nhashingTFOut = hashingTF.transform(tokenizerOut)\n\nhashingTFOut.printSchema() \n# Notar tipo de la columna \"features\"\n# El primer elemento de la tupla es el tamaño\n\nz.show(hashingTFOut)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:48:14+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -542,18 +538,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_1917211795",
+      "jobName": "paragraph_1634911629024_1730648036",
       "id": "20171115-095457_1156237442",
-      "dateCreated": "2021-10-21T15:46:31+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:21307",
-      "dateFinished": "2021-10-21T15:48:14+0000",
-      "dateStarted": "2021-10-21T15:48:14+0000"
+      "dateCreated": "2021-10-22T14:07:09+0000",
+      "status": "READY",
+      "$$hashKey": "object:43107"
     },
     {
       "text": "%md\n\n### Modelo\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -586,17 +580,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191039_1808924482",
+      "jobName": "paragraph_1634911629024_1214915323",
       "id": "20191205-182631_90559665",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21308"
+      "$$hashKey": "object:43108"
     },
     {
       "title": "Creación",
       "text": "%pyspark\n\nfrom pyspark.ml.classification import LogisticRegression\n\n# Creo el Estimator\nlr = LogisticRegression(\n    maxIter=10,\n    regParam=0.01)\n  \n# Entreno el Estimador obteniendo un modelo\nmodel = lr.fit(hashingTFOut)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:48:41+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -628,19 +622,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_1906970604",
+      "jobName": "paragraph_1634911629025_1679916638",
       "id": "20161027-194846_129661804",
-      "dateCreated": "2021-10-21T15:46:31+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:21309",
-      "dateFinished": "2021-10-21T15:48:41+0000",
-      "dateStarted": "2021-10-21T15:48:41+0000"
+      "dateCreated": "2021-10-22T14:07:09+0000",
+      "status": "READY",
+      "$$hashKey": "object:43109"
     },
     {
       "title": "Predicción",
       "text": "%pyspark\n\n# Creo un DF para testearel modelo\ntest = spark.createDataFrame([\n  (4, \"spark i j k a\"),\n  (5, \"l m n\"),\n  (6, \"mapreduce spark\"),\n  (7, \"apache hadoop\"),\n  (8, \"spark f j k\")\n], [\"id\", \"text\"])\n\n\n# Featurizo el test\ntestTokens = tokenizer.transform(test)\n\ntestFeatures = hashingTF.transform(testTokens)\n\npredictions = model.transform(testFeatures)\n\nz.show(predictions.select(\"id\", \"text\", \"probability\", \"prediction\"))\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:48:46+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -703,18 +695,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_1764188627",
+      "jobName": "paragraph_1634911629025_1818122163",
       "id": "20161027-195542_1318506384",
-      "dateCreated": "2021-10-21T15:46:31+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:21310",
-      "dateFinished": "2021-10-21T15:48:46+0000",
-      "dateStarted": "2021-10-21T15:48:46+0000"
+      "dateCreated": "2021-10-22T14:07:09+0000",
+      "status": "READY",
+      "$$hashKey": "object:43110"
     },
     {
       "text": "%md\n\n## Pipelines\n\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -758,16 +748,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_680648326",
+      "jobName": "paragraph_1634911629025_916567382",
       "id": "20161028-141905_1713895534",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21311"
+      "$$hashKey": "object:43111"
     },
     {
       "text": "println(s\"\"\"%html\n<center>\n<img src=\"$baseDir/06_ml_pipelines/pipeline.svg\" alt=\"Drawing\" style=\"width: 90%;\"/>\n</center>\n\"\"\")\n\n/*\n%md\n* Abstracción del flujo de trabajo en ML:\n\n      %%% yuml style=plain scale=80 dir=LR format=svg\n        [Featurization]->[Entrenamiento]\n        [Entrenamiento]->[Modelo]\n        [Modelo]->[Predicción]\n        [Modelo]->[Evaluación]\n      %%%\n*/",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -800,16 +790,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_2086600076",
+      "jobName": "paragraph_1634911629025_2002947463",
       "id": "20201029-114011_107220819",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21312"
+      "$$hashKey": "object:43112"
     },
     {
       "text": "%md\n\n* Para su construcción se usan **Transformers** y **Estimators** (llamados Stages)\n    - los concatena\n\n* Un pipeline es un **Estimator**\n    - método `fit(<DataFramee>)` devuelve un `PipelineModel` (Transformer)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -842,16 +832,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_1629338097",
+      "jobName": "paragraph_1634911629025_26861404",
       "id": "20201029-114054_1255735097",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21313"
+      "$$hashKey": "object:43113"
     },
     {
       "text": "%pyspark\n\nfrom pyspark.ml import Pipeline\n\n# Creo el pipeline con los Transformers y el Estimator\npipeline = Pipeline(stages=[tokenizer, hashingTF, lr])\n\n# Con fit el pipeline genera los fetures y entrena.\npipModel = pipeline.fit(training)\n\nprint(\"%table\\nStage\")\nfor stage in pipModel.stages:\n    print(stage)\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:55:25+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -910,19 +900,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_74003303",
+      "jobName": "paragraph_1634911629025_1274475424",
       "id": "20161028-160715_1700211199",
-      "dateCreated": "2021-10-21T15:46:31+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:21314",
-      "dateFinished": "2021-10-21T15:55:25+0000",
-      "dateStarted": "2021-10-21T15:55:24+0000"
+      "dateCreated": "2021-10-22T14:07:09+0000",
+      "status": "READY",
+      "$$hashKey": "object:43114"
     },
     {
       "title": "Pipeline de entrenamiento",
       "text": "print(s\"\"\"%html\n<img src=\"$baseDir/06_ml_pipelines/ml-Pipeline.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -931,6 +919,7 @@
         "colWidth": 12,
         "editorMode": "ace/mode/scala",
         "editorHide": true,
+        "fontSize": 9,
         "title": true,
         "results": [
           {
@@ -945,8 +934,7 @@
             }
           }
         ],
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -964,16 +952,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_1531865121",
+      "jobName": "paragraph_1634911629025_2087550857",
       "id": "20161028-155205_837419355",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21315"
+      "$$hashKey": "object:43115"
     },
     {
       "text": "%md\n### PipelineModel\n\n* El resultado anterior es un modelo (Transformer) que se puede usar para predecir\n    - método `transform(<DataFrame>)`\n* Usa los mismos Transformers de *featurizacion* que para el entrenamiento\n    - ahorra código\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1017,16 +1005,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_740730064",
+      "jobName": "paragraph_1634911629025_1911938514",
       "id": "20161028-160002_1792875570",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21316"
+      "$$hashKey": "object:43116"
     },
     {
       "text": "%pyspark\n# El modelo en el pipeline solo necesita el Raw Test:\n# automaticamente aplica los transformadores de features\n# y hace predicciones.\n\npredictions = pipModel.transform(test)\n\nz.show(predictions.select(\"id\", \"text\", \"probability\", \"prediction\"))\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:55:46+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1089,18 +1077,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_1932319720",
+      "jobName": "paragraph_1634911629025_847640946",
       "id": "20171115-101137_579818646",
-      "dateCreated": "2021-10-21T15:46:31+0000",
-      "status": "FINISHED",
-      "$$hashKey": "object:21317",
-      "dateFinished": "2021-10-21T15:55:46+0000",
-      "dateStarted": "2021-10-21T15:55:46+0000"
+      "dateCreated": "2021-10-22T14:07:09+0000",
+      "status": "READY",
+      "$$hashKey": "object:43117"
     },
     {
       "text": "print(s\"\"\"%html\n<img src=\"$baseDir/06_ml_pipelines/ml-PipelineModel.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1109,6 +1095,7 @@
         "colWidth": 12,
         "editorMode": "ace/mode/scala",
         "editorHide": true,
+        "fontSize": 9,
         "results": [
           {
             "graph": {
@@ -1122,8 +1109,7 @@
             }
           }
         ],
-        "enabled": false,
-        "fontSize": 9
+        "enabled": false
       },
       "settings": {
         "params": {},
@@ -1141,17 +1127,17 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_836833687",
+      "jobName": "paragraph_1634911629025_523960300",
       "id": "20161028-160514_1612337572",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21318"
+      "$$hashKey": "object:43118"
     },
     {
       "title": "Persistencia",
       "text": "%pyspark\n\nfrom pyspark.ml import PipelineModel\n\n# El pipeline entrenado se puede guardar\npipModel.write().overwrite().save(\"/tmp/spark-logistic-regression-model\")\n\n# Y cargarlo para la etapa de uso\nsamePipModel = PipelineModel.load(\"/tmp/spark-logistic-regression-model\")\n\n# Tambien el pipeline sin entrenar\npipeline.write().overwrite().save(\"/tmp/unfit-lr-model\")\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -1188,16 +1174,16 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_87627970",
+      "jobName": "paragraph_1634911629025_1894678394",
       "id": "20171115-101044_1013070913",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21319"
+      "$$hashKey": "object:43119"
     },
     {
-      "text": "%md\n\n### Ejercicio\n\nHacer con pipelines uno de los ejemplos de clasificacionde clase anterior. Plotear el resultado.\n",
+      "text": "%md\n\n### Ejercicio\n\nHacer con pipelines uno de los ejemplos de clasificación de la clase anterior. Plotear el resultado.\n",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:09:47+0000",
       "progress": 0,
       "config": {
         "tableHide": false,
@@ -1223,24 +1209,26 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "<div class=\"markdown-body\">\n<h3>Ejercicio</h3>\n<p>Hacer con pipelines uno de los ejemplos de clasificacionde clase anterior. Plotear el resultado.</p>\n</div>"
+            "data": "<div class=\"markdown-body\">\n<h3>Ejercicio</h3>\n<p>Hacer con pipelines uno de los ejemplos de clasificación de la clase anterior. Plotear el resultado.</p>\n\n</div>"
           }
         ]
       },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_2045184212",
+      "jobName": "paragraph_1634911629025_1404932883",
       "id": "20191205-195354_363578557",
-      "dateCreated": "2021-10-21T15:46:31+0000",
-      "status": "READY",
-      "$$hashKey": "object:21320"
+      "dateCreated": "2021-10-22T14:07:09+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:43120",
+      "dateFinished": "2021-10-22T14:09:37+0000",
+      "dateStarted": "2021-10-22T14:09:37+0000"
     },
     {
       "title": "Fin",
       "text": "val baseDir=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\n//val baseDir=\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n<script>\n    var heads = document.getElementsByTagName('h2');\n    var numHeads = heads.length;\n    var inner = \"\";\n    var i = 0;\n    var j = 0;\n    while (i < numHeads){\n        inner = heads[i].innerHTML;\n        if (inner.search(\".-\") != -1 ) {\n            j++;\n            heads[i].innerHTML = inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n</script>\n\"\"\")",
       "user": "anonymous",
-      "dateUpdated": "2021-10-21T15:46:31+0000",
+      "dateUpdated": "2021-10-22T14:07:09+0000",
       "progress": 0,
       "config": {
         "tableHide": true,
@@ -1286,15 +1274,15 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1634831191040_1206856449",
+      "jobName": "paragraph_1634911629025_1566182180",
       "id": "20161027-191821_1441900429",
-      "dateCreated": "2021-10-21T15:46:31+0000",
+      "dateCreated": "2021-10-22T14:07:09+0000",
       "status": "READY",
-      "$$hashKey": "object:21321"
+      "$$hashKey": "object:43121"
     }
   ],
   "name": "Clase 06 - ML Pipelines",
-  "id": "2GJKQJSWB",
+  "id": "2GNDC6XZX",
   "defaultInterpreterGroup": "spark",
   "version": "0.10.0",
   "noteParams": {},
@@ -1306,5 +1294,5 @@
     "personalizedMode": "false"
   },
   "info": {},
-  "path": "/Diplodatos/Clase 06 - ML Pipelines"
+  "path": "/Clase 06 - ML Pipelines"
 }
