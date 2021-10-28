@@ -37,4 +37,5 @@ exec docker run -u $MYUID -it --rm --hostname localhost -p 8080:8080 -p 4040:404
     -v "$NOTEBOOK_DIR":/notebook \
     -v "$GIT_DIR":/diplodatos_bigdata \
     -e ZEPPELIN_LOG_DIR='/opt/zeppelin/logs' -e ZEPPELIN_NOTEBOOK_DIR='/notebook' \
+    -e ZEPPELIN_INTERPRETER_CONNECT_TIMEOUT=120000 \
     --name diplodatos_bigdata diplodatos/bigdata:1.0
