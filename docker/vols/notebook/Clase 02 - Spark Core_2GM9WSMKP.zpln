@@ -1,0 +1,2119 @@
+{
+  "paragraphs": [
+    {
+      "text": "print(s\"\"\"%html\n\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"$baseDir/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.708",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003ccenter\u003e\n    \u003ch1\u003e\u003ca href\u003d\"http://diplodatos.famaf.unc.edu.ar/\"\u003eDiplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones\u003c/a\u003e\u003c/h1\u003e\n    \u003ch2\u003eCurso \u003ca href\u003d\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\"\u003eProgramación Distribuida sobre Grandes Volúmenes de Datos\u003c/a\u003e\u003c/h2\u003e\n\u003c/center\u003e\n\n\u003cbr\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e Damián Barsotti  \u003c/h3\u003e\n\n\u003ch3 style\u003d\"text-align:center;\"\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    Facultad de Matemática Astronomía Física y Computación\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ca href\u003d\"http://www.unc.edu.ar\"\u003e\n    Universidad Nacional de Córdoba\n    \u003c/a\u003e\n\u003cbr/\u003e\n    \u003ccenter\u003e\n    \u003ca href\u003d\"http://www.famaf.unc.edu.ar\"\u003e\n    \u003cimg src\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/comun/logo%20UNC%20FAMAF%202016.png\" alt\u003d\"Drawing\" style\u003d\"width:50%;\"/\u003e\n    \u003c/a\u003e\n    \u003c/center\u003e\n\u003c/h3\u003e\n\n\u003cp style\u003d\"font-size:15px;\"\u003e\n    \u003cbr /\u003e\n        This work is licensed under a\n        \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003eCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\u003c/a\u003e.\n    \u003ca rel\u003d\"license\" href\u003d\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"\u003e\n        \u003cimg alt\u003d\"Creative Commons License\" style\u003d\"border-width:0;vertical-align:middle;float:right\" src\u003d\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903708_378739136",
+      "id": "20171010-191319_1407757246",
+      "dateCreated": "2021-11-14 18:18:23.708",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n\n# Spark Core\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.710",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eSpark Core\u003c/h1\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903710_1430129953",
+      "id": "20171013-124120_1151991544",
+      "dateCreated": "2021-11-14 18:18:23.710",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n\n\u003cbr\u003e\n### Veremos conceptos básicos  aplicables a otras librerías de [Spark](http://spark.apache.org):\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.711",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cbr\u003e\n\u003ch3\u003eVeremos conceptos básicos aplicables a otras librerías de \u003ca href\u003d\"http://spark.apache.org\"\u003eSpark\u003c/a\u003e:\u003c/h3\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903711_1349849261",
+      "id": "20171013-125344_626244712",
+      "dateCreated": "2021-11-14 18:18:23.711",
+      "status": "READY"
+    },
+    {
+      "text": "print(s\"\"\"%html\n\u0026nbsp;\n\u003cimg src\u003d\"$baseDir/02_spark_core/core_stack.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.712",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u0026nbsp;\n\u003cimg src\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/core_stack.png\" alt\u003d\"Drawing\" style\u003d\"width: 100%;\"/\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903712_905377075",
+      "id": "20171013-125319_1987010321",
+      "dateCreated": "2021-11-14 18:18:23.712",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n\n## ~.- Conceptos básicos\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.712",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e~.- Conceptos básicos\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903712_1201966787",
+      "id": "20171013-125336_1933366904",
+      "dateCreated": "2021-11-14 18:18:23.712",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n\n### Driver\n\nToda aplicación Spark tiene un programa **driver**:\n\n* lanza las operaciones en el cluster,\n* contiene nuestro **programa**\n    - define datos distribuidos y les aplica operaciones.\n\n\u003e En Zeppelin escribimos un *programa driver* que de forma interactiva ejecuta las operaciones que queremos correr.\n\n### Executors\n\nEl driver maneja y envía tareas a **executors** en los **worker nodes** (computadoras del cluster o threads en modo local).\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.713",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eDriver\u003c/h3\u003e\n\u003cp\u003eToda aplicación Spark tiene un programa \u003cstrong\u003edriver\u003c/strong\u003e:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003elanza las operaciones en el cluster,\u003c/li\u003e\n\u003cli\u003econtiene nuestro \u003cstrong\u003eprograma\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003edefine datos distribuidos y les aplica operaciones.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003eEn Zeppelin escribimos un \u003cem\u003eprograma driver\u003c/em\u003e que de forma interactiva ejecuta las operaciones que queremos correr.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch3\u003eExecutors\u003c/h3\u003e\n\u003cp\u003eEl driver maneja y envía tareas a \u003cstrong\u003eexecutors\u003c/strong\u003e en los \u003cstrong\u003eworker nodes\u003c/strong\u003e (computadoras del cluster o threads en modo local).\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903713_1987927806",
+      "id": "20171013-130405_1538728027",
+      "dateCreated": "2021-11-14 18:18:23.713",
+      "status": "READY"
+    },
+    {
+      "text": "println(s\"\"\"%html\n\u003cimg src\u003d\"$baseDir/01_intro_spark/driver_exec.png\" alt\u003d\"Drawing\" style\u003d\"width: 60%;\"/\u003e\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.714",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cimg src\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/01_intro_spark/driver_exec.png\" alt\u003d\"Drawing\" style\u003d\"width: 60%;\"/\u003e\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903714_1379056759",
+      "id": "20171013-123200_262582034",
+      "dateCreated": "2021-11-14 18:18:23.714",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n### SparkContext\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.715",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eSparkContext\u003c/h3\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903715_1024591884",
+      "id": "20171013-130511_1848331242",
+      "dateCreated": "2021-11-14 18:18:23.715",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n\n\u0026nbsp;\n\n* Los programas en el driver se conectan al cluster Spark a través de un objeto `SparkContext`\n* Le dice a Spark como conectarce con el cluster (o a los distintos threads en modo local)\n    - (representa la conección al cluster) \n* En Zeppelin (y shell) está predefinida la variable `sc` de tipo `SparkContext`\n    - otros programas deben crearla con `new`\n\n![](https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/cluster-overview.png)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.716",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003eLos programas en el driver se conectan al cluster Spark a través de un objeto \u003ccode\u003eSparkContext\u003c/code\u003e\u003c/li\u003e\n  \u003cli\u003eLe dice a Spark como conectarce con el cluster (o a los distintos threads en modo local)\n    \u003cul\u003e\n      \u003cli\u003e(representa la conección al cluster)\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003eEn Zeppelin (y shell) está predefinida la variable \u003ccode\u003esc\u003c/code\u003e de tipo \u003ccode\u003eSparkContext\u003c/code\u003e\n    \u003cul\u003e\n      \u003cli\u003eotros programas deben crearla con \u003ccode\u003enew\u003c/code\u003e\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/cluster-overview.png\" /\u003e\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903716_412830415",
+      "id": "20171013-160636_1142900877",
+      "dateCreated": "2021-11-14 18:18:23.716",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\n\nprint(sc.defaultParallelism)\nprint(sc.master)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.718",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903718_24811606",
+      "id": "20171013-131916_230493933",
+      "dateCreated": "2021-11-14 18:18:23.718",
+      "status": "READY"
+    },
+    {
+      "title": "sc.master",
+      "text": "%md\n|master            |descripción                                               |\n|------------------|----------------------------------------------------------|\n|local             |Spark corre localmente con un solo worker (no paralelismo)|\n|local[K]          |Spark corre localmente con K threads                      |\n|spark://HOST:PORT |se conecta a un cluster Spark                             |\n|mesos://HOST:PORT |se conecta a un cluster Mesos                             |\n|yarn              |se conecta a un cluster Hadoop Yarn                       |\n|...               |...                                                       |\n\n\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.719",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "title": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "master": "string",
+                      "descripción": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ctable\u003e\n  \u003cthead\u003e\n    \u003ctr\u003e\n      \u003cth\u003emaster \u003c/th\u003e\n      \u003cth\u003edescripción \u003c/th\u003e\n    \u003c/tr\u003e\n  \u003c/thead\u003e\n  \u003ctbody\u003e\n    \u003ctr\u003e\n      \u003ctd\u003elocal \u003c/td\u003e\n      \u003ctd\u003eSpark corre localmente con un solo worker (no paralelismo)\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003elocal[K] \u003c/td\u003e\n      \u003ctd\u003eSpark corre localmente con K threads \u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e\u003ca href\u003d\"spark://HOST:PORT\"\u003espark://HOST:PORT\u003c/a\u003e \u003c/td\u003e\n      \u003ctd\u003ese conecta a un cluster Spark \u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e\u003ca href\u003d\"mesos://HOST:PORT\"\u003emesos://HOST:PORT\u003c/a\u003e \u003c/td\u003e\n      \u003ctd\u003ese conecta a un cluster Mesos \u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003eyarn \u003c/td\u003e\n      \u003ctd\u003ese conecta a un cluster Hadoop Yarn \u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd\u003e\u0026hellip; \u003c/td\u003e\n      \u003ctd\u003e\u0026hellip; \u003c/td\u003e\n    \u003c/tr\u003e\n  \u003c/tbody\u003e\n\u003c/table\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903719_1193304920",
+      "id": "20191123-192357_508683745",
+      "dateCreated": "2021-11-14 18:18:23.719",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n\n## ~.- Resilient Distributed Dataset (RDD)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.722",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e~.- Resilient Distributed Dataset (RDD)\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903722_565457178",
+      "id": "20171013-130245_542901367",
+      "dateCreated": "2021-11-14 18:18:23.722",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n* **Contenedores** de objetos **inmutables**, distribuidos en el cluster (contiene los datos)\n\n* Creados con el SparkContext `sc`.\n    - al cargar datasets a Spark\n    - por transformaciones comunes (`map`, `filter`, ...) o binarias (`union`, `intersection`, ...).\n\n* Ante fallas se reconstruyen (resilencia).\n* **Importante**: todo lo que no derive del `SparkContext` corre solo en el **driver**.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.722",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003e\u003cstrong\u003eContenedores\u003c/strong\u003e de objetos \u003cstrong\u003einmutables\u003c/strong\u003e, distribuidos en el cluster (contiene los datos)\u003c/p\u003e\u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eCreados con el SparkContext \u003ccode\u003esc\u003c/code\u003e.\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003eal cargar datasets a Spark\u003c/li\u003e\n      \u003cli\u003epor transformaciones comunes (\u003ccode\u003emap\u003c/code\u003e, \u003ccode\u003efilter\u003c/code\u003e, \u0026hellip;) o binarias (\u003ccode\u003eunion\u003c/code\u003e, \u003ccode\u003eintersection\u003c/code\u003e, \u0026hellip;).\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eAnte fallas se reconstruyen (resilencia).\u003c/p\u003e\u003c/li\u003e\n  \u003cli\u003e\u003cstrong\u003eImportante\u003c/strong\u003e: todo lo que no derive del \u003ccode\u003eSparkContext\u003c/code\u003e corre solo en el \u003cstrong\u003edriver\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903722_730641315",
+      "id": "20171013-161530_19251643",
+      "dateCreated": "2021-11-14 18:18:23.722",
+      "status": "READY"
+    },
+    {
+      "title": "Ejemplo log analysis",
+      "text": "%pyspark\n\ninputRDD \u003d sc.textFile(\"./logs/\") # RDD de entrada\n\n# se crea un nuevo RDD:\nerrorRDD \u003d inputRDD.filter(lambda line: \"ERROR\" in line) \n\n# se crea otro nuevo RDD\nconfigRDD \u003d inputRDD.filter(lambda line: \"config\" in line) \n\nerrOrConfRDD \u003d errorRDD.union(configRDD) \n\nfor ln, l in enumerate(errOrConfRDD.collect()):\n    print(\"Linea {}:\".format(ln), l)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.724",
+      "progress": 0,
+      "config": {
+        "lineNumbers": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14.0,
+        "editorHide": false,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903724_1643054905",
+      "id": "20201023-002107_2147167260",
+      "dateCreated": "2021-11-14 18:18:23.724",
+      "status": "READY"
+    },
+    {
+      "text": "print(s\"\"\"%html\n\u003cimg src\u003d\"$baseDir/02_spark_core/log_linage.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.724",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cimg src\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/log_linage.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903724_198710071",
+      "id": "20171013-164802_1824704614",
+      "dateCreated": "2021-11-14 18:18:23.724",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\n\nuiHost \u003d sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort \u003d sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco \u003d \"\"\"%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n\u003ca href\u003d\"http://localhost:4040\"\u003ehttp://localhost(host):4040(port)\u003c/a\u003e\u003cbr\u003e\nRecordar hacer el tunel ssh:\u003cbr\u003e\nssh -vCN -L 4040:localhost:{} -l \u0026lt;tu login\u0026gt; nabucodonosor.ccad.unc.edu.ar\n\"\"\".format(uiPort)\n\ntextLocal \u003d \"\"\"%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n\u003ca href\u003d\"http://{}:{}\"\u003ehttp://{}(host):{}(port)\u003c/a\u003e\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost \u003d\u003d \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.725",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "fontSize": 14.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "Ejecutar celda y ver en Spark UI tareas y grafo de operaciones\n\u003ca href\u003d\"http://localhost:4040\"\u003ehttp://localhost(host):4040(port)\u003c/a\u003e\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903725_203203995",
+      "id": "20171013-163432_1466279672",
+      "dateCreated": "2021-11-14 18:18:23.725",
+      "status": "READY"
+    },
+    {
+      "title": "Implementación",
+      "text": "%md\n\n* El RDD se distribuye en **particiones** en nodos del cluster (o fs local).\n* Se construye el **grafo de operaciones**.\n* Las **operaciones** se dividen en **tasks** (tareas).\n* A cada **partición** se le aplica una **task**.\n* Las tareas son ejecutadas por los executors en nodos (o threads locales).\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.725",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 14.0,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n\u003cli\u003eEl RDD se distribuye en \u003cstrong\u003eparticiones\u003c/strong\u003e en nodos del cluster (o fs local).\u003c/li\u003e\n\u003cli\u003eSe construye el \u003cstrong\u003egrafo de operaciones\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eLas \u003cstrong\u003eoperaciones\u003c/strong\u003e se dividen en \u003cstrong\u003etasks\u003c/strong\u003e (tareas).\u003c/li\u003e\n\u003cli\u003eA cada \u003cstrong\u003epartición\u003c/strong\u003e se le aplica una \u003cstrong\u003etask\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eLas tareas son ejecutadas por los executors en nodos (o threads locales).\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903725_1883376006",
+      "id": "20171013-123100_1037283294",
+      "dateCreated": "2021-11-14 18:18:23.725",
+      "status": "READY"
+    },
+    {
+      "title": "Stages",
+      "text": "%md\n* El **grafo de operaciones** se subdivide en **stages**\n    - el limite entre las stages son las operaciones con shuffle.\n\n* Mas info en este [artículo](https://medium.com/@goyalsaurabh66/spark-basics-rdds-stages-tasks-and-dag-8da0f52f0454).",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.727",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 14.0,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eEl \u003cstrong\u003egrafo de operaciones\u003c/strong\u003e se subdivide en \u003cstrong\u003estages\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eel limite entre las stages son las operaciones con shuffle.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eMas info en este \u003ca href\u003d\"https://medium.com/@goyalsaurabh66/spark-basics-rdds-stages-tasks-and-dag-8da0f52f0454\"\u003eartículo\u003c/a\u003e.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903727_1427746051",
+      "id": "paragraph_1634317918136_1777236417",
+      "dateCreated": "2021-11-14 18:18:23.727",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\nlines \u003d sc.textFile(\"README.md\")\n\nwords \u003d lines \\\n    .flatMap(lambda line: line.split(\" \")) \\\n    .filter(lambda word: word)\n\n#MapReduce\nwordCount \u003d words \\\n    .map(lambda word: (word,1)) \\\n    .reduceByKey(lambda n,m: n+m)\n\nprint(wordCount.take(1))\n\n# Ver en SparkUI",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.728",
+      "progress": 0,
+      "config": {
+        "lineNumbers": true,
+        "tableHide": false,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14.0,
+        "editorHide": false,
+        "title": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903728_1237746126",
+      "id": "paragraph_1634318082132_1416467574",
+      "dateCreated": "2021-11-14 18:18:23.728",
+      "status": "READY"
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\n\n* Cree una celda nueva y copie en ella el último programa sin las línea 13.\n* Observe en Spark UI las tareas ejecutadas.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.729",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n\u003cli\u003eCree una celda nueva y copie en ella el último programa sin las línea 13.\u003c/li\u003e\n\u003cli\u003eObserve en Spark UI las tareas ejecutadas.\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903728_305723237",
+      "id": "20171013-165833_179635135",
+      "dateCreated": "2021-11-14 18:18:23.728",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\n\ninputRDD \u003d sc.textFile(\"./logs/\") # RDD de entrada\n\n# se crea un nuevo RDD:\nerrorRDD \u003d inputRDD.filter(lambda line: \"ERROR\" in line) \n\n# se crea otro nuevo RDD\nconfigRDD \u003d inputRDD.filter(lambda line: \"config\" in line) \n\nerrOrConfRDD \u003d errorRDD.union(configRDD) ",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:19:06.083",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913940981_1938956947",
+      "id": "paragraph_1636913940981_1938956947",
+      "dateCreated": "2021-11-14 18:19:00.981",
+      "dateStarted": "2021-11-14 18:19:06.094",
+      "dateFinished": "2021-11-14 18:19:06.535",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n\nNo se ejecuta ninguna tarea ya que solo se realizan cuando ocurre una acción.",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:20:05.890",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eNo se ejecuta ninguna tarea ya que solo se realizan cuando ocurre una acción.\u003c/p\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913952189_1045116470",
+      "id": "paragraph_1636913952189_1045116470",
+      "dateCreated": "2021-11-14 18:19:12.189",
+      "dateStarted": "2021-11-14 18:20:05.897",
+      "dateFinished": "2021-11-14 18:20:05.910",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n## ~.- Evaluación Lazy\n\nEn Spark todas las **transformaciones** (`map`, `filter`, `union`, etc.) son evaluadas de forma **lazy**:\n\n* son acumuladas como *grafo de operaciones*\n* se ejecutan al momento de traer los datos al driver (`collect`, `take`, etc.)\n    - se llama a una **acción**.\n\nEsto permite:\n\n* hacer **optimizaciones**\n    - se computa solo lo que hace falta (tiene mucho sentido en Big Data)\n    - se hace un *pipeling* de transformaciones sin guardar resultados intermedios \n* recalcular las dependencias si hay algún fallo (resilencia)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.729",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e~.- Evaluación Lazy\u003c/h2\u003e\n\u003cp\u003eEn Spark todas las \u003cstrong\u003etransformaciones\u003c/strong\u003e (\u003ccode\u003emap\u003c/code\u003e, \u003ccode\u003efilter\u003c/code\u003e, \u003ccode\u003eunion\u003c/code\u003e, etc.) son evaluadas de forma \u003cstrong\u003elazy\u003c/strong\u003e:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003eson acumuladas como \u003cem\u003egrafo de operaciones\u003c/em\u003e\u003c/li\u003e\n  \u003cli\u003ese ejecutan al momento de traer los datos al driver (\u003ccode\u003ecollect\u003c/code\u003e, \u003ccode\u003etake\u003c/code\u003e, etc.)\n    \u003cul\u003e\n      \u003cli\u003ese llama a una \u003cstrong\u003eacción\u003c/strong\u003e.\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eEsto permite:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003ehacer \u003cstrong\u003eoptimizaciones\u003c/strong\u003e\n    \u003cul\u003e\n      \u003cli\u003ese computa solo lo que hace falta (tiene mucho sentido en Big Data)\u003c/li\u003e\n      \u003cli\u003ese hace un \u003cem\u003epipeling\u003c/em\u003e de transformaciones sin guardar resultados intermedios\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003erecalcular las dependencias si hay algún fallo (resilencia)\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903729_67233065",
+      "id": "20171013-171238_638394270",
+      "dateCreated": "2021-11-14 18:18:23.729",
+      "status": "READY"
+    },
+    {
+      "title": "Logs análisis (muestra solo 2 lineas)",
+      "text": "%pyspark\n\ninputRDD \u003d sc.textFile(\"./logs/\") # RDD de entrada\nerrorRDD \u003d inputRDD.filter(lambda line: \"ERROR\" in line) #  se crea un nuevo RDD\nconfigRDD \u003d inputRDD.filter(lambda line: \"config\" in line) # se crea un nuevo RDD\n\nerrOrConfRDD \u003d errorRDD.union(configRDD) \n\nfor ln, l in enumerate(errOrConfRDD.take(2)): # take(2) en vez de collect\n    print(\"Linea {}:\".format(ln), l)\n\n# Compara con primer programa en Spark UI\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.732",
+      "progress": 0,
+      "config": {
+        "lineNumbers": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14.0,
+        "editorHide": false,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903732_1667632809",
+      "id": "20201023-002121_604229819",
+      "dateCreated": "2021-11-14 18:18:23.732",
+      "status": "READY"
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\n\nComplete los `...` en el siguiente programa para contar la cantidad de veces que aparece la letra \u0027c\u0027 en los archivos en `./logs/`.\n\n#### Ayuda\n\n\n* Se puede usar el método `.filter` (ya visto en ejemplos anteriores) para crear un RDD solo con la letra C.\n* El método `count` de RDD cuenta la cantidad de elementos.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.733",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eComplete los \u003ccode\u003e...\u003c/code\u003e en el siguiente programa para contar la cantidad de veces que aparece la letra \u0026lsquo;c\u0026rsquo; en los archivos en \u003ccode\u003e./logs/\u003c/code\u003e.\u003c/p\u003e\n\u003ch4\u003eAyuda\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eSe puede usar el método \u003ccode\u003e.filter\u003c/code\u003e (ya visto en ejemplos anteriores) para crear un RDD solo con la letra C.\u003c/li\u003e\n\u003cli\u003eEl método \u003ccode\u003ecount\u003c/code\u003e de RDD cuenta la cantidad de elementos.\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903733_1987230018",
+      "id": "20171013-174042_1672649057",
+      "dateCreated": "2021-11-14 18:18:23.733",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\n\nlinesRDD \u003d sc.textFile(\"./logs/\")\n\ncharsRDD \u003d linesRDD \\\n            .flatMap(lambda l: l)\n\nonlyCRDD \u003d charsRDD \\\n            .filter(lambda char: char \u003d\u003d \"c\")\n\nprint(\"Aparecen {} letras c en los logs.\".format(onlyCRDD.count()))\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:20:29.197",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Aparecen 12206 letras c en los logs.\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id\u003d9"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903734_286004567",
+      "id": "20171013-175507_696892344",
+      "dateCreated": "2021-11-14 18:18:23.734",
+      "dateStarted": "2021-11-14 18:20:29.201",
+      "dateFinished": "2021-11-14 18:20:29.709",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%md\n## ~.- Persistencia\n\nSpark **recomputa** el grafo de dependencias cuando se llama una **acción**:",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.735",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e~.- Persistencia\u003c/h2\u003e\n\u003cp\u003eSpark \u003cstrong\u003erecomputa\u003c/strong\u003e el grafo de dependencias cuando se llama una \u003cstrong\u003eacción\u003c/strong\u003e:\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903734_2140263296",
+      "id": "20171016-174448_43219511",
+      "dateCreated": "2021-11-14 18:18:23.735",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\n\ninput \u003d sc.parallelize(range(30)) # Se crea la lista [0,...,29] y se lo convierte en RDD \n\nresult \u003d input.map(lambda x: x*x)\n\nprint(\"La media es \", result.mean()) # computa los cuadrados\n\nfor r in result.collect():\n     print(r) # recomputa los cuadrados :(",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.736",
+      "progress": 0,
+      "config": {
+        "lineNumbers": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903735_743469893",
+      "id": "20201029-125345_2132006733",
+      "dateCreated": "2021-11-14 18:18:23.735",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\n\nuiHost \u003d sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort \u003d sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco \u003d \"\"\"%html\n(ver resultado en Spark UI\n\u003ca href\u003d\"http://localhost:4040\"\u003ehttp://localhost(host):4040(port)\u003c/a\u003e)\n\u003cbr\u003e\n\u003cbr\u003e\nPara evitarlo Spark puede cachear los datos:\n\"\"\"\n\ntextLocal \u003d \"\"\"%html\n(ver resultado en Spark UI\n\u003ca href\u003d\"http://{}:{}\"\u003ehttp://{}(host):{}(port)\u003c/a\u003e)\n\u003cbr\u003e\n\u003cbr\u003e\nPara evitarlo Spark puede cachear los datos:\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost \u003d\u003d \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.736",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "(ver resultado en Spark UI\n\u003ca href\u003d\"http://localhost:4040\"\u003ehttp://localhost(host):4040(port)\u003c/a\u003e)\n\u003cbr\u003e\n\u003cbr\u003e\nPara evitarlo Spark puede cachear los datos:\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903736_1335662191",
+      "id": "20171016-175252_2114983095",
+      "dateCreated": "2021-11-14 18:18:23.736",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\n\ninput \u003d sc.parallelize(range(30)) # Se crea la lista [0,...,29] y se lo convierte en RDD \n\nresult \u003d input.map(lambda x: x*x) \\\n              .setName(\"cuadrados\").cache() # cache de datos\n\nprint(\"La media es \", result.mean()) # computa los cuadrados\n\nfor r in result.collect():\n     print(r) # no recomputa el map :)",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.737",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903737_2012463736",
+      "id": "20201023-002155_1881617494",
+      "dateCreated": "2021-11-14 18:18:23.737",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\n\nuiHost \u003d sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort \u003d sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco \u003d \"\"\"%html\n%html\nVer resultado en Spark UI\n\u003ca href\u003d\"http://localhost:4040\"\u003ehttp://localhost(host):4040(port)\u003c/a\u003e\n\u003cbr\u003e\nObservar tambien green dots en Dag Visualization.\n\"\"\"\n\ntextLocal \u003d \"\"\"%html\nVer resultado en Spark UI\n\u003ca href\u003d\"http://{}:{}\"\u003ehttp://{}(host):{}(port)\u003c/a\u003e\n\u003cbr\u003e\nObservar tambien green dots en Dag Visualization.\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost \u003d\u003d \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.737",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "Ver resultado en Spark UI\n\u003ca href\u003d\"http://localhost:4040\"\u003ehttp://localhost(host):4040(port)\u003c/a\u003e\n\u003cbr\u003e\nObservar tambien green dots en Dag Visualization.\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903737_1832442560",
+      "id": "20171016-180034_191267646",
+      "dateCreated": "2021-11-14 18:18:23.737",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n\n## ~.- Implementación API Python\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.738",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003e~.- Implementación API Python\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903738_874526401",
+      "id": "20191128-173809_1077146591",
+      "dateCreated": "2021-11-14 18:18:23.738",
+      "status": "READY"
+    },
+    {
+      "text": "%md\n\n* Spark esta originalmente implementado en Scala/Java.\n* `SparkContext` de Python usa [Py4J](https://www.py4j.org/), lanza JVM local y crea `JavaSparkContext`.\n* [Py4J](https://www.py4j.org/) solo se usa en driver.\n* En máquinas remotas los executors (Spark Workers en figura) corren en JVM asegurando resilencia.\n* Estas JVM lanzan procesos Python.\n* [Mas info](https://medium.com/@ketanvatsalya/a-scenic-route-through-pyspark-internals-feaf74ed660d).\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.739",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cul\u003e\n\u003cli\u003eSpark esta originalmente implementado en Scala/Java.\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eSparkContext\u003c/code\u003e de Python usa \u003ca href\u003d\"https://www.py4j.org/\"\u003ePy4J\u003c/a\u003e, lanza JVM local y crea \u003ccode\u003eJavaSparkContext\u003c/code\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.py4j.org/\"\u003ePy4J\u003c/a\u003e solo se usa en driver.\u003c/li\u003e\n\u003cli\u003eEn máquinas remotas los executors (Spark Workers en figura) corren en JVM asegurando resilencia.\u003c/li\u003e\n\u003cli\u003eEstas JVM lanzan procesos Python.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://medium.com/@ketanvatsalya/a-scenic-route-through-pyspark-internals-feaf74ed660d\"\u003eMas info\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903739_1237635047",
+      "id": "20191128-175341_672335059",
+      "dateCreated": "2021-11-14 18:18:23.739",
+      "status": "READY"
+    },
+    {
+      "text": "print(s\"\"\"%html\n\u003cimg src\u003d\"$baseDir/02_spark_core/python-spark.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.742",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cimg src\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/python-spark.png\" alt\u003d\"Drawing\" style\u003d\"width: 70%;\"/\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903741_1373535065",
+      "id": "20191128-175407_1271062039",
+      "dateCreated": "2021-11-14 18:18:23.741",
+      "status": "READY"
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\nComplete el siguiente programa para que cuente la cantidad de lineas que comienzan con la palabra `INFO`, `WARN` y `ERROR`.\n\nTambién, haga cache de los RDD para hacer el programa más eficiente. \n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.743",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eComplete el siguiente programa para que cuente la cantidad de lineas que comienzan con la palabra \u003ccode\u003eINFO\u003c/code\u003e, \u003ccode\u003eWARN\u003c/code\u003e y \u003ccode\u003eERROR\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eTambién, haga cache de los RDD para hacer el programa más eficiente.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903743_1358950895",
+      "id": "20171016-193030_671507369",
+      "dateCreated": "2021-11-14 18:18:23.743",
+      "status": "READY"
+    },
+    {
+      "text": "%pyspark\n\nlinesRDD \u003d sc.textFile(\"./logs/\") # RDD de entrada\n\nlinesStrip \u003d linesRDD.map(lambda l: l.strip()).cache() # Borro espacios en borde\n\nlinesInfo \u003d linesStrip.filter(lambda l: l.startswith(\"INFO\"))\n\nlinesWarn \u003d linesStrip.filter(lambda l: l.startswith(\"WARN\"))\n\nlinesError \u003d linesStrip.filter(lambda l: l.startswith(\"ERROR\"))\n\nprint(\"Cantidad de lineas INFO: \", linesInfo.count())\n\nprint(\"Cantidad de lineas WARN: \", linesWarn.count()) #Completar\n\nprint(\"Cantidad de lineas ERROR: \", linesError.count())  #Completar\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:22:12.210",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14.0,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Cantidad de lineas INFO:  3628\nCantidad de lineas WARN:  29\nCantidad de lineas ERROR:  0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id\u003d10"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id\u003d11"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id\u003d12"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903744_368188377",
+      "id": "20191123-214023_2104486544",
+      "dateCreated": "2021-11-14 18:18:23.744",
+      "dateStarted": "2021-11-14 18:22:12.234",
+      "dateFinished": "2021-11-14 18:22:13.037",
+      "status": "FINISHED"
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\nEl archivo en `~/diplodatos_bigdata/ds/flights.csv` contiene información de vuelos realizados en 2008 (solo 100.000), uno por línea.\n\nLos datos estan separados por coma y la columna `Cancelled` (la 22) tiene un `1` si el vuelo fue cancelado. Además si el vuelo fue redirigido se indica con \u00271\u0027 en la columna `Diverted` (la 24).\n\nCompletar el siguiente programa que devuelve el porcentaje de vuelos cancelados y el porcentaje de redirigidos.\n\nUtilizar cache si lo cree conveniente.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.745",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false,
+          "completionKey": "TAB"
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eEl archivo en \u003ccode\u003e~/diplodatos_bigdata/ds/flights.csv\u003c/code\u003e contiene información de vuelos realizados en 2008 (solo 100.000), uno por línea.\u003c/p\u003e\n\u003cp\u003eLos datos estan separados por coma y la columna \u003ccode\u003eCancelled\u003c/code\u003e (la 22) tiene un \u003ccode\u003e1\u003c/code\u003e si el vuelo fue cancelado. Además si el vuelo fue redirigido se indica con \u0026lsquo;1\u0026rsquo; en la columna \u003ccode\u003eDiverted\u003c/code\u003e (la 24).\u003c/p\u003e\n\u003cp\u003eCompletar el siguiente programa que devuelve el porcentaje de vuelos cancelados y el porcentaje de redirigidos.\u003c/p\u003e\n\u003cp\u003eUtilizar cache si lo cree conveniente.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903745_1875453313",
+      "id": "20171016-224717_280061616",
+      "dateCreated": "2021-11-14 18:18:23.745",
+      "status": "READY"
+    },
+    {
+      "text": "{val input \u003d spark.read.format(\"csv\").option(\"header\", \"true\").load(s\"${homeDir}/diplodatos_bigdata/ds/flights.csv\").sample(false,0.0005)\nz.show(input,10)}",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.747",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "editorHide": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {
+                    "columns": [
+                      {
+                        "name": "Year",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {
+                          "priority": 0.0,
+                          "direction": "asc"
+                        },
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Month",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "DayofMonth",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "DayOfWeek",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "DepTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CRSDepTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "ArrTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CRSArrTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "UniqueCarrier",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "FlightNum",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "TailNum",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "ActualElapsedTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CRSElapsedTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "AirTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "ArrDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "DepDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Origin",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Dest",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Distance",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "TaxiIn",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "TaxiOut",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Cancelled",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CancellationCode",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Diverted",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CarrierDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "WeatherDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "NASDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "SecurityDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "LateAircraftDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      }
+                    ],
+                    "scrollFocus": {},
+                    "selection": [],
+                    "grouping": {
+                      "grouping": [],
+                      "aggregations": [],
+                      "rowExpandedStates": {}
+                    },
+                    "treeView": {},
+                    "pagination": {
+                      "paginationCurrentPage": 1.0,
+                      "paginationPageSize": 250.0
+                    }
+                  },
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Year": "string",
+                      "Month": "string",
+                      "DayofMonth": "string",
+                      "DayOfWeek": "string",
+                      "DepTime": "string",
+                      "CRSDepTime": "string",
+                      "ArrTime": "string",
+                      "CRSArrTime": "string",
+                      "UniqueCarrier": "string",
+                      "FlightNum": "string",
+                      "TailNum": "string",
+                      "ActualElapsedTime": "string",
+                      "CRSElapsedTime": "string",
+                      "AirTime": "string",
+                      "ArrDelay": "string",
+                      "DepDelay": "string",
+                      "Origin": "string",
+                      "Dest": "string",
+                      "Distance": "string",
+                      "TaxiIn": "string",
+                      "TaxiOut": "string",
+                      "Cancelled": "string",
+                      "CancellationCode": "string",
+                      "Diverted": "string",
+                      "CarrierDelay": "string",
+                      "WeatherDelay": "string",
+                      "NASDelay": "string",
+                      "SecurityDelay": "string",
+                      "LateAircraftDelay": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Year\tMonth\tDayofMonth\tDayOfWeek\tDepTime\tCRSDepTime\tArrTime\tCRSArrTime\tUniqueCarrier\tFlightNum\tTailNum\tActualElapsedTime\tCRSElapsedTime\tAirTime\tArrDelay\tDepDelay\tOrigin\tDest\tDistance\tTaxiIn\tTaxiOut\tCancelled\tCancellationCode\tDiverted\tCarrierDelay\tWeatherDelay\tNASDelay\tSecurityDelay\tLateAircraftDelay\n2008\t1\t6\t7\t1801\t1805\t1941\t1955\tWN\t172\tN767SW\t160\t170\t146\t-14\t-4\tMCO\tMDW\t989\t4\t10\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t6\t7\t1023\t1010\t1136\t1135\tWN\t752\tN348SW\t73\t85\t63\t1\t13\tOAK\tLAS\t407\t4\t6\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t6\t7\t838\t830\t955\t945\tWN\t304\tN342SW\t77\t75\t56\t10\t8\tOAK\tLAX\t337\t5\t16\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t6\t7\t745\t745\t929\t930\tWN\t1586\tN318SW\t164\t165\t149\t-1\t0\tSTL\tABQ\t934\t4\t11\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t7\t1\t1340\t1340\t1440\t1440\tWN\t35\tN519SW\t60\t60\t47\t0\t0\tLBB\tDAL\t293\t3\t10\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t8\t2\t1850\t1850\t2041\t2045\tWN\t102\tN331SW\t231\t235\t219\t-4\t0\tMCI\tSMF\t1442\t5\t7\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t9\t3\t1834\t1835\t1943\t1940\tWN\t55\tN502SW\t69\t65\t54\t3\t-1\tAMA\tDAL\t324\t5\t10\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t9\t3\t923\t925\t1046\t1055\tWN\t1188\tN200WN\t83\t90\t72\t-9\t-2\tHOU\tBHM\t570\t2\t9\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t10\t4\t1600\t1600\t2337\t2350\tWN\t416\tN738CB\t277\t290\t254\t-13\t0\tLAS\tPVD\t2363\t4\t19\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t10\t4\t1154\t1155\t1314\t1310\tWN\t876\tN427WN\t80\t75\t68\t4\t-1\tONT\tSMF\t389\t4\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t12\t6\t855\t825\t955\t930\tWN\t171\tN611SW\t60\t65\t49\t25\t30\tBUF\tBWI\t281\t4\t7\t0\tnull\t0\t25\t0\t0\t0\t0\n2008\t1\t12\t6\t900\t755\t957\t905\tWN\t2724\tN788SA\t57\t70\t46\t52\t65\tPIT\tPHL\t267\t4\t7\t0\tnull\t0\t52\t0\t0\t0\t0\n2008\t1\t13\t7\t1924\t1835\t2049\t2000\tWN\t2133\tN506SW\t85\t85\t49\t49\t49\tPHL\tPIT\t267\t6\t30\t0\tnull\t0\t8\t0\t0\t0\t41\n2008\t1\t13\t7\t1727\t1705\t1735\t1725\tWN\t3586\tN221WN\t68\t80\t54\t10\t22\tPHX\tLAX\t370\t7\t7\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t13\t7\tNA\t635\tNA\t805\tWN\t3512\tnull\tNA\t90\tNA\tNA\tNA\tSAN\tSFO\t447\tNA\tNA\t1\tB\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t14\t1\t637\t635\t748\t745\tWN\t3138\tN355SW\t71\t70\t59\t3\t2\tCMH\tBWI\t336\t4\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t15\t2\t2008\t2000\t2100\t2055\tWN\t56\tN502SW\t52\t55\t39\t5\t8\tHOU\tDAL\t239\t4\t9\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t15\t2\t1658\t1700\t1815\t1830\tWN\t1435\tN683SW\t137\t150\t123\t-15\t-2\tSAT\tPHX\t843\t6\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t16\t3\t1432\t1435\t1759\t1815\tWN\t2205\tN235WN\t147\t160\t131\t-16\t-3\tABQ\tMDW\t1121\t8\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t16\t3\t1302\t1305\t1427\t1430\tWN\t1541\tN228WN\t85\t85\t74\t-3\t-3\tOAK\tLAS\t407\t4\t7\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t17\t4\t1720\t1705\t1848\t1835\tWN\t369\tN735SA\t88\t90\t69\t13\t15\tSAN\tSFO\t447\t6\t13\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t20\t7\t1437\t1435\t2013\t2025\tWN\t3576\tN286WN\t216\t230\t203\t-12\t2\tLAX\tMDW\t1750\t6\t7\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t20\t7\t1101\t1100\t1404\t1440\tWN\t1047\tN495WN\t303\t340\t290\t-36\t1\tPHL\tPHX\t2075\t4\t9\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t23\t3\t725\t725\t1047\t1050\tWN\t3597\tN705SW\t202\t205\t188\t-3\t0\tPVD\tFLL\t1188\t4\t10\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t26\t6\t1511\t1445\t1740\t1735\tWN\t802\tN661SW\t89\t110\t74\t5\t26\tLAS\tBOI\t520\t3\t12\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t26\t6\t2017\t2015\t2112\t2115\tWN\t744\tN660SW\t55\t60\t42\t-3\t2\tSTL\tMDW\t251\t5\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t26\t6\t630\t630\t723\t720\tWN\t828\tN271WN\t113\t110\t102\t3\t0\tTPA\tBNA\t612\t4\t7\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t30\t3\t639\t635\t748\t745\tWN\t3138\tN365SW\t69\t70\t52\t3\t4\tCMH\tBWI\t336\t2\t15\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t30\t3\t1549\t1550\t1642\t1655\tWN\t1595\tN212WN\t53\t65\t40\t-13\t-1\tLAS\tSAN\t258\t3\t10\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t31\t4\t735\t730\t914\t905\tWN\t1479\tN301SW\t159\t155\t148\t9\t5\tABQ\tOAK\t889\t3\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t13\t7\t1846\t1825\t1948\t1938\tXE\t149\tN19554\t62\t73\t50\t10\t21\tMRY\tLGB\t283\t4\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t2\t3\t1435\t1435\t1524\t1537\tXE\t502\tN16178\t109\t122\t90\t-13\t0\tSAT\tABQ\t609\t5\t14\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t1\t2\t1653\t1525\t1738\t1617\tXE\t600\tN12563\t105\t112\t91\t81\t88\tJAX\tMSY\t513\t6\t8\t0\tnull\t0\t0\t0\t0\t0\t81\n"
+          },
+          {
+            "type": "TEXT",
+            "data": ""
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903747_750684823",
+      "id": "20191123-214248_1978352340",
+      "dateCreated": "2021-11-14 18:18:23.747",
+      "status": "READY"
+    },
+    {
+      "title": "",
+      "text": "%pyspark\n\ninput \u003d sc.textFile(\"../../diplodatos_bigdata/ds/flights.csv\") # Completar el path\n\nnTotal \u003d input.count() - 1 # la primer fila tiene el nombre de las columnas\n\nparsed \u003d input.map(lambda l: l.split(\",\")).cache()\n\ncancel \u003d parsed.filter(lambda l: l[21] \u003d\u003d \"1\")\n\nredir \u003d parsed.filter(lambda l: l[23] \u003d\u003d \"1\")\n\nnCancel \u003d cancel.count()\nnRedir \u003d redir.count()\n\nprint(\"cancelados \u003d {}%\".format(float(nCancel) * 100 / nTotal))\nprint(\"redireccionados \u003d {}%\".format(float(nRedir) * 100 / nTotal))\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:23:43.240",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14.0,
+        "editorHide": false,
+        "title": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "cancelados \u003d 1.142%\nredireccionados \u003d 0.16%\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id\u003d19"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id\u003d20"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id\u003d21"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903756_1378939257",
+      "id": "20191124-133441_1910745321",
+      "dateCreated": "2021-11-14 18:18:23.756",
+      "dateStarted": "2021-11-14 18:23:43.250",
+      "dateFinished": "2021-11-14 18:23:44.861",
+      "status": "FINISHED"
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\nLa columna 14 del mismo archivo tiene el tiempo del vuelo en minutos. Calcular el máximo.\n\n#### Ayuda\n\n* Busque en la documentacion de la [API RDD](http://spark.apache.org/docs/2.2.1/api/python/pyspark.html#pyspark.RDD) una acción para calcular el máximo.\n* Ojo que puede haber valores no definidos.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.757",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eLa columna 14 del mismo archivo tiene el tiempo del vuelo en minutos. Calcular el máximo.\u003c/p\u003e\n\u003ch4\u003eAyuda\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003eBusque en la documentacion de la \u003ca href\u003d\"http://spark.apache.org/docs/2.2.1/api/python/pyspark.html#pyspark.RDD\"\u003eAPI RDD\u003c/a\u003e una acción para calcular el máximo.\u003c/li\u003e\n  \u003cli\u003eOjo que puede haber valores no definidos.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903757_271545292",
+      "id": "20171016-232257_285172371",
+      "dateCreated": "2021-11-14 18:18:23.757",
+      "status": "READY"
+    },
+    {
+      "text": "",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:24:08.697",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636914236151_1828604261",
+      "id": "paragraph_1636914236151_1828604261",
+      "dateCreated": "2021-11-14 18:23:56.152",
+      "status": "READY"
+    },
+    {
+      "title": "FIN",
+      "text": "//val baseDir\u003d\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\nval baseDir\u003d\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\nval homeDir\u003d\"/home/damian\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 1;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.match(\"(~|\\d+)\\.-\") !\u003d -1 ) {\n            console.log(inner)\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-14 18:18:23.758",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9.0,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cscript\u003e\n    var heads \u003d document.getElementsByTagName(\u0027h2\u0027);\n    var numHeads \u003d heads.length;\n    var inner \u003d \"\";\n    var i \u003d 1;\n    var j \u003d 0;\n    while (i \u003c numHeads){\n        inner \u003d heads[i].innerHTML;\n        if (inner.match(\"(~|\\d+)\\.-\") !\u003d -1 ) {\n            console.log(inner)\n            j++;\n            heads[i].innerHTML \u003d inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n\u003c/script\u003e\nbaseDir: String \u003d https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\nhomeDir: String \u003d /home/damian\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636913903758_1712121831",
+      "id": "20171010-191336_1667301043",
+      "dateCreated": "2021-11-14 18:18:23.758",
+      "status": "READY"
+    }
+  ],
+  "name": "Clase 02 - Spark Core",
+  "id": "2GM9WSMKP",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
