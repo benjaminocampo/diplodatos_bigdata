@@ -2032,19 +2032,19 @@
       "status": "READY"
     },
     {
-      "text": "",
+      "text": "%pyspark\n\ninput \u003d sc.textFile(\"../../diplodatos_bigdata/ds/flights.csv\") # Completar el path\n\nnTotal \u003d input.count() - 1 # la primer fila tiene el nombre de las columnas\n\nparsed \u003d input.map(lambda l: l.split(\",\")).cache()\n\nairTime \u003d (\n    parsed\n        .map(lambda l: l[13])\n        .filter(lambda l: (\"AirTime\" not in l) and \"NA\" not in l)\n        .map(lambda l: int(l))\n)\n\nprint(f\"Máximo tiempo de vuelo {airTime.max()} minutos.\")",
       "user": "anonymous",
-      "dateUpdated": "2021-11-14 18:24:08.697",
+      "dateUpdated": "2021-11-15 22:35:14.337",
       "progress": 0,
       "config": {
         "editorSetting": {
-          "language": "scala",
+          "language": "python",
           "editOnDblClick": false,
           "completionKey": "TAB",
           "completionSupport": true
         },
         "colWidth": 12.0,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/python",
         "fontSize": 9.0,
         "results": {},
         "enabled": true
@@ -2053,13 +2053,40 @@
         "params": {},
         "forms": {}
       },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Máximo tiempo de vuelo 369 minutos.\n"
+          }
+        ]
+      },
       "apps": [],
-      "runtimeInfos": {},
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id\u003d25"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id\u003d26"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
       "progressUpdateIntervalMs": 500,
       "jobName": "paragraph_1636914236151_1828604261",
       "id": "paragraph_1636914236151_1828604261",
       "dateCreated": "2021-11-14 18:23:56.152",
-      "status": "READY"
+      "dateStarted": "2021-11-15 22:35:14.355",
+      "dateFinished": "2021-11-15 22:35:15.983",
+      "status": "FINISHED"
     },
     {
       "title": "FIN",
